@@ -1089,4 +1089,45 @@ Text Label 6600 6175 0    50   ~ 0
 SCL
 Text Label 6600 6075 0    50   ~ 0
 SDA
+$Comp
+L SamacSys_Parts:150352M173300 LED225
+U 1 1 62B44AF1
+P 8300 4475
+F 0 "LED225" H 8800 4740 50  0000 C CNN
+F 1 "RGB LED" H 8800 4649 50  0000 C CNN
+F 2 "150352M173300" H 9150 4575 50  0001 L CNN
+F 3 "http://katalog.we-online.de/led/datasheet/150352M173300.pdf" H 9150 4475 50  0001 L CNN
+F 4 "Wurth Elektronik 150352M173300, WL-SFTW 470 (Blue) nm, 520 (Green) nm, 625 (Red) nm 3 RGB LED, 6-Pin 3528 Clear" H 9150 4375 50  0001 L CNN "Description"
+F 5 "1.85" H 9150 4275 50  0001 L CNN "Height"
+F 6 "710-150352M173300" H 9150 4175 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150352M173300?qs=fAHHVMwC%252BbhIJVMHiSDFUA%3D%3D" H 9150 4075 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Wurth Elektronik" H 9150 3975 50  0001 L CNN "Manufacturer_Name"
+F 9 "150352M173300" H 9150 3875 50  0001 L CNN "Manufacturer_Part_Number"
+	1    8300 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0115
+U 1 1 62B48084
+P 9400 4575
+F 0 "#PWR0115" H 9400 4425 50  0001 C CNN
+F 1 "+3.3V" H 9415 4748 50  0000 C CNN
+F 2 "" H 9400 4575 50  0001 C CNN
+F 3 "" H 9400 4575 50  0001 C CNN
+	1    9400 4575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9400 4575 9300 4575
+Wire Wire Line
+	9300 4475 9300 4575
+Connection ~ 9300 4575
+Wire Wire Line
+	9300 4575 9300 4675
+Text Label 8300 4475 2    50   ~ 0
+OUT25
+Text Label 8300 4575 2    50   ~ 0
+OUT26
+Text Label 8300 4675 2    50   ~ 0
+OUT27
 $EndSCHEMATC
