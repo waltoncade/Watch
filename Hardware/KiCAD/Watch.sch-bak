@@ -32,9 +32,9 @@ F 3 "" H 2600 3725 60  0000 C CNN
 	1    2600 3725
 	1    0    0    -1  
 $EndComp
-Text Label 6275 1825 0    50   ~ 0
+Text Label 6950 1825 0    50   ~ 0
 SDA
-Text Label 6275 1725 0    50   ~ 0
+Text Label 6950 1725 0    50   ~ 0
 SCL
 Text Label 8600 1600 2    50   ~ 0
 SCL
@@ -60,8 +60,6 @@ F 11 "" H 5725 825 50  0001 L CNN "Arrow Price/Stock"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5175 1525 5125 1525
-Wire Wire Line
 	5175 1625 5075 1625
 $Comp
 L SamacSys_Parts:CL05A104KA5NNNC C?
@@ -84,18 +82,15 @@ F 11 "https://www.arrow.com/en/products/cl05a104ka5nnnc/samsung-electro-mechanic
 	1    5125 1025
 	0    1    1    0   
 $EndComp
-Connection ~ 5125 1525
-Wire Wire Line
-	5125 1525 5075 1525
 $Comp
 L power:+3.3V #PWR0109
 U 1 1 6293955C
-P 6400 1375
-F 0 "#PWR0109" H 6400 1225 50  0001 C CNN
-F 1 "+3.3V" H 6415 1548 50  0000 C CNN
-F 2 "" H 6400 1375 50  0001 C CNN
-F 3 "" H 6400 1375 50  0001 C CNN
-	1    6400 1375
+P 7075 1375
+F 0 "#PWR0109" H 7075 1225 50  0001 C CNN
+F 1 "+3.3V" H 7090 1548 50  0000 C CNN
+F 2 "" H 7075 1375 50  0001 C CNN
+F 3 "" H 7075 1375 50  0001 C CNN
+	1    7075 1375
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -114,10 +109,10 @@ Wire Wire Line
 Wire Wire Line
 	5100 1825 5175 1825
 Wire Wire Line
-	6275 1525 6400 1525
+	6950 1525 7075 1525
 Wire Wire Line
-	6400 1525 6400 1375
-Text Notes 5275 1100 0    50   ~ 0
+	7075 1525 7075 1375
+Text Notes 5950 1100 0    50   ~ 0
 NOT DONE! Check Datasheet for cap settings.
 $Comp
 L Battery_Management:MCP73831-2-OT U102
@@ -337,33 +332,29 @@ Wire Wire Line
 	1225 2200 2500 2200
 Wire Wire Line
 	2500 2200 2500 1600
-Connection ~ 2675 1400
-Wire Wire Line
-	2675 1400 2375 1400
-Wire Wire Line
-	2675 1400 3050 1400
-Wire Wire Line
-	3050 1400 3275 1400
-Connection ~ 3050 1400
 Text Notes 7025 4000 0    50   ~ 0
 Need light sensor
 $Comp
 L SamacSys_Parts:PCF85063AT_AY IC?
 U 1 1 62CFAF48
-P 5600 2925
-F 0 "IC?" H 6200 3190 50  0000 C CNN
-F 1 "PCF85063AT_AY" H 6200 3099 50  0000 C CNN
-F 2 "SOIC127P600X175-8N" H 6650 3025 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/2/PCF85063AT_AY.pdf" H 6650 2925 50  0001 L CNN
-F 4 "Real Time Clock Low Power Real time clocks" H 6650 2825 50  0001 L CNN "Description"
-F 5 "1.75" H 6650 2725 50  0001 L CNN "Height"
-F 6 "NXP" H 6650 2625 50  0001 L CNN "Manufacturer_Name"
-F 7 "PCF85063AT/AY" H 6650 2525 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "771-PCF85063AT/AY" H 6650 2425 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCF85063AT-AY?qs=Yna0arPQ0CSwctr%252Bb0ls0Q%3D%3D" H 6650 2325 50  0001 L CNN "Mouser Price/Stock"
-F 10 "PCF85063AT/AY" H 6650 2225 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/pcf85063atay/nxp-semiconductors?region=nac" H 6650 2125 50  0001 L CNN "Arrow Price/Stock"
-	1    5600 2925
+P 5375 1525
+F 0 "IC?" H 5975 1790 50  0000 C CNN
+F 1 "PCF85063AT_AY" H 5975 1699 50  0000 C CNN
+F 2 "SOIC127P600X175-8N" H 6425 1625 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/2/PCF85063AT_AY.pdf" H 6425 1525 50  0001 L CNN
+F 4 "Real Time Clock Low Power Real time clocks" H 6425 1425 50  0001 L CNN "Description"
+F 5 "1.75" H 6425 1325 50  0001 L CNN "Height"
+F 6 "NXP" H 6425 1225 50  0001 L CNN "Manufacturer_Name"
+F 7 "PCF85063AT/AY" H 6425 1125 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "771-PCF85063AT/AY" H 6425 1025 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCF85063AT-AY?qs=Yna0arPQ0CSwctr%252Bb0ls0Q%3D%3D" H 6425 925 50  0001 L CNN "Mouser Price/Stock"
+F 10 "PCF85063AT/AY" H 6425 825 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/pcf85063atay/nxp-semiconductors?region=nac" H 6425 725 50  0001 L CNN "Arrow Price/Stock"
+	1    5375 1525
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5075 1525 5175 1525
+Wire Wire Line
+	2375 1400 3275 1400
 $EndSCHEMATC

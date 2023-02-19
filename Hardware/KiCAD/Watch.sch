@@ -24,17 +24,17 @@ $EndSheet
 $Comp
 L UltraLibrarian:ATSAM4LS2AA-AU U101
 U 1 1 626A3982
-P 2600 3725
-F 0 "U101" H 3600 4112 60  0000 C CNN
-F 1 "ATSAM4LS2AA-AU" H 3600 4006 60  0000 C CNN
-F 2 "UltraLibrary_Parts:ATSAM4LS2AA-AU" H 3600 3965 60  0001 C CNN
-F 3 "" H 2600 3725 60  0000 C CNN
-	1    2600 3725
+P 2600 3400
+F 0 "U101" H 3600 3787 60  0000 C CNN
+F 1 "ATSAM4LS2AA-AU" H 3600 3681 60  0000 C CNN
+F 2 "UltraLibrary_Parts:ATSAM4LS2AA-AU" H 3600 3640 60  0001 C CNN
+F 3 "" H 2600 3400 60  0000 C CNN
+	1    2600 3400
 	1    0    0    -1  
 $EndComp
-Text Label 6950 1825 0    50   ~ 0
+Text Label 6375 1825 0    50   ~ 0
 SDA
-Text Label 6950 1725 0    50   ~ 0
+Text Label 6375 1725 0    50   ~ 0
 SCL
 Text Label 8600 1600 2    50   ~ 0
 SCL
@@ -43,59 +43,52 @@ SDA
 $Comp
 L SamacSys_Parts:CM8V-T1A-32.768kHz-4pF-20PPM-TA-QC_T3 Y101
 U 1 1 6292CDA1
-P 5075 1625
-F 0 "Y101" H 5725 1450 50  0000 L CNN
-F 1 "CM8V-T1A-32.768kHz-4pF-20PPM-TA-QC_T3" H 4750 575 50  0000 L CNN
-F 2 "CM8V32768TA020125" H 5725 1725 50  0001 L CNN
-F 3 "https://www.mouser.de/datasheet/2/530/CM8V_T1A-1510858.pdf" H 5725 1625 50  0001 L CNN
-F 4 "CM8V-T1A Tuning Fork Crystal 32.768 kHz" H 5725 1525 50  0001 L CNN "Description"
-F 5 "0.6" H 5725 1425 50  0001 L CNN "Height"
-F 6 "Micro Crystal AG" H 5725 1325 50  0001 L CNN "Manufacturer_Name"
-F 7 "CM8V-T1A-32.768kHz-4pF-20PPM-TA-QC T3" H 5725 1225 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "428-202684-MC03" H 5725 1125 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Micro-Crystal/CM8V-T1A-32768kHz-4pF-20PPM-TA-QC-T3?qs=DPoM0jnrROXyasaC3wHYWA%3D%3D" H 5725 1025 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 5725 925 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 5725 825 50  0001 L CNN "Arrow Price/Stock"
-	1    5075 1625
+P 5175 1625
+F 0 "Y101" H 5825 1450 50  0000 L CNN
+F 1 "CM8V-T1A-32.768kHz-4pF-20PPM-TA-QC_T3" H 4850 575 50  0000 L CNN
+F 2 "CM8V32768TA020125" H 5825 1725 50  0001 L CNN
+F 3 "https://www.mouser.de/datasheet/2/530/CM8V_T1A-1510858.pdf" H 5825 1625 50  0001 L CNN
+F 4 "CM8V-T1A Tuning Fork Crystal 32.768 kHz" H 5825 1525 50  0001 L CNN "Description"
+F 5 "0.6" H 5825 1425 50  0001 L CNN "Height"
+F 6 "Micro Crystal AG" H 5825 1325 50  0001 L CNN "Manufacturer_Name"
+F 7 "CM8V-T1A-32.768kHz-4pF-20PPM-TA-QC T3" H 5825 1225 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "428-202684-MC03" H 5825 1125 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Micro-Crystal/CM8V-T1A-32768kHz-4pF-20PPM-TA-QC-T3?qs=DPoM0jnrROXyasaC3wHYWA%3D%3D" H 5825 1025 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 5825 925 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 5825 825 50  0001 L CNN "Arrow Price/Stock"
+	1    5175 1625
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5175 1525 5125 1525
-Wire Wire Line
-	5175 1625 5075 1625
 $Comp
 L SamacSys_Parts:CL05A104KA5NNNC C?
 U 1 1 62934E1E
-P 5125 1025
+P 6900 1525
 AR Path="/626A0AD6/62934E1E" Ref="C?"  Part="1" 
 AR Path="/62934E1E" Ref="C101"  Part="1" 
-F 0 "C101" H 5400 800 50  0000 C CNN
-F 1 "?uF" H 5400 875 50  0000 C CNN
-F 2 "CAPC1005X55N" H 5475 1075 50  0001 L CNN
-F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf" H 5475 975 50  0001 L CNN
-F 4 "Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD" H 5475 875 50  0001 L CNN "Description"
-F 5 "0.55" H 5475 775 50  0001 L CNN "Height"
-F 6 "Samsung Electro-Mechanics" H 5475 675 50  0001 L CNN "Manufacturer_Name"
-F 7 "CL05A104KA5NNNC" H 5475 575 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "187-CL05A104KA5NNNC" H 5475 475 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A104KA5NNNC?qs=X6jEic%2FHinDlkqz9npJeOg%3D%3D" H 5475 375 50  0001 L CNN "Mouser Price/Stock"
-F 10 "CL05A104KA5NNNC" H 5475 275 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/cl05a104ka5nnnc/samsung-electro-mechanics" H 5475 175 50  0001 L CNN "Arrow Price/Stock"
-	1    5125 1025
+F 0 "C101" H 7175 1300 50  0000 C CNN
+F 1 "?uF" H 7175 1375 50  0000 C CNN
+F 2 "CAPC1005X55N" H 7250 1575 50  0001 L CNN
+F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf" H 7250 1475 50  0001 L CNN
+F 4 "Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD" H 7250 1375 50  0001 L CNN "Description"
+F 5 "0.55" H 7250 1275 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 7250 1175 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05A104KA5NNNC" H 7250 1075 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "187-CL05A104KA5NNNC" H 7250 975 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A104KA5NNNC?qs=X6jEic%2FHinDlkqz9npJeOg%3D%3D" H 7250 875 50  0001 L CNN "Mouser Price/Stock"
+F 10 "CL05A104KA5NNNC" H 7250 775 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/cl05a104ka5nnnc/samsung-electro-mechanics" H 7250 675 50  0001 L CNN "Arrow Price/Stock"
+	1    6900 1525
 	0    1    1    0   
 $EndComp
-Connection ~ 5125 1525
-Wire Wire Line
-	5125 1525 5075 1525
 $Comp
 L power:+3.3V #PWR0109
 U 1 1 6293955C
-P 7075 1375
-F 0 "#PWR0109" H 7075 1225 50  0001 C CNN
-F 1 "+3.3V" H 7090 1548 50  0000 C CNN
-F 2 "" H 7075 1375 50  0001 C CNN
-F 3 "" H 7075 1375 50  0001 C CNN
-	1    7075 1375
+P 7025 1375
+F 0 "#PWR0109" H 7025 1225 50  0001 C CNN
+F 1 "+3.3V" H 7040 1548 50  0000 C CNN
+F 2 "" H 7025 1375 50  0001 C CNN
+F 3 "" H 7025 1375 50  0001 C CNN
+	1    7025 1375
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -114,9 +107,9 @@ Wire Wire Line
 Wire Wire Line
 	5100 1825 5175 1825
 Wire Wire Line
-	6950 1525 7075 1525
+	6900 1525 7025 1525
 Wire Wire Line
-	7075 1525 7075 1375
+	7025 1525 7025 1375
 Text Notes 5950 1100 0    50   ~ 0
 NOT DONE! Check Datasheet for cap settings.
 $Comp
@@ -337,33 +330,41 @@ Wire Wire Line
 	1225 2200 2500 2200
 Wire Wire Line
 	2500 2200 2500 1600
-Connection ~ 2675 1400
-Wire Wire Line
-	2675 1400 2375 1400
-Wire Wire Line
-	2675 1400 3050 1400
-Wire Wire Line
-	3050 1400 3275 1400
-Connection ~ 3050 1400
 Text Notes 7025 4000 0    50   ~ 0
 Need light sensor
 $Comp
 L SamacSys_Parts:PCF85063AT_AY IC?
 U 1 1 62CFAF48
-P 5375 1525
-F 0 "IC?" H 5975 1790 50  0000 C CNN
-F 1 "PCF85063AT_AY" H 5975 1699 50  0000 C CNN
-F 2 "SOIC127P600X175-8N" H 6425 1625 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/2/PCF85063AT_AY.pdf" H 6425 1525 50  0001 L CNN
-F 4 "Real Time Clock Low Power Real time clocks" H 6425 1425 50  0001 L CNN "Description"
-F 5 "1.75" H 6425 1325 50  0001 L CNN "Height"
-F 6 "NXP" H 6425 1225 50  0001 L CNN "Manufacturer_Name"
-F 7 "PCF85063AT/AY" H 6425 1125 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "771-PCF85063AT/AY" H 6425 1025 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCF85063AT-AY?qs=Yna0arPQ0CSwctr%252Bb0ls0Q%3D%3D" H 6425 925 50  0001 L CNN "Mouser Price/Stock"
-F 10 "PCF85063AT/AY" H 6425 825 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/pcf85063atay/nxp-semiconductors?region=nac" H 6425 725 50  0001 L CNN "Arrow Price/Stock"
-	1    5375 1525
+P 5175 1525
+F 0 "IC?" H 5775 1790 50  0000 C CNN
+F 1 "PCF85063AT_AY" H 5775 1699 50  0000 C CNN
+F 2 "SOIC127P600X175-8N" H 6225 1625 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/2/PCF85063AT_AY.pdf" H 6225 1525 50  0001 L CNN
+F 4 "Real Time Clock Low Power Real time clocks" H 6225 1425 50  0001 L CNN "Description"
+F 5 "1.75" H 6225 1325 50  0001 L CNN "Height"
+F 6 "NXP" H 6225 1225 50  0001 L CNN "Manufacturer_Name"
+F 7 "PCF85063AT/AY" H 6225 1125 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "771-PCF85063AT/AY" H 6225 1025 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCF85063AT-AY?qs=Yna0arPQ0CSwctr%252Bb0ls0Q%3D%3D" H 6225 925 50  0001 L CNN "Mouser Price/Stock"
+F 10 "PCF85063AT/AY" H 6225 825 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/pcf85063atay/nxp-semiconductors?region=nac" H 6225 725 50  0001 L CNN "Arrow Price/Stock"
+	1    5175 1525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2375 1400 3275 1400
+Wire Wire Line
+	6900 1525 6375 1525
+Connection ~ 6900 1525
+$Comp
+L power:GND #PWR?
+U 1 1 63E00503
+P 6900 2025
+F 0 "#PWR?" H 6900 1775 50  0001 C CNN
+F 1 "GND" H 6905 1852 50  0000 C CNN
+F 2 "" H 6900 2025 50  0001 C CNN
+F 3 "" H 6900 2025 50  0001 C CNN
+	1    6900 2025
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -114,31 +114,21 @@ F 11 "https://www.arrow.com/en/products/cl05a104ka5nnnc/samsung-electro-mechanic
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5150 7050 5150 7175
-Wire Wire Line
 	5725 7175 5650 7175
 Connection ~ 5650 7175
-Wire Wire Line
-	5650 7175 5650 7050
-Wire Wire Line
-	5650 7050 5650 6750
 Wire Wire Line
 	5650 6750 5475 6750
 Wire Wire Line
 	5475 6750 5475 5950
-Connection ~ 5650 7050
 Wire Wire Line
 	5150 7175 5075 7175
 Connection ~ 5150 7175
 Wire Wire Line
 	5150 7175 5150 7275
 Wire Wire Line
-	5150 7050 5150 6750
-Wire Wire Line
 	5150 6750 5375 6750
 Wire Wire Line
 	5375 5950 5375 6750
-Connection ~ 5150 7050
 $Comp
 L Device:R R201
 U 1 1 627F79E0
@@ -1130,4 +1120,8 @@ Text Label 8300 4575 2    50   ~ 0
 OUT26
 Text Label 8300 4675 2    50   ~ 0
 OUT27
+Wire Wire Line
+	5150 6750 5150 7175
+Wire Wire Line
+	5650 6750 5650 7175
 $EndSCHEMATC
