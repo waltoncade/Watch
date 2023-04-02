@@ -1082,4 +1082,8 @@ Wire Wire Line
 	5775 5950 5775 6125
 Wire Wire Line
 	5875 6125 5875 5950
+Text HLabel 6600 6275 0    50   Input ~ 0
+SDB
+Text Label 6600 6275 0    50   ~ 0
+SDB
 $EndSCHEMATC
