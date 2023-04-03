@@ -97,20 +97,20 @@ Wire Wire Line
 $Comp
 L SamacSys_Parts:CL05A104KA5NNNC C201
 U 1 1 627D8620
-P 5650 7050
-F 0 "C201" H 5925 6825 50  0000 C CNN
-F 1 "0.1uF" H 5925 6900 50  0000 C CNN
-F 2 "CAPC1005X55N" H 6000 7100 50  0001 L CNN
-F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf" H 6000 7000 50  0001 L CNN
-F 4 "Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD" H 6000 6900 50  0001 L CNN "Description"
-F 5 "0.55" H 6000 6800 50  0001 L CNN "Height"
-F 6 "Samsung Electro-Mechanics" H 6000 6700 50  0001 L CNN "Manufacturer_Name"
-F 7 "CL05A104KA5NNNC" H 6000 6600 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "187-CL05A104KA5NNNC" H 6000 6500 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A104KA5NNNC?qs=X6jEic%2FHinDlkqz9npJeOg%3D%3D" H 6000 6400 50  0001 L CNN "Mouser Price/Stock"
-F 10 "CL05A104KA5NNNC" H 6000 6300 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/cl05a104ka5nnnc/samsung-electro-mechanics" H 6000 6200 50  0001 L CNN "Arrow Price/Stock"
-	1    5650 7050
+P 5650 7025
+F 0 "C201" H 5925 6800 50  0000 C CNN
+F 1 "0.1uF" H 5925 6875 50  0000 C CNN
+F 2 "CAPC1005X55N" H 6000 7075 50  0001 L CNN
+F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf" H 6000 6975 50  0001 L CNN
+F 4 "Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD" H 6000 6875 50  0001 L CNN "Description"
+F 5 "0.55" H 6000 6775 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 6000 6675 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05A104KA5NNNC" H 6000 6575 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "187-CL05A104KA5NNNC" H 6000 6475 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A104KA5NNNC?qs=X6jEic%2FHinDlkqz9npJeOg%3D%3D" H 6000 6375 50  0001 L CNN "Mouser Price/Stock"
+F 10 "CL05A104KA5NNNC" H 6000 6275 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/cl05a104ka5nnnc/samsung-electro-mechanics" H 6000 6175 50  0001 L CNN "Arrow Price/Stock"
+	1    5650 7025
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -146,7 +146,7 @@ U 1 1 627FFA4B
 P 5675 6325
 F 0 "R203" V 5675 6325 50  0000 C CNN
 F 1 "3.3k" V 5750 6325 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 5605 6325 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5605 6325 50  0001 C CNN
 F 3 "~" H 5675 6325 50  0001 C CNN
 	1    5675 6325
 	-1   0    0    1   
@@ -240,8 +240,8 @@ L Device:R R204
 U 1 1 6281ADCD
 P 5275 6325
 F 0 "R204" V 5275 6325 50  0000 C CNN
-F 1 "100k" V 5200 6325 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 5205 6325 50  0001 C CNN
+F 1 "10k" V 5200 6325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5205 6325 50  0001 C CNN
 F 3 "~" H 5275 6325 50  0001 C CNN
 	1    5275 6325
 	1    0    0    -1  
@@ -282,7 +282,7 @@ F 3 "" H 1650 1325 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 1050 1325 2    50   ~ 0
-OUT1
+OUT24
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED202
 U 1 1 628B6E65
@@ -314,7 +314,7 @@ F 3 "" H 2900 1325 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 2300 1325 2    50   ~ 0
-OUT2
+OUT23
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED203
 U 1 1 628BB0DB
@@ -346,7 +346,7 @@ F 3 "" H 4175 1325 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 3575 1325 2    50   ~ 0
-OUT3
+OUT22
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED204
 U 1 1 628BC940
@@ -378,7 +378,7 @@ F 3 "" H 5400 1350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 4800 1350 2    50   ~ 0
-OUT4
+OUT21
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED205
 U 1 1 628CBF4C
@@ -410,7 +410,7 @@ F 3 "" H 6550 1350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 5950 1350 2    50   ~ 0
-OUT5
+OUT20
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED206
 U 1 1 628CBF61
@@ -442,7 +442,7 @@ F 3 "" H 7800 1350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 7200 1350 2    50   ~ 0
-OUT6
+OUT19
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED207
 U 1 1 628CBF76
@@ -474,7 +474,7 @@ F 3 "" H 9075 1350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 8475 1350 2    50   ~ 0
-OUT7
+OUT18
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED208
 U 1 1 628CBF8B
@@ -506,7 +506,7 @@ F 3 "" H 10300 1375 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 9700 1375 2    50   ~ 0
-OUT8
+OUT17
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED209
 U 1 1 628EE38A
@@ -538,7 +538,7 @@ F 3 "" H 1650 2125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 1050 2125 2    50   ~ 0
-OUT9
+OUT16
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED210
 U 1 1 628EE39F
@@ -570,7 +570,7 @@ F 3 "" H 2900 2125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 2300 2125 2    50   ~ 0
-OUT10
+OUT15
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED211
 U 1 1 628EE3B4
@@ -602,7 +602,7 @@ F 3 "" H 4175 2125 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 3575 2125 2    50   ~ 0
-OUT12
+OUT14
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED212
 U 1 1 628EE3C9
@@ -666,7 +666,7 @@ F 3 "" H 6550 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 5950 2150 2    50   ~ 0
-OUT14
+OUT12
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED214
 U 1 1 628EE3F3
@@ -698,7 +698,7 @@ F 3 "" H 7800 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 7200 2150 2    50   ~ 0
-OUT15
+OUT11
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED215
 U 1 1 628EE408
@@ -730,7 +730,7 @@ F 3 "" H 9075 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 8475 2150 2    50   ~ 0
-OUT16
+OUT10
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED216
 U 1 1 628EE41D
@@ -762,7 +762,7 @@ F 3 "" H 10300 2175 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 9700 2175 2    50   ~ 0
-OUT17
+OUT9
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED217
 U 1 1 628F6B11
@@ -794,7 +794,7 @@ F 3 "" H 1650 2875 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 1050 2875 2    50   ~ 0
-OUT18
+OUT8
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED218
 U 1 1 628F6B26
@@ -826,7 +826,7 @@ F 3 "" H 2900 2875 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 2300 2875 2    50   ~ 0
-OUT19
+OUT7
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED219
 U 1 1 628F6B3B
@@ -858,7 +858,7 @@ F 3 "" H 4175 2875 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 3575 2875 2    50   ~ 0
-OUT20
+OUT6
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED220
 U 1 1 628F6B50
@@ -890,7 +890,7 @@ F 3 "" H 5400 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 4800 2900 2    50   ~ 0
-OUT21
+OUT5
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED221
 U 1 1 628F6B65
@@ -922,7 +922,7 @@ F 3 "" H 6550 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 5950 2900 2    50   ~ 0
-OUT21
+OUT4
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED222
 U 1 1 628F6B7A
@@ -954,7 +954,7 @@ F 3 "" H 7800 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 7200 2900 2    50   ~ 0
-OUT22
+OUT3
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED223
 U 1 1 628F6B8F
@@ -986,7 +986,7 @@ F 3 "" H 9075 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 8475 2900 2    50   ~ 0
-OUT23
+OUT2
 $Comp
 L SamacSys_Parts:LTST-C191KRKT LED224
 U 1 1 628F6BA4
@@ -1018,10 +1018,10 @@ F 3 "" H 10300 2925 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 9700 2925 2    50   ~ 0
-OUT24
-Text Label 5875 6125 1    50   ~ 0
+OUT1
+Text Label 5875 5950 3    50   ~ 0
 SCL
-Text Label 5775 6125 1    50   ~ 0
+Text Label 5775 5950 3    50   ~ 0
 SDA
 Text Label 5275 6125 1    50   ~ 0
 SDB
@@ -1068,22 +1068,24 @@ Wire Wire Line
 Connection ~ 9300 4575
 Wire Wire Line
 	9300 4575 9300 4675
-Text Label 8300 4475 2    50   ~ 0
+Text Label 8300 4675 2    50   ~ 0
 OUT25
 Text Label 8300 4575 2    50   ~ 0
 OUT26
-Text Label 8300 4675 2    50   ~ 0
+Text Label 8300 4475 2    50   ~ 0
 OUT27
 Wire Wire Line
-	5150 6750 5150 7175
+	5150 6750 5150 7025
 Wire Wire Line
-	5650 6750 5650 7175
-Wire Wire Line
-	5775 5950 5775 6125
-Wire Wire Line
-	5875 6125 5875 5950
+	5650 6750 5650 7025
 Text HLabel 6600 6275 0    50   Input ~ 0
 SDB
 Text Label 6600 6275 0    50   ~ 0
 SDB
+Connection ~ 5650 7025
+Wire Wire Line
+	5650 7025 5650 7175
+Connection ~ 5150 7025
+Wire Wire Line
+	5150 7025 5150 7175
 $EndSCHEMATC

@@ -120,7 +120,7 @@ AR Path="/626A0AD6/62B3D333" Ref="R?"  Part="1"
 AR Path="/62B3D333" Ref="R101"  Part="1" 
 F 0 "R101" V 1575 1900 50  0000 C CNN
 F 1 "10k" V 1500 1900 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 1505 1900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1505 1900 50  0001 C CNN
 F 3 "~" H 1575 1900 50  0001 C CNN
 	1    1575 1900
 	1    0    0    -1  
@@ -219,7 +219,7 @@ AR Path="/626A0AD6/62CE5C8E" Ref="R?"  Part="1"
 AR Path="/62CE5C8E" Ref="R102"  Part="1" 
 F 0 "R102" V 1225 2200 50  0000 C CNN
 F 1 "470" V 1150 2200 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 1155 2200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1155 2200 50  0001 C CNN
 F 3 "~" H 1225 2200 50  0001 C CNN
 	1    1225 2200
 	1    0    0    -1  
@@ -255,8 +255,6 @@ F 11 "https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=
 	0    -1   -1   0   
 $EndComp
 Connection ~ 1225 1275
-Wire Wire Line
-	1225 1275 1475 1275
 Wire Wire Line
 	675  1275 1225 1275
 Wire Wire Line
@@ -449,8 +447,8 @@ P 5975 2950
 AR Path="/626A0AD6/6419B8F1" Ref="R?"  Part="1" 
 AR Path="/6419B8F1" Ref="R103"  Part="1" 
 F 0 "R103" V 5975 2950 50  0000 C CNN
-F 1 "4.7k" V 5900 2950 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 5905 2950 50  0001 C CNN
+F 1 "10k" V 5900 2950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5905 2950 50  0001 C CNN
 F 3 "~" H 5975 2950 50  0001 C CNN
 	1    5975 2950
 	0    1    1    0   
@@ -462,8 +460,8 @@ P 5975 3250
 AR Path="/626A0AD6/6419B8F7" Ref="R?"  Part="1" 
 AR Path="/6419B8F7" Ref="R104"  Part="1" 
 F 0 "R104" V 5975 3250 50  0000 C CNN
-F 1 "4.7k" V 5900 3250 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 5905 3250 50  0001 C CNN
+F 1 "10k" V 5900 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5905 3250 50  0001 C CNN
 F 3 "~" H 5975 3250 50  0001 C CNN
 	1    5975 3250
 	0    1    1    0   
@@ -589,8 +587,8 @@ P 9775 1675
 AR Path="/626A0AD6/641B131A" Ref="R?"  Part="1" 
 AR Path="/641B131A" Ref="R105"  Part="1" 
 F 0 "R105" V 9775 1675 50  0000 C CNN
-F 1 "4.7k" V 9700 1675 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 9705 1675 50  0001 C CNN
+F 1 "10k" V 9700 1675 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9705 1675 50  0001 C CNN
 F 3 "~" H 9775 1675 50  0001 C CNN
 	1    9775 1675
 	0    1    1    0   
@@ -647,7 +645,7 @@ AR Path="/626A0AD6/641E491F" Ref="R?"  Part="1"
 AR Path="/641E491F" Ref="R106"  Part="1" 
 F 0 "R106" V 8950 5875 50  0000 C CNN
 F 1 "56k" V 8850 5875 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 8880 5875 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8880 5875 50  0001 C CNN
 F 3 "~" H 8950 5875 50  0001 C CNN
 	1    8950 5875
 	-1   0    0    1   
@@ -870,10 +868,6 @@ Wire Notes Line
 	10925 6375 8675 6375
 Text Notes 8750 5375 0    50   ~ 0
 Light Sensor
-Text Notes 2200 6125 0    50   ~ 0
-*Lots of work still needed here
-Text Notes 2000 6025 0    50   ~ 0
-ADD SOME TEST POINT PADS TO BACKSIDE!
 $Comp
 L Device:R R?
 U 1 1 6421D723
@@ -882,7 +876,7 @@ AR Path="/626A0AD6/6421D723" Ref="R?"  Part="1"
 AR Path="/6421D723" Ref="R107"  Part="1" 
 F 0 "R107" V 9875 3700 50  0000 C CNN
 F 1 "10k" V 9800 3700 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 9805 3700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9805 3700 50  0001 C CNN
 F 3 "~" H 9875 3700 50  0001 C CNN
 	1    9875 3700
 	1    0    0    -1  
@@ -928,7 +922,7 @@ AR Path="/626A0AD6/64230E74" Ref="R?"  Part="1"
 AR Path="/64230E74" Ref="R108"  Part="1" 
 F 0 "R108" V 9875 4475 50  0000 C CNN
 F 1 "10k" V 9800 4475 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 9805 4475 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9805 4475 50  0001 C CNN
 F 3 "~" H 9875 4475 50  0001 C CNN
 	1    9875 4475
 	1    0    0    -1  
@@ -978,33 +972,11 @@ Text Notes 9225 3225 0    50   ~ 0
 Offboard Buttons
 Text Notes 7525 3925 0    50   ~ 0
 Battery Connector Pads
-$Comp
-L Connector:TestPoint TP101
-U 1 1 6428BEED
-P 1475 1275
-F 0 "TP101" H 1533 1393 50  0000 L CNN
-F 1 "TestPoint" H 1525 1475 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1675 1275 50  0001 C CNN
-F 3 "~" H 1675 1275 50  0001 C CNN
-	1    1475 1275
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9275 4675 9650 4675
-Wire Wire Line
-	9250 3900 9675 3900
-Wire Wire Line
-	5900 1575 6050 1575
-Wire Wire Line
-	2675 1550 3150 1550
-Connection ~ 1475 1275
-Wire Wire Line
-	1475 1275 1975 1275
 Text Label 1700 4250 2    50   ~ 0
 vLUX
-Text Label 1700 3350 2    50   ~ 0
+Text Label 3800 4650 0    50   ~ 0
 SW2
-Text Label 1700 3250 2    50   ~ 0
+Text Label 3800 4550 0    50   ~ 0
 SW1
 $Comp
 L power:+BATT #PWR0143
@@ -1025,7 +997,7 @@ AR Path="/626A0AD6/6429E238" Ref="R?"  Part="1"
 AR Path="/6429E238" Ref="R113"  Part="1" 
 F 0 "R113" V 6400 4300 50  0000 C CNN
 F 1 "1Meg" V 6325 4300 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 6330 4300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6330 4300 50  0001 C CNN
 F 3 "~" H 6400 4300 50  0001 C CNN
 	1    6400 4300
 	-1   0    0    1   
@@ -1038,7 +1010,7 @@ AR Path="/626A0AD6/6429F31C" Ref="R?"  Part="1"
 AR Path="/6429F31C" Ref="R114"  Part="1" 
 F 0 "R114" V 6400 4650 50  0000 C CNN
 F 1 "1MEG" V 6325 4650 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 6330 4650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5750 4550 50  0001 C CNN
 F 3 "~" H 6400 4650 50  0001 C CNN
 	1    6400 4650
 	-1   0    0    1   
@@ -1127,10 +1099,6 @@ SDB
 Text Label 3900 4250 0    50   ~ 0
 SDB
 Wire Wire Line
-	1800 3250 1700 3250
-Wire Wire Line
-	1800 3350 1700 3350
-Wire Wire Line
 	1800 3450 1700 3450
 Wire Wire Line
 	1800 4250 1700 4250
@@ -1168,48 +1136,6 @@ Wire Wire Line
 	3800 3250 3800 3350
 Connection ~ 3800 3350
 $Comp
-L SamacSys_Parts:CL05A104KA5NNNC C?
-U 1 1 64312E36
-P 5325 4700
-AR Path="/626A0AD6/64312E36" Ref="C?"  Part="1" 
-AR Path="/64312E36" Ref="C107"  Part="1" 
-F 0 "C107" H 5600 4475 50  0000 C CNN
-F 1 "0.1uF" H 5600 4550 50  0000 C CNN
-F 2 "CAPC1005X55N" H 5675 4750 50  0001 L CNN
-F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf" H 5675 4650 50  0001 L CNN
-F 4 "Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD" H 5675 4550 50  0001 L CNN "Description"
-F 5 "0.55" H 5675 4450 50  0001 L CNN "Height"
-F 6 "Samsung Electro-Mechanics" H 5675 4350 50  0001 L CNN "Manufacturer_Name"
-F 7 "CL05A104KA5NNNC" H 5675 4250 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "187-CL05A104KA5NNNC" H 5675 4150 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A104KA5NNNC?qs=X6jEic%2FHinDlkqz9npJeOg%3D%3D" H 5675 4050 50  0001 L CNN "Mouser Price/Stock"
-F 10 "CL05A104KA5NNNC" H 5675 3950 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/cl05a104ka5nnnc/samsung-electro-mechanics" H 5675 3850 50  0001 L CNN "Arrow Price/Stock"
-	1    5325 4700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L SamacSys_Parts:CL05A104KA5NNNC C?
-U 1 1 64314223
-P 5725 4700
-AR Path="/626A0AD6/64314223" Ref="C?"  Part="1" 
-AR Path="/64314223" Ref="C108"  Part="1" 
-F 0 "C108" H 6000 4475 50  0000 C CNN
-F 1 "0.1uF" H 6000 4550 50  0000 C CNN
-F 2 "CAPC1005X55N" H 6075 4750 50  0001 L CNN
-F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf" H 6075 4650 50  0001 L CNN
-F 4 "Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD" H 6075 4550 50  0001 L CNN "Description"
-F 5 "0.55" H 6075 4450 50  0001 L CNN "Height"
-F 6 "Samsung Electro-Mechanics" H 6075 4350 50  0001 L CNN "Manufacturer_Name"
-F 7 "CL05A104KA5NNNC" H 6075 4250 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "187-CL05A104KA5NNNC" H 6075 4150 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A104KA5NNNC?qs=X6jEic%2FHinDlkqz9npJeOg%3D%3D" H 6075 4050 50  0001 L CNN "Mouser Price/Stock"
-F 10 "CL05A104KA5NNNC" H 6075 3950 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/cl05a104ka5nnnc/samsung-electro-mechanics" H 6075 3850 50  0001 L CNN "Arrow Price/Stock"
-	1    5725 4700
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:+3.3V #PWR0148
 U 1 1 6431488A
 P 5525 4125
@@ -1220,13 +1146,6 @@ F 3 "" H 5525 4125 50  0001 C CNN
 	1    5525 4125
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5325 4200 5525 4200
-Wire Wire Line
-	5525 4125 5525 4200
-Connection ~ 5525 4200
-Wire Wire Line
-	5525 4200 5725 4200
 $Comp
 L power:GND #PWR0149
 U 1 1 6431BE6C
@@ -1238,13 +1157,6 @@ F 3 "" H 5525 4800 50  0001 C CNN
 	1    5525 4800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5325 4700 5525 4700
-Wire Wire Line
-	5525 4800 5525 4700
-Connection ~ 5525 4700
-Wire Wire Line
-	5525 4700 5725 4700
 $Comp
 L Connector_Generic:Conn_01x02 J105
 U 1 1 64348139
@@ -1280,62 +1192,6 @@ F 3 "" H 8175 4750 50  0001 C CNN
 	1    8175 4750
 	0    1    1    0   
 $EndComp
-$Comp
-L Connector:TestPoint TP102
-U 1 1 6437BA6F
-P 3150 1550
-F 0 "TP102" H 3208 1668 50  0000 L CNN
-F 1 "TestPoint" H 3200 1750 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3350 1550 50  0001 C CNN
-F 3 "~" H 3350 1550 50  0001 C CNN
-	1    3150 1550
-	1    0    0    -1  
-$EndComp
-Connection ~ 3150 1550
-Wire Wire Line
-	3150 1550 3275 1550
-$Comp
-L Connector:TestPoint TP103
-U 1 1 6437C10E
-P 6050 1575
-F 0 "TP103" H 6108 1693 50  0000 L CNN
-F 1 "TestPoint" H 6100 1775 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6250 1575 50  0001 C CNN
-F 3 "~" H 6250 1575 50  0001 C CNN
-	1    6050 1575
-	1    0    0    -1  
-$EndComp
-Connection ~ 6050 1575
-Wire Wire Line
-	6050 1575 6175 1575
-$Comp
-L Connector:TestPoint TP105
-U 1 1 6437CD09
-P 9675 3900
-F 0 "TP105" H 9733 4018 50  0000 L CNN
-F 1 "TestPoint" H 9725 4100 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9875 3900 50  0001 C CNN
-F 3 "~" H 9875 3900 50  0001 C CNN
-	1    9675 3900
-	-1   0    0    1   
-$EndComp
-Connection ~ 9675 3900
-Wire Wire Line
-	9675 3900 9875 3900
-$Comp
-L Connector:TestPoint TP104
-U 1 1 6437D73B
-P 9650 4675
-F 0 "TP104" H 9708 4793 50  0000 L CNN
-F 1 "TestPoint" H 9700 4875 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9850 4675 50  0001 C CNN
-F 3 "~" H 9850 4675 50  0001 C CNN
-	1    9650 4675
-	-1   0    0    1   
-$EndComp
-Connection ~ 9650 4675
-Wire Wire Line
-	9650 4675 9875 4675
 Text Notes 4125 5750 0    50   ~ 0
 JTAG
 Wire Notes Line
@@ -1383,7 +1239,7 @@ AR Path="/626A0AD6/642EF4CB" Ref="R?"  Part="1"
 AR Path="/642EF4CB" Ref="R112"  Part="1" 
 F 0 "R112" V 6050 6150 50  0000 C CNN
 F 1 "10k" V 5975 6150 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 5980 6150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5980 6150 50  0001 C CNN
 F 3 "~" H 6050 6150 50  0001 C CNN
 	1    6050 6150
 	1    0    0    -1  
@@ -1417,7 +1273,7 @@ AR Path="/626A0AD6/642DDE79" Ref="R?"  Part="1"
 AR Path="/642DDE79" Ref="R111"  Part="1" 
 F 0 "R111" V 5850 6150 50  0000 C CNN
 F 1 "10k" V 5775 6150 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 5780 6150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5780 6150 50  0001 C CNN
 F 3 "~" H 5850 6150 50  0001 C CNN
 	1    5850 6150
 	1    0    0    -1  
@@ -1430,7 +1286,7 @@ AR Path="/626A0AD6/642DDB9B" Ref="R?"  Part="1"
 AR Path="/642DDB9B" Ref="R110"  Part="1" 
 F 0 "R110" V 5650 6150 50  0000 C CNN
 F 1 "10k" V 5575 6150 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 5580 6150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5580 6150 50  0001 C CNN
 F 3 "~" H 5650 6150 50  0001 C CNN
 	1    5650 6150
 	1    0    0    -1  
@@ -1443,7 +1299,7 @@ AR Path="/626A0AD6/642DC195" Ref="R?"  Part="1"
 AR Path="/642DC195" Ref="R109"  Part="1" 
 F 0 "R109" V 5450 6150 50  0000 C CNN
 F 1 "10k" V 5375 6150 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 5380 6150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5380 6150 50  0001 C CNN
 F 3 "~" H 5450 6150 50  0001 C CNN
 	1    5450 6150
 	1    0    0    -1  
@@ -1496,4 +1352,53 @@ F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresigh
 	1    4725 6725
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2675 1550 3275 1550
+Wire Wire Line
+	1225 1275 1975 1275
+Wire Wire Line
+	9275 4675 9875 4675
+Wire Wire Line
+	9250 3900 9875 3900
+Wire Wire Line
+	6050 1575 6175 1575
+Wire Wire Line
+	5900 1575 6050 1575
+Connection ~ 6050 1575
+$Comp
+L Connector:TestPoint TP103
+U 1 1 6437C10E
+P 6050 1575
+F 0 "TP103" H 6108 1693 50  0000 L CNN
+F 1 "TestPoint" H 6100 1775 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6250 1575 50  0001 C CNN
+F 3 "~" H 6250 1575 50  0001 C CNN
+	1    6050 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:CL05A104KA5NNNC C?
+U 1 1 64312E36
+P 5525 4725
+AR Path="/626A0AD6/64312E36" Ref="C?"  Part="1" 
+AR Path="/64312E36" Ref="C107"  Part="1" 
+F 0 "C107" H 5800 4500 50  0000 C CNN
+F 1 "0.1uF" H 5800 4575 50  0000 C CNN
+F 2 "CAPC1005X55N" H 5875 4775 50  0001 L CNN
+F 3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf" H 5875 4675 50  0001 L CNN
+F 4 "Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD" H 5875 4575 50  0001 L CNN "Description"
+F 5 "0.55" H 5875 4475 50  0001 L CNN "Height"
+F 6 "Samsung Electro-Mechanics" H 5875 4375 50  0001 L CNN "Manufacturer_Name"
+F 7 "CL05A104KA5NNNC" H 5875 4275 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "187-CL05A104KA5NNNC" H 5875 4175 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A104KA5NNNC?qs=X6jEic%2FHinDlkqz9npJeOg%3D%3D" H 5875 4075 50  0001 L CNN "Mouser Price/Stock"
+F 10 "CL05A104KA5NNNC" H 5875 3975 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/cl05a104ka5nnnc/samsung-electro-mechanics" H 5875 3875 50  0001 L CNN "Arrow Price/Stock"
+	1    5525 4725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5525 4125 5525 4225
+Wire Wire Line
+	5525 4725 5525 4800
 $EndSCHEMATC
