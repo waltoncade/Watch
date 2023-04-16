@@ -1,0 +1,1853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\ComCode\Watch\Hardware\KiCAD\Watch.sch</source>
+    <date>4/9/2023 9:30:10 AM</date>
+    <tool>Eeschema (5.1.6)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Watch.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/leds/" tstamps="/626A0AD6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>watch_leds.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U101">
+      <value>ATSAM4LS2AA-AU</value>
+      <footprint>UltraLibrary_Parts:ATSAM4LS2AA-AU</footprint>
+      <libsource lib="UltraLibrarian" part="ATSAM4LS2AA-AU" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>626A3982</tstamp>
+    </comp>
+    <comp ref="Y101">
+      <value>CM8V-T1A-32.768kHz-4pF-20PPM-TA-QC_T3</value>
+      <footprint>CM8V32768TA020125</footprint>
+      <datasheet>https://www.mouser.de/datasheet/2/530/CM8V_T1A-1510858.pdf</datasheet>
+      <fields>
+        <field name="Description">CM8V-T1A Tuning Fork Crystal 32.768 kHz</field>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">Micro Crystal AG</field>
+        <field name="Manufacturer_Part_Number">CM8V-T1A-32.768kHz-4pF-20PPM-TA-QC T3</field>
+        <field name="Mouser Part Number">428-202684-MC03</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Micro-Crystal/CM8V-T1A-32768kHz-4pF-20PPM-TA-QC-T3?qs=DPoM0jnrROXyasaC3wHYWA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="CM8V-T1A-32.768kHz-4pF-20PPM-TA-QC_T3" description="CM8V-T1A Tuning Fork Crystal 32.768 kHz"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6292CDA1</tstamp>
+    </comp>
+    <comp ref="U102">
+      <value>MCP73831-2-OT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</datasheet>
+      <libsource lib="Battery_Management" part="MCP73831-2-OT" description="Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Tri-State Status Output, in SOT23-5 package"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B3324A</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B3D333</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>4.7uF</value>
+      <footprint>CAPC1005X55N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CL05A104KA5NNNC</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl05a104ka5nnnc/samsung-electro-mechanics</field>
+        <field name="Description">Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL05A104KA5NNNC</field>
+        <field name="Mouser Part Number">187-CL05A104KA5NNNC</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A104KA5NNNC?qs=X6jEic%2FHinDlkqz9npJeOg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="CL05A104KA5NNNC" description="Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62CD6321</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>4.7uF</value>
+      <footprint>CAPC1005X55N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CL05A104KA5NNNC</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl05a104ka5nnnc/samsung-electro-mechanics</field>
+        <field name="Description">Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL05A104KA5NNNC</field>
+        <field name="Mouser Part Number">187-CL05A104KA5NNNC</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A104KA5NNNC?qs=X6jEic%2FHinDlkqz9npJeOg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="CL05A104KA5NNNC" description="Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62CE2D8C</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62CE5C8E</tstamp>
+    </comp>
+    <comp ref="LED101">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62CEF15F</tstamp>
+    </comp>
+    <comp ref="IC102">
+      <value>PCF85063AT_AY</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/PCF85063AT_AY.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">PCF85063AT/AY</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/pcf85063atay/nxp-semiconductors?region=nac</field>
+        <field name="Description">Real Time Clock Low Power Real time clocks</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">NXP</field>
+        <field name="Manufacturer_Part_Number">PCF85063AT/AY</field>
+        <field name="Mouser Part Number">771-PCF85063AT/AY</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCF85063AT-AY?qs=Yna0arPQ0CSwctr%252Bb0ls0Q%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="PCF85063AT_AY" description="Real Time Clock Low Power Real time clocks"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62CFAF48</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6417BAB6</tstamp>
+    </comp>
+    <comp ref="IC101">
+      <value>TCR2LF33,LM_CT</value>
+      <footprint>TCR2LF33LMCT</footprint>
+      <datasheet>https://www.mouser.es/datasheet/2/408/TCR2LF10_datasheet_en_20141106-760799.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TCR2LF33,LM(CT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tcr2lf33lm-ct/toshiba?region=nac</field>
+        <field name="Description">Linear Voltage Regulator IC Positive Fixed 1 Output 200mA SMV</field>
+        <field name="Height">1.4</field>
+        <field name="Manufacturer_Name">Toshiba</field>
+        <field name="Manufacturer_Part_Number">TCR2LF33,LM(CT</field>
+        <field name="Mouser Part Number">757-TCR2LF33LMCT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Toshiba/TCR2LF33LMCT?qs=lX6dEUlT%252BgfjY8NAoxAO5A%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TCR2LF33,LM_CT" description="Linear Voltage Regulator IC Positive Fixed 1 Output 200mA SMV"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64189B4E</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>0.1uF</value>
+      <footprint>CAPC1005X55N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CL05A104KA5NNNC</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl05a104ka5nnnc/samsung-electro-mechanics</field>
+        <field name="Description">Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL05A104KA5NNNC</field>
+        <field name="Mouser Part Number">187-CL05A104KA5NNNC</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A104KA5NNNC?qs=X6jEic%2FHinDlkqz9npJeOg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="CL05A104KA5NNNC" description="Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>641978CD</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6419B8F1</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6419B8F7</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>CUS520,H3F</value>
+      <footprint>SOD2513X115N</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=7041&amp;prodName=CUS520</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CUS520,H3F</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cus520h3f/toshiba</field>
+        <field name="Description">Schottky Diodes &amp; Rectifiers Single Low Leakge</field>
+        <field name="Height">1.15</field>
+        <field name="Manufacturer_Name">Toshiba</field>
+        <field name="Manufacturer_Part_Number">CUS520,H3F</field>
+        <field name="Mouser Part Number">757-CUS520H3F</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Toshiba/CUS520H3F?qs=cW4DzVrAanMh8DRQGiUcZw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="CUS520,H3F" description="Schottky Diodes &amp; Rectifiers Single Low Leakge"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>641A3777</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>0.1uF</value>
+      <footprint>CAPC1005X55N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CL05A104KA5NNNC</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl05a104ka5nnnc/samsung-electro-mechanics</field>
+        <field name="Description">Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL05A104KA5NNNC</field>
+        <field name="Mouser Part Number">187-CL05A104KA5NNNC</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A104KA5NNNC?qs=X6jEic%2FHinDlkqz9npJeOg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="CL05A104KA5NNNC" description="Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62CDF1E1</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>0.1uF</value>
+      <footprint>CAPC1005X55N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CL05A104KA5NNNC</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl05a104ka5nnnc/samsung-electro-mechanics</field>
+        <field name="Description">Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL05A104KA5NNNC</field>
+        <field name="Mouser Part Number">187-CL05A104KA5NNNC</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A104KA5NNNC?qs=X6jEic%2FHinDlkqz9npJeOg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="CL05A104KA5NNNC" description="Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6419281E</tstamp>
+    </comp>
+    <comp ref="C106">
+      <value>RSCSK2043R3D01004T</value>
+      <footprint>RSCSK2043R3D01004T</footprint>
+      <datasheet>https://www.elna.co.jp/en/capacitor/double_layer/catalog/pdf/C15-CS1,CSK_e.pdf</datasheet>
+      <fields>
+        <field name="Description">Supercapacitors / Ultracapacitors 0.2F 3.3V -20+80</field>
+        <field name="Height">1.8</field>
+        <field name="Manufacturer_Name">Elna</field>
+        <field name="Manufacturer_Part_Number">RSCSK2043R3D01004T</field>
+        <field name="Mouser Part Number">555-DSK3R3H204T614H2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Elna/RSCSK2043R3D01004T?qs=4ASt3YYao0W6joWWDTvrLg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="RSCSK2043R3D01004T" description="Supercapacitors / Ultracapacitors 0.2F 3.3V -20+80"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>641AE090</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>641B131A</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>56k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>641E491F</tstamp>
+    </comp>
+    <comp ref="IC103">
+      <value>SFH_5711-2_3-Z</value>
+      <footprint>SFH571123Z</footprint>
+      <datasheet>https://dammedia.osram.info/media/resource/hires/osram-dam-2496447/SFH%205711.pdf</datasheet>
+      <fields>
+        <field name="Description">Ambient Light Sensors PHOTO IC (ALS) SMT</field>
+        <field name="Height">1.25</field>
+        <field name="Manufacturer_Name">OSRAM</field>
+        <field name="Manufacturer_Part_Number">SFH 5711-2/3-Z</field>
+        <field name="Mouser Part Number">720-SFH5711-2/3-Z</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/SFH-5711-2-3-Z?qs=K5ta8V%252BWhtZqF99oIrrnNw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SFH_5711-2_3-Z" description="Ambient Light Sensors PHOTO IC (ALS) SMT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>641EA5F4</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6421D723</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64225629</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64230E74</tstamp>
+    </comp>
+    <comp ref="J103">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_1x01_P1.27mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64230E81</tstamp>
+    </comp>
+    <comp ref="R113">
+      <value>1Meg</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6429E238</tstamp>
+    </comp>
+    <comp ref="R114">
+      <value>1MEG</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6429F31C</tstamp>
+    </comp>
+    <comp ref="LED102">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>642B53DA</tstamp>
+    </comp>
+    <comp ref="J105">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64348139</tstamp>
+    </comp>
+    <comp ref="R112">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>642EF4CB</tstamp>
+    </comp>
+    <comp ref="R111">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>642DDE79</tstamp>
+    </comp>
+    <comp ref="R110">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>642DDB9B</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>642DC195</tstamp>
+    </comp>
+    <comp ref="J104">
+      <value>Conn_ARM_JTAG_SWD_10</value>
+      <footprint>Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD</footprint>
+      <datasheet>http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf</datasheet>
+      <libsource lib="Connector" part="Conn_ARM_JTAG_SWD_10" description="Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>642A0C11</tstamp>
+    </comp>
+    <comp ref="TP103">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6437C10E</tstamp>
+    </comp>
+    <comp ref="C107">
+      <value>0.1uF</value>
+      <footprint>CAPC1005X55N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CL05A104KA5NNNC</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl05a104ka5nnnc/samsung-electro-mechanics</field>
+        <field name="Description">Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL05A104KA5NNNC</field>
+        <field name="Mouser Part Number">187-CL05A104KA5NNNC</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A104KA5NNNC?qs=X6jEic%2FHinDlkqz9npJeOg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="CL05A104KA5NNNC" description="Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>64312E36</tstamp>
+    </comp>
+    <comp ref="LED201">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>626B7B19</tstamp>
+    </comp>
+    <comp ref="IC201">
+      <value>IS31FL3235A-QFLS2-TR</value>
+      <footprint>QFN40P400X400X80-37N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/fc33ded709b126955886d75954d536cb.pdf</datasheet>
+      <fields>
+        <field name="Description">IC LED DRVR LINEAR 28CH 36QFN</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Lumissil</field>
+        <field name="Manufacturer_Part_Number">IS31FL3235A-QFLS2-TR</field>
+        <field name="Mouser Part Number">870-31FL3235AQFLS2T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lumissil/IS31FL3235A-QFLS2-TR?qs=5aG0NVq1C4xifc2s52aelA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="IS31FL3235A-QFLS2-TR" description="IC LED DRVR LINEAR 28CH 36QFN"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>627A4FC0</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>1uF</value>
+      <footprint>CAPC1005X55N</footprint>
+      <datasheet>https://altium.componentsearchengine.com/Datasheets/2/CL05A105KQ5NNNC.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CL05A105KQ5NNNC</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl05a105kq5nnnc/samsung-electro-mechanics</field>
+        <field name="Description">Samsung Electro-Mechanics 0402 CL 1uF Ceramic Multilayer Capacitor, 6.3 V, +85C, X5R Dielectric, +/-10% SMD</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL05A105KQ5NNNC</field>
+        <field name="Mouser Part Number">187-CL05A105KQ5NNNC</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A105KQ5NNNC?qs=hqM3L16%252BxlcZ9I8tt8QWVg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="CL05A105KQ5NNNC" description="Samsung Electro-Mechanics 0402 CL 1uF Ceramic Multilayer Capacitor, 6.3 V, +85C, X5R Dielectric, +/-10% SMD"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>627CD130</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>0.1uF</value>
+      <footprint>CAPC1005X55N</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">CL05A104KA5NNNC</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl05a104ka5nnnc/samsung-electro-mechanics</field>
+        <field name="Description">Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL05A104KA5NNNC</field>
+        <field name="Mouser Part Number">187-CL05A104KA5NNNC</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A104KA5NNNC?qs=X6jEic%2FHinDlkqz9npJeOg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="CL05A104KA5NNNC" description="Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>627D8620</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>3.3k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>627FFA4B</tstamp>
+    </comp>
+    <comp ref="R204">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>6281ADCD</tstamp>
+    </comp>
+    <comp ref="LED202">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628B6E65</tstamp>
+    </comp>
+    <comp ref="LED203">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628BB0DB</tstamp>
+    </comp>
+    <comp ref="LED204">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628BC940</tstamp>
+    </comp>
+    <comp ref="LED205">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628CBF4C</tstamp>
+    </comp>
+    <comp ref="LED206">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628CBF61</tstamp>
+    </comp>
+    <comp ref="LED207">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628CBF76</tstamp>
+    </comp>
+    <comp ref="LED208">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628CBF8B</tstamp>
+    </comp>
+    <comp ref="LED209">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628EE38A</tstamp>
+    </comp>
+    <comp ref="LED210">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628EE39F</tstamp>
+    </comp>
+    <comp ref="LED211">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628EE3B4</tstamp>
+    </comp>
+    <comp ref="LED212">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628EE3C9</tstamp>
+    </comp>
+    <comp ref="LED213">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628EE3DE</tstamp>
+    </comp>
+    <comp ref="LED214">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628EE3F3</tstamp>
+    </comp>
+    <comp ref="LED215">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628EE408</tstamp>
+    </comp>
+    <comp ref="LED216">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628EE41D</tstamp>
+    </comp>
+    <comp ref="LED217">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628F6B11</tstamp>
+    </comp>
+    <comp ref="LED218">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628F6B26</tstamp>
+    </comp>
+    <comp ref="LED219">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628F6B3B</tstamp>
+    </comp>
+    <comp ref="LED220">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628F6B50</tstamp>
+    </comp>
+    <comp ref="LED221">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628F6B65</tstamp>
+    </comp>
+    <comp ref="LED222">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628F6B7A</tstamp>
+    </comp>
+    <comp ref="LED223">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628F6B8F</tstamp>
+    </comp>
+    <comp ref="LED224">
+      <value>LTST-C191KRKT</value>
+      <footprint>LEDC1608X55N</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="LTST-C191KRKT" description="Standard LEDs - SMD Red Clear 631nm"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>628F6BA4</tstamp>
+    </comp>
+    <comp ref="LED225">
+      <value>RGB LED</value>
+      <footprint>150352M173300</footprint>
+      <datasheet>http://katalog.we-online.de/led/datasheet/150352M173300.pdf</datasheet>
+      <fields>
+        <field name="Description">Wurth Elektronik 150352M173300, WL-SFTW 470 (Blue) nm, 520 (Green) nm, 625 (Red) nm 3 RGB LED, 6-Pin 3528 Clear</field>
+        <field name="Height">1.85</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150352M173300</field>
+        <field name="Mouser Part Number">710-150352M173300</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150352M173300?qs=fAHHVMwC%252BbhIJVMHiSDFUA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="150352M173300" description="Wurth Elektronik 150352M173300, WL-SFTW 470 (Blue) nm, 520 (Green) nm, 625 (Red) nm 3 RGB LED, 6-Pin 3528 Clear"/>
+      <sheetpath names="/leds/" tstamps="/626A0AD6/"/>
+      <tstamp>62B44AF1</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Battery_Management" part="MCP73832-2-OT">
+      <aliases>
+        <alias>MCP73832-5-OT</alias>
+        <alias>MCP73832-4-OT</alias>
+        <alias>MCP73832-3-OT</alias>
+        <alias>MCP73831-2-OT</alias>
+        <alias>MCP73831-5-OT</alias>
+        <alias>MCP73831-4-OT</alias>
+        <alias>MCP73831-3-OT</alias>
+      </aliases>
+      <description>Single cell, Li-Ion/Li-Po charge management controller, 4.20V, Open-Drain Status Output, in SOT23-5 package</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73832-2-OT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_out"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_ARM_JTAG_SWD_10">
+      <description>Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface</description>
+      <docs>http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf</docs>
+      <footprints>
+        <fp>PinHeader?2x05?P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_ARM_JTAG_SWD_10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VTref" type="power_in"/>
+        <pin num="2" name="SWDIO/TMS" type="BiDi"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="SWDCLK/TCK" type="output"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="SWO/TDO" type="input"/>
+        <pin num="7" name="KEY" type="NotConnected"/>
+        <pin num="8" name="NC/TDI" type="output"/>
+        <pin num="9" name="GNDDetect" type="passive"/>
+        <pin num="10" name="~RESET~" type="openCol"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="150352M173300">
+      <description>Wurth Elektronik 150352M173300, WL-SFTW 470 (Blue) nm, 520 (Green) nm, 625 (Red) nm 3 RGB LED, 6-Pin 3528 Clear</description>
+      <docs>http://katalog.we-online.de/led/datasheet/150352M173300.pdf</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">150352M173300</field>
+        <field name="Footprint">150352M173300</field>
+        <field name="Datasheet">http://katalog.we-online.de/led/datasheet/150352M173300.pdf</field>
+        <field name="Description">Wurth Elektronik 150352M173300, WL-SFTW 470 (Blue) nm, 520 (Green) nm, 625 (Red) nm 3 RGB LED, 6-Pin 3528 Clear</field>
+        <field name="Height">1.85</field>
+        <field name="Mouser Part Number">710-150352M173300</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150352M173300?qs=fAHHVMwC%252BbhIJVMHiSDFUA%3D%3D</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150352M173300</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K_B" type="passive"/>
+        <pin num="2" name="A_B" type="passive"/>
+        <pin num="3" name="K_R" type="passive"/>
+        <pin num="4" name="A_R" type="passive"/>
+        <pin num="5" name="K_G" type="passive"/>
+        <pin num="6" name="A_G" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="CL05A104KA5NNNC">
+      <description>Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD</description>
+      <docs>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CL05A104KA5NNNC</field>
+        <field name="Footprint">CAPC1005X55N</field>
+        <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf</field>
+        <field name="Description">Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL05A104KA5NNNC</field>
+        <field name="Mouser Part Number">187-CL05A104KA5NNNC</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A104KA5NNNC?qs=X6jEic%2FHinDlkqz9npJeOg%3D%3D</field>
+        <field name="Arrow Part Number">CL05A104KA5NNNC</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl05a104ka5nnnc/samsung-electro-mechanics</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="CL05A105KQ5NNNC">
+      <description>Samsung Electro-Mechanics 0402 CL 1uF Ceramic Multilayer Capacitor, 6.3 V, +85C, X5R Dielectric, +/-10% SMD</description>
+      <docs>https://altium.componentsearchengine.com/Datasheets/2/CL05A105KQ5NNNC.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CL05A105KQ5NNNC</field>
+        <field name="Footprint">CAPC1005X55N</field>
+        <field name="Datasheet">https://altium.componentsearchengine.com/Datasheets/2/CL05A105KQ5NNNC.pdf</field>
+        <field name="Description">Samsung Electro-Mechanics 0402 CL 1uF Ceramic Multilayer Capacitor, 6.3 V, +85C, X5R Dielectric, +/-10% SMD</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Samsung Electro-Mechanics</field>
+        <field name="Manufacturer_Part_Number">CL05A105KQ5NNNC</field>
+        <field name="Mouser Part Number">187-CL05A105KQ5NNNC</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05A105KQ5NNNC?qs=hqM3L16%252BxlcZ9I8tt8QWVg%3D%3D</field>
+        <field name="Arrow Part Number">CL05A105KQ5NNNC</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cl05a105kq5nnnc/samsung-electro-mechanics</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="CM8V-T1A-32.768kHz-4pF-20PPM-TA-QC_T3">
+      <description>CM8V-T1A Tuning Fork Crystal 32.768 kHz</description>
+      <docs>https://www.mouser.de/datasheet/2/530/CM8V_T1A-1510858.pdf</docs>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">CM8V-T1A-32.768kHz-4pF-20PPM-TA-QC_T3</field>
+        <field name="Footprint">CM8V32768TA020125</field>
+        <field name="Datasheet">https://www.mouser.de/datasheet/2/530/CM8V_T1A-1510858.pdf</field>
+        <field name="Description">CM8V-T1A Tuning Fork Crystal 32.768 kHz</field>
+        <field name="Height">0.6</field>
+        <field name="Manufacturer_Name">Micro Crystal AG</field>
+        <field name="Manufacturer_Part_Number">CM8V-T1A-32.768kHz-4pF-20PPM-TA-QC T3</field>
+        <field name="Mouser Part Number">428-202684-MC03</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Micro-Crystal/CM8V-T1A-32768kHz-4pF-20PPM-TA-QC-T3?qs=DPoM0jnrROXyasaC3wHYWA%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="X1" type="passive"/>
+        <pin num="2" name="X2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="CUS520,H3F">
+      <description>Schottky Diodes &amp; Rectifiers Single Low Leakge</description>
+      <docs>https://toshiba.semicon-storage.com/info/docget.jsp?did=7041&amp;prodName=CUS520</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">CUS520,H3F</field>
+        <field name="Footprint">SOD2513X115N</field>
+        <field name="Datasheet">https://toshiba.semicon-storage.com/info/docget.jsp?did=7041&amp;prodName=CUS520</field>
+        <field name="Description">Schottky Diodes &amp; Rectifiers Single Low Leakge</field>
+        <field name="Height">1.15</field>
+        <field name="Manufacturer_Name">Toshiba</field>
+        <field name="Manufacturer_Part_Number">CUS520,H3F</field>
+        <field name="Mouser Part Number">757-CUS520H3F</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Toshiba/CUS520H3F?qs=cW4DzVrAanMh8DRQGiUcZw%3D%3D</field>
+        <field name="Arrow Part Number">CUS520,H3F</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/cus520h3f/toshiba</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="IS31FL3235A-QFLS2-TR">
+      <description>IC LED DRVR LINEAR 28CH 36QFN</description>
+      <docs>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/fc33ded709b126955886d75954d536cb.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">IS31FL3235A-QFLS2-TR</field>
+        <field name="Footprint">QFN40P400X400X80-37N</field>
+        <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/fc33ded709b126955886d75954d536cb.pdf</field>
+        <field name="Description">IC LED DRVR LINEAR 28CH 36QFN</field>
+        <field name="Height">0.8</field>
+        <field name="Manufacturer_Name">Lumissil</field>
+        <field name="Manufacturer_Part_Number">IS31FL3235A-QFLS2-TR</field>
+        <field name="Mouser Part Number">870-31FL3235AQFLS2T</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lumissil/IS31FL3235A-QFLS2-TR?qs=5aG0NVq1C4xifc2s52aelA%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT2" type="output"/>
+        <pin num="2" name="OUT3" type="output"/>
+        <pin num="3" name="OUT4" type="output"/>
+        <pin num="4" name="OUT5" type="output"/>
+        <pin num="5" name="OUT6" type="output"/>
+        <pin num="6" name="OUT7" type="output"/>
+        <pin num="7" name="OUT8" type="output"/>
+        <pin num="8" name="OUT9" type="output"/>
+        <pin num="9" name="OUT10" type="output"/>
+        <pin num="10" name="OUT11" type="output"/>
+        <pin num="11" name="OUT12" type="output"/>
+        <pin num="12" name="OUT13" type="output"/>
+        <pin num="13" name="OUT14" type="output"/>
+        <pin num="14" name="GND_1" type="power_in"/>
+        <pin num="15" name="OUT15" type="output"/>
+        <pin num="16" name="OUT16" type="output"/>
+        <pin num="17" name="OUT17" type="output"/>
+        <pin num="18" name="OUT18" type="output"/>
+        <pin num="19" name="OUT19" type="output"/>
+        <pin num="20" name="OUT20" type="output"/>
+        <pin num="21" name="OUT21" type="output"/>
+        <pin num="22" name="OUT22" type="output"/>
+        <pin num="23" name="OUT23" type="output"/>
+        <pin num="24" name="OUT24" type="output"/>
+        <pin num="25" name="OUT25" type="output"/>
+        <pin num="26" name="OUT26" type="output"/>
+        <pin num="27" name="OUT27" type="output"/>
+        <pin num="28" name="OUT28" type="output"/>
+        <pin num="29" name="SDB" type="input"/>
+        <pin num="30" name="AD" type="input"/>
+        <pin num="31" name="VCC" type="power_in"/>
+        <pin num="32" name="GND_2" type="power_in"/>
+        <pin num="33" name="R_EXT" type="input"/>
+        <pin num="34" name="SDA" type="BiDi"/>
+        <pin num="35" name="SCL" type="BiDi"/>
+        <pin num="36" name="OUT1" type="output"/>
+        <pin num="37" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="LTST-C191KRKT">
+      <description>Standard LEDs - SMD Red Clear 631nm</description>
+      <docs>http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LTST-C191KRKT</field>
+        <field name="Footprint">LEDC1608X55N</field>
+        <field name="Datasheet">http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf</field>
+        <field name="Description">Standard LEDs - SMD Red Clear 631nm</field>
+        <field name="Height">0.55</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-C191KRKT</field>
+        <field name="Mouser Part Number">859-LTST-C191KRKT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C191KRKT?qs=BAIUz4Y8PJBLfOhzue0q%252BA%3D%3D</field>
+        <field name="Arrow Part Number">LTST-C191KRKT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ltst-c191krkt/lite-on-technology?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="PCF85063AT_AY">
+      <description>Real Time Clock Low Power Real time clocks</description>
+      <docs>https://componentsearchengine.com/Datasheets/2/PCF85063AT_AY.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">PCF85063AT_AY</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/2/PCF85063AT_AY.pdf</field>
+        <field name="Description">Real Time Clock Low Power Real time clocks</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">NXP</field>
+        <field name="Manufacturer_Part_Number">PCF85063AT/AY</field>
+        <field name="Mouser Part Number">771-PCF85063AT/AY</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCF85063AT-AY?qs=Yna0arPQ0CSwctr%252Bb0ls0Q%3D%3D</field>
+        <field name="Arrow Part Number">PCF85063AT/AY</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/pcf85063atay/nxp-semiconductors?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OSCI" type="passive"/>
+        <pin num="2" name="OSCO" type="passive"/>
+        <pin num="3" name="~INT" type="passive"/>
+        <pin num="4" name="VSS" type="passive"/>
+        <pin num="5" name="SDA" type="passive"/>
+        <pin num="6" name="SCL" type="passive"/>
+        <pin num="7" name="CLKOUT" type="passive"/>
+        <pin num="8" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="RSCSK2043R3D01004T">
+      <description>Supercapacitors / Ultracapacitors 0.2F 3.3V -20+80</description>
+      <docs>https://www.elna.co.jp/en/capacitor/double_layer/catalog/pdf/C15-CS1,CSK_e.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">RSCSK2043R3D01004T</field>
+        <field name="Footprint">RSCSK2043R3D01004T</field>
+        <field name="Datasheet">https://www.elna.co.jp/en/capacitor/double_layer/catalog/pdf/C15-CS1,CSK_e.pdf</field>
+        <field name="Description">Supercapacitors / Ultracapacitors 0.2F 3.3V -20+80</field>
+        <field name="Height">1.8</field>
+        <field name="Manufacturer_Name">Elna</field>
+        <field name="Manufacturer_Part_Number">RSCSK2043R3D01004T</field>
+        <field name="Mouser Part Number">555-DSK3R3H204T614H2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Elna/RSCSK2043R3D01004T?qs=4ASt3YYao0W6joWWDTvrLg%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="SFH_5711-2_3-Z">
+      <description>Ambient Light Sensors PHOTO IC (ALS) SMT</description>
+      <docs>https://dammedia.osram.info/media/resource/hires/osram-dam-2496447/SFH%205711.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">SFH_5711-2_3-Z</field>
+        <field name="Footprint">SFH571123Z</field>
+        <field name="Datasheet">https://dammedia.osram.info/media/resource/hires/osram-dam-2496447/SFH%205711.pdf</field>
+        <field name="Description">Ambient Light Sensors PHOTO IC (ALS) SMT</field>
+        <field name="Height">1.25</field>
+        <field name="Manufacturer_Name">OSRAM</field>
+        <field name="Manufacturer_Part_Number">SFH 5711-2/3-Z</field>
+        <field name="Mouser Part Number">720-SFH5711-2/3-Z</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/SFH-5711-2-3-Z?qs=K5ta8V%252BWhtZqF99oIrrnNw%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND_1" type="passive"/>
+        <pin num="2" name="GND_2" type="passive"/>
+        <pin num="3" name="VCC" type="passive"/>
+        <pin num="4" name="IOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="TCR2LF33,LM_CT">
+      <description>Linear Voltage Regulator IC Positive Fixed 1 Output 200mA SMV</description>
+      <docs>https://www.mouser.es/datasheet/2/408/TCR2LF10_datasheet_en_20141106-760799.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TCR2LF33,LM_CT</field>
+        <field name="Footprint">TCR2LF33LMCT</field>
+        <field name="Datasheet">https://www.mouser.es/datasheet/2/408/TCR2LF10_datasheet_en_20141106-760799.pdf</field>
+        <field name="Description">Linear Voltage Regulator IC Positive Fixed 1 Output 200mA SMV</field>
+        <field name="Height">1.4</field>
+        <field name="Manufacturer_Name">Toshiba</field>
+        <field name="Manufacturer_Part_Number">TCR2LF33,LM(CT</field>
+        <field name="Mouser Part Number">757-TCR2LF33LMCT</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Toshiba/TCR2LF33LMCT?qs=lX6dEUlT%252BgfjY8NAoxAO5A%3D%3D</field>
+        <field name="Arrow Part Number">TCR2LF33,LM(CT</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tcr2lf33lm-ct/toshiba?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="CONTROL" type="passive"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="UltraLibrarian" part="ATSAM4LS2AA-AU">
+      <footprints>
+        <fp>TQFP48_7x7MC_MCH</fp>
+        <fp>TQFP48_7x7MC_MCH-M</fp>
+        <fp>TQFP48_7x7MC_MCH-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATSAM4LS2AA-AU</field>
+        <field name="Footprint">TQFP48_7x7MC_MCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA00" type="BiDi"/>
+        <pin num="2" name="PA01" type="BiDi"/>
+        <pin num="3" name="PA02" type="BiDi"/>
+        <pin num="4" name="RESET_N" type="unspc"/>
+        <pin num="5" name="VDDCORE" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="VDDOUT" type="output"/>
+        <pin num="8" name="VDDIN" type="power_in"/>
+        <pin num="9" name="TCK" type="unspc"/>
+        <pin num="10" name="PA03" type="BiDi"/>
+        <pin num="11" name="PA04" type="BiDi"/>
+        <pin num="12" name="PA05" type="BiDi"/>
+        <pin num="13" name="XIN32" type="input"/>
+        <pin num="14" name="XOUT32" type="output"/>
+        <pin num="15" name="PA06" type="BiDi"/>
+        <pin num="16" name="PA07" type="BiDi"/>
+        <pin num="17" name="GNDANA" type="power_in"/>
+        <pin num="18" name="ADVREFP" type="power_in"/>
+        <pin num="19" name="VDDANA" type="power_in"/>
+        <pin num="20" name="PA08" type="BiDi"/>
+        <pin num="21" name="PA09" type="BiDi"/>
+        <pin num="22" name="PA10" type="BiDi"/>
+        <pin num="23" name="PA11" type="BiDi"/>
+        <pin num="24" name="PA12" type="BiDi"/>
+        <pin num="25" name="PA27" type="BiDi"/>
+        <pin num="26" name="PA28" type="BiDi"/>
+        <pin num="27" name="PA29" type="BiDi"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="VDDIO" type="power_in"/>
+        <pin num="30" name="PA30" type="BiDi"/>
+        <pin num="31" name="PA31" type="BiDi"/>
+        <pin num="32" name="PA13" type="BiDi"/>
+        <pin num="33" name="PA14" type="BiDi"/>
+        <pin num="34" name="PA15" type="BiDi"/>
+        <pin num="35" name="PA16" type="BiDi"/>
+        <pin num="36" name="PA17" type="BiDi"/>
+        <pin num="37" name="PA18" type="BiDi"/>
+        <pin num="38" name="PA19" type="BiDi"/>
+        <pin num="39" name="PA20" type="BiDi"/>
+        <pin num="40" name="VDDIO" type="power_in"/>
+        <pin num="41" name="PA21" type="BiDi"/>
+        <pin num="42" name="PA22" type="BiDi"/>
+        <pin num="43" name="PA23" type="BiDi"/>
+        <pin num="44" name="PA24" type="BiDi"/>
+        <pin num="45" name="VDDIO" type="power_in"/>
+        <pin num="46" name="PA25" type="BiDi"/>
+        <pin num="47" name="PA26" type="BiDi"/>
+        <pin num="48" name="GND" type="power_in"/>
+        <pin num="EPAD" name="EPAD" type="unspc"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Battery_Management">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Battery_Management.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/ComLib/KiCAD/SamacSys/SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="UltraLibrarian">
+      <uri>C:/ComLib/KiCAD/UltraLibrarian/ulta.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+BATT">
+      <node ref="C103" pin="2"/>
+      <node ref="C102" pin="2"/>
+      <node ref="IC101" pin="1"/>
+      <node ref="R113" pin="2"/>
+      <node ref="J101" pin="2"/>
+      <node ref="IC101" pin="3"/>
+      <node ref="U102" pin="3"/>
+    </net>
+    <net code="2" name="/BattSns">
+      <node ref="R113" pin="1"/>
+      <node ref="R114" pin="2"/>
+      <node ref="U101" pin="12"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="U102" pin="2"/>
+      <node ref="C107" pin="1"/>
+      <node ref="J104" pin="9"/>
+      <node ref="J104" pin="5"/>
+      <node ref="J104" pin="3"/>
+      <node ref="J105" pin="1"/>
+      <node ref="C101" pin="1"/>
+      <node ref="IC103" pin="1"/>
+      <node ref="IC103" pin="2"/>
+      <node ref="R101" pin="2"/>
+      <node ref="R106" pin="1"/>
+      <node ref="U101" pin="17"/>
+      <node ref="U101" pin="6"/>
+      <node ref="C103" pin="1"/>
+      <node ref="C104" pin="1"/>
+      <node ref="C106" pin="2"/>
+      <node ref="U101" pin="28"/>
+      <node ref="U101" pin="48"/>
+      <node ref="C105" pin="1"/>
+      <node ref="IC101" pin="2"/>
+      <node ref="IC102" pin="4"/>
+      <node ref="J101" pin="1"/>
+      <node ref="U101" pin="EPAD"/>
+      <node ref="C102" pin="1"/>
+      <node ref="IC201" pin="30"/>
+      <node ref="IC201" pin="32"/>
+      <node ref="R204" pin="2"/>
+      <node ref="R203" pin="1"/>
+      <node ref="IC201" pin="37"/>
+      <node ref="IC201" pin="14"/>
+      <node ref="C201" pin="2"/>
+      <node ref="R114" pin="1"/>
+      <node ref="C202" pin="2"/>
+    </net>
+    <net code="4" name="/vLUX">
+      <node ref="R106" pin="2"/>
+      <node ref="IC103" pin="4"/>
+      <node ref="U101" pin="11"/>
+    </net>
+    <net code="5" name="+3V3">
+      <node ref="LED220" pin="2"/>
+      <node ref="U101" pin="29"/>
+      <node ref="C104" pin="2"/>
+      <node ref="D101" pin="2"/>
+      <node ref="R104" pin="1"/>
+      <node ref="R103" pin="1"/>
+      <node ref="LED201" pin="2"/>
+      <node ref="LED205" pin="2"/>
+      <node ref="LED204" pin="2"/>
+      <node ref="IC103" pin="3"/>
+      <node ref="LED203" pin="2"/>
+      <node ref="LED202" pin="2"/>
+      <node ref="LED225" pin="2"/>
+      <node ref="LED211" pin="2"/>
+      <node ref="LED210" pin="2"/>
+      <node ref="LED225" pin="4"/>
+      <node ref="LED222" pin="2"/>
+      <node ref="LED209" pin="2"/>
+      <node ref="LED208" pin="2"/>
+      <node ref="LED219" pin="2"/>
+      <node ref="LED221" pin="2"/>
+      <node ref="LED225" pin="6"/>
+      <node ref="LED214" pin="2"/>
+      <node ref="LED215" pin="2"/>
+      <node ref="LED212" pin="2"/>
+      <node ref="LED213" pin="2"/>
+      <node ref="LED216" pin="2"/>
+      <node ref="C201" pin="1"/>
+      <node ref="IC201" pin="31"/>
+      <node ref="IC101" pin="5"/>
+      <node ref="C202" pin="1"/>
+      <node ref="LED223" pin="2"/>
+      <node ref="LED207" pin="2"/>
+      <node ref="LED224" pin="2"/>
+      <node ref="LED206" pin="2"/>
+      <node ref="LED218" pin="2"/>
+      <node ref="LED217" pin="2"/>
+      <node ref="U101" pin="18"/>
+      <node ref="U101" pin="19"/>
+      <node ref="C107" pin="2"/>
+      <node ref="TP103" pin="1"/>
+      <node ref="R110" pin="1"/>
+      <node ref="R109" pin="1"/>
+      <node ref="LED102" pin="2"/>
+      <node ref="U101" pin="40"/>
+      <node ref="R108" pin="1"/>
+      <node ref="R107" pin="1"/>
+      <node ref="J104" pin="1"/>
+      <node ref="U101" pin="8"/>
+      <node ref="U101" pin="45"/>
+      <node ref="R112" pin="1"/>
+      <node ref="R111" pin="1"/>
+    </net>
+    <net code="6" name="/SDA">
+      <node ref="IC201" pin="34"/>
+      <node ref="IC102" pin="5"/>
+      <node ref="R103" pin="2"/>
+      <node ref="U101" pin="41"/>
+    </net>
+    <net code="7" name="/SCL">
+      <node ref="IC201" pin="35"/>
+      <node ref="R104" pin="2"/>
+      <node ref="U101" pin="42"/>
+      <node ref="IC102" pin="6"/>
+    </net>
+    <net code="8" name="/LED_STAT">
+      <node ref="U101" pin="3"/>
+      <node ref="LED102" pin="1"/>
+    </net>
+    <net code="9" name="/SDB">
+      <node ref="IC201" pin="29"/>
+      <node ref="R204" pin="1"/>
+      <node ref="U101" pin="39"/>
+    </net>
+    <net code="10" name="/JTAG_RESET">
+      <node ref="U101" pin="4"/>
+      <node ref="J104" pin="10"/>
+    </net>
+    <net code="11" name="+1V8">
+      <node ref="U101" pin="7"/>
+    </net>
+    <net code="12" name="/JTAG_TMS">
+      <node ref="R110" pin="2"/>
+      <node ref="U101" pin="10"/>
+      <node ref="J104" pin="2"/>
+    </net>
+    <net code="13" name="/JTAG_TCK">
+      <node ref="J104" pin="4"/>
+      <node ref="R109" pin="2"/>
+      <node ref="U101" pin="9"/>
+    </net>
+    <net code="14" name="Net-(J104-Pad7)">
+      <node ref="J104" pin="7"/>
+    </net>
+    <net code="15" name="/JTAG_TDO">
+      <node ref="R111" pin="2"/>
+      <node ref="J104" pin="6"/>
+      <node ref="U101" pin="43"/>
+    </net>
+    <net code="16" name="+5V">
+      <node ref="LED101" pin="2"/>
+      <node ref="C101" pin="2"/>
+      <node ref="J105" pin="2"/>
+      <node ref="U102" pin="4"/>
+    </net>
+    <net code="17" name="/JTAG_TDI">
+      <node ref="R112" pin="2"/>
+      <node ref="U101" pin="44"/>
+      <node ref="J104" pin="8"/>
+    </net>
+    <net code="18" name="Net-(U101-Pad2)">
+      <node ref="U101" pin="2"/>
+    </net>
+    <net code="19" name="Net-(R101-Pad1)">
+      <node ref="U102" pin="5"/>
+      <node ref="R101" pin="1"/>
+    </net>
+    <net code="20" name="Net-(R102-Pad2)">
+      <node ref="R102" pin="2"/>
+      <node ref="U102" pin="1"/>
+    </net>
+    <net code="21" name="Net-(IC102-Pad1)">
+      <node ref="IC102" pin="1"/>
+      <node ref="Y101" pin="2"/>
+    </net>
+    <net code="22" name="Net-(IC102-Pad2)">
+      <node ref="Y101" pin="1"/>
+      <node ref="IC102" pin="2"/>
+    </net>
+    <net code="23" name="Net-(U101-Pad47)">
+      <node ref="U101" pin="47"/>
+    </net>
+    <net code="24" name="Net-(U101-Pad46)">
+      <node ref="U101" pin="46"/>
+    </net>
+    <net code="25" name="Net-(U101-Pad22)">
+      <node ref="U101" pin="22"/>
+    </net>
+    <net code="26" name="Net-(U101-Pad21)">
+      <node ref="U101" pin="21"/>
+    </net>
+    <net code="27" name="Net-(U101-Pad20)">
+      <node ref="U101" pin="20"/>
+    </net>
+    <net code="28" name="Net-(U101-Pad16)">
+      <node ref="U101" pin="16"/>
+    </net>
+    <net code="29" name="Net-(U101-Pad15)">
+      <node ref="U101" pin="15"/>
+    </net>
+    <net code="30" name="Net-(U101-Pad14)">
+      <node ref="U101" pin="14"/>
+    </net>
+    <net code="31" name="Net-(U101-Pad13)">
+      <node ref="U101" pin="13"/>
+    </net>
+    <net code="32" name="Net-(U101-Pad23)">
+      <node ref="U101" pin="23"/>
+    </net>
+    <net code="33" name="Net-(U101-Pad5)">
+      <node ref="U101" pin="5"/>
+    </net>
+    <net code="34" name="Net-(U101-Pad1)">
+      <node ref="U101" pin="1"/>
+    </net>
+    <net code="35" name="Net-(U101-Pad34)">
+      <node ref="U101" pin="34"/>
+    </net>
+    <net code="36" name="Net-(U101-Pad38)">
+      <node ref="U101" pin="38"/>
+    </net>
+    <net code="37" name="Net-(U101-Pad37)">
+      <node ref="U101" pin="37"/>
+    </net>
+    <net code="38" name="/SW1">
+      <node ref="U101" pin="36"/>
+      <node ref="J103" pin="1"/>
+      <node ref="R108" pin="2"/>
+    </net>
+    <net code="39" name="/SW2">
+      <node ref="J102" pin="1"/>
+      <node ref="R107" pin="2"/>
+      <node ref="U101" pin="35"/>
+    </net>
+    <net code="40" name="Net-(U101-Pad33)">
+      <node ref="U101" pin="33"/>
+    </net>
+    <net code="41" name="Net-(U101-Pad32)">
+      <node ref="U101" pin="32"/>
+    </net>
+    <net code="42" name="Net-(U101-Pad31)">
+      <node ref="U101" pin="31"/>
+    </net>
+    <net code="43" name="Net-(U101-Pad30)">
+      <node ref="U101" pin="30"/>
+    </net>
+    <net code="44" name="Net-(U101-Pad27)">
+      <node ref="U101" pin="27"/>
+    </net>
+    <net code="45" name="Net-(U101-Pad26)">
+      <node ref="U101" pin="26"/>
+    </net>
+    <net code="46" name="Net-(U101-Pad25)">
+      <node ref="U101" pin="25"/>
+    </net>
+    <net code="47" name="Net-(U101-Pad24)">
+      <node ref="U101" pin="24"/>
+    </net>
+    <net code="48" name="Net-(C106-Pad1)">
+      <node ref="C106" pin="1"/>
+      <node ref="R105" pin="1"/>
+    </net>
+    <net code="49" name="Net-(LED101-Pad1)">
+      <node ref="LED101" pin="1"/>
+      <node ref="R102" pin="1"/>
+    </net>
+    <net code="50" name="Net-(IC102-Pad7)">
+      <node ref="IC102" pin="7"/>
+    </net>
+    <net code="51" name="Net-(C105-Pad2)">
+      <node ref="R105" pin="2"/>
+      <node ref="D101" pin="1"/>
+      <node ref="C105" pin="2"/>
+      <node ref="IC102" pin="8"/>
+    </net>
+    <net code="52" name="Net-(IC102-Pad3)">
+      <node ref="IC102" pin="3"/>
+    </net>
+    <net code="53" name="Net-(IC101-Pad4)">
+      <node ref="IC101" pin="4"/>
+    </net>
+    <net code="54" name="/leds/OUT10">
+      <node ref="IC201" pin="9"/>
+      <node ref="LED215" pin="1"/>
+    </net>
+    <net code="55" name="/leds/OUT11">
+      <node ref="IC201" pin="10"/>
+      <node ref="LED214" pin="1"/>
+    </net>
+    <net code="56" name="/leds/OUT12">
+      <node ref="LED213" pin="1"/>
+      <node ref="IC201" pin="11"/>
+    </net>
+    <net code="57" name="/leds/OUT9">
+      <node ref="LED216" pin="1"/>
+      <node ref="IC201" pin="8"/>
+    </net>
+    <net code="58" name="/leds/OUT8">
+      <node ref="LED217" pin="1"/>
+      <node ref="IC201" pin="7"/>
+    </net>
+    <net code="59" name="/leds/OUT7">
+      <node ref="IC201" pin="6"/>
+      <node ref="LED218" pin="1"/>
+    </net>
+    <net code="60" name="/leds/OUT16">
+      <node ref="IC201" pin="16"/>
+      <node ref="LED209" pin="1"/>
+    </net>
+    <net code="61" name="/leds/OUT19">
+      <node ref="IC201" pin="19"/>
+      <node ref="LED206" pin="1"/>
+    </net>
+    <net code="62" name="/leds/OUT18">
+      <node ref="LED207" pin="1"/>
+      <node ref="IC201" pin="18"/>
+    </net>
+    <net code="63" name="/leds/OUT17">
+      <node ref="LED208" pin="1"/>
+      <node ref="IC201" pin="17"/>
+    </net>
+    <net code="64" name="/leds/OUT13">
+      <node ref="IC201" pin="12"/>
+      <node ref="LED212" pin="1"/>
+    </net>
+    <net code="65" name="/leds/OUT15">
+      <node ref="IC201" pin="15"/>
+      <node ref="LED210" pin="1"/>
+    </net>
+    <net code="66" name="/leds/OUT14">
+      <node ref="IC201" pin="13"/>
+      <node ref="LED211" pin="1"/>
+    </net>
+    <net code="67" name="/leds/OUT27">
+      <node ref="LED225" pin="1"/>
+      <node ref="IC201" pin="27"/>
+    </net>
+    <net code="68" name="/leds/OUT26">
+      <node ref="LED225" pin="3"/>
+      <node ref="IC201" pin="26"/>
+    </net>
+    <net code="69" name="/leds/OUT25">
+      <node ref="LED225" pin="5"/>
+      <node ref="IC201" pin="25"/>
+    </net>
+    <net code="70" name="/leds/OUT6">
+      <node ref="IC201" pin="5"/>
+      <node ref="LED219" pin="1"/>
+    </net>
+    <net code="71" name="/leds/OUT5">
+      <node ref="IC201" pin="4"/>
+      <node ref="LED220" pin="1"/>
+    </net>
+    <net code="72" name="/leds/OUT4">
+      <node ref="IC201" pin="3"/>
+      <node ref="LED221" pin="1"/>
+    </net>
+    <net code="73" name="/leds/OUT3">
+      <node ref="LED222" pin="1"/>
+      <node ref="IC201" pin="2"/>
+    </net>
+    <net code="74" name="/leds/OUT2">
+      <node ref="LED223" pin="1"/>
+      <node ref="IC201" pin="1"/>
+    </net>
+    <net code="75" name="/leds/OUT1">
+      <node ref="LED224" pin="1"/>
+      <node ref="IC201" pin="36"/>
+    </net>
+    <net code="76" name="/leds/OUT28">
+      <node ref="IC201" pin="28"/>
+    </net>
+    <net code="77" name="Net-(IC201-Pad33)">
+      <node ref="R203" pin="2"/>
+      <node ref="IC201" pin="33"/>
+    </net>
+    <net code="78" name="/leds/OUT24">
+      <node ref="LED201" pin="1"/>
+      <node ref="IC201" pin="24"/>
+    </net>
+    <net code="79" name="/leds/OUT23">
+      <node ref="IC201" pin="23"/>
+      <node ref="LED202" pin="1"/>
+    </net>
+    <net code="80" name="/leds/OUT22">
+      <node ref="IC201" pin="22"/>
+      <node ref="LED203" pin="1"/>
+    </net>
+    <net code="81" name="/leds/OUT21">
+      <node ref="LED204" pin="1"/>
+      <node ref="IC201" pin="21"/>
+    </net>
+    <net code="82" name="/leds/OUT20">
+      <node ref="IC201" pin="20"/>
+      <node ref="LED205" pin="1"/>
+    </net>
+  </nets>
+</export>
