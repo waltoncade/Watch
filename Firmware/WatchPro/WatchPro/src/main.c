@@ -30,6 +30,23 @@
  */
 #include <asf.h>
 
+/* Global ul_ms_ticks in milliseconds since start of application */
+volatile uint32_t ul_ms_ticks = 0;
+
+static void mdelay(uint32_t ul_dly_ticks)
+{
+	uint32_t ul_cur_ticks;
+	
+	ul_cur_ticks = ul_ms_ticks;
+	while ((ul_ms_ticks - ul_cur_ticks) < ul_dly_ticks) {
+	}
+}
+
+void SysTick_Handler(void)
+{
+	ul_ms_ticks++;
+}
+
 int main (void)
 {
 	//sysclk_init();
@@ -38,13 +55,18 @@ int main (void)
 	
 	ioport_set_port_dir(0, GPIO_PA02, IOPORT_DIR_OUTPUT);
 	//ioport_set_port_mode(LED_PORT, EXAMPLE_BUTTON_MASK,	IOPORT_MODE_PULLUP);
+	
+	if (SysTick_Config(sysclk_get_cpu_hz() / 1000)) {
+		while (1) {  /* Capture error */
+		}
+	}
 
 	/* Set LED IOPORTs high */
 	
 	while (1) {
 		ioport_set_port_level(0, GPIO_PA02, IOPORT_PIN_LEVEL_LOW);
-		//delay_ms(1000);
+		mdelay(1000);
 		ioport_set_port_level(0, GPIO_PA02, IOPORT_PIN_LEVEL_HIGH);
-		//delay_ms(1000);
+		mdelay(1000);
 	}
 }
