@@ -19,22 +19,43 @@
         {
             "name": "ARM",
             "includePath": [
-                "${workspaceFolder}/**",
-                "${workspaceFolder}/Watch/**",
-                "D:/Program Files/Atmel/Studio/7.0/toolchain/arm/arm-gnu-toolchain/arm-none-eabi/include/**",
-                "D:\\Program Files\\Atmel\\Studio\\7.0\\Packs\\atmel\\SAM4L_DFP\\1.1.61\\sam4l8\\include\\**",
-                "D:\\Program Files\\Atmel\\Studio\\7.0\\packs\\atmel\\SAM4L_DFP\\1.1.61\\sam4l8\\include\\**"
+                "${workspaceFolder}/WatchPro/WatchPro/src/ASF/common/boards",
+                "${workspaceFolder}/WatchPro/WatchPro/src/ASF/sam/utils",
+                "${workspaceFolder}/WatchPro/WatchPro/src/ASF/sam/utils/header_files",
+                "${workspaceFolder}/WatchPro/WatchPro/src/ASF/sam/utils/preprocessor",
+                "${workspaceFolder}/WatchPro/WatchPro/src/ASF/thirdparty/CMSIS/Include",
+                "${workspaceFolder}/WatchPro/WatchPro/src/ASF/common/utils",
+                "${workspaceFolder}/WatchPro/WatchPro/src/ASF/sam/utils/cmsis/sam4l/include",
+                "${workspaceFolder}/WatchPro/WatchPro/src/ASF/sam/utils/cmsis/sam4l/source/templates",
+                "${workspaceFolder}/WatchPro/WatchPro/src/ASF/common/boards/user_board",
+                "${workspaceFolder}/WatchPro/WatchPro/src",
+                "${workspaceFolder}/WatchPro/WatchPro/src/config",
+                "${workspaceFolder}/WatchPro/WatchPro/src/ASF/sam/drivers/ast",
+                "${workspaceFolder}/WatchPro/WatchPro/src/ASF/sam/drivers/bpm",
+                "${workspaceFolder}/WatchPro/WatchPro/src/ASF/sam/drivers/flashcalw",
+                "${workspaceFolder}/WatchPro/WatchPro/src/ASF/common/services/clock",
+                "${workspaceFolder}/WatchPro/WatchPro/src/ASF/common/services/delay",
+                "${workspaceFolder}/WatchPro/WatchPro/src/ASF/common/services/sleepmgr",
+                "${workspaceFolder}/WatchPro/WatchPro/src/ASF/sam/drivers/gpio",
+                "${workspaceFolder}/WatchPro/WatchPro/src/ASF/common/services/ioport"
             ],
             "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
+                "__SAM4LS2A__",
+                "__ATSAM4LS2A__",
+                "DEBUG",
+                "BOARD=USER_BOARD",
+                "ARM_MATH_CM4=true",
+                "printf=iprintf",
+                "scanf=iscanf"
             ],
-            "windowsSdkVersion": "10.0.19041.0",
-            "compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe",
-            "cStandard": "c17",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64"
+            "compilerPath": "C:\\Program Files (x86)\\Atmel\\Studio\\7.0\\toolchain\\arm\\arm-gnu-toolchain\\bin\\arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m4"
+            ],
+            "cStandard": "gnu99",
+            "cppStandard": "gnu++11",
+            "intelliSenseMode": "gcc-arm"
         }
     ],
     "version": 4

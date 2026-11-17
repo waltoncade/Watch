@@ -1,0 +1,50 @@
+{
+    // WatchPro firmware tasks. Ctrl+Shift+B = Build. Run "Flash" via Terminal > Run Task.
+    "version": "2.0.0",
+    "options": {
+        "cwd": "${workspaceFolder}/WatchPro"
+    },
+    "windows": {
+        "options": {
+            "shell": { "executable": "cmd.exe", "args": ["/d", "/c"] }
+        }
+    },
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "\"C:\\Program Files (x86)\\Atmel\\Studio\\7.0\\shellutils\\make.exe\"",
+            "args": ["-j8", "all"],
+            "group": { "kind": "build", "isDefault": true },
+            "problemMatcher": { "base": "$gcc", "fileLocation": ["relative", "${workspaceFolder}/WatchPro"] }
+        },
+        {
+            "label": "Flash",
+            "type": "shell",
+            "command": "\"C:\\Program Files (x86)\\Atmel\\Studio\\7.0\\shellutils\\make.exe\"",
+            "args": ["flash"],
+            "problemMatcher": { "base": "$gcc", "fileLocation": ["relative", "${workspaceFolder}/WatchPro"] }
+        },
+        {
+            "label": "Clean",
+            "type": "shell",
+            "command": "\"C:\\Program Files (x86)\\Atmel\\Studio\\7.0\\shellutils\\make.exe\"",
+            "args": ["clean"],
+            "problemMatcher": []
+        },
+        {
+            "label": "Reset target",
+            "type": "shell",
+            "command": "\"C:\\Program Files (x86)\\Atmel\\Studio\\7.0\\shellutils\\make.exe\"",
+            "args": ["reset"],
+            "problemMatcher": []
+        },
+        {
+            "label": "Target info",
+            "type": "shell",
+            "command": "\"C:\\Program Files (x86)\\Atmel\\Studio\\7.0\\shellutils\\make.exe\"",
+            "args": ["info"],
+            "problemMatcher": []
+        }
+    ]
+}
