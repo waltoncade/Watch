@@ -2654,7 +2654,7 @@
 		)
 		(uuid "26010004-1eca-42c3-90f5-7e5875cd5919")
 	)
-	(label "SDB"
+	(label "LED_EN"
 		(at 133.985 155.575 90)
 		(effects
 			(font
@@ -2864,7 +2864,7 @@
 		)
 		(uuid "71322462-9871-4d1b-99fe-f32809167ea2")
 	)
-	(label "SDB"
+	(label "LED_EN"
 		(at 167.64 159.385 0)
 		(effects
 			(font
@@ -3166,7 +3166,7 @@
 		)
 		(uuid "4734a427-cb8c-40b2-b159-8b112cd591a3")
 	)
-	(hierarchical_label "SDB"
+	(hierarchical_label "LED_EN"
 		(shape input)
 		(at 167.64 159.385 180)
 		(effects

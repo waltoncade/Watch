@@ -1,5 +1,7 @@
-(sym_lib_table
+(fp_lib_table
   (lib (name "Samacsys")(type "KiCad")(uri "${KIPRJMOD}/Samacsys.pretty")(options "")(descr ""))
   (lib (name "EasyEDA")(type "KiCad")(uri "${KIPRJMOD}/EasyEDA.pretty")(options "")(descr ""))
   (lib (name "Snapeda")(type "KiCad")(uri "${KIPRJMOD}/Snapeda.pretty")(options "")(descr ""))
+  (lib (name "CC2340")(type "KiCad")(uri "${KIPRJMOD}/lib/CC2340R52E0RKPR/KiCADv6/CC2340.pretty")(options "")(descr "TI CC2340R52 VQFN-40"))
+  (lib (name "BMA400")(type "KiCad")(uri "${KIPRJMOD}/lib/BMA400/KiCADv6/BMA400.pretty")(options "")(descr "Bosch BMA400 accelerometer"))
 )

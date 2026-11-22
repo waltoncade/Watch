@@ -1,0 +1,680 @@
+ERC report (2026-11-18T23:34:40, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[pin_not_connected]: Pin not connected
+    ; error
+    @(36.83 mm, 109.22 mm): Hierarchical Sheet Pin 'BTN1'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(36.83 mm, 111.76 mm): Hierarchical Sheet Pin 'BTN2'
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(50.165 mm, 22.86 mm): Symbol #PWR0113 Pin 1 [Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(191.77 mm, 48.26 mm): Symbol IC102 Pin 3 [~{INT}, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(222.25 mm, 45.72 mm): Symbol IC102 Pin 7 [CLKOUT, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(17.145 mm, 32.385 mm): Horizontal Wire, length 13.97 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(17.145 mm, 34.925 mm): Vertical Wire, length 2.54 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(17.145 mm, 47.625 mm): Symbol C101 Pin 1 [~, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(17.145 mm, 47.625 mm): Symbol #PWR0105 Pin 1 [Power input, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(17.145 mm, 47.625 mm): Symbol C101 [CL05A104KA5NNNC]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(17.145 mm, 47.625 mm): Symbol C101 [CL05A104KA5NNNC]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(31.115 mm, 32.385 mm): Horizontal Wire, length 19.05 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(31.115 mm, 47.625 mm): Vertical Wire, length 4.445 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(31.115 mm, 47.625 mm): Symbol LED101 Pin 1 [~, Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(31.115 mm, 47.625 mm): Symbol LED101 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(31.115 mm, 47.625 mm): Symbol LED101 [LTST-C191KRKT]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(31.115 mm, 52.07 mm): Symbol R102 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(31.115 mm, 59.69 mm): Horizontal Wire, length 32.385 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(40.005 mm, 52.07 mm): Symbol R101 Pin 2 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(40.005 mm, 52.07 mm): Symbol #PWR0112 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(50.165 mm, 22.86 mm): Symbol #PWR0113 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(50.165 mm, 22.86 mm): Vertical Wire, length 9.525 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(50.165 mm, 32.385 mm): Vertical Wire, length 1.905 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(50.165 mm, 49.53 mm): Symbol #PWR0111 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(60.325 mm, 39.37 mm): Horizontal Wire, length 7.62 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(63.50 mm, 44.45 mm): Horizontal Wire, length 3.175 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(60.325 mm, 44.45 mm): Symbol U102 Pin 1 [STAT, Tri-state, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(67.945 mm, 39.37 mm): Horizontal Wire, length 15.24 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(67.945 mm, 52.07 mm): Symbol C102 Pin 1 [~, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(67.945 mm, 52.07 mm): Symbol #PWR0116 Pin 1 [Power input, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(67.945 mm, 52.07 mm): Symbol C102 [CL05A104KA5NNNC]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(67.945 mm, 52.07 mm): Symbol C102 [CL05A104KA5NNNC]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(83.185 mm, 39.37 mm): Symbol #PWR0114 Pin 1 [Power input, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(83.82 mm, 102.87 mm): Symbol LED102 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(83.82 mm, 102.87 mm): Symbol LED102 [LTST-C191KRKT]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(109.22 mm, 57.15 mm): Symbol C103 [CL05A104KA5NNNC]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(109.22 mm, 57.15 mm): Symbol C103 [CL05A104KA5NNNC]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(153.67 mm, 39.37 mm): Horizontal Wire, length 3.175 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(156.845 mm, 52.07 mm): Symbol C104 Pin 1 [~, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(156.845 mm, 52.07 mm): Symbol #PWR0123 Pin 1 [Power input, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(156.845 mm, 52.07 mm): Symbol C104 [CL05A104KA5NNNC]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(156.845 mm, 52.07 mm): Symbol C104 [CL05A104KA5NNNC]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(159.385 mm, 39.37 mm): Horizontal Wire, length 2.54 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(159.385 mm, 39.37 mm): Symbol #PWR0122 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(162.56 mm, 113.03 mm): Vertical Wire, length 0.635 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(162.56 mm, 113.665 mm): Vertical Wire, length 0.635 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(165.735 mm, 113.665 mm): Horizontal Wire, length 3.175 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(189.865 mm, 50.80 mm): Horizontal Wire, length 1.905 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(189.865 mm, 55.245 mm): Symbol #PWR0110 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(189.865 mm, 55.245 mm): Vertical Wire, length 4.445 mm
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(191.77 mm, 43.18 mm): Symbol IC102 [PCF85063AT_AY]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(191.77 mm, 43.18 mm): Symbol IC102 [PCF85063AT_AY]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(191.77 mm, 45.72 mm): Symbol Y101 [CM8V-T1A-32.768kHz-4pF-20PPM-TA-QC...]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(191.77 mm, 45.72 mm): Symbol Y101 [CM8V-T1A-32.768kHz-4pF-20PPM-TA-QC...]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(207.645 mm, 102.87 mm): Symbol #PWR0117 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(207.645 mm, 105.41 mm): Symbol J101 Pin 1 [Pin_1, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(207.645 mm, 105.41 mm): Symbol #PWR0118 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(207.645 mm, 120.65 mm): Symbol #PWR0151 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(207.645 mm, 123.19 mm): Symbol #PWR0150 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(207.645 mm, 123.19 mm): Symbol J105 Pin 1 [Pin_1, Passive, Line]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(222.25 mm, 48.26 mm): Label 'SCL'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(222.25 mm, 50.80 mm): Label 'SDA'
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(228.60 mm, 177.80 mm): Symbol IC103 [SFH_5711-2_3-Z]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(234.95 mm, 55.88 mm): Symbol C105 [CL05A104KA5NNNC]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(234.95 mm, 55.88 mm): Symbol C105 [CL05A104KA5NNNC]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(235.585 mm, 118.745 mm): Horizontal Wire, length 15.24 mm
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(238.76 mm, 27.94 mm): Symbol D1 Pin 1 [K, Unspecified, Line]
+    @(238.76 mm, 27.94 mm): Symbol #PWR0109 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(238.76 mm, 38.10 mm): Symbol D1 Pin 2 [A, Unspecified, Line]
+    @(234.95 mm, 43.18 mm): Symbol C105 Pin 2 [~, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(238.76 mm, 143.51 mm): Symbol U2 Pin 1 [GND, Unspecified, Line]
+    @(238.76 mm, 146.05 mm): Symbol #PWR0129 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(238.76 mm, 146.05 mm): Symbol U2 Pin 2 [GND, Unspecified, Line]
+    @(238.76 mm, 146.05 mm): Symbol #PWR0129 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(250.825 mm, 88.90 mm): Symbol #PWR0141 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(250.825 mm, 90.17 mm): Vertical Wire, length 1.27 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(250.825 mm, 97.79 mm): Symbol R107 Pin 2 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(250.825 mm, 99.06 mm): Horizontal Wire, length 3.175 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(234.95 mm, 99.06 mm): Horizontal Wire, length 15.875 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(250.825 mm, 99.06 mm): Vertical Wire, length 1.27 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(250.825 mm, 108.585 mm): Symbol #PWR0142 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(250.825 mm, 109.855 mm): Vertical Wire, length 1.27 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(250.825 mm, 117.475 mm): Symbol R108 Pin 2 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(250.825 mm, 118.745 mm): Horizontal Wire, length 3.175 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(250.825 mm, 118.745 mm): Vertical Wire, length 1.27 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(254.00 mm, 118.745 mm): Symbol J103 Pin 1 [Pin_1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(255.27 mm, 46.99 mm): Symbol C1 Pin 1 [1, Unspecified, Line]
+    @(251.46 mm, 43.18 mm): Symbol R105 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(255.27 mm, 49.53 mm): Symbol C1 Pin 2 [2, Unspecified, Line]
+    @(255.27 mm, 54.61 mm): Symbol #PWR0126 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(259.08 mm, 143.51 mm): Symbol U2 Pin 4 [IOUT, Unspecified, Line]
+    @(266.70 mm, 143.51 mm): Symbol R106 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(259.08 mm, 146.05 mm): Symbol U2 Pin 3 [VCC, Unspecified, Line]
+    @(259.08 mm, 146.05 mm): Symbol #PWR0128 Pin 1 [Power input, Line]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(241.30 mm, 132.08 mm): Hierarchical Label 'BTN2'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(241.30 mm, 134.62 mm): Hierarchical Label 'BTN1'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(26.67 mm, 33.655 mm): Symbol LED201 Pin 1 [~, Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(26.67 mm, 33.655 mm): Symbol LED201 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(26.67 mm, 33.655 mm): Symbol LED201 [LTST-C191KRKT]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(26.67 mm, 53.975 mm): Symbol LED209 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(26.67 mm, 53.975 mm): Symbol LED209 [LTST-C191KRKT]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(26.67 mm, 73.025 mm): Symbol LED217 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(26.67 mm, 73.025 mm): Symbol LED217 [LTST-C191KRKT]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(41.91 mm, 33.655 mm): Symbol #PWR0201 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(41.91 mm, 53.975 mm): Symbol #PWR0209 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(41.91 mm, 53.975 mm): Symbol LED209 Pin 2 [~, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(41.91 mm, 73.025 mm): Symbol LED217 Pin 2 [~, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(41.91 mm, 73.025 mm): Symbol #PWR0217 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(58.42 mm, 33.655 mm): Symbol LED202 Pin 1 [~, Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(58.42 mm, 33.655 mm): Symbol LED202 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(58.42 mm, 33.655 mm): Symbol LED202 [LTST-C191KRKT]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(58.42 mm, 53.975 mm): Symbol LED210 Pin 1 [~, Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(58.42 mm, 53.975 mm): Symbol LED210 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(58.42 mm, 53.975 mm): Symbol LED210 [LTST-C191KRKT]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(58.42 mm, 73.025 mm): Symbol LED218 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(58.42 mm, 73.025 mm): Symbol LED218 [LTST-C191KRKT]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(73.66 mm, 33.655 mm): Symbol #PWR0202 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(73.66 mm, 53.975 mm): Symbol #PWR0210 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(73.66 mm, 73.025 mm): Symbol #PWR0218 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(73.66 mm, 73.025 mm): Symbol LED218 Pin 2 [~, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(90.805 mm, 33.655 mm): Symbol LED203 Pin 1 [~, Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(90.805 mm, 33.655 mm): Symbol LED203 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(90.805 mm, 33.655 mm): Symbol LED203 [LTST-C191KRKT]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(90.805 mm, 53.975 mm): Symbol LED211 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(90.805 mm, 53.975 mm): Symbol LED211 [LTST-C191KRKT]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(90.805 mm, 73.025 mm): Symbol LED219 Pin 1 [~, Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(90.805 mm, 73.025 mm): Symbol LED219 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(90.805 mm, 73.025 mm): Symbol LED219 [LTST-C191KRKT]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(106.045 mm, 33.655 mm): Symbol #PWR0203 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(106.045 mm, 53.975 mm): Symbol #PWR0211 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(106.045 mm, 53.975 mm): Symbol LED211 Pin 2 [~, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(106.045 mm, 73.025 mm): Symbol #PWR0219 Pin 1 [Power input, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(121.92 mm, 34.29 mm): Symbol LED204 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(121.92 mm, 34.29 mm): Symbol LED204 [LTST-C191KRKT]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(121.92 mm, 54.61 mm): Symbol LED212 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(121.92 mm, 54.61 mm): Symbol LED212 [LTST-C191KRKT]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(121.92 mm, 73.66 mm): Symbol LED220 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(121.92 mm, 73.66 mm): Symbol LED220 [LTST-C191KRKT]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(128.905 mm, 182.245 mm): Symbol #PWR0102 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(130.81 mm, 171.45 mm): Vertical Wire, length 6.985 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(130.81 mm, 178.435 mm): Vertical Wire, length 3.81 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(130.81 mm, 182.245 mm): Vertical Wire, length 2.54 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(130.81 mm, 182.245 mm): Horizontal Wire, length 1.905 mm
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(131.445 mm, 151.13 mm): Label 'OUT28'
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(133.985 mm, 156.845 mm): Vertical Wire, length 5.715 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(133.985 mm, 164.465 mm): Symbol R204 Pin 2 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(133.985 mm, 164.465 mm): Symbol #PWR0107 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(136.525 mm, 151.13 mm): Vertical Wire, length 20.32 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(130.81 mm, 171.45 mm): Horizontal Wire, length 5.715 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(143.51 mm, 171.45 mm): Horizontal Wire, length 4.445 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(139.065 mm, 171.45 mm): Vertical Wire, length 20.32 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(141.605 mm, 151.13 mm): Symbol #PWR0106 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(143.51 mm, 178.435 mm): Vertical Wire, length 3.81 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(143.51 mm, 178.435 mm): Symbol C201 Pin 1 [~, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(143.51 mm, 171.45 mm): Vertical Wire, length 6.985 mm
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(143.51 mm, 178.435 mm): Symbol C201 [CL05A104KA5NNNC]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(143.51 mm, 178.435 mm): Symbol C201 [CL05A104KA5NNNC]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(143.51 mm, 184.785 mm): Vertical Wire, length 2.54 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(143.51 mm, 184.785 mm): Symbol C202 Pin 1 [~, Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(143.51 mm, 184.785 mm): Symbol C202 [CL05A105KQ5NNNC]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(143.51 mm, 184.785 mm): Symbol C202 [CL05A105KQ5NNNC]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(144.145 mm, 89.535 mm): Symbol #PWR0103 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(144.145 mm, 89.535 mm): Vertical Wire, length 5.715 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(144.145 mm, 156.845 mm): Vertical Wire, length 5.715 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(144.145 mm, 164.465 mm): Vertical Wire, length 1.27 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(144.145 mm, 164.465 mm): Symbol R203 Pin 1 [Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(144.145 mm, 165.735 mm): Symbol #PWR0104 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(145.415 mm, 182.245 mm): Symbol #PWR0101 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(145.415 mm, 182.245 mm): Horizontal Wire, length 1.905 mm
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(151.13 mm, 34.29 mm): Symbol LED205 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(151.13 mm, 34.29 mm): Symbol LED205 [LTST-C191KRKT]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(151.13 mm, 54.61 mm): Symbol LED213 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(151.13 mm, 54.61 mm): Symbol LED213 [LTST-C191KRKT]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(151.13 mm, 73.66 mm): Symbol LED221 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(151.13 mm, 73.66 mm): Symbol LED221 [LTST-C191KRKT]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(154.305 mm, 151.13 mm): Symbol #PWR0108 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(161.925 mm, 120.65 mm): Symbol IC201 Pin 6 [OUT7, Output, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(161.925 mm, 133.35 mm): Symbol IC201 [IS31FL3235A-QFLS2-TR]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(161.925 mm, 133.35 mm): Symbol IC201 [IS31FL3235A-QFLS2-TR]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(182.88 mm, 34.29 mm): Symbol LED206 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(182.88 mm, 34.29 mm): Symbol LED206 [LTST-C191KRKT]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(182.88 mm, 54.61 mm): Symbol LED214 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(182.88 mm, 54.61 mm): Symbol LED214 [LTST-C191KRKT]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(182.88 mm, 73.66 mm): Symbol LED222 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(182.88 mm, 73.66 mm): Symbol LED222 [LTST-C191KRKT]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(210.82 mm, 113.665 mm): Symbol LED225 [150352M173300]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(210.82 mm, 113.665 mm): Symbol LED225 [150352M173300]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(210.82 mm, 116.205 mm): Symbol LED225 Pin 3 [K_R, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(215.265 mm, 34.29 mm): Symbol LED207 Pin 1 [~, Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(215.265 mm, 34.29 mm): Symbol LED207 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(215.265 mm, 34.29 mm): Symbol LED207 [LTST-C191KRKT]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(215.265 mm, 54.61 mm): Symbol LED215 Pin 1 [~, Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(215.265 mm, 54.61 mm): Symbol LED215 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(215.265 mm, 54.61 mm): Symbol LED215 [LTST-C191KRKT]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(215.265 mm, 73.66 mm): Symbol LED223 Pin 1 [~, Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(215.265 mm, 73.66 mm): Symbol LED223 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(215.265 mm, 73.66 mm): Symbol LED223 [LTST-C191KRKT]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(230.505 mm, 34.29 mm): Symbol #PWR0207 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(230.505 mm, 54.61 mm): Symbol #PWR0215 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(230.505 mm, 73.66 mm): Symbol #PWR0223 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(236.22 mm, 113.665 mm): Vertical Wire, length 2.54 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(236.22 mm, 116.205 mm): Vertical Wire, length 2.54 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(238.76 mm, 116.205 mm): Horizontal Wire, length 2.54 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(238.76 mm, 116.205 mm): Symbol #PWR0115 Pin 1 [Power input, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(246.38 mm, 34.925 mm): Symbol LED208 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(246.38 mm, 34.925 mm): Symbol LED208 [LTST-C191KRKT]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(246.38 mm, 55.245 mm): Symbol LED216 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(246.38 mm, 55.245 mm): Symbol LED216 [LTST-C191KRKT]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(246.38 mm, 74.295 mm): Symbol LED224 Pin 1 [~, Passive, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''
+    ; warning
+    @(246.38 mm, 74.295 mm): Symbol LED224 [LTST-C191KRKT]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'SamacSys_Parts'
+    ; warning
+    @(246.38 mm, 74.295 mm): Symbol LED224 [LTST-C191KRKT]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(261.62 mm, 34.925 mm): Symbol #PWR0208 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(261.62 mm, 34.925 mm): Symbol LED208 Pin 2 [~, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(261.62 mm, 55.245 mm): Symbol #PWR0216 Pin 1 [Power input, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(261.62 mm, 55.245 mm): Symbol LED216 Pin 2 [~, Passive, Line]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(261.62 mm, 74.295 mm): Symbol #PWR0224 Pin 1 [Power input, Line]
+
+***** Sheet /leds/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(128.905 mm, 182.245 mm): Symbol #PWR0102 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(145.415 mm, 182.245 mm): Symbol #PWR0101 Pin 1 [Power input, Line]
+
+***** Sheet /MCU/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(193.04 mm, 104.14 mm): Symbol U1 Pin 28 [VDDD, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(193.04 mm, 109.22 mm): Symbol U1 Pin 1 [VDDR, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(193.04 mm, 129.54 mm): Symbol U1 Pin 30 [DCDC, Unspecified, Line]
+    @(133.35 mm, 123.19 mm): Symbol L1 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(193.04 mm, 134.62 mm): Symbol U1 Pin 35 [X48P, Unspecified, Line]
+    @(163.83 mm, 144.78 mm): Symbol Y1 Pin 3 [3, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(193.04 mm, 137.16 mm): Symbol U1 Pin 36 [X48N, Unspecified, Line]
+    @(171.45 mm, 144.78 mm): Symbol Y1 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(241.30 mm, 104.14 mm): Symbol U1 Pin 39 [ANT, Unspecified, Line]
+    @(248.92 mm, 87.63 mm): Symbol C12 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(241.30 mm, 177.80 mm): Symbol U1 Pin 41 [EP, Unspecified, Line]
+    @(241.30 mm, 180.34 mm): Symbol U1 Pin 40 [RFGND, Power input, Line]
+
+ ** ERC messages: 217  Errors 9  Warnings 208
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

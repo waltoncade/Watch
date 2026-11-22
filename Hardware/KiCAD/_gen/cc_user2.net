@@ -1,0 +1,3127 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Projects\\Watch\\Hardware\\KiCAD\\CC2340_MCU.kicad_sch")
+		(date "2026-11-18T23:08:19")
+		(tool "Eeschema 10.0.8")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "CC2340R52 MCU + BLE")
+				(company "Watch")
+				(rev "3")
+				(date)
+				(source "CC2340_MCU.kicad_sch")
+				(comment
+					(number "1")
+					(value "Generated from TI SWRS272F + LP-EM-CC2340R5 reference")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "AE301")
+			(value "2450AT18A100")
+			(footprint "RF_Antenna:Johanson_2450AT18x100")
+			(datasheet "~")
+			(fields
+				(field
+					(name "MPN") "Johanson 2450AT18A100 (placeholder, TBD)")
+				(field
+					(name "Source") "KiCad RF_Antenna lib placeholder; LP-EM uses PCB antenna ANT1")
+				(field
+					(name "Footprint") "RF_Antenna:Johanson_2450AT18x100")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "Antenna_Chip")
+				(description "Ceramic chip antenna with pin for PCB trace")
+			)
+			(property
+				(name "MPN")
+				(value "Johanson 2450AT18A100 (placeholder, TBD)")
+			)
+			(property
+				(name "Source")
+				(value "KiCad RF_Antenna lib placeholder; LP-EM uses PCB antenna ANT1")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "antenna")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2fb47235-2d51-4266-98b2-f9c75d96acdb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C301")
+			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C99 (pin 8)")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C99 (pin 8)")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4aae3dda-312a-429c-bd72-b67735c1f944")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C302")
+			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C101 (pin 17)")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C101 (pin 17)")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cd02d02b-9543-4e73-b2c6-8e93e4648d6a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C303")
+			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C102 (pin 38)")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C102 (pin 38)")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f0273626-5e4c-4981-a711-efadccc061cf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C304")
+			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C103 (pin 31)")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C103 (pin 31)")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "35c12f58-8427-4544-8750-b72dd23d0160")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C305")
+			(value "10uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C104 (pin 31); SWRS272F CC2340R5 datasheet 7.3 note 3: 10uF VDDS cap required for coin cell")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C104 (pin 31); SWRS272F CC2340R5 datasheet 7.3 note 3: 10uF VDDS cap required for coin cell")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b43b00b3-5121-4047-bcaf-e8ad4bd2f7a3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C306")
+			(value "10uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C105; SWRS272F CC2340R5 datasheet 7.4 note 2")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C105; SWRS272F CC2340R5 datasheet 7.4 note 2")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "80a86ccf-bfcf-4410-9005-534d041f8c32")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C307")
+			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C107 (pin 34)")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C107 (pin 34)")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5ae4e252-1ab9-4d95-965a-2df8c303c253")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C308")
+			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C106 (pin 1)")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C106 (pin 1)")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "340fcd0f-71e8-4076-9c6c-36e28583e3c2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C309")
+			(value "1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C9 (pin 28 VDDD)")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C9 (pin 28 VDDD)")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b0f9eb2c-ea53-43b0-9a4b-fc0eb40c9f96")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C310")
+			(value "0.1uF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C92")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C92")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5d706536-1ac8-4b3a-ae6b-a880af1c6d8b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C313")
+			(value "12pF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C81 (DIO3_X32P side)")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C81 (DIO3_X32P side)")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d2ebd2f4-4747-435f-863b-e7363436c257")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C314")
+			(value "15pF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C91 (DIO4_X32N side)")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C91 (DIO4_X32N side)")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "24c54aab-ef72-42ea-80a8-88becc233019")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C315")
+			(value "1.5pF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C33")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C33")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e7209ab9-89ba-47ac-b464-b398a29ce8b0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C316")
+			(value "1.5pF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C34")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C34")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f7645cba-0052-4609-8600-4968232c307b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C317")
+			(value "15pF")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 CA2 (DC block)")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 CA2 (DC block)")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9f403ef7-5740-4e79-912d-d17912206c58")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C318")
+			(value "TBD")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 Z60 = 1.2pF (start value, antenna-specific)")
+				(field
+					(name "Start_value") "1.2pF")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 Z60 = 1.2pF (start value, antenna-specific)")
+			)
+			(property
+				(name "Start_value")
+				(value "1.2pF")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "14618ceb-fb57-4982-954e-63b4e1a9bb17")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C319")
+			(value "TBD")
+			(footprint "Capacitor_SMD:C_0402_1005Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 Z62 = 0.7pF (start value)")
+				(field
+					(name "Start_value") "0.7pF")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0402_1005Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 Z62 = 0.7pF (start value)")
+			)
+			(property
+				(name "Start_value")
+				(value "0.7pF")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "299633b4-2a83-4780-ade8-ea34d6778bb0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J301")
+			(value "Conn_ARM_JTAG_SWD_10")
+			(footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "matches existing J104 in Watch.kicad_sch")
+				(field
+					(name "Footprint") "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_ARM_JTAG_SWD_10")
+				(description "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface")
+			)
+			(property
+				(name "Source")
+				(value "matches existing J104 in Watch.kicad_sch")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "Cortex Debug Connector ARM SWD JTAG")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "PinHeader?2x05?P1.27mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c1623351-85c9-432a-a12e-087914028cd1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L301")
+			(value "10uH")
+			(footprint "Inductor_SMD:L_0603_1608Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 L1 10uH; SWRS272F CC2340R5 datasheet 7.4 note 2 (10uH + 10uF on VDDR)")
+				(field
+					(name "MPN") "MLZ1608N100LT000 (TI E2E-tested 0603 alt; verify Isat/DCR)")
+				(field
+					(name "Footprint") "Inductor_SMD:L_0603_1608Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "L")
+				(description "Inductor")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 L1 10uH; SWRS272F CC2340R5 datasheet 7.4 note 2 (10uH + 10uF on VDDR)")
+			)
+			(property
+				(name "MPN")
+				(value "MLZ1608N100LT000 (TI E2E-tested 0603 alt; verify Isat/DCR)")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "inductor choke coil reactor magnetic")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Choke_* *Coil* Inductor_* L_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7cb54027-02aa-4e4d-9ad3-c9b9b29c5c01")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L302")
+			(value "2.8nH")
+			(footprint "Inductor_SMD:L_0402_1005Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 L33")
+				(field
+					(name "Footprint") "Inductor_SMD:L_0402_1005Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "L")
+				(description "Inductor")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 L33")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "inductor choke coil reactor magnetic")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Choke_* *Coil* Inductor_* L_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bc88e25b-566a-494c-892a-ce17488ee17e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "L303")
+			(value "TBD")
+			(footprint "Inductor_SMD:L_0402_1005Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 Z61 = 2nH (start value)")
+				(field
+					(name "Start_value") "2nH")
+				(field
+					(name "Footprint") "Inductor_SMD:L_0402_1005Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "L")
+				(description "Inductor")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 Z61 = 2nH (start value)")
+			)
+			(property
+				(name "Start_value")
+				(value "2nH")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "inductor choke coil reactor magnetic")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Choke_* *Coil* Inductor_* L_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c1bbcce8-3efe-4145-829b-4f0531c12b7d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R301")
+			(value "100k")
+			(footprint "Resistor_SMD:R_0402_1005Metric")
+			(datasheet "~")
+			(fields
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 R1")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 R1")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "43b191ee-a3cc-4644-b900-56ba20ad6542")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U301")
+			(value "CC2340R52E0RKPR")
+			(footprint "CC2340:RKP0040B-IPC_B")
+			(datasheet "https://www.ti.com/lit/ds/symlink/cc2340r5.pdf")
+			(description "BLE 5 wireless MCU 512kB flash")
+			(fields
+				(field
+					(name "Source") "TI CC2340R5 BLE MCU, VQFN-40 5x5 0.4mm pitch")
+				(field
+					(name "Footprint") "CC2340:RKP0040B-IPC_B")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/cc2340r5.pdf")
+				(field
+					(name "Description") "BLE 5 wireless MCU 512kB flash")
+			)
+			(libsource
+				(lib "CC2340")
+				(part "CC2340R52E0RKPR")
+				(description "")
+			)
+			(property
+				(name "Source")
+				(value "TI CC2340R5 BLE MCU, VQFN-40 5x5 0.4mm pitch")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "CC2340R52E0RKPR")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "RKP0040B-IPC_A RKP0040B-IPC_B RKP0040B-IPC_C RKP0040B-MFG")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4e7fef82-05fa-47aa-b289-06a92d35c6c0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "33")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "41")
+						)
+						(pin
+							(num "40")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Y301")
+			(value "48MHz")
+			(footprint "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm")
+			(datasheet "~")
+			(fields
+				(field
+					(name "MPN") "TZ3908AAAO43")
+				(field
+					(name "Source") "SWRS272F CC2340R5 datasheet 7.20.3.1 note 4 (validated), CL 7pF; LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 Y2")
+				(field
+					(name "Footprint") "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "Crystal_GND24")
+				(description "Four pin crystal, GND on pins 2 and 4")
+			)
+			(property
+				(name "MPN")
+				(value "TZ3908AAAO43")
+			)
+			(property
+				(name "Source")
+				(value "SWRS272F CC2340R5 datasheet 7.20.3.1 note 4 (validated), CL 7pF; LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 Y2")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "quartz ceramic resonator oscillator")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Crystal*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "131e5176-8192-472b-a17f-766da9250dd7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Y302")
+			(value "32.768kHz")
+			(footprint "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm")
+			(datasheet "~")
+			(fields
+				(field
+					(name "MPN") "TBD (CL 6-12pF per SWRS272F CC2340R5 datasheet 7.20.3.3; must suit 12/15pF caps)")
+				(field
+					(name "Source") "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 Y1")
+				(field
+					(name "Footprint") "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm")
+				(field
+					(name "Datasheet") "~")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Device")
+				(part "Crystal")
+				(description "Two pin crystal")
+			)
+			(property
+				(name "MPN")
+				(value "TBD (CL 6-12pF per SWRS272F CC2340R5 datasheet 7.20.3.3; must suit 12/15pF caps)")
+			)
+			(property
+				(name "Source")
+				(value "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 Y1")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "CC2340_MCU.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "quartz ceramic resonator oscillator")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Crystal*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1e24a8ff-04bc-45b5-9a48-256c1f9e5843")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "CC2340")
+			(part "CC2340R52E0RKPR")
+			(docs "https://www.ti.com/lit/gpn/cc2340r5")
+			(footprints
+				(fp "RKP0040B-IPC_A")
+				(fp "RKP0040B-IPC_B")
+				(fp "RKP0040B-IPC_C")
+				(fp "RKP0040B-MFG")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "CC2340R52E0RKPR")
+				(field
+					(name "Footprint") "CC2340:RKP0040B-IPC_B")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/gpn/cc2340r5")
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VDDR")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "DIO8")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "DIO9")
+					(type "bidirectional")
+				)
+				(pin
+					(num "4")
+					(name "DIO10")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "DIO11")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "DIO12")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "DIO13")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "VDDS")
+					(type "power_in")
+				)
+				(pin
+					(num "9")
+					(name "DIO14")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "DIO15")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "DIO16_SWDIO")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "DIO17_SWDCK")
+					(type "bidirectional")
+				)
+				(pin
+					(num "13")
+					(name "DIO18")
+					(type "bidirectional")
+				)
+				(pin
+					(num "14")
+					(name "DIO19")
+					(type "bidirectional")
+				)
+				(pin
+					(num "15")
+					(name "DIO20_A11")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "DIO21_A10")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "VDDS")
+					(type "power_in")
+				)
+				(pin
+					(num "18")
+					(name "DIO22_A9")
+					(type "bidirectional")
+				)
+				(pin
+					(num "19")
+					(name "DIO23_A8")
+					(type "bidirectional")
+				)
+				(pin
+					(num "20")
+					(name "DIO24_A7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "21")
+					(name "DIO25_A6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "22")
+					(name "DIO0_A5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "23")
+					(name "DIO1_A4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "24")
+					(name "DIO2_A3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "25")
+					(name "RST_N")
+					(type "input")
+				)
+				(pin
+					(num "26")
+					(name "DIO3_X32P")
+					(type "bidirectional")
+				)
+				(pin
+					(num "27")
+					(name "DIO4_X32N")
+					(type "bidirectional")
+				)
+				(pin
+					(num "28")
+					(name "VDDD")
+					(type "power_in")
+				)
+				(pin
+					(num "29")
+					(name "DIO5_A2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "30")
+					(name "DCDC")
+					(type "unspecified")
+				)
+				(pin
+					(num "31")
+					(name "VDDS")
+					(type "power_in")
+				)
+				(pin
+					(num "32")
+					(name "DIO6_A1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "33")
+					(name "DIO7_A0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "34")
+					(name "VDDR")
+					(type "power_in")
+				)
+				(pin
+					(num "35")
+					(name "X48P")
+					(type "unspecified")
+				)
+				(pin
+					(num "36")
+					(name "X48N")
+					(type "unspecified")
+				)
+				(pin
+					(num "37")
+					(name "NC")
+					(type "unspecified")
+				)
+				(pin
+					(num "38")
+					(name "VDDS")
+					(type "power_in")
+				)
+				(pin
+					(num "39")
+					(name "ANT")
+					(type "unspecified")
+				)
+				(pin
+					(num "40")
+					(name "RFGND")
+					(type "power_in")
+				)
+				(pin
+					(num "41")
+					(name "EP")
+					(type "unspecified")
+				)
+			)
+		)
+		(libpart
+			(lib "Connector")
+			(part "Conn_ARM_JTAG_SWD_10")
+			(description "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface")
+			(docs "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf")
+			(footprints
+				(fp "PinHeader?2x05?P1.27mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_ARM_JTAG_SWD_10")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf")
+				(field
+					(name "Description") "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VTref")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "SWDIO/TMS")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "SWCLK/TCK")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "SWO/TDO")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "KEY")
+					(type "no_connect")
+				)
+				(pin
+					(num "8")
+					(name "NC/TDI")
+					(type "output")
+				)
+				(pin
+					(num "9")
+					(name "GNDDetect")
+					(type "passive")
+				)
+				(pin
+					(num "10")
+					(name "~{RESET}")
+					(type "open_collector")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "Antenna_Chip")
+			(description "Ceramic chip antenna with pin for PCB trace")
+			(fields
+				(field
+					(name "Reference") "AE")
+				(field
+					(name "Value") "Antenna_Chip")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Ceramic chip antenna with pin for PCB trace")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "FEED")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "PCB_Trace")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "Crystal")
+			(description "Two pin crystal")
+			(footprints
+				(fp "Crystal*")
+			)
+			(fields
+				(field
+					(name "Reference") "Y")
+				(field
+					(name "Value") "Crystal")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Two pin crystal")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "Crystal_GND24")
+			(description "Four pin crystal, GND on pins 2 and 4")
+			(footprints
+				(fp "Crystal*")
+			)
+			(fields
+				(field
+					(name "Reference") "Y")
+				(field
+					(name "Value") "Crystal_GND24")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Four pin crystal, GND on pins 2 and 4")
+				(field
+					(name "KLC_S3.3") "The rectangle is not a symbol body but a graphical element")
+				(field
+					(name "KLC_S4.1") "Some pins are on 50mil grid to make the symbol small")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "G")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "G")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "L")
+			(description "Inductor")
+			(footprints
+				(fp "Choke_*")
+				(fp "*Coil*")
+				(fp "Inductor_*")
+				(fp "L_*")
+			)
+			(fields
+				(field
+					(name "Reference") "L")
+				(field
+					(name "Value") "L")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Inductor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Connector")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+BATT")
+			(class "Default")
+			(node
+				(ref "C301")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C302")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C303")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C304")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C305")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J301")
+				(pin "1")
+				(pinfunction "VTref_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "R301")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U301")
+				(pin "17")
+				(pinfunction "VDDS_17")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U301")
+				(pin "31")
+				(pinfunction "VDDS_31")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U301")
+				(pin "38")
+				(pinfunction "VDDS_38")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U301")
+				(pin "8")
+				(pinfunction "VDDS_8")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "2")
+			(name "/BTN1")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "4")
+				(pinfunction "DIO10_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "3")
+			(name "/BTN2")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "3")
+				(pinfunction "DIO9_3")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "4")
+			(name "/LED_STAT")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "9")
+				(pinfunction "DIO14_9")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "5")
+			(name "/MOTOR_A")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "13")
+				(pinfunction "DIO18_13")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "6")
+			(name "/MOTOR_B")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "14")
+				(pinfunction "DIO19_14")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "7")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "C301")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C302")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C303")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C304")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C305")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C306")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C307")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C308")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C309")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C310")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C313")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C314")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C315")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C316")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C318")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C319")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J301")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J301")
+				(pin "5")
+				(pinfunction "GND_5")
+				(pintype "passive")
+			)
+			(node
+				(ref "J301")
+				(pin "9")
+				(pinfunction "GNDDetect_9")
+				(pintype "passive")
+			)
+			(node
+				(ref "U301")
+				(pin "40")
+				(pinfunction "RFGND_40")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U301")
+				(pin "41")
+				(pinfunction "EP_41")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "Y301")
+				(pin "2")
+				(pinfunction "G_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Y301")
+				(pin "4")
+				(pinfunction "G_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "Net-(AE301-FEED)")
+			(class "Default")
+			(node
+				(ref "AE301")
+				(pin "1")
+				(pinfunction "FEED_1")
+				(pintype "input")
+			)
+			(node
+				(ref "C319")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "L303")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "Net-(C306-Pad1)")
+			(class "Default")
+			(node
+				(ref "C306")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C307")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C308")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "L301")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U301")
+				(pin "1")
+				(pinfunction "VDDR_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U301")
+				(pin "34")
+				(pinfunction "VDDR_34")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "10")
+			(name "Net-(C316-Pad1)")
+			(class "Default")
+			(node
+				(ref "C316")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C317")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "L302")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "Net-(C317-Pad2)")
+			(class "Default")
+			(node
+				(ref "C317")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C318")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "L303")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "12")
+			(name "Net-(J301-SWCLK{slash}TCK)")
+			(class "Default")
+			(node
+				(ref "J301")
+				(pin "4")
+				(pinfunction "SWCLK/TCK_4")
+				(pintype "output")
+			)
+			(node
+				(ref "U301")
+				(pin "12")
+				(pinfunction "DIO17_SWDCK_12")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "13")
+			(name "Net-(J301-SWDIO{slash}TMS)")
+			(class "Default")
+			(node
+				(ref "J301")
+				(pin "2")
+				(pinfunction "SWDIO/TMS_2")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U301")
+				(pin "11")
+				(pinfunction "DIO16_SWDIO_11")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "14")
+			(name "Net-(J301-~{RESET})")
+			(class "Default")
+			(node
+				(ref "C310")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J301")
+				(pin "10")
+				(pinfunction "~{RESET}_10")
+				(pintype "open_collector")
+			)
+			(node
+				(ref "R301")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U301")
+				(pin "25")
+				(pinfunction "RST_N_25")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "15")
+			(name "Net-(U301-ANT)")
+			(class "Default")
+			(node
+				(ref "C315")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "L302")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U301")
+				(pin "39")
+				(pinfunction "ANT_39")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "16")
+			(name "Net-(U301-DCDC)")
+			(class "Default")
+			(node
+				(ref "L301")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U301")
+				(pin "30")
+				(pinfunction "DCDC_30")
+				(pintype "unspecified")
+			)
+		)
+		(net
+			(code "17")
+			(name "Net-(U301-DIO3_X32P)")
+			(class "Default")
+			(node
+				(ref "C313")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U301")
+				(pin "26")
+				(pinfunction "DIO3_X32P_26")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "Y302")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "18")
+			(name "Net-(U301-DIO4_X32N)")
+			(class "Default")
+			(node
+				(ref "C314")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U301")
+				(pin "27")
+				(pinfunction "DIO4_X32N_27")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "Y302")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "19")
+			(name "Net-(U301-VDDD)")
+			(class "Default")
+			(node
+				(ref "C309")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U301")
+				(pin "28")
+				(pinfunction "VDDD_28")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "20")
+			(name "Net-(U301-X48N)")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "36")
+				(pinfunction "X48N_36")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "Y301")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "Net-(U301-X48P)")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "35")
+				(pinfunction "X48P_35")
+				(pintype "unspecified")
+			)
+			(node
+				(ref "Y301")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "unconnected-(AE301-PCB_Trace-Pad2)")
+			(class "Default")
+			(node
+				(ref "AE301")
+				(pin "2")
+				(pinfunction "PCB_Trace_2")
+				(pintype "passive+no_connect")
+			)
+		)
+		(net
+			(code "23")
+			(name "unconnected-(J301-KEY-Pad7)")
+			(class "Default")
+			(node
+				(ref "J301")
+				(pin "7")
+				(pinfunction "KEY_7")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "24")
+			(name "unconnected-(J301-NC{slash}TDI-Pad8)")
+			(class "Default")
+			(node
+				(ref "J301")
+				(pin "8")
+				(pinfunction "NC/TDI_8")
+				(pintype "output+no_connect")
+			)
+		)
+		(net
+			(code "25")
+			(name "unconnected-(J301-SWO{slash}TDO-Pad6)")
+			(class "Default")
+			(node
+				(ref "J301")
+				(pin "6")
+				(pinfunction "SWO/TDO_6")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "26")
+			(name "unconnected-(U301-DIO0_A5-Pad22)")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "22")
+				(pinfunction "DIO0_A5_22")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "27")
+			(name "unconnected-(U301-DIO1_A4-Pad23)")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "23")
+				(pinfunction "DIO1_A4_23")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "28")
+			(name "unconnected-(U301-DIO2_A3-Pad24)")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "24")
+				(pinfunction "DIO2_A3_24")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "29")
+			(name "unconnected-(U301-DIO5_A2-Pad29)")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "29")
+				(pinfunction "DIO5_A2_29")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "30")
+			(name "unconnected-(U301-DIO6_A1-Pad32)")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "32")
+				(pinfunction "DIO6_A1_32")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "31")
+			(name "unconnected-(U301-DIO7_A0-Pad33)")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "33")
+				(pinfunction "DIO7_A0_33")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "32")
+			(name "unconnected-(U301-DIO8-Pad2)")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "2")
+				(pinfunction "DIO8_2")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "33")
+			(name "unconnected-(U301-DIO11-Pad5)")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "5")
+				(pinfunction "DIO11_5")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "34")
+			(name "unconnected-(U301-DIO12-Pad6)")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "6")
+				(pinfunction "DIO12_6")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "35")
+			(name "unconnected-(U301-DIO13-Pad7)")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "7")
+				(pinfunction "DIO13_7")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "36")
+			(name "unconnected-(U301-DIO15-Pad10)")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "10")
+				(pinfunction "DIO15_10")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "37")
+			(name "unconnected-(U301-DIO20_A11-Pad15)")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "15")
+				(pinfunction "DIO20_A11_15")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "38")
+			(name "unconnected-(U301-DIO21_A10-Pad16)")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "16")
+				(pinfunction "DIO21_A10_16")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "39")
+			(name "unconnected-(U301-DIO22_A9-Pad18)")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "18")
+				(pinfunction "DIO22_A9_18")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "40")
+			(name "unconnected-(U301-DIO23_A8-Pad19)")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "19")
+				(pinfunction "DIO23_A8_19")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "41")
+			(name "unconnected-(U301-DIO24_A7-Pad20)")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "20")
+				(pinfunction "DIO24_A7_20")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "42")
+			(name "unconnected-(U301-DIO25_A6-Pad21)")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "21")
+				(pinfunction "DIO25_A6_21")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "43")
+			(name "unconnected-(U301-NC-Pad37)")
+			(class "Default")
+			(node
+				(ref "U301")
+				(pin "37")
+				(pinfunction "NC_37")
+				(pintype "unspecified+no_connect")
+			)
+		)
+	)
+)

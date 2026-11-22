@@ -1,0 +1,80 @@
+ERC report (2026-11-18T23:08:22, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(142.24 mm, 116.84 mm): Symbol #PWR312 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(187.96 mm, 93.98 mm): Symbol #PWR301 Pin 1 [Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(193.04 mm, 104.14 mm): Symbol U301 Pin 28 [VDDD, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(193.04 mm, 109.22 mm): Symbol U301 Pin 1 [VDDR, Power input, Line]
+[pin_not_connected]: Hierarchical label 'BTN2' in root sheet cannot be connected to non-existent parent sheet
+    ; error
+    @(241.30 mm, 132.08 mm): Hierarchical Label 'BTN2'
+[pin_not_connected]: Hierarchical label 'BTN1' in root sheet cannot be connected to non-existent parent sheet
+    ; error
+    @(241.30 mm, 134.62 mm): Hierarchical Label 'BTN1'
+[pin_not_connected]: Hierarchical label 'LED_STAT' in root sheet cannot be connected to non-existent parent sheet
+    ; error
+    @(241.30 mm, 144.78 mm): Hierarchical Label 'LED_STAT'
+[pin_not_connected]: Hierarchical label 'MOTOR_A' in root sheet cannot be connected to non-existent parent sheet
+    ; error
+    @(241.30 mm, 154.94 mm): Hierarchical Label 'MOTOR_A'
+[pin_not_connected]: Hierarchical label 'MOTOR_B' in root sheet cannot be connected to non-existent parent sheet
+    ; error
+    @(241.30 mm, 157.48 mm): Hierarchical Label 'MOTOR_B'
+[footprint_link_issues]: The current configuration does not include the footprint library 'CC2340'
+    ; warning
+    @(193.04 mm, 104.14 mm): Symbol U301 [CC2340R52E0RKPR]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'CC2340'
+    ; warning
+    @(193.04 mm, 104.14 mm): Symbol U301 [CC2340R52E0RKPR]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(193.04 mm, 129.54 mm): Symbol U301 Pin 30 [DCDC, Unspecified, Line]
+    @(133.35 mm, 123.19 mm): Symbol L301 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(193.04 mm, 134.62 mm): Symbol U301 Pin 35 [X48P, Unspecified, Line]
+    @(167.64 mm, 144.78 mm): Symbol Y301 Pin 3 [3, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(193.04 mm, 137.16 mm): Symbol U301 Pin 36 [X48N, Unspecified, Line]
+    @(175.26 mm, 144.78 mm): Symbol Y301 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(241.30 mm, 104.14 mm): Symbol U301 Pin 39 [ANT, Unspecified, Line]
+    @(248.92 mm, 87.63 mm): Symbol C315 Pin 1 [Passive, Line]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(241.30 mm, 132.08 mm): Hierarchical Label 'BTN2'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(241.30 mm, 134.62 mm): Hierarchical Label 'BTN1'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(241.30 mm, 144.78 mm): Hierarchical Label 'LED_STAT'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(241.30 mm, 154.94 mm): Hierarchical Label 'MOTOR_A'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(241.30 mm, 157.48 mm): Hierarchical Label 'MOTOR_B'
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(241.30 mm, 177.80 mm): Symbol U301 Pin 41 [EP, Unspecified, Line]
+    @(241.30 mm, 180.34 mm): Symbol U301 Pin 40 [RFGND, Power input, Line]
+
+ ** ERC messages: 21  Errors 9  Warnings 12
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
