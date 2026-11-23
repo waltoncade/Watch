@@ -17288,7 +17288,7 @@
 			)
 		)
 		(property "Value" "MTR_B"
-			(at 0 2.916667 90)
+			(at 0.084319 1.65377 180)
 			(layer "B.SilkS")
 			(uuid "eae41795-f972-438f-8af2-ca0c606cbb78")
 			(effects
@@ -19421,7 +19421,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at -1.77381 -1.6286 0)
+			(at -0.846835 -1.6286 0)
 			(layer "B.SilkS")
 			(uuid "bb2e7663-a5f4-456f-b807-24c4e19633be")
 			(effects
@@ -20278,7 +20278,7 @@
 			)
 		)
 		(property "Value" "BATT"
-			(at -1.6286 0 90)
+			(at -0.680635 -1.872606 180)
 			(layer "B.SilkS")
 			(uuid "d0cf580e-cfbe-4b02-934a-fef22a307e86")
 			(effects
@@ -21263,7 +21263,7 @@
 			)
 		)
 		(property "Value" "3V"
-			(at -1.77381 1.6286 0)
+			(at -0.056138 1.785363 0)
 			(layer "B.SilkS")
 			(uuid "e605200c-e021-4a27-bb88-dcee2fa097e2")
 			(effects
@@ -21593,7 +21593,7 @@
 			)
 		)
 		(property "Value" "MTR_A"
-			(at 1.628599 2.859524 90)
+			(at -0.040436 1.770965 180)
 			(layer "B.SilkS")
 			(uuid "ae329704-4802-4d5e-8753-77470db2aa16")
 			(effects
@@ -23306,7 +23306,7 @@
 		)
 	)
 	(gr_text "v2.0"
-		(at 145.83 76 0)
+		(at 145.813712 100.802477 0)
 		(layer "B.SilkS")
 		(uuid "e7b52d91-f895-49de-bb06-62f79911b903")
 		(effects
