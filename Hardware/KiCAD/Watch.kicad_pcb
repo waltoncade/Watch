@@ -176,7 +176,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/fc33ded709b126955886d75954d536cb.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2678735.html"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -187,7 +187,7 @@
 				)
 			)
 		)
-		(property "Description" "IC LED DRVR LINEAR 28CH 36QFN"
+		(property "Description" "28-ch LED driver, QFN-36 4x4 (JLC extended, LOW STOCK 79)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -211,7 +211,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Lumissil"
+		(property "Manufacturer_Name" "ISSI (Lumissil)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -286,6 +286,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C2678735"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "01d6753f-e86f-4fde-b1d5-3ddae2bdcdbf")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -791,7 +802,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -803,7 +814,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD"
+		(property "Description" "100nF 16V X7R ±10% 0402 (JLC basic)"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -841,7 +852,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A104KA5NNNC"
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -903,6 +914,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7afea9b9-edbc-4bec-92c0-a49e4ecd9529")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -1069,7 +1091,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://altium.componentsearchengine.com/Datasheets/2/CL05A105KQ5NNNC.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C52923.html"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -1081,7 +1103,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Samsung Electro-Mechanics 0402 CL 1uF Ceramic Multilayer Capacitor, 6.3 V, +85C, X5R Dielectric, +/-10% SMD"
+		(property "Description" "1uF 25V X5R ±10% 0402 (JLC basic)"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -1119,7 +1141,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A105KQ5NNNC"
+		(property "Manufacturer_Part_Number" "CL05A105KA5NQNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1181,6 +1203,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C52923"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8a41abde-495f-48fb-a892-d7f6056b945b")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -1347,7 +1380,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1358,7 +1391,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1457,6 +1490,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2472ddca-a3a6-4d44-bb4c-3ea8b4171424")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -1622,7 +1666,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 105)
 			(layer "F.Fab")
 			(hide yes)
@@ -1633,7 +1677,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 105)
 			(layer "F.Fab")
 			(hide yes)
@@ -1732,6 +1776,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "70fe3b13-26d7-4632-a438-fede88aea145")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -1897,7 +1952,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -1908,7 +1963,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 120)
 			(layer "F.Fab")
 			(hide yes)
@@ -2007,6 +2062,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9b6504cc-cec1-4631-98cb-3829083bd432")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2172,7 +2238,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -2183,7 +2249,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -2282,6 +2348,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8f92a6fa-8cc6-4562-8e22-eb0ba4b5161a")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2447,7 +2524,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -2458,7 +2535,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 150)
 			(layer "F.Fab")
 			(hide yes)
@@ -2557,6 +2634,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "292d0dc3-532f-4e31-9b09-a7c445028c35")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2722,7 +2810,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 165)
 			(layer "F.Fab")
 			(hide yes)
@@ -2733,7 +2821,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 165)
 			(layer "F.Fab")
 			(hide yes)
@@ -2832,6 +2920,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "132e02f9-3b21-40d3-81a8-6165643c0414")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2997,7 +3096,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3008,7 +3107,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3107,6 +3206,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5ca1d5ec-1baa-409b-951f-f47f41faeac9")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3272,7 +3382,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 195)
 			(layer "F.Fab")
 			(hide yes)
@@ -3283,7 +3393,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 195)
 			(layer "F.Fab")
 			(hide yes)
@@ -3382,6 +3492,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "53a27faa-ca84-41a4-8058-95a223b8cd7e")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3547,7 +3668,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 210)
 			(layer "F.Fab")
 			(hide yes)
@@ -3558,7 +3679,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 210)
 			(layer "F.Fab")
 			(hide yes)
@@ -3657,6 +3778,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b67172d1-6639-4813-9098-7c05b21629ba")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3822,7 +3954,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 225)
 			(layer "F.Fab")
 			(hide yes)
@@ -3833,7 +3965,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 225)
 			(layer "F.Fab")
 			(hide yes)
@@ -3932,6 +4064,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0816d15a-f725-42ca-9b88-56e7d3d0c8d3")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4097,7 +4240,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 240)
 			(layer "F.Fab")
 			(hide yes)
@@ -4108,7 +4251,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 240)
 			(layer "F.Fab")
 			(hide yes)
@@ -4207,6 +4350,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6000fa68-da13-4e89-9fd1-2f77a3325d98")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4372,7 +4526,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 255)
 			(layer "F.Fab")
 			(hide yes)
@@ -4383,7 +4537,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 255)
 			(layer "F.Fab")
 			(hide yes)
@@ -4482,6 +4636,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0cf63f0f-d3d4-4c5d-8a7c-3727d8b445cd")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4647,7 +4812,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -4658,7 +4823,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -4757,6 +4922,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a922838a-5457-4e21-8955-af5fc1595fbc")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4922,7 +5098,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 285)
 			(layer "F.Fab")
 			(hide yes)
@@ -4933,7 +5109,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 285)
 			(layer "F.Fab")
 			(hide yes)
@@ -5032,6 +5208,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "24dc8089-2ebe-46fd-9da0-e1354691a32e")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5197,7 +5384,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 300)
 			(layer "F.Fab")
 			(hide yes)
@@ -5208,7 +5395,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 300)
 			(layer "F.Fab")
 			(hide yes)
@@ -5307,6 +5494,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d308c9ad-d387-487a-834a-a8c61d018296")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5472,7 +5670,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 315)
 			(layer "F.Fab")
 			(hide yes)
@@ -5483,7 +5681,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 315)
 			(layer "F.Fab")
 			(hide yes)
@@ -5582,6 +5780,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6cffd0f9-e36c-47d4-9e00-730e74f3b8f9")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5747,7 +5956,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 330)
 			(layer "F.Fab")
 			(hide yes)
@@ -5758,7 +5967,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 330)
 			(layer "F.Fab")
 			(hide yes)
@@ -5857,6 +6066,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "69118077-f21e-41b6-9abd-3c9b692de17b")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -6022,7 +6242,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 345)
 			(layer "F.Fab")
 			(hide yes)
@@ -6033,7 +6253,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 345)
 			(layer "F.Fab")
 			(hide yes)
@@ -6132,6 +6352,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bd9e6dc5-6d2a-41fe-bd35-55e3bd03f700")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -6297,7 +6528,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6308,7 +6539,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6407,6 +6638,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8503b0e3-362c-4aa6-894b-ad0af2d787b3")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -6572,7 +6814,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
@@ -6583,7 +6825,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 15)
 			(layer "F.Fab")
 			(hide yes)
@@ -6682,6 +6924,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "28421c7b-05c2-4bf1-b7d5-f0d8d498cde2")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -6847,7 +7100,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -6858,7 +7111,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 30)
 			(layer "F.Fab")
 			(hide yes)
@@ -6957,6 +7210,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3a52acee-0069-448d-aa40-91ffbcc0cab0")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -7122,7 +7386,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -7133,7 +7397,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -7232,6 +7496,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a4d336cb-be82-4cd1-857a-80f2b5ef6474")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -7397,7 +7672,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -7408,7 +7683,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 60)
 			(layer "F.Fab")
 			(hide yes)
@@ -7507,6 +7782,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "97585a41-6672-4f79-b89a-fbc4b00bfd0e")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -7672,7 +7958,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 75)
 			(layer "F.Fab")
 			(hide yes)
@@ -7683,7 +7969,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 75)
 			(layer "F.Fab")
 			(hide yes)
@@ -7782,6 +8068,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e0fefe2a-fd5e-4fb9-a5f5-097802e0fa97")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -7947,7 +8244,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7958,7 +8255,7 @@
 				)
 			)
 		)
-		(property "Description" "Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD"
+		(property "Description" "100nF 16V X7R ±10% 0402 (JLC basic)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7995,7 +8292,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A104KA5NNNC"
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8057,6 +8354,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4dbb1862-3955-4ce2-9d8b-ba395d9aa4b5")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -8223,7 +8531,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -8234,7 +8542,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -8333,6 +8641,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4b1cb1b3-e6a3-4ae1-b199-a41461cbcfd9")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -8498,7 +8817,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -8509,7 +8828,7 @@
 				)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -8608,6 +8927,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "471b18c4-03a8-4d44-b0ef-9fcf825e56e2")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -8773,7 +9103,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150352M173300.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C6785090.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8784,7 +9114,7 @@
 				)
 			)
 		)
-		(property "Description" "Wurth Elektronik 150352M173300, WL-SFTW 470 (Blue) nm, 520 (Green) nm, 625 (Red) nm 3 RGB LED, 6-Pin 3528 Clear"
+		(property "Description" "RGB 3528 6-pin LED (JLC extended, SMD2835-6P)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8857,6 +9187,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C6785090"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5505ae56-1497-45ad-a589-933bbe977ffb")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -9120,7 +9461,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25862.html"
 			(at 0 0 225)
 			(layer "F.Fab")
 			(hide yes)
@@ -9131,7 +9472,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.2k 1% 1/16W 0402 (JLC preferred; no basic in this family)"
 			(at 0 0 225)
 			(layer "F.Fab")
 			(hide yes)
@@ -9151,6 +9492,39 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C25862"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5377467b-e5ad-4d99-9909-aae89fe06459")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1201TCE"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "70633286-4001-47ee-aa36-eb229f31d33a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1e293932-91cc-4a6d-9b59-077db1fd5603")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -9270,7 +9644,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "0R"
 			(at 0 1.17 225)
 			(layer "F.Fab")
 			(uuid "6d559a7b-9ac1-4cf8-8f88-23f84e7ffb23")
@@ -9281,7 +9655,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C17168.html"
 			(at 0 0 225)
 			(layer "F.Fab")
 			(hide yes)
@@ -9292,7 +9666,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0 ohm 0402 jumper (JLC basic) in L_0402 footprint"
 			(at 0 0 225)
 			(layer "F.Fab")
 			(hide yes)
@@ -9312,6 +9686,39 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C17168"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3563369c-bf38-4231-8a1d-caae33a6caa7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF0000TCE"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "71d72dce-67e9-4721-b491-813dabe0238a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d101e448-c1fa-4d60-9174-39a84a34dea8")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -9424,7 +9831,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C15525.html"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -9435,7 +9842,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10uF 6.3V X5R ±20% 0402 (JLC basic). C2 is on +3.3V; 10V alt C315248 CL05A106MP5NUNC."
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -9455,6 +9862,39 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C15525"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d58960c1-73ef-46d2-9f98-0b1d3d59937e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05A106MQ5NUNC"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7cfc61d9-00a0-4601-ad0b-89cf287d0720")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7b59fcc1-3637-4b46-b797-a0b26bd3b469")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -9583,7 +10023,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1552.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9594,7 +10034,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.5pF 50V C0G ±0.25pF 0402 (JLC preferred; no basic 1.5pF 0402)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9614,6 +10054,39 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C1552"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e235709f-8238-4175-9fda-8644303d5158")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402CG1R5C500NT"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "60411925-98c2-4d1d-bdfc-36ca3181d618")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f3ceead3-8894-43cb-9b66-01575eb7c94c")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -9742,7 +10215,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2655106.html"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -9753,7 +10226,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ambient light sensor (already on BOM; JLC extended, stock ~1.8k)"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -9773,6 +10246,28 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SFH 5711-2/3-Z"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fd76c799-e346-4f93-80b3-9733900642a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "OSRAM Opto Semiconductors"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8d25b9bd-9860-40df-9bbc-9ca421f1c566")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -9969,7 +10464,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C47546.html"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -9980,7 +10475,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "30V 200mA dual series Schottky, SOT-23 (JLC extended; no basic BAT54S)"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -10000,6 +10495,39 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C47546"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "071d34d6-951e-4b97-8b22-89823372e41e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BAT54S,215"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b829cd65-64a3-4e57-bd60-c46a1b64772a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4445a216-3cdc-40ac-a643-a05941f1e897")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -10352,7 +10880,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25741.html"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -10363,7 +10891,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100k 1% 1/16W 0402 thick film"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -10383,6 +10911,39 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C25741"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "da8c6710-abb7-4a7c-9385-42511ce152e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1003TCE"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9f5d487c-f14a-4802-a246-49a8b6482af3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "aea6215e-bad5-4a19-9354-6bd54603512b")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -10513,7 +11074,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -10524,7 +11085,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 16V X7R ±10% 0402 (JLC basic)"
 			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
@@ -10544,6 +11105,39 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "008163ac-1302-4f73-9077-81bc433ad357")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9da28356-abbe-4bba-98c0-db272be3a5fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1c070112-750a-416c-aa8b-171e57a6e9fa")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -10674,7 +11268,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1552.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10685,7 +11279,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.5pF 50V C0G ±0.25pF 0402 (JLC preferred; no basic 1.5pF 0402)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10705,6 +11299,39 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C1552"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f2450814-0665-43f6-b07c-3d6249ac9dad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402CG1R5C500NT"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3e36d907-5e7c-492d-ae42-07e6e34d9d2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d5836c33-54f5-4716-a8e9-60eed3c71bed")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -10834,7 +11461,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C5186571.html"
 			(at 0 0 315)
 			(layer "F.Fab")
 			(hide yes)
@@ -10845,7 +11472,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "48MHz 2016-4pin crystal, 7pF, 40ohm ESR, ±10ppm (matches CC2340 HFXT). Replaces TZ3908AAAO43 which is OOS at JLC."
 			(at 0 0 315)
 			(layer "F.Fab")
 			(hide yes)
@@ -10865,6 +11492,39 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C5186571"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5d313a0e-7d7c-4459-9fdb-1ce430657e3b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NX2016SA-48MHZ-EXS00A-CS05517"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "876a9db8-ab17-403f-be51-c00a71005b6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "NDK"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e015fee2-2303-4c4e-ab4a-62badf0ac91f")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -11017,7 +11677,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11028,7 +11688,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 16V X7R ±10% 0402 (JLC basic)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11048,6 +11708,39 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cd1a230e-3f92-443b-a5ff-c5122535352c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dc31b003-ec96-44f7-b834-9335afe7a27c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5f439ead-b841-4634-acfb-1ad5a0de0808")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -11177,7 +11870,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "BMA400"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C437655.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11188,11 +11881,44 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3-axis accelerometer, LGA-12 2x2 (JLC extended, stock 771). LGA — confirm in JLC placement preview."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f84bc33e-d0d3-403d-8bc7-102295c64020")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C437655"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4501def8-baae-4eee-8f08-0fa24f125075")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BMA400"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "21602681-b32b-4cc1-8027-8db8c6a91683")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Bosch Sensortec"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6846a4ac-a1eb-4390-b509-72b44c7d0f39")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12136,7 +12862,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C6584793.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12147,7 +12873,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.8nH 0402 wirewound RF inductor (JLC extended; no basic 2.8nH)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12167,6 +12893,39 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C6584793"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e18b7c45-9457-45fc-8368-8c704618a44c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LQW15AN2N8B00D"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "20052bad-8b33-4e65-920b-79c2288dd397")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "96ea3e4e-33ec-4495-9214-0604c4b7e2d5")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -12621,7 +13380,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C47546.html"
 			(at 0 0 225)
 			(layer "F.Fab")
 			(hide yes)
@@ -12632,7 +13391,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "30V 200mA dual series Schottky, SOT-23 (JLC extended; no basic BAT54S)"
 			(at 0 0 225)
 			(layer "F.Fab")
 			(hide yes)
@@ -12652,6 +13411,39 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C47546"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d3018be8-d3b2-4778-9380-aa64b7f85496")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BAT54S,215"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ee27abc2-de72-4ab8-b84a-31bee3ec7462")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fed08366-5d2e-4351-a265-23e3574be206")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -13234,7 +14026,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25862.html"
 			(at 0 0 315)
 			(layer "F.Fab")
 			(hide yes)
@@ -13245,7 +14037,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.2k 1% 1/16W 0402 (JLC preferred; no basic in this family)"
 			(at 0 0 315)
 			(layer "F.Fab")
 			(hide yes)
@@ -13265,6 +14057,39 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C25862"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "78c90e60-b894-446d-abe1-bbeafa350ee9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1201TCE"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c70b7cc5-1c7d-42ce-8bff-4004617d5db2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "358facb3-03b1-4834-a673-e918e0ed91f3")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -13455,7 +14280,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C5914214.html"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -13466,11 +14291,44 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CC2340R5 BLE MCU, VQFN-40 5x5 (JLC extended, LOW STOCK 208)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d2bc139c-ab73-4024-b077-eed427d336fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5914214"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "32db06e8-0561-41ed-b2f8-e85a3e4b01eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC2340R52E0RKPR"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ef38c235-2c48-4a4f-899f-e99aa8c67608")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f7b1d71e-cae5-480a-a9de-84707125521b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14085,7 +14943,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1548.html"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -14096,7 +14954,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15pF 50V C0G ±5% 0402 (JLC basic)"
 			(at 0 0 45)
 			(layer "F.Fab")
 			(hide yes)
@@ -14116,6 +14974,39 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C1548"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3a3d9107-74c7-44a2-8259-6611b5ad2733")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402CG150J500NT"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "98db650b-23da-4a67-83fa-6bf404400bd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "578b85d7-b29a-4d5d-b419-14b04803a0f7")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -14246,7 +15137,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C194437.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14257,7 +15148,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10uH 0603 multilayer, 60mA Isat / 300mA Idc, 600mOhm (TI E2E-tested; JLC extended). Basic 10uH 0603 is only 3mA, not suitable for CC2340 DCDC."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14277,6 +15168,39 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C194437"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2c9b7df7-89fe-43e0-a545-1f2142736124")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MLZ1608N100LT000"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "be71d586-0e1f-42e7-8a37-753d1cbe5206")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2ef45471-925a-4340-a4c1-cef3baf0aa64")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -14409,7 +15333,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25890.html"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14420,11 +15344,44 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3.3k 1% 1/16W 0402 thick film"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "795626de-0325-4202-b20b-588303d5797c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25890"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "336ed413-86c0-4477-9dde-9561b68ef332")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF3301TCE"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "85e00ba7-52c9-4685-9d4d-2f2968c09059")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "8a45c5ff-4161-404b-9813-ff7cd1f7b813")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14597,7 +15554,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25744.html"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -14609,7 +15566,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10k 1% 1/16W 0402 thick film"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -14619,6 +15576,39 @@
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a3155661-ff1c-4b7f-8426-9c2dc7dfa501")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "7c923160-3ec0-4872-a0fb-d8584d18f82f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "cdcb275b-9a77-4fa2-9c7f-c79c73354650")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -14788,7 +15778,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C23733.html"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -14800,7 +15790,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD"
+		(property "Description" "4.7uF 10V X5R ±20% 0402 (JLC basic)"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -14840,7 +15830,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A104KA5NNNC"
+		(property "Manufacturer_Part_Number" "CL05A475MP5NRNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14908,6 +15898,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C23733"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b8748f8f-83af-4e44-b434-02cd32ff3971")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(path "/00000000-0000-0000-0000-000062cd6321")
@@ -15075,7 +16076,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25765.html"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -15087,7 +16088,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "20k 1% 1/16W 0402 thick film"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -15108,6 +16109,28 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF2002TCE"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5ca53f20-6887-4201-80ed-0a676fe94e62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "0d969a2b-7764-4bcb-ac57-93a5cfd2225b")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -15278,7 +16301,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C424093.html"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -15290,7 +16313,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.2V Li-ion charger, SOT-23-5 (JLC extended)"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -15300,6 +16323,39 @@
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C424093"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "bc23e2e1-616f-4268-810b-a7d8f6bcb191")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MCP73831T-2ACI/OT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "de42f55f-7b40-442f-9b45-1c3cb7f6f8fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Microchip"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "20059225-3301-452a-b61d-460ea4a6219c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "SOT?23*")
@@ -15526,7 +16582,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C23733.html"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -15538,7 +16594,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD"
+		(property "Description" "4.7uF 10V X5R ±20% 0402 (JLC basic)"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -15578,7 +16634,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A104KA5NNNC"
+		(property "Manufacturer_Part_Number" "CL05A475MP5NRNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15646,6 +16702,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C23733"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "bd94799d-998d-4599-91ec-86b84aae0c71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(path "/00000000-0000-0000-0000-000062ce2d8c")
@@ -15814,7 +16881,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -15826,7 +16893,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD"
+		(property "Description" "100nF 16V X7R ±10% 0402 (JLC basic)"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -15866,7 +16933,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A104KA5NNNC"
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15934,6 +17001,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "7a4b6e50-d57b-4bf3-a3c4-d87aadc4a7f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(path "/00000000-0000-0000-0000-000062cdf1e1")
@@ -16102,7 +17180,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25117.html"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -16114,7 +17192,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "470 1% 1/16W 0402 thick film"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -16124,6 +17202,39 @@
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C25117"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3523997f-7937-40ca-9537-60431daa696f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF4700TCE"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ab166c53-3fe4-49d3-a54f-a01d9a76078f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "0fe0051a-df6d-4028-aeaa-f45f1c24a20d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -16292,7 +17403,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25744.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16303,11 +17414,44 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10k 1% 1/16W 0402 thick film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f13f5cda-36ce-430f-a1fb-fcd0ecf32230")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ee081357-fe2d-4168-b98e-65e866092e3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6d2335a4-4716-4361-b95c-5c34ca6198e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "14952c52-361f-4d2b-8f95-fc1ff8d30573")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16480,7 +17624,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25744.html"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16491,11 +17635,44 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10k 1% 1/16W 0402 thick film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "50d17c26-e137-429d-9cc2-560fb4ce9d82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "41e91808-8b61-4a55-8c63-3d6fa84c211b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "128bd3cd-8445-4e7e-a0d8-6792defd5436")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "55f6bc77-a4cf-4c09-b490-fe9ec633ba2b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16668,7 +17845,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25796.html"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -16680,7 +17857,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "56k 1% 1/16W 0402 (JLC preferred; no basic in this family)"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -16690,6 +17867,39 @@
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C25796"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "79b504ba-45c4-4e0d-a1b9-9eabaf5d8bb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF5602TCE"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c0de2d70-91e9-4c6d-8ea7-16182d782c91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "7083028b-4883-4b44-9e9c-6c9c50fc87d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -16858,7 +18068,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25744.html"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -16869,11 +18079,44 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10k 1% 1/16W 0402 thick film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7707d353-4154-4a64-8097-0c3edbeb9826")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f2065e15-66dd-4ac9-af8c-a852e3edb075")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "0571c069-1b56-4d58-a86b-78cb521d8be1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e1c0a4c9-b578-4efc-ae85-5f57fce9f8f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17046,7 +18289,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C26083.html"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -17058,7 +18301,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1Meg 1% 1/16W 0402 thick film"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -17068,6 +18311,39 @@
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C26083"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "609654f8-0017-4b26-9d76-b8b5838d42e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1004TCE"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a74fde95-f4c0-462c-9272-324a12262015")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e9a11b7d-370f-4005-a0b1-76321490091d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -17236,7 +18512,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C26083.html"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -17248,7 +18524,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1MEG 1% 1/16W 0402 thick film"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -17258,6 +18534,39 @@
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C26083"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b95fe892-a9d8-42ff-ba82-64fb847419c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1004TCE"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b7020fa5-5fc6-41f7-bfcf-5eb8bd55f7f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "84320247-6334-4cec-992c-a94fd42f48d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -17426,7 +18735,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1547.html"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -17438,7 +18747,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "12pF 50V C0G ±5% 0402 (JLC basic)"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -17461,6 +18770,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C1547"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "58ee932e-dd6b-4120-a4e2-ba5f83b0cc03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402CG120J500NT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "86fb534f-acaf-4970-a575-cea1287598ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d8952640-3b9b-4406-a88c-fad78ee0547f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -17698,7 +19040,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C15525.html"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -17710,7 +19052,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10uF 6.3V X5R ±20% 0402 (JLC basic). C2 is on +3.3V; 10V alt C315248 CL05A106MP5NUNC."
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -17733,6 +19075,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C15525"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ca993de3-e188-4196-82fe-72c09a0352ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05A106MQ5NUNC"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3e815570-7d0f-4d1d-986b-9e3f18dbd127")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "bec39cd8-ca3c-4824-9f80-8aef734ed6be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -18184,7 +19559,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -18196,7 +19571,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 16V X7R ±10% 0402 (JLC basic)"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -18219,6 +19594,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "0b6dd403-bd88-4803-881a-dc3b588ea7b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "dffd577c-2660-4ea0-b2c1-b659a27672fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b688eafe-906e-4e44-9a08-154502666fc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -18349,7 +19757,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C52923.html"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -18361,7 +19769,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1uF 25V X5R ±10% 0402 (JLC basic)"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -18384,6 +19792,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C52923"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b6b52366-5ea2-4f5a-8b7d-adaeff78c110")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05A105KA5NQNC"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "8db41b11-118e-4185-8054-12c4790e75fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c55f14e7-13f3-4792-a4f6-03fb4235cf0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -18514,7 +19955,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -18526,7 +19967,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 16V X7R ±10% 0402 (JLC basic)"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -18549,6 +19990,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "80eeda02-b83a-4f97-a554-36077220d875")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "13e8ea1e-a191-40ac-858a-9671870d6a4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "4b85f2b5-26d6-4cac-b41b-080c33b7d107")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -18667,7 +20141,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "DNP"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "cd9f111b-801b-4bf6-8529-1b051089b5ba")
@@ -18679,7 +20153,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -18691,7 +20165,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpopulated antenna matching capacitor (keep footprint, do not populate)"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -18726,7 +20200,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -18847,7 +20321,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.es/datasheet/2/408/TCR2LF10_datasheet_en_20141106-760799.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C7067110.html"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -18859,7 +20333,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 200mA SMV"
+		(property "Description" "3.3V 200mA LDO, SC-74A/SOT-25 (JLC extended, low stock)"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -18967,6 +20441,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C7067110"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f83368f4-a2d8-465c-b8be-1213fea33bc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(path "/d4ae9a4a-781c-4509-825b-5425596a5bde")
@@ -19255,7 +20740,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -19267,7 +20752,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD"
+		(property "Description" "100nF 16V X7R ±10% 0402 (JLC basic)"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -19307,7 +20792,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A104KA5NNNC"
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19375,6 +20860,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ea0034de-22ed-4020-8e66-53c224b8fe59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(path "/29d37571-321c-41a0-adb5-713959c6533a")
@@ -19642,7 +21138,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C5142652.html"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -19654,7 +21150,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "32.768kHz 2.0x1.2mm 2-pin, 9pF CL, 70kOhm ESR, ±20ppm. Suits existing 12pF/15pF load caps (Ceq 6.67pF + stray). JLC extended."
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -19677,6 +21173,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C5142652"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "46705368-97c1-426b-91fc-7421849892d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CM8V-T1A-32.768KHZ-9PF-20PPM-TA-QC"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b2dcaf58-d109-4e9f-b58b-ac97ae63bc8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Micro Crystal"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "ea1ca7bf-c294-4aa2-b5ca-52f034c077a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "Crystal*")
@@ -19831,7 +21360,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25744.html"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -19843,7 +21372,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10k 1% 1/16W 0402 thick film"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -19866,6 +21395,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6508290a-f489-4de4-8411-7626101937c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "63cb1745-e700-440b-adee-d3c3194e9af2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e36d3158-7e6b-48cf-8fef-cd956fbd092b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -20103,7 +21665,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1548.html"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -20115,7 +21677,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15pF 50V C0G ±5% 0402 (JLC basic)"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -20138,6 +21700,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C1548"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5cb73747-42f7-4b30-9b97-9e2e0b2b5c7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402CG150J500NT"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "eb432f89-0357-4594-8031-4597f3fc1fd4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6d398f31-7e85-4316-9400-ba7e93ec2718")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -20602,7 +22197,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Samsung Electro-Mechanics 0402 CL 1uF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD (IC1 VOUT output cap)"
+		(property "Description" "1uF 25V X5R ±10% 0402 (JLC basic)"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -20990,7 +22585,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25117.html"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -21002,7 +22597,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "470 1% 1/16W 0402 thick film"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -21025,6 +22620,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C25117"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "db26e881-f1e8-4812-afea-648952c0846a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF4700TCE"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9c66af1b-b559-486a-8fb7-ba3123f99767")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c69e5ec3-0491-4c1d-9c9a-a2898025d141")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -21155,7 +22783,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -21167,7 +22795,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 16V X7R ±10% 0402 (JLC basic)"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -21190,6 +22818,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "d43a8569-4bf0-4567-82c2-9a9a13abbc2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "bf710e5c-28d9-41d1-8109-6a3abb0724c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5de86a97-afcd-4423-bb29-91045a093ac9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -21320,7 +22981,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -21332,7 +22993,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 16V X7R ±10% 0402 (JLC basic)"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -21355,6 +23016,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5163bfb8-9034-408d-94d0-8c67c54e7677")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5490010d-3005-481a-afc4-1caece3de894")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "10f6d8a2-db50-4ba1-ac8a-ee88987cd791")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -21580,7 +23274,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "DNP"
 			(at 0 -1.16 0)
 			(layer "B.Fab")
 			(uuid "b3dedf5c-7323-4e8c-90c8-ca088ebb865b")
@@ -21592,7 +23286,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -21604,7 +23298,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpopulated antenna matching capacitor (keep footprint, do not populate)"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -21639,7 +23333,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -21759,7 +23453,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -21771,7 +23465,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 16V X7R ±10% 0402 (JLC basic)"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -21794,6 +23488,39 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6be28da8-3130-4ffb-a180-b3cc3ea82a0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e226fc30-0c45-40c1-b355-e7c3d5798920")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f5716779-442d-4c38-9c07-3bb24c43c302")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -22032,7 +23759,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -22044,7 +23771,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD"
+		(property "Description" "100nF 16V X7R ±10% 0402 (JLC basic)"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -22084,7 +23811,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A104KA5NNNC"
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22152,6 +23879,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5058e970-7f37-4c63-b296-ec2ecc8df7c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(path "/03053130-5ca0-4e0a-98fc-a41c8b90d9dd")

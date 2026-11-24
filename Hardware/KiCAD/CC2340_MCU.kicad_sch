@@ -4047,7 +4047,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C5186571.html"
 			(at 167.64 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -4058,7 +4058,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "48MHz 2016-4pin crystal, 7pF, 40ohm ESR, ±10ppm (matches CC2340 HFXT). Replaces TZ3908AAAO43 which is OOS at JLC."
 			(at 167.64 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -4069,7 +4069,7 @@
 				)
 			)
 		)
-		(property "MPN" "TZ3908AAAO43"
+		(property "MPN" "NX2016SA-48MHZ-EXS00A-CS05517"
 			(at 167.64 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -4081,6 +4081,28 @@
 			)
 		)
 		(property "Source" "SWRS272F CC2340R5 datasheet 7.20.3.1 note 4 (validated), CL 7pF; LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 Y2"
+			(at 167.64 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "NDK"
+			(at 167.64 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5186571"
 			(at 167.64 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -4124,10 +4146,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "14618ceb-fb57-4982-954e-63b4e1a9bb17")
 		(property "Reference" "C17"
 			(at 298.45 86.36 0)
@@ -4140,7 +4162,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "DNP"
 			(at 298.45 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4173,7 +4195,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpopulated antenna matching capacitor (keep footprint, do not populate)"
 			(at 300.99 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4269,7 +4291,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C5142652.html"
 			(at 269.24 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4280,7 +4302,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "32.768kHz 2.0x1.2mm 2-pin, 9pF CL, 70kOhm ESR, ±20ppm. Suits existing 12pF/15pF load caps (Ceq 6.67pF + stray). JLC extended."
 			(at 269.24 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4291,7 +4313,7 @@
 				)
 			)
 		)
-		(property "MPN" "TBD (CL 6-12pF per SWRS272F CC2340R5 datasheet 7.20.3.3; must suit 12/15pF caps)"
+		(property "MPN" "CM8V-T1A-32.768KHZ-9PF-20PPM-TA-QC"
 			(at 269.24 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4303,6 +4325,28 @@
 			)
 		)
 		(property "Source" "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 Y1"
+			(at 269.24 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Micro Crystal"
+			(at 269.24 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5142652"
 			(at 269.24 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4378,7 +4422,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1548.html"
 			(at 256.54 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -4389,7 +4433,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15pF 50V C0G ±5% 0402 (JLC basic)"
 			(at 256.54 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -4401,6 +4445,39 @@
 			)
 		)
 		(property "Source" "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C91 (DIO4_X32N side)"
+			(at 256.54 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402CG150J500NT"
+			(at 256.54 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 256.54 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1548"
 			(at 256.54 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -4604,10 +4681,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "299633b4-2a83-4780-ade8-ea34d6778bb0")
 		(property "Reference" "C18"
 			(at 323.85 86.36 0)
@@ -4620,7 +4697,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "DNP"
 			(at 323.85 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4653,7 +4730,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpopulated antenna matching capacitor (keep footprint, do not populate)"
 			(at 326.39 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5030,7 +5107,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
 			(at 152.4 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5041,7 +5118,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 16V X7R ±10% 0402 (JLC basic)"
 			(at 152.4 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5053,6 +5130,39 @@
 			)
 		)
 		(property "Source" "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C106 (pin 1)"
+			(at 152.4 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 152.4 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 152.4 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
 			(at 152.4 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5128,7 +5238,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
 			(at 152.4 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5139,7 +5249,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 16V X7R ±10% 0402 (JLC basic)"
 			(at 152.4 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5151,6 +5261,39 @@
 			)
 		)
 		(property "Source" "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C103 (pin 31)"
+			(at 152.4 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 152.4 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 152.4 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
 			(at 152.4 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5392,7 +5535,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25741.html"
 			(at 180.34 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5403,7 +5546,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100k 1% 1/16W 0402 thick film"
 			(at 180.34 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5415,6 +5558,39 @@
 			)
 		)
 		(property "Source" "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 R1"
+			(at 180.34 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1003TCE"
+			(at 180.34 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 180.34 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25741"
 			(at 180.34 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5573,7 +5749,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
 			(at 182.88 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5584,7 +5760,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 16V X7R ±10% 0402 (JLC basic)"
 			(at 182.88 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5596,6 +5772,39 @@
 			)
 		)
 		(property "Source" "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C99 (pin 8)"
+			(at 182.88 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 182.88 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 182.88 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
 			(at 182.88 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5669,7 +5878,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cc2340r5.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C5914214.html"
 			(at 193.04 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5680,7 +5889,7 @@
 				)
 			)
 		)
-		(property "Description" "BLE 5 wireless MCU 512kB flash"
+		(property "Description" "CC2340R5 BLE MCU, VQFN-40 5x5 (JLC extended, LOW STOCK 208)"
 			(at 193.04 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5692,6 +5901,39 @@
 			)
 		)
 		(property "Source" "TI CC2340R5 BLE MCU, VQFN-40 5x5 0.4mm pitch"
+			(at 193.04 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC2340R52E0RKPR"
+			(at 193.04 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 193.04 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5914214"
 			(at 193.04 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6050,7 +6292,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
 			(at 162.56 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6061,7 +6303,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 16V X7R ±10% 0402 (JLC basic)"
 			(at 162.56 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6073,6 +6315,39 @@
 			)
 		)
 		(property "Source" "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C107 (pin 34)"
+			(at 162.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 162.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 162.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
 			(at 162.56 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6148,7 +6423,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
 			(at 180.34 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -6159,7 +6434,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 16V X7R ±10% 0402 (JLC basic)"
 			(at 180.34 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -6171,6 +6446,39 @@
 			)
 		)
 		(property "Source" "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C92"
+			(at 180.34 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 180.34 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 180.34 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
 			(at 180.34 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -6411,7 +6719,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C194437.html"
 			(at 133.35 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6422,7 +6730,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10uH 0603 multilayer, 60mA Isat / 300mA Idc, 600mOhm (TI E2E-tested; JLC extended). Basic 10uH 0603 is only 3mA, not suitable for CC2340 DCDC."
 			(at 133.35 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6444,7 +6752,29 @@
 				)
 			)
 		)
-		(property "MPN" "MLZ1608N100LT000 (TI E2E-tested 0603 alt; verify Isat/DCR)"
+		(property "MPN" "MLZ1608N100LT000"
+			(at 133.35 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 133.35 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C194437"
 			(at 133.35 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6520,7 +6850,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C15525.html"
 			(at 172.72 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6531,7 +6861,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10uF 6.3V X5R ±20% 0402 (JLC basic). C2 is on +3.3V; 10V alt C315248 CL05A106MP5NUNC."
 			(at 172.72 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6543,6 +6873,39 @@
 			)
 		)
 		(property "Source" "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C105; SWRS272F CC2340R5 datasheet 7.4 note 2"
+			(at 172.72 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05A106MQ5NUNC"
+			(at 172.72 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 172.72 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15525"
 			(at 172.72 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6946,7 +7309,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1548.html"
 			(at 287.02 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6957,7 +7320,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15pF 50V C0G ±5% 0402 (JLC basic)"
 			(at 287.02 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6969,6 +7332,39 @@
 			)
 		)
 		(property "Source" "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 CA2 (DC block)"
+			(at 287.02 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402CG150J500NT"
+			(at 287.02 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 287.02 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1548"
 			(at 287.02 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7384,7 +7780,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C52923.html"
 			(at 187.96 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7395,7 +7791,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1uF 25V X5R ±10% 0402 (JLC basic)"
 			(at 187.96 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7407,6 +7803,39 @@
 			)
 		)
 		(property "Source" "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C9 (pin 28 VDDD)"
+			(at 187.96 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05A105KA5NQNC"
+			(at 187.96 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 187.96 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C52923"
 			(at 187.96 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7482,7 +7911,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C15525.html"
 			(at 142.24 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7493,7 +7922,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10uF 6.3V X5R ±20% 0402 (JLC basic). C2 is on +3.3V; 10V alt C315248 CL05A106MP5NUNC."
 			(at 142.24 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7505,6 +7934,39 @@
 			)
 		)
 		(property "Source" "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C104 (pin 31); SWRS272F CC2340R5 datasheet 7.3 note 3: 10uF VDDS cap required for coin cell"
+			(at 142.24 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05A106MQ5NUNC"
+			(at 142.24 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 142.24 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15525"
 			(at 142.24 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7661,7 +8123,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C6584793.html"
 			(at 259.08 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7672,7 +8134,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.8nH 0402 wirewound RF inductor (JLC extended; no basic 2.8nH)"
 			(at 259.08 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7684,6 +8146,39 @@
 			)
 		)
 		(property "Source" "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 L33"
+			(at 259.08 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LQW15AN2N8B00D"
+			(at 259.08 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata"
+			(at 259.08 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C6584793"
 			(at 259.08 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7736,7 +8231,7 @@
 				)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "0R"
 			(at 312.42 84.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7757,7 +8252,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C17168.html"
 			(at 312.42 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7768,7 +8263,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0 ohm 0402 jumper (JLC basic) in L_0402 footprint"
 			(at 312.42 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7791,6 +8286,39 @@
 			)
 		)
 		(property "Start_value" "2nH"
+			(at 312.42 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF0000TCE"
+			(at 312.42 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 312.42 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C17168"
 			(at 312.42 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7949,7 +8477,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
 			(at 172.72 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7960,7 +8488,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 16V X7R ±10% 0402 (JLC basic)"
 			(at 172.72 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -7972,6 +8500,39 @@
 			)
 		)
 		(property "Source" "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C101 (pin 17)"
+			(at 172.72 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 172.72 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 172.72 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
 			(at 172.72 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8207,7 +8768,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1547.html"
 			(at 256.54 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8218,7 +8779,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "12pF 50V C0G ±5% 0402 (JLC basic)"
 			(at 256.54 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8230,6 +8791,39 @@
 			)
 		)
 		(property "Source" "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C81 (DIO3_X32P side)"
+			(at 256.54 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402CG120J500NT"
+			(at 256.54 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 256.54 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1547"
 			(at 256.54 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -8305,7 +8899,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1552.html"
 			(at 248.92 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8316,7 +8910,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.5pF 50V C0G ±0.25pF 0402 (JLC preferred; no basic 1.5pF 0402)"
 			(at 248.92 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8328,6 +8922,39 @@
 			)
 		)
 		(property "Source" "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C33"
+			(at 248.92 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402CG1R5C500NT"
+			(at 248.92 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 248.92 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1552"
 			(at 248.92 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8403,7 +9030,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
 			(at 162.56 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8414,7 +9041,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 16V X7R ±10% 0402 (JLC basic)"
 			(at 162.56 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8426,6 +9053,39 @@
 			)
 		)
 		(property "Source" "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C102 (pin 38)"
+			(at 162.56 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
+			(at 162.56 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 162.56 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
 			(at 162.56 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8501,7 +9161,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1552.html"
 			(at 275.59 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8512,7 +9172,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.5pF 50V C0G ±0.25pF 0402 (JLC preferred; no basic 1.5pF 0402)"
 			(at 275.59 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8524,6 +9184,39 @@
 			)
 		)
 		(property "Source" "LP-EM-CC2340R5 Rev A schematic (MCU108A) p1 C34"
+			(at 275.59 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402CG1R5C500NT"
+			(at 275.59 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 275.59 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1552"
 			(at 275.59 85.09 0)
 			(hide yes)
 			(show_name no)

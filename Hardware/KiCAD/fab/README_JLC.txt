@@ -1,20 +1,25 @@
-Watch PCB - JLCPCB fab outputs, rev 3 (generated 2026-11-24 13:05 PST, kicad-cli 10.0.8)
-Source board: Watch.kicad_pcb sha256 1ADEAD66B432377E07951C9934BF608B0DF64E6FBE3BAC66C4F66D1D0A82FF61
-Source schematic: Watch.kicad_sch sha256 B73F4CCC18327B7D42445E856B8043BA7D4C9FBE00E7EDD24DCBEB25DBCE6C7D
-Previous outputs: rev 2 (board 3B6FEAEB...) in ..\fab_old_r2_20261124_1304\, rev 1 (board 7B45F760...) in ..\fab_old_20261124_1236\
+Watch PCB - JLCPCB fab outputs, rev 4 (generated 2026-11-24 15:55 PST, kicad-cli 10.0.8)
+Source board: Watch.kicad_pcb sha256 41917F0BE0F66724BA9B19AB3D13C0F3424FB3AEFCE491A3B429332BC30D67EE
+Source schematic: Watch.kicad_sch sha256 8A5A24FC65D1A2CB57FCF4EDA4AE0558985C28BE2D3D8B44AB64F105DAFD517A
+  CC2340_MCU.kicad_sch sha256 C88DBA88FF3A45C9503ABAF48C702621778B8B6117384555E591788220E9B474
+  watch_leds.kicad_sch sha256 5A019158460BE80BFAB41D8118D3E3457831957C3B7F9F0D4B77B36C26204454
+Previous outputs: rev 3 (board 1ADEAD66...) in ..\fab_old_r3_20261124_1555, rev 2 in ..\fab_old_r2_20261124_1304, rev 1 in ..\fab_old_20261124_1236
 
-Changes vs rev 2
-- C107 1uF 0402 X5R 25V (Samsung CL05A105KA5NQNC, LCSC C52923, JLC basic) added on the bottom at IC1 VOUT (TCR2LF33 output cap;
-  datasheet: ceramic COUT >= 0.1uF, mounted near the IC). 0.3 mm track to IC1 pin 5, own GND via. Also added to the schematic next to C104.
-- C7 (10uF, VDDR/DCDC output) and C3 (0.1uF) swapped places on the bottom: C7 now sits at the L1.2 / U1 pin 34 via, C3 moves next to C5 at U1 pin 1.
-- D502-COM hops to F.Cu for 2.6 mm above IC1 so the VOUT->C107 path is direct; the +3.3V via under C107 was removed.
-- GND vias/stubs added at C7, C8, C11, C14, C107; C3/C5 and C10 tied to the U1 EP GND via; C13 tied to a nearby GND via.
+Changes vs rev 3
+- BOM fill (review A3): LCSC / MPN / manufacturer fields added on every placed part except AE1.
+  Copper and component placement are unchanged. C17 and C18 are now DNP (footprints kept, omitted from BOM and CPL).
+  L3 is a 0 ohm 0402 jumper. Y1 MPN changed because TZ3908AAAO43 is out of stock at JLC.
+- 80 placed parts in the CPL (50 top / 30 bottom); 32 BOM lines. C17/C18 dropped vs rev 3 (was 82 / 32 bottom).
+- Only AE1 (Johanson 2450AT18A100) still has no LCSC number: JLC listing C89334 (2450AT18A100E) is discontinued, stock 0.
+  Consign the antenna, or buy it elsewhere. Do not substitute a different Johanson AT18D part without redoing the match network.
+- Low JLC stock, worth confirming before ordering: IC201 IS31FL3235A-QFLS2-TR C2678735 (79), U1 CC2340R52E0RKPR C5914214 (208),
+  IC1 TCR2LF33,LM(CT C7067110 (248). U3 BMA400 C437655 is an LGA-12 2x2 (stock 771) — check the JLC placement preview.
 
 Files
-- Watch_gerbers_20261124_r3.zip : F/In1(GND)/In2(In2.Mixed)/B copper, F/B paste, silk, mask, Edge.Cuts (Protel ext, X2, no mask-subtract,
+- Watch_gerbers_20261124_r4.zip : F/In1(GND)/In2(In2.Mixed)/B copper, F/B paste, silk, mask, Edge.Cuts (Protel ext, X2, no mask-subtract,
                                   absolute origin), Excellon mm PTH/NPTH split, drill maps (Gerber X2 + PDF), gerber job file.
-- Watch_BOM_JLC.csv          : Comment, Designator, Footprint, LCSC Part # (grouped). Only U2, R101 and C107 have LCSC numbers - fill the rest.
-- Watch_CPL_JLC.csv          : Designator, Mid X, Mid Y, Layer, Rotation (mm, KiCad coords, both sides, 82 parts: 50 top / 32 bottom).
+- Watch_BOM_JLC.csv          : Comment, Designator, Footprint, LCSC Part # (grouped). Every BOM line has an LCSC number except AE1 (see above).
+- Watch_CPL_JLC.csv          : Designator, Mid X, Mid Y, Layer, Rotation (mm, KiCad coords, both sides, 80 parts: 50 top / 30 bottom).
 Excluded: TP1-TP5, TP501-TP507 (test points), LOGO1, H1 (hand-shaft NPTH).
 
 JLC order settings

@@ -3220,7 +3220,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 39.37 32.385 0)
 			(hide yes)
 			(show_name no)
@@ -3232,7 +3232,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 39.37 34.925 0)
 			(hide yes)
 			(show_name no)
@@ -3328,6 +3328,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "LCSC Part" "C125099"
+			(at 26.67 33.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "70a2ec7d-e00a-43f8-b278-973da3ca068b")
 		)
@@ -3388,7 +3399,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/fc33ded709b126955886d75954d536cb.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2678735.html"
 			(at 127.635 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -3400,7 +3411,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "IC LED DRVR LINEAR 28CH 36QFN"
+		(property "Description" "28-ch LED driver, QFN-36 4x4 (JLC extended, LOW STOCK 79)"
 			(at 127.635 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -3424,7 +3435,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Name" "Lumissil"
+		(property "Manufacturer_Name" "ISSI (Lumissil)"
 			(at 127.635 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -3494,6 +3505,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC Part" "C2678735"
+			(at 161.925 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "6"
@@ -3735,7 +3757,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://altium.componentsearchengine.com/Datasheets/2/CL05A105KQ5NNNC.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C52923.html"
 			(at 134.62 183.515 0)
 			(hide yes)
 			(show_name no)
@@ -3747,7 +3769,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "Samsung Electro-Mechanics 0402 CL 1uF Ceramic Multilayer Capacitor, 6.3 V, +85C, X5R Dielectric, +/-10% SMD"
+		(property "Description" "1uF 25V X5R ±10% 0402 (JLC basic)"
 			(at 134.62 180.975 0)
 			(hide yes)
 			(show_name no)
@@ -3783,7 +3805,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A105KQ5NNNC"
+		(property "Manufacturer_Part_Number" "CL05A105KA5NQNC"
 			(at 134.62 173.355 0)
 			(hide yes)
 			(show_name no)
@@ -3841,6 +3863,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC Part" "C52923"
+			(at 143.51 184.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3977,7 +4010,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2409293.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C1525.html"
 			(at 134.62 177.165 0)
 			(hide yes)
 			(show_name no)
@@ -3989,7 +4022,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "Samsung Electro-Mechanics 0402 CL 100nF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD"
+		(property "Description" "100nF 16V X7R ±10% 0402 (JLC basic)"
 			(at 134.62 174.625 0)
 			(hide yes)
 			(show_name no)
@@ -4025,7 +4058,7 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A104KA5NNNC"
+		(property "Manufacturer_Part_Number" "CL05B104KO5NNNC"
 			(at 134.62 167.005 0)
 			(hide yes)
 			(show_name no)
@@ -4083,6 +4116,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 143.51 178.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4218,7 +4262,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25890.html"
 			(at 144.145 160.655 0)
 			(hide yes)
 			(show_name no)
@@ -4229,8 +4273,41 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3.3k 1% 1/16W 0402 thick film"
 			(at 144.145 160.655 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF3301TCE"
+			(at 144.145 160.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 144.145 160.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25890"
+			(at 144.145 160.655 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4448,7 +4525,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C25744.html"
 			(at 133.985 160.655 0)
 			(hide yes)
 			(show_name no)
@@ -4459,8 +4536,41 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10k 1% 1/16W 0402 thick film"
 			(at 133.985 160.655 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
+			(at 133.985 160.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 133.985 160.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 133.985 160.655 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4755,7 +4865,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 71.12 32.385 0)
 			(hide yes)
 			(show_name no)
@@ -4767,7 +4877,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 71.12 34.925 0)
 			(hide yes)
 			(show_name no)
@@ -4861,6 +4971,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 58.42 33.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4997,7 +5118,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 103.505 32.385 0)
 			(hide yes)
 			(show_name no)
@@ -5009,7 +5130,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 103.505 34.925 0)
 			(hide yes)
 			(show_name no)
@@ -5103,6 +5224,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 90.805 33.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5239,7 +5371,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 134.62 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5251,7 +5383,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 134.62 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5345,6 +5477,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 121.92 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5481,7 +5624,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 163.83 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5493,7 +5636,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 163.83 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5587,6 +5730,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 151.13 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5723,7 +5877,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 195.58 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5735,7 +5889,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 195.58 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5829,6 +5983,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 182.88 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5965,7 +6130,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 227.965 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5977,7 +6142,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 227.965 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6071,6 +6236,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 215.265 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6207,7 +6383,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 259.08 33.655 0)
 			(hide yes)
 			(show_name no)
@@ -6219,7 +6395,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 259.08 36.195 0)
 			(hide yes)
 			(show_name no)
@@ -6313,6 +6489,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 246.38 34.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6449,7 +6636,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 39.37 52.705 0)
 			(hide yes)
 			(show_name no)
@@ -6461,7 +6648,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 39.37 55.245 0)
 			(hide yes)
 			(show_name no)
@@ -6555,6 +6742,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 26.67 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6691,7 +6889,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 71.12 52.705 0)
 			(hide yes)
 			(show_name no)
@@ -6703,7 +6901,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 71.12 55.245 0)
 			(hide yes)
 			(show_name no)
@@ -6797,6 +6995,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 58.42 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6933,7 +7142,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 103.505 52.705 0)
 			(hide yes)
 			(show_name no)
@@ -6945,7 +7154,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 103.505 55.245 0)
 			(hide yes)
 			(show_name no)
@@ -7039,6 +7248,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 90.805 53.975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -7175,7 +7395,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 134.62 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7187,7 +7407,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 134.62 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7281,6 +7501,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 121.92 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -7417,7 +7648,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 163.83 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7429,7 +7660,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 163.83 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7523,6 +7754,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 151.13 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -7659,7 +7901,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 195.58 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7671,7 +7913,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 195.58 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7765,6 +8007,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 182.88 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7901,7 +8154,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 227.965 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7913,7 +8166,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 227.965 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8007,6 +8260,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 215.265 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8143,7 +8407,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 259.08 53.975 0)
 			(hide yes)
 			(show_name no)
@@ -8155,7 +8419,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 259.08 56.515 0)
 			(hide yes)
 			(show_name no)
@@ -8249,6 +8513,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 246.38 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8385,7 +8660,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 39.37 71.755 0)
 			(hide yes)
 			(show_name no)
@@ -8397,7 +8672,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 39.37 74.295 0)
 			(hide yes)
 			(show_name no)
@@ -8491,6 +8766,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 26.67 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8627,7 +8913,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 71.12 71.755 0)
 			(hide yes)
 			(show_name no)
@@ -8639,7 +8925,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 71.12 74.295 0)
 			(hide yes)
 			(show_name no)
@@ -8733,6 +9019,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 58.42 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8869,7 +9166,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 103.505 71.755 0)
 			(hide yes)
 			(show_name no)
@@ -8881,7 +9178,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 103.505 74.295 0)
 			(hide yes)
 			(show_name no)
@@ -8975,6 +9272,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 90.805 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9111,7 +9419,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 134.62 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9123,7 +9431,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 134.62 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9217,6 +9525,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 121.92 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9353,7 +9672,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 163.83 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9365,7 +9684,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 163.83 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9459,6 +9778,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 151.13 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9595,7 +9925,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 195.58 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9607,7 +9937,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 195.58 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9701,6 +10031,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 182.88 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9837,7 +10178,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 227.965 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9849,7 +10190,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 227.965 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9943,6 +10284,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 215.265 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10079,7 +10431,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/239/S_110_LTST-C191KRKT-539838.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C125099.html"
 			(at 259.08 73.025 0)
 			(hide yes)
 			(show_name no)
@@ -10091,7 +10443,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+		(property "Description" "Red 0603 water-clear LED, 54mcd typ (JLC extended)"
 			(at 259.08 75.565 0)
 			(hide yes)
 			(show_name no)
@@ -10185,6 +10537,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "LCSC Part" "C125099"
+			(at 246.38 74.295 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10321,7 +10684,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://katalog.we-online.de/led/datasheet/150352M173300.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C6785090.html"
 			(at 232.41 113.665 0)
 			(hide yes)
 			(show_name no)
@@ -10333,7 +10696,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "Wurth Elektronik 150352M173300, WL-SFTW 470 (Blue) nm, 520 (Green) nm, 625 (Red) nm 3 RGB LED, 6-Pin 3528 Clear"
+		(property "Description" "RGB 3528 6-pin LED (JLC extended, SMD2835-6P)"
 			(at 232.41 116.205 0)
 			(hide yes)
 			(show_name no)
@@ -10403,6 +10766,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC Part" "C6785090"
+			(at 210.82 113.665 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
