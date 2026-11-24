@@ -3548,7 +3548,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 43.18) (xy 201.93 43.18)
+			(xy 199.39 43.18) (xy 205.74 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4278,7 +4278,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "20k"
 			(at 80.645 51.435 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4312,6 +4312,17 @@
 		)
 		(property "Description" ""
 			(at 82.55 51.435 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25765"
+			(at 82.55 51.435 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5690,7 +5701,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 201.93 43.18 270)
+		(at 205.74 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5700,7 +5711,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000641912c9")
 		(property "Reference" "#PWR0122"
-			(at 198.12 43.18 0)
+			(at 205.74 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5711,18 +5722,17 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 205.1812 43.561 90)
+			(at 205.74 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 43.18 0)
+			(at 205.74 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5733,7 +5743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 43.18 0)
+			(at 205.74 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5744,7 +5754,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 43.18 0)
+			(at 205.74 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5777,7 +5787,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006419281e")
 		(property "Reference" "C104"
-			(at 205.105 48.895 0)
+			(at 193.675 48.895 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5787,7 +5797,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 203.2 48.895 0)
+			(at 195.58 48.895 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7966,6 +7976,259 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:CL05A104KA5NNNC")
+		(at 205.74 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "09e47baf-59b1-4080-833c-b8b0b7990464")
+		(property "Reference" "C107"
+			(at 210.82 48.895 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 208.915 48.895 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:CAPC1005X55N"
+			(at 204.47 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C52923.html"
+			(at 207.01 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Samsung Electro-Mechanics 0402 CL 1uF Ceramic Multilayer Capacitor, 25 V, +85C, X5R Dielectric, +/-10% SMD (IC1 VOUT output cap)"
+			(at 209.55 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Height" "0.55"
+			(at 212.09 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 214.63 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05A105KA5NQNC"
+			(at 217.17 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 219.71 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 222.25 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 224.79 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 227.33 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC Part" "C52923"
+			(at 205.74 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fad62f98-e382-4aad-97a9-ca52ba8db394")
+		)
+		(pin "2"
+			(uuid "5a8484f0-cae8-4382-9548-9defeb59fab1")
+		)
+		(instances
+			(project "Watch"
+				(path "/0d62a87a-e10e-4d51-a581-3dee7580092e"
+					(reference "C107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a60dc81c-c398-4f24-8a2c-ee97ac210184")
+		(property "Reference" "#PWR0124"
+			(at 205.74 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.867 60.2742 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a73655a5-cc25-420a-aebb-51c28871c75b")
+		)
+		(instances
+			(project "Watch"
+				(path "/0d62a87a-e10e-4d51-a581-3dee7580092e"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 161.29 152.4 0)
 		(unit 1)
@@ -8465,7 +8728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BMA400:QFN_BMA400_BOS-L"
+		(property "Footprint" "BMA400:QFN_BMA400_BOS-M"
 			(at 218.44 91.44 0)
 			(hide yes)
 			(show_name no)
