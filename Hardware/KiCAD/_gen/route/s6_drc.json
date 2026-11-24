@@ -1,0 +1,2907 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-23T18:31:30",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "s6.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [/leds/OUT2] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 140.6,
+                        "y": 85.9
+                    },
+                    "uuid": "c7a8417b-27d4-4a3f-8835-fe42c8aab215"
+                },
+                {
+                    "description": "Pad 1 [/leds/OUT2] of LED223 on F.Cu",
+                    "pos": {
+                        "x": 142.962969,
+                        "y": 74.47413
+                    },
+                    "uuid": "2960a64c-da58-4a92-933d-2f94654e5762"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [/leds/OUT4] of LED221 on F.Cu",
+                    "pos": {
+                        "x": 136.451642,
+                        "y": 77.755272
+                    },
+                    "uuid": "3ac6ca63-fd77-4c54-bb43-1b9c905cec45"
+                },
+                {
+                    "description": "Pad 3 [/leds/OUT4] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 139.8,
+                        "y": 85.9
+                    },
+                    "uuid": "280073a6-1d37-4378-a5d2-f2bd940a6cc4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of Y1 on F.Cu",
+                    "pos": {
+                        "x": 146.629999,
+                        "y": 98.5
+                    },
+                    "uuid": "1a5ad6ff-022b-4174-8920-b0f2d22fac9e"
+                },
+                {
+                    "description": "Track [GND] on B.Cu, length 0.9503 mm",
+                    "pos": {
+                        "x": 146.394998,
+                        "y": 99.206066
+                    },
+                    "uuid": "a1b6c83a-c438-499d-862e-8c8c45bc2ebf"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 25 [/leds/OUT25] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 139.8,
+                        "y": 90.1
+                    },
+                    "uuid": "d1e97912-1e15-4559-aad2-d31e0ffcac7a"
+                },
+                {
+                    "description": "Pad 5 [/leds/OUT25] of LED225 on F.Cu",
+                    "pos": {
+                        "x": 144.467406,
+                        "y": 84.436827
+                    },
+                    "uuid": "60b2080a-3dc9-4ba4-8997-9bc068b7283f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 29 [/LED_EN] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 141.1,
+                        "y": 89.2
+                    },
+                    "uuid": "72f86c56-bfb8-480c-8dc0-63f7a7d49428"
+                },
+                {
+                    "description": "Pad 23 [/LED_EN] of U1 on F.Cu",
+                    "pos": {
+                        "x": 143.426967,
+                        "y": 93.403032
+                    },
+                    "uuid": "8457defb-c208-4c71-bd3a-009142beb063"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [/LED_EN] of R204 on B.Cu",
+                    "pos": {
+                        "x": 143.05,
+                        "y": 85.685
+                    },
+                    "uuid": "9e43d1fe-6710-4503-a3dc-5a96fa0c0267"
+                },
+                {
+                    "description": "Pad 29 [/LED_EN] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 141.1,
+                        "y": 89.2
+                    },
+                    "uuid": "72f86c56-bfb8-480c-8dc0-63f7a7d49428"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 0.5505 mm",
+                    "pos": {
+                        "x": 138.665336,
+                        "y": 82.508839
+                    },
+                    "uuid": "2e5134e7-2981-4dc8-8523-837893689a88"
+                },
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 0.9494 mm",
+                    "pos": {
+                        "x": 142.565685,
+                        "y": 81.065685
+                    },
+                    "uuid": "ca02657a-413f-4cd3-9188-a5e3ae00d264"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on B.Cu, length 0.5500 mm",
+                    "pos": {
+                        "x": 139.5,
+                        "y": 90.2
+                    },
+                    "uuid": "73fa9161-6bb1-413c-8b9a-56ff1e68bf06"
+                },
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 141.1,
+                        "y": 88.4
+                    },
+                    "uuid": "477b54aa-d62a-48c8-9271-fe4c27888323"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on B.Cu, length 0.7778 mm",
+                    "pos": {
+                        "x": 140.05,
+                        "y": 90.2
+                    },
+                    "uuid": "12d637cd-15ca-40fa-99ea-a1d71d7df944"
+                },
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 0.5501 mm",
+                    "pos": {
+                        "x": 141.360624,
+                        "y": 92.860624
+                    },
+                    "uuid": "ee2a6176-a12e-475f-bae3-dad4047aeed0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Via [+3.3V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 141.7,
+                        "y": 88.25
+                    },
+                    "uuid": "22eb7088-73bd-4bbb-85f7-439c61ed01b1"
+                },
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 0.5500 mm",
+                    "pos": {
+                        "x": 143.0,
+                        "y": 88.86
+                    },
+                    "uuid": "2b84f86d-6e51-4bf9-9edb-3a92000bc7ca"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 0.5500 mm",
+                    "pos": {
+                        "x": 142.15,
+                        "y": 86.96
+                    },
+                    "uuid": "0f1a47ba-6477-46b0-b2db-fd2e8824d419"
+                },
+                {
+                    "description": "Via [+3.3V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 141.7,
+                        "y": 88.25
+                    },
+                    "uuid": "22eb7088-73bd-4bbb-85f7-439c61ed01b1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Via [+3.3V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 142.7,
+                        "y": 86.96
+                    },
+                    "uuid": "4e7af6fa-8a35-408f-bb4a-f7edadf12c6d"
+                },
+                {
+                    "description": "Track [+3.3V] on B.Cu, length 0.5500 mm",
+                    "pos": {
+                        "x": 144.2,
+                        "y": 85.685
+                    },
+                    "uuid": "865e764b-a511-4621-9c21-3bf5544e67c0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on B.Cu, length 0.9502 mm",
+                    "pos": {
+                        "x": 144.750001,
+                        "y": 92.0
+                    },
+                    "uuid": "487bfbc9-8e3f-42ed-b018-4466518c42ce"
+                },
+                {
+                    "description": "Via [+3.3V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 143.55,
+                        "y": 88.86
+                    },
+                    "uuid": "2c75d6c3-c99f-4022-aac5-0a8877e82b66"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on B.Cu, length 0.9502 mm",
+                    "pos": {
+                        "x": 144.750001,
+                        "y": 92.0
+                    },
+                    "uuid": "487bfbc9-8e3f-42ed-b018-4466518c42ce"
+                },
+                {
+                    "description": "Pad 17 [+3.3V] of U1 on F.Cu",
+                    "pos": {
+                        "x": 145.230001,
+                        "y": 92.0
+                    },
+                    "uuid": "e70916f1-7b04-4e31-8017-ed7049f29354"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on B.Cu, length 1.3000 mm",
+                    "pos": {
+                        "x": 145.5,
+                        "y": 76.5
+                    },
+                    "uuid": "ed7b28e2-2e22-4a94-bc1c-0321613af447"
+                },
+                {
+                    "description": "Via [+3.3V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 144.25,
+                        "y": 78.03
+                    },
+                    "uuid": "4bd901fc-6f29-47ed-ad98-fba9a8050898"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on B.Cu, length 0.2439 mm",
+                    "pos": {
+                        "x": 146.350001,
+                        "y": 96.806066
+                    },
+                    "uuid": "6992dbeb-86ec-43dc-a3a3-8140ed355957"
+                },
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 0.5496 mm",
+                    "pos": {
+                        "x": 144.030001,
+                        "y": 96.806066
+                    },
+                    "uuid": "8c9e8077-9659-4946-829d-251d7abf3195"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 0.0483 mm",
+                    "pos": {
+                        "x": 146.830001,
+                        "y": 96.806066
+                    },
+                    "uuid": "07704629-42f5-41c6-9f90-3dc2debb252d"
+                },
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 0.6500 mm",
+                    "pos": {
+                        "x": 148.233033,
+                        "y": 93.403032
+                    },
+                    "uuid": "ee25e680-ac66-4a2c-9a51-25afedbabbdd"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 0.9496 mm",
+                    "pos": {
+                        "x": 147.257406,
+                        "y": 83.586827
+                    },
+                    "uuid": "9c642cd7-b435-48ce-a465-0bcc6eed0970"
+                },
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 1.4996 mm",
+                    "pos": {
+                        "x": 147.257406,
+                        "y": 82.736827
+                    },
+                    "uuid": "8fdd879b-5fcb-4e40-bdff-644219bddc3e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 0.9496 mm",
+                    "pos": {
+                        "x": 147.257406,
+                        "y": 83.586827
+                    },
+                    "uuid": "9c642cd7-b435-48ce-a465-0bcc6eed0970"
+                },
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 0.9496 mm",
+                    "pos": {
+                        "x": 147.257406,
+                        "y": 84.436827
+                    },
+                    "uuid": "3e1b9ff1-a42f-4c26-8074-5fd5ca9e965f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 0.9496 mm",
+                    "pos": {
+                        "x": 147.257406,
+                        "y": 84.436827
+                    },
+                    "uuid": "3e1b9ff1-a42f-4c26-8074-5fd5ca9e965f"
+                },
+                {
+                    "description": "Via [+3.3V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 145.9,
+                        "y": 85.685
+                    },
+                    "uuid": "55334fb4-b8bf-4258-b89d-f564ce696562"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 0.6500 mm",
+                    "pos": {
+                        "x": 148.233033,
+                        "y": 93.403032
+                    },
+                    "uuid": "ee25e680-ac66-4a2c-9a51-25afedbabbdd"
+                },
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 0.4000 mm",
+                    "pos": {
+                        "x": 146.3,
+                        "y": 90.7
+                    },
+                    "uuid": "bfc7efe3-62a5-4838-98c8-5cb4c5abe98b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [+3.3V] of C104 on F.Cu",
+                    "pos": {
+                        "x": 153.293263,
+                        "y": 89.0
+                    },
+                    "uuid": "f6981da8-6dba-465f-831c-3a2b970149b8"
+                },
+                {
+                    "description": "Via [+3.3V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 152.299999,
+                        "y": 87.799999
+                    },
+                    "uuid": "47c0338e-68c9-4564-a15f-c802bf1eb77d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 0.5500 mm",
+                    "pos": {
+                        "x": 154.512,
+                        "y": 87.488001
+                    },
+                    "uuid": "2e162aa4-70e2-48e1-93db-05ef14723e62"
+                },
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 0.6505 mm",
+                    "pos": {
+                        "x": 154.500001,
+                        "y": 85.976
+                    },
+                    "uuid": "a5a7e8c9-85c4-48cb-adf5-59cce64849d6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 35 [/leds/SCL] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 141.1,
+                        "y": 86.8
+                    },
+                    "uuid": "ea397c52-88ae-439a-8a6a-53183b416957"
+                },
+                {
+                    "description": "Pad 21 [/leds/SCL] of U1 on F.Cu",
+                    "pos": {
+                        "x": 143.426967,
+                        "y": 92.603034
+                    },
+                    "uuid": "6abc1532-0d1f-46e0-a835-c231a2959132"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [/leds/SCL] of R103 on B.Cu",
+                    "pos": {
+                        "x": 144.2,
+                        "y": 84.715
+                    },
+                    "uuid": "1890718a-61bc-4caa-a49a-120c7e877020"
+                },
+                {
+                    "description": "Pad 35 [/leds/SCL] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 141.1,
+                        "y": 86.8
+                    },
+                    "uuid": "ea397c52-88ae-439a-8a6a-53183b416957"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 14 [/MCU/MOTOR_B] of U1 on F.Cu",
+                    "pos": {
+                        "x": 146.429999,
+                        "y": 92.0
+                    },
+                    "uuid": "6ea9a8d3-3b14-4def-b265-a15e196b3a9f"
+                },
+                {
+                    "description": "Pad 1 [/MCU/MOTOR_B] of R502 on F.Cu",
+                    "pos": {
+                        "x": 149.860624,
+                        "y": 84.860624
+                    },
+                    "uuid": "55773e43-927f-418d-831a-cbaaca65f979"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [Net-(C3-Pad1)] on B.Cu, length 2.0409 mm",
+                    "pos": {
+                        "x": 144.3,
+                        "y": 98.0061
+                    },
+                    "uuid": "28d2cb9e-d7c2-4991-be81-69c2c7e374e0"
+                },
+                {
+                    "description": "Pad 2 [Net-(C3-Pad1)] of L1 on F.Cu",
+                    "pos": {
+                        "x": 144.2875,
+                        "y": 98.5
+                    },
+                    "uuid": "13d4bafb-4b13-45cb-96ae-15db191936a8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [Net-(C3-Pad1)] on B.Cu, length 0.1153 mm",
+                    "pos": {
+                        "x": 145.7431,
+                        "y": 96.563
+                    },
+                    "uuid": "04abffe9-1653-4eff-af50-b2c02d15a910"
+                },
+                {
+                    "description": "Pad 34 [Net-(C3-Pad1)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 145.230001,
+                        "y": 96.806066
+                    },
+                    "uuid": "83750325-3c56-4992-a91c-9e45cd918074"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [Net-(C3-Pad1)] on B.Cu, length 1.4295 mm",
+                    "pos": {
+                        "x": 146.8055,
+                        "y": 96.135
+                    },
+                    "uuid": "cb90d3d8-0e09-40d1-b4e5-19d11888eb3a"
+                },
+                {
+                    "description": "Pad 1 [Net-(C3-Pad1)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 148.233048,
+                        "y": 96.203032
+                    },
+                    "uuid": "66ab3139-194d-4b26-a58f-ea14c0f6f56e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 3 [/SW2] of U1 on F.Cu",
+                    "pos": {
+                        "x": 148.233033,
+                        "y": 95.403034
+                    },
+                    "uuid": "365e15ce-9a7f-4832-8017-91b1437a7959"
+                },
+                {
+                    "description": "Track [/SW2] on B.Cu, length 2.8143 mm",
+                    "pos": {
+                        "x": 155.01,
+                        "y": 89.55
+                    },
+                    "uuid": "01f52364-6f91-415a-a02e-3952eb8b16f9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [/SW1] on B.Cu, length 0.7212 mm",
+                    "pos": {
+                        "x": 157.0,
+                        "y": 91.9767
+                    },
+                    "uuid": "b2d416b7-1937-45be-af25-1e72d8ecf042"
+                },
+                {
+                    "description": "Pad 4 [/SW1] of U1 on F.Cu",
+                    "pos": {
+                        "x": 148.233033,
+                        "y": 95.003032
+                    },
+                    "uuid": "a9aba4ec-8ec2-472c-9c1f-b56825070324"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 20 [/ACC_INT] of U1 on F.Cu",
+                    "pos": {
+                        "x": 144.030001,
+                        "y": 92.0
+                    },
+                    "uuid": "e5844da5-1b40-46c3-8fee-50bcba15a514"
+                },
+                {
+                    "description": "Pad 5 [/ACC_INT] of U3 on F.Cu",
+                    "pos": {
+                        "x": 153.5,
+                        "y": 87.5
+                    },
+                    "uuid": "125e9a3f-4f27-4071-9f64-8586a7c3bc0f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 33 [/bSense] of U1 on F.Cu",
+                    "pos": {
+                        "x": 144.829999,
+                        "y": 96.806066
+                    },
+                    "uuid": "35d71bb7-a8f2-4b8c-bdbb-7625071e01e6"
+                },
+                {
+                    "description": "Pad 1 [/bSense] of R113 on B.Cu",
+                    "pos": {
+                        "x": 144.344999,
+                        "y": 99.206066
+                    },
+                    "uuid": "ac1e45a6-b5e4-4c0f-af75-5bb13e21dd49"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+BATT] on B.Cu, length 0.2602 mm",
+                    "pos": {
+                        "x": 148.99,
+                        "y": 80.5045
+                    },
+                    "uuid": "3d1af15c-2c3d-4b8e-872e-7a10f27db3b5"
+                },
+                {
+                    "description": "Track [+BATT] on B.Cu, length 0.7517 mm",
+                    "pos": {
+                        "x": 147.2,
+                        "y": 80.05
+                    },
+                    "uuid": "53f47044-d3c0-4677-b02d-d4b6803441c3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+BATT] on B.Cu, length 0.0882 mm",
+                    "pos": {
+                        "x": 150.46,
+                        "y": 87.0
+                    },
+                    "uuid": "b597a74b-8b66-4dc9-aca1-84a6fa4c6687"
+                },
+                {
+                    "description": "Track [+BATT] on B.Cu, length 2.2285 mm",
+                    "pos": {
+                        "x": 147.4142,
+                        "y": 82.0803
+                    },
+                    "uuid": "e238b606-f489-4262-9e84-71404cd3c20c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+BATT] on B.Cu, length 1.5069 mm",
+                    "pos": {
+                        "x": 150.5224,
+                        "y": 87.0624
+                    },
+                    "uuid": "1d04dfb1-57ef-429c-82ab-af373425815c"
+                },
+                {
+                    "description": "Pad 2 [+BATT] of R113 on B.Cu",
+                    "pos": {
+                        "x": 145.314999,
+                        "y": 99.206066
+                    },
+                    "uuid": "f538b00e-f1cb-4aec-93df-1623de66a83c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT12] on F.Cu, length 0.4829 mm",
+                    "pos": {
+                        "x": 136.9,
+                        "y": 86.8
+                    },
+                    "uuid": "42cf5b14-21c7-45e8-8734-956b6a185abe"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT12] on F.Cu, length 1.9826 mm",
+                    "pos": {
+                        "x": 134.3597,
+                        "y": 86.8748
+                    },
+                    "uuid": "52999241-8af6-4229-bd67-5e0b389f8600"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT12] on F.Cu, length 0.1058 mm",
+                    "pos": {
+                        "x": 136.3423,
+                        "y": 86.8748
+                    },
+                    "uuid": "979520d8-4e38-4132-b396-04a792b58f6e"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT13] on F.Cu, length 0.0021 mm",
+                    "pos": {
+                        "x": 136.3402,
+                        "y": 87.2748
+                    },
+                    "uuid": "076e9818-2be5-46e2-a930-fd758464dd74"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT13] on F.Cu, length 0.4829 mm",
+                    "pos": {
+                        "x": 136.9,
+                        "y": 87.2
+                    },
+                    "uuid": "a38ef251-09c6-460c-9391-a7d2a99a3280"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT13] on F.Cu, length 0.1058 mm",
+                    "pos": {
+                        "x": 136.3423,
+                        "y": 87.2748
+                    },
+                    "uuid": "aa73b160-805b-4c20-99c2-dc548c80cfd7"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT15] on F.Cu, length 0.3786 mm",
+                    "pos": {
+                        "x": 136.448,
+                        "y": 88.4734
+                    },
+                    "uuid": "01f8d694-88e1-44d4-b960-35a72d381a57"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT15] on F.Cu, length 0.1038 mm",
+                    "pos": {
+                        "x": 136.8266,
+                        "y": 88.4734
+                    },
+                    "uuid": "f34e3915-f952-4c84-bd28-b6d73232da8e"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT15] on +3.3V, length 0.3110 mm",
+                    "pos": {
+                        "x": 145.548,
+                        "y": 99.4517
+                    },
+                    "uuid": "14bf2569-4699-441e-95e9-39d88df4a4ad"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT15] on +3.3V, length 0.2113 mm",
+                    "pos": {
+                        "x": 145.6974,
+                        "y": 99.3023
+                    },
+                    "uuid": "8fd03ba8-9717-466c-879d-576612feb4d3"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT16] on F.Cu, length 0.3761 mm",
+                    "pos": {
+                        "x": 135.9662,
+                        "y": 88.8748
+                    },
+                    "uuid": "085e4526-eaeb-4571-a1a3-a7ccac2b4831"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT16] on F.Cu, length 0.4829 mm",
+                    "pos": {
+                        "x": 136.9,
+                        "y": 88.8
+                    },
+                    "uuid": "9735d355-ba74-4dfc-8872-5c8a699a0ca8"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT16] on F.Cu, length 0.1058 mm",
+                    "pos": {
+                        "x": 136.3423,
+                        "y": 88.8748
+                    },
+                    "uuid": "f0bede19-7bb3-4fbe-ab27-aec63a406e32"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT18] on +3.3V, length 0.0883 mm",
+                    "pos": {
+                        "x": 151.5947,
+                        "y": 101.3403
+                    },
+                    "uuid": "17a5ce5d-5b66-4b6a-9cd3-f6e92a17c574"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT18] on +3.3V, length 0.2128 mm",
+                    "pos": {
+                        "x": 151.4442,
+                        "y": 101.1898
+                    },
+                    "uuid": "499cd8a9-228c-4707-be41-1741637b7968"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT18] on +3.3V, length 1.3628 mm",
+                    "pos": {
+                        "x": 149.869,
+                        "y": 101.3298
+                    },
+                    "uuid": "9293a067-b900-4b40-b499-1002a22e0827"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT18] on +3.3V, length 0.0990 mm",
+                    "pos": {
+                        "x": 151.2318,
+                        "y": 101.3298
+                    },
+                    "uuid": "ed094656-31ce-4706-8edc-7a1a597a7302"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT19] on +3.3V, length 0.0399 mm",
+                    "pos": {
+                        "x": 144.5937,
+                        "y": 93.9778
+                    },
+                    "uuid": "26747215-cbc3-4f1d-bdee-c1570ca8136e"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT19] on +3.3V, length 0.1793 mm",
+                    "pos": {
+                        "x": 144.7084,
+                        "y": 93.903
+                    },
+                    "uuid": "2b5af325-6725-40b7-9d7f-cf5bb3f52e0e"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT19] on +3.3V, length 0.2558 mm",
+                    "pos": {
+                        "x": 144.3126,
+                        "y": 94.2589
+                    },
+                    "uuid": "34dc51b9-d7e3-4dcd-87ba-833692389e55"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT19] on +3.3V, length 0.1058 mm",
+                    "pos": {
+                        "x": 144.6336,
+                        "y": 93.9778
+                    },
+                    "uuid": "5f9593d5-0e19-482f-99a9-f01efc8dac70"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT19] on +3.3V, length 0.2007 mm",
+                    "pos": {
+                        "x": 146.3023,
+                        "y": 93.4864
+                    },
+                    "uuid": "70767247-0ea9-4cb4-99d5-747822e72d02"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT19] on +3.3V, length 0.5891 mm",
+                    "pos": {
+                        "x": 145.2552,
+                        "y": 93.903
+                    },
+                    "uuid": "75dd7b39-0f75-4d6b-b8b6-40056f0bc8d0"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT19] on +3.3V, length 0.0684 mm",
+                    "pos": {
+                        "x": 145.2552,
+                        "y": 94.4921
+                    },
+                    "uuid": "76eeffd4-ddcd-4bf9-b73a-8039561742f3"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT19] on +3.3V, length 0.5193 mm",
+                    "pos": {
+                        "x": 146.3023,
+                        "y": 93.2857
+                    },
+                    "uuid": "9a0cdd4d-9b0d-4e67-82be-93da6638485c"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT19] on +3.3V, length 1.2861 mm",
+                    "pos": {
+                        "x": 147.7741,
+                        "y": 92.9248
+                    },
+                    "uuid": "b8327593-b698-48ee-b1e6-ac62dd691e4d"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT19] on +3.3V, length 0.1417 mm",
+                    "pos": {
+                        "x": 144.4935,
+                        "y": 94.078
+                    },
+                    "uuid": "d064753f-e974-4a5b-892a-34ad0c961783"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT21] on +3.3V, length 1.1458 mm",
+                    "pos": {
+                        "x": 150.2245,
+                        "y": 95.907
+                    },
+                    "uuid": "a258041a-7bca-46a1-95ce-66eabeb24e34"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT21] on +3.3V, length 0.0671 mm",
+                    "pos": {
+                        "x": 151.0347,
+                        "y": 96.7172
+                    },
+                    "uuid": "a9cab944-25a6-4317-98d7-6ba5f2b8ec86"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.0750 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT22] on +3.3V, length 0.1502 mm",
+                    "pos": {
+                        "x": 154.5348,
+                        "y": 86.1092
+                    },
+                    "uuid": "751a4b4c-c232-4750-8e2f-ab52dfba38d1"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.0750 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT22] on +3.3V, length 1.5279 mm",
+                    "pos": {
+                        "x": 153.4544,
+                        "y": 87.1896
+                    },
+                    "uuid": "cd9c8e4a-0010-43e7-b17a-8be40996fa7f"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT23] on +3.3V, length 0.2855 mm",
+                    "pos": {
+                        "x": 144.1695,
+                        "y": 77.5605
+                    },
+                    "uuid": "180aa153-564e-47ec-935b-8fdd35516d46"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT23] on +3.3V, length 0.0990 mm",
+                    "pos": {
+                        "x": 144.455,
+                        "y": 77.5605
+                    },
+                    "uuid": "b513f64c-7e9c-4266-a2ab-f22cc8a550ae"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.0750 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT24] on F.Cu, length 0.1500 mm",
+                    "pos": {
+                        "x": 139.4,
+                        "y": 90.5642
+                    },
+                    "uuid": "5f220958-479a-45d8-aa2e-b9dea4e1bf13"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.0750 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT24] on F.Cu, length 0.0372 mm",
+                    "pos": {
+                        "x": 139.5061,
+                        "y": 90.6703
+                    },
+                    "uuid": "8b9edbc9-3586-4194-ac8f-8b8fccf47ca5"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.0750 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT24] on F.Cu, length 0.4642 mm",
+                    "pos": {
+                        "x": 139.4,
+                        "y": 90.1
+                    },
+                    "uuid": "d23c35e8-a855-489c-abbe-a6ce77174f2c"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT24] on +3.3V, length 0.1241 mm",
+                    "pos": {
+                        "x": 139.1522,
+                        "y": 80.9088
+                    },
+                    "uuid": "915af3c5-efff-4720-89be-d51af01fd568"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT24] on +3.3V, length 0.1512 mm",
+                    "pos": {
+                        "x": 139.2763,
+                        "y": 80.9088
+                    },
+                    "uuid": "f3d0b949-40a8-496f-9ba6-f7f8c347a579"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT26] on F.Cu, length 0.2116 mm",
+                    "pos": {
+                        "x": 144.2558,
+                        "y": 83.5868
+                    },
+                    "uuid": "05d42565-e464-4b72-a150-8c7e15e5a867"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT26] on F.Cu, length 0.6486 mm",
+                    "pos": {
+                        "x": 143.7972,
+                        "y": 83.1282
+                    },
+                    "uuid": "75a13021-4694-4b9e-920d-e061630069cf"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [Net-(IC201-R_EXT)] on F.Cu, length 0.1058 mm",
+                    "pos": {
+                        "x": 141.6577,
+                        "y": 87.6748
+                    },
+                    "uuid": "5b982dbe-6062-451f-ac3d-0181ac77d8df"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [Net-(IC201-R_EXT)] on F.Cu, length 0.4362 mm",
+                    "pos": {
+                        "x": 142.0939,
+                        "y": 87.6748
+                    },
+                    "uuid": "75e3a3bc-a3c4-40a0-99af-385224770660"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [Net-(IC201-R_EXT)] on F.Cu, length 0.4829 mm",
+                    "pos": {
+                        "x": 141.1,
+                        "y": 87.6
+                    },
+                    "uuid": "e81459d0-23cf-4932-9b0e-653561e35745"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/SDA] on F.Cu, length 0.3434 mm",
+                    "pos": {
+                        "x": 152.09,
+                        "y": 87.3847
+                    },
+                    "uuid": "70d7945b-9d04-4fdb-a9e0-b98422c6e806"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/SDA] on F.Cu, length 0.3432 mm",
+                    "pos": {
+                        "x": 152.3328,
+                        "y": 87.1419
+                    },
+                    "uuid": "c8dfbf84-029b-4e70-8d0b-6fa171edeba8"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/SDA] on F.Cu, length 0.2270 mm",
+                    "pos": {
+                        "x": 152.5307,
+                        "y": 86.6485
+                    },
+                    "uuid": "c9110c00-a55f-4f61-94cd-99be1d5c8972"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/SDA] on F.Cu, length 0.1518 mm",
+                    "pos": {
+                        "x": 152.3789,
+                        "y": 86.6485
+                    },
+                    "uuid": "e1b70e5c-b56a-439b-92c0-46ba465bb051"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/SDA] on F.Cu, length 0.2968 mm",
+                    "pos": {
+                        "x": 152.988,
+                        "y": 86.488
+                    },
+                    "uuid": "f9c83e8a-5854-45c7-9f93-e3d108c5e954"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/SDA] on +3.3V, length 0.5155 mm",
+                    "pos": {
+                        "x": 145.8036,
+                        "y": 86.2948
+                    },
+                    "uuid": "01dbc6a6-6ec5-41a7-abbd-855335925e81"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/SDA] on +3.3V, length 0.0880 mm",
+                    "pos": {
+                        "x": 145.7414,
+                        "y": 86.2326
+                    },
+                    "uuid": "fcf15006-1033-4c71-874e-289e6b105ae8"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/SCL] on B.Cu, length 0.4470 mm",
+                    "pos": {
+                        "x": 145.4295,
+                        "y": 83.8933
+                    },
+                    "uuid": "398ddee6-3a0e-45ba-8d52-08e1147e99d1"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/SCL] on B.Cu, length 0.0075 mm",
+                    "pos": {
+                        "x": 145.4011,
+                        "y": 83.9111
+                    },
+                    "uuid": "eae888c1-4117-4a3b-b410-2c655c61e026"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Track [/vLUX] on F.Cu, length 0.0905 mm",
+                    "pos": {
+                        "x": 144.3287,
+                        "y": 97.557
+                    },
+                    "uuid": "08c157d5-1e61-4a5f-a38a-0ad565e1c4c6"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Track [/vLUX] on F.Cu, length 0.1433 mm",
+                    "pos": {
+                        "x": 144.43,
+                        "y": 97.4557
+                    },
+                    "uuid": "6ba2a9b8-3104-4e53-96d9-cb2728108047"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.0900 mm)",
+            "items": [
+                {
+                    "description": "Track [/vLUX] on F.Cu, length 0.6497 mm",
+                    "pos": {
+                        "x": 144.43,
+                        "y": 96.806
+                    },
+                    "uuid": "c6ebfb05-3f15-4e8d-b678-bc1d2efb1a93"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/vLUX] on +3.3V, length 0.0454 mm",
+                    "pos": {
+                        "x": 146.3022,
+                        "y": 92.3811
+                    },
+                    "uuid": "54edd711-b137-4d37-b10f-9a2eab63f103"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/vLUX] on +3.3V, length 1.5744 mm",
+                    "pos": {
+                        "x": 147.8766,
+                        "y": 92.3811
+                    },
+                    "uuid": "73525d47-0d7c-4d5c-a52d-534c9d97df1c"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/MCU/LED_STAT] on F.Cu, length 0.5466 mm",
+                    "pos": {
+                        "x": 148.8582,
+                        "y": 92.9244
+                    },
+                    "uuid": "0152fecb-6cc3-4c85-82e9-b39ed6e478f7"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [/MCU/LED_STAT] on F.Cu, length 0.1112 mm",
+                    "pos": {
+                        "x": 148.3116,
+                        "y": 92.9244
+                    },
+                    "uuid": "77052aa5-b7c9-449e-9df5-9b089990ec8c"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [Net-(J1-SWDIO/TMS)] on F.Cu, length 0.1742 mm",
+                    "pos": {
+                        "x": 149.3285,
+                        "y": 85.1004
+                    },
+                    "uuid": "26c7f2db-0e88-422e-8450-42ec6936113d"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [Net-(J1-SWDIO/TMS)] on F.Cu, length 0.0270 mm",
+                    "pos": {
+                        "x": 149.3285,
+                        "y": 85.1274
+                    },
+                    "uuid": "fb9d2625-d9ec-4c4b-8d3f-98f0af415c33"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [Net-(J1-SWDIO/TMS)] on +3.3V, length 0.2126 mm",
+                    "pos": {
+                        "x": 148.5002,
+                        "y": 83.0815
+                    },
+                    "uuid": "1c9ae8b5-580c-441f-9ca1-be50ae567629"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [Net-(J1-SWDIO/TMS)] on +3.3V, length 0.2493 mm",
+                    "pos": {
+                        "x": 148.6765,
+                        "y": 83.2578
+                    },
+                    "uuid": "48476179-558d-4db9-960f-6179ff3ada87"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [Net-(U102-PROG)] on B.Cu, length 0.1720 mm",
+                    "pos": {
+                        "x": 151.8445,
+                        "y": 88.4284
+                    },
+                    "uuid": "40988dff-ed54-4fe4-8a23-c1cbff9175bf"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Track width (board setup constraints min width 0.1500 mm; actual 0.1124 mm)",
+            "items": [
+                {
+                    "description": "Track [Net-(U102-PROG)] on B.Cu, length 1.2733 mm",
+                    "pos": {
+                        "x": 153.1178,
+                        "y": 88.4284
+                    },
+                    "uuid": "6f56fc56-b14f-4743-a3be-042b4f8c5ac0"
+                }
+            ],
+            "severity": "error",
+            "type": "track_width"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [+3.3V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 141.7,
+                        "y": 88.25
+                    },
+                    "uuid": "22eb7088-73bd-4bbb-85f7-439c61ed01b1"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [+3.3V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 146.3,
+                        "y": 91.099999
+                    },
+                    "uuid": "32826bbe-2214-4c82-b8ce-9137c30bcd85"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [+3.3V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 152.299999,
+                        "y": 87.799999
+                    },
+                    "uuid": "47c0338e-68c9-4564-a15f-c802bf1eb77d"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [+3.3V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 144.25,
+                        "y": 78.03
+                    },
+                    "uuid": "4bd901fc-6f29-47ed-ad98-fba9a8050898"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [+3.3V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 142.7,
+                        "y": 86.96
+                    },
+                    "uuid": "4e7af6fa-8a35-408f-bb4a-f7edadf12c6d"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [+3.3V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 148.207,
+                        "y": 84.437
+                    },
+                    "uuid": "59b72c99-26bb-471e-b6e9-eb4f9dfc0faf"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [+3.3V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 154.96,
+                        "y": 85.516
+                    },
+                    "uuid": "893d481c-0daa-4133-b8e4-2fdc6cf621c2"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [+3.3V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 144.275,
+                        "y": 91.177
+                    },
+                    "uuid": "b01a2300-9414-49b9-83cf-359df68ae8ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint IC201",
+                    "pos": {
+                        "x": 139.0,
+                        "y": 88.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062794e93"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C201",
+                    "pos": {
+                        "x": 142.15,
+                        "y": 86.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062796283"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C202",
+                    "pos": {
+                        "x": 143.0,
+                        "y": 88.4
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062796292"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED206",
+                    "pos": {
+                        "x": 159.893,
+                        "y": 88.265
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1c836"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED205",
+                    "pos": {
+                        "x": 159.413815,
+                        "y": 84.625228
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cd63"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED204",
+                    "pos": {
+                        "x": 158.008915,
+                        "y": 81.2335
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cd7f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED203",
+                    "pos": {
+                        "x": 155.774043,
+                        "y": 78.320957
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cd9b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED202",
+                    "pos": {
+                        "x": 152.8615,
+                        "y": 76.086085
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cdb7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED201",
+                    "pos": {
+                        "x": 149.469772,
+                        "y": 74.681185
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cdd3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED224",
+                    "pos": {
+                        "x": 145.83,
+                        "y": 74.202
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cdef"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED223",
+                    "pos": {
+                        "x": 142.190228,
+                        "y": 74.681185
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce0b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED222",
+                    "pos": {
+                        "x": 138.7985,
+                        "y": 76.086085
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce27"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED221",
+                    "pos": {
+                        "x": 135.885957,
+                        "y": 78.320957
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce43"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED220",
+                    "pos": {
+                        "x": 133.651085,
+                        "y": 81.2335
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce5f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED219",
+                    "pos": {
+                        "x": 132.246185,
+                        "y": 84.625228
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce7b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED218",
+                    "pos": {
+                        "x": 131.767,
+                        "y": 88.265
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce97"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED217",
+                    "pos": {
+                        "x": 132.246185,
+                        "y": 91.904772
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ceb3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED216",
+                    "pos": {
+                        "x": 133.651085,
+                        "y": 95.2965
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cecf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED215",
+                    "pos": {
+                        "x": 135.885957,
+                        "y": 98.209043
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ceeb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED214",
+                    "pos": {
+                        "x": 138.7985,
+                        "y": 100.443915
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf07"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED213",
+                    "pos": {
+                        "x": 142.190228,
+                        "y": 101.848815
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf23"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED212",
+                    "pos": {
+                        "x": 145.83,
+                        "y": 102.328
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf3f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED211",
+                    "pos": {
+                        "x": 149.469772,
+                        "y": 101.848815
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf5b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED210",
+                    "pos": {
+                        "x": 152.8615,
+                        "y": 100.443915
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf77"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED209",
+                    "pos": {
+                        "x": 155.774043,
+                        "y": 98.209043
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf93"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED208",
+                    "pos": {
+                        "x": 158.008915,
+                        "y": 95.2965
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cfaf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED207",
+                    "pos": {
+                        "x": 159.413815,
+                        "y": 91.904772
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cfcb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C104",
+                    "pos": {
+                        "x": 153.753263,
+                        "y": 89.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000064182f85"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED101",
+                    "pos": {
+                        "x": 149.5,
+                        "y": 80.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-000064183050"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED102",
+                    "pos": {
+                        "x": 142.0,
+                        "y": 80.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000642a3e49"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED225",
+                    "pos": {
+                        "x": 145.862406,
+                        "y": 83.586827
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000642a8c62"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'EasyEDA'",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 150.907396,
+                        "y": 88.280842
+                    },
+                    "uuid": "1cca03ba-b887-451c-a357-4d563013e5f9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Logo'",
+            "items": [
+                {
+                    "description": "Footprint LOGO1",
+                    "pos": {
+                        "x": 145.808286,
+                        "y": 79.5
+                    },
+                    "uuid": "90e6d93f-2a99-4720-8a9c-9a8054b6f15e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CC2340'",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 145.83,
+                        "y": 94.403033
+                    },
+                    "uuid": "d6977ae2-b2ba-452b-abbf-b742d39e66e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BMA400'",
+            "items": [
+                {
+                    "description": "Footprint U3",
+                    "pos": {
+                        "x": 153.75,
+                        "y": 86.738
+                    },
+                    "uuid": "eb9e1157-dd6a-4873-849f-de69c315fe82"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R203",
+                    "pos": {
+                        "x": 141.9,
+                        "y": 85.2
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062796462"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R204",
+                    "pos": {
+                        "x": 143.05,
+                        "y": 85.2
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062796473"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C101",
+                    "pos": {
+                        "x": 150.713735,
+                        "y": 84.677984
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006279aa0a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R101",
+                    "pos": {
+                        "x": 154.113735,
+                        "y": 88.377984
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062b38f04"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'",
+            "items": [
+                {
+                    "description": "Footprint U102",
+                    "pos": {
+                        "x": 153.163735,
+                        "y": 85.777984
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062b3928b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C102",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 87.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000064182f67"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C103",
+                    "pos": {
+                        "x": 149.399999,
+                        "y": 80.7
+                    },
+                    "uuid": "00000000-0000-0000-0000-000064182f76"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R102",
+                    "pos": {
+                        "x": 151.024025,
+                        "y": 83.071834
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000641831e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R103",
+                    "pos": {
+                        "x": 144.2,
+                        "y": 85.2
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000641831fa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R104",
+                    "pos": {
+                        "x": 145.35,
+                        "y": 85.2
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006418320b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R106",
+                    "pos": {
+                        "x": 140.544365,
+                        "y": 95.763604
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000641842fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R108",
+                    "pos": {
+                        "x": 157.0,
+                        "y": 92.95
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006418583e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R113",
+                    "pos": {
+                        "x": 144.829999,
+                        "y": 99.206066
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000642a4106"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R114",
+                    "pos": {
+                        "x": 146.879998,
+                        "y": 99.206066
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000642a4117"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Samacsys'",
+            "items": [
+                {
+                    "description": "Footprint IC1",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 81.0
+                    },
+                    "uuid": "6adfba73-944d-473b-bc1e-1535c5d688c8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'Walton' on F.Silkscreen",
+                    "pos": {
+                        "x": 145.843143,
+                        "y": 81.382278
+                    },
+                    "uuid": "33ad5944-4d59-4a08-be25-7835c18d9265"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '12' on F.Silkscreen",
+                    "pos": {
+                        "x": 145.758017,
+                        "y": 76.962
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1d049"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '11' on F.Silkscreen",
+                    "pos": {
+                        "x": 140.081,
+                        "y": 78.359
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e16c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '10' on F.Silkscreen",
+                    "pos": {
+                        "x": 135.89,
+                        "y": 82.677
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e16e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '9' on F.Silkscreen",
+                    "pos": {
+                        "x": 134.479161,
+                        "y": 88.138
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e170"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '8' on F.Silkscreen",
+                    "pos": {
+                        "x": 135.920973,
+                        "y": 93.853
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e172"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '7' on F.Silkscreen",
+                    "pos": {
+                        "x": 140.038931,
+                        "y": 98.044
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e174"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '6' on F.Silkscreen",
+                    "pos": {
+                        "x": 145.726086,
+                        "y": 99.568
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e176"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '5' on F.Silkscreen",
+                    "pos": {
+                        "x": 151.446813,
+                        "y": 98.044
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e178"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '4' on F.Silkscreen",
+                    "pos": {
+                        "x": 155.575,
+                        "y": 93.853
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e17a"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '3' on F.Silkscreen",
+                    "pos": {
+                        "x": 157.099,
+                        "y": 88.265
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e17c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '2' on F.Silkscreen",
+                    "pos": {
+                        "x": 155.614392,
+                        "y": 82.630416
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e17e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '1' on F.Silkscreen",
+                    "pos": {
+                        "x": 151.511,
+                        "y": 78.359
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e180"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        }
+    ]
+}

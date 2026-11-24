@@ -2849,12 +2849,6 @@
 		(uuid "0ffd371c-8a37-4711-b970-7575c019e1f9")
 	)
 	(junction
-		(at 196.85 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "143470cb-1e19-4eaa-ad70-7a5b6e6c152f")
-	)
-	(junction
 		(at 161.29 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3221,16 +3215,6 @@
 			(type default)
 		)
 		(uuid "39a85720-d90e-42fb-8e9a-30b997b7724f")
-	)
-	(wire
-		(pts
-			(xy 196.85 40.64) (xy 196.85 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e8885e5-84f9-4d3d-ac82-2bd5e680b4b9")
 	)
 	(polyline
 		(pts
@@ -7628,7 +7612,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 46.99 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8150,84 +8134,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 196.85 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "38984d57-21e7-4288-a3cb-768f1f583f01")
-		(property "Reference" "TP508"
-			(at 198.755 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V"
-			(at 198.755 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 196.85 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Coil solder pad"
-			(at 196.85 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "01e403d9-4be9-4951-ac31-d9b07407d737")
-		)
-		(instances
-			(project "Watch"
-				(path "/0d62a87a-e10e-4d51-a581-3dee7580092e"
-					(reference "TP508")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 236.22 36.83 0)
 		(unit 1)
@@ -8338,7 +8244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 35.56 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9030,7 +8936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 236.22 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9108,7 +9014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 24.13 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9186,7 +9092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 236.22 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -9662,7 +9568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 140.97 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -9740,7 +9646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 168.91 158.75 0)
 			(hide yes)
 			(show_name no)

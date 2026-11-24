@@ -1270,6 +1270,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Antenna_Chip"
 			(pin_numbers
 				(hide yes)
@@ -2820,12 +2943,6 @@
 		(uuid "e4f0ebfc-2ded-4f77-9045-4145b888203a")
 	)
 	(junction
-		(at 281.94 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eba86560-cb7a-41a9-b800-9f5d0512e21a")
-	)
-	(junction
 		(at 193.04 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2844,16 +2961,8 @@
 		(uuid "287df449-98dd-46d9-b3c3-a6c3afbe49f5")
 	)
 	(no_connect
-		(at 267.97 144.78)
-		(uuid "299ca1b2-8750-48df-b08c-d7bd9b493471")
-	)
-	(no_connect
 		(at 241.3 167.64)
 		(uuid "63dcfc0e-24e7-40a2-8069-f8d2c910cba9")
-	)
-	(no_connect
-		(at 267.97 147.32)
-		(uuid "7789badd-8edd-4cc7-b18e-749833bc457b")
 	)
 	(no_connect
 		(at 241.3 160.02)
@@ -3013,7 +3122,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 157.48) (xy 267.97 157.48)
+			(xy 261.62 154.94) (xy 267.97 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3073,7 +3182,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 193.04) (xy 261.62 157.48)
+			(xy 261.62 193.04) (xy 261.62 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3120,16 +3229,6 @@
 			(type default)
 		)
 		(uuid "64915b70-6606-4280-b878-011bb93994c3")
-	)
-	(wire
-		(pts
-			(xy 283.21 134.62) (xy 283.21 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d711f6c-fb49-462c-b053-e1bb8c3c132a")
 	)
 	(wire
 		(pts
@@ -3210,16 +3309,6 @@
 			(type default)
 		)
 		(uuid "982eaadd-6568-42e4-9ae7-0c0a1fbb0053")
-	)
-	(wire
-		(pts
-			(xy 280.67 130.81) (xy 281.94 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d176cb9-3be8-4e9e-87b9-53bde131cef0")
 	)
 	(wire
 		(pts
@@ -3323,16 +3412,6 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 130.81) (xy 280.67 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cba8bc11-608f-4cf4-807f-80cd531cca11")
-	)
-	(wire
-		(pts
 			(xy 243.84 177.8) (xy 243.84 180.34)
 		)
 		(stroke
@@ -3390,16 +3469,6 @@
 			(type default)
 		)
 		(uuid "f1a8c1c2-1ac9-4a3e-8d8e-c977286cffe0")
-	)
-	(wire
-		(pts
-			(xy 281.94 130.81) (xy 283.21 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2a416d9-290e-41e3-b93e-16b36ab4120c")
 	)
 	(wire
 		(pts
@@ -3562,6 +3631,26 @@
 			(justify left)
 		)
 		(uuid "fda90dfa-662d-47a6-9092-74f765069857")
+	)
+	(wire
+		(pts
+			(xy 262.89 144.78) (xy 267.97 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d9f0fc-7502-42d0-8c5b-9fdf4f2c0e06")
+	)
+	(wire
+		(pts
+			(xy 262.89 147.32) (xy 267.97 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f9416c-81a5-4463-82cb-6451c6fdf52f")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -3801,6 +3890,93 @@
 			(project "CC2340_MCU"
 				(path "/37c5d5f3-4b3e-4231-924d-892b4a5e74d1"
 					(reference "#PWR326")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 267.97 149.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10e0c9a2-fad7-4844-ba1f-e9b74d4aaae4")
+		(property "Reference" "TP1"
+			(at 272.42 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SWDIO"
+			(at 277.5 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 267.97 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "SWD pogo pad (replaces J1 2x5 header)"
+			(at 267.97 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "7d93fc0d-7d44-435b-be48-6f5380d7c28d")
+		)
+		(instances
+			(project "Watch"
+				(path "/0d62a87a-e10e-4d51-a581-3dee7580092e/fb6ef4f7-335b-498a-a3d1-2c4a2a67fe5a"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+			(project "CC2340_MCU"
+				(path "/37c5d5f3-4b3e-4231-924d-892b4a5e74d1"
+					(reference "TP301")
 					(unit 1)
 				)
 			)
@@ -4504,6 +4680,93 @@
 			(project "CC2340_MCU"
 				(path "/37c5d5f3-4b3e-4231-924d-892b4a5e74d1"
 					(reference "C319")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 267.97 144.78 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "29b9d27d-b4e7-44ef-b025-d80ae86245d4")
+		(property "Reference" "TP4"
+			(at 272.42 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3V3"
+			(at 277.5 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 267.97 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "SWD pogo pad (replaces J1 2x5 header)"
+			(at 267.97 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "ec50c097-11e8-4118-943f-9c64745c67e4")
+		)
+		(instances
+			(project "Watch"
+				(path "/0d62a87a-e10e-4d51-a581-3dee7580092e/fb6ef4f7-335b-498a-a3d1-2c4a2a67fe5a"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+			(project "CC2340_MCU"
+				(path "/37c5d5f3-4b3e-4231-924d-892b4a5e74d1"
+					(reference "TP304")
 					(unit 1)
 				)
 			)
@@ -5919,7 +6182,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 281.94 130.81 180)
+		(at 262.89 147.32 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5929,7 +6192,7 @@
 		(dnp no)
 		(uuid "6b0ba390-7f59-40f2-ae01-0e825fc6deb2")
 		(property "Reference" "#PWR318"
-			(at 281.94 124.46 0)
+			(at 262.89 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5940,17 +6203,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 281.94 127 0)
+			(at 258.57 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 281.94 130.81 0)
+			(at 262.89 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5961,7 +6225,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 281.94 130.81 0)
+			(at 262.89 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5972,7 +6236,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 281.94 130.81 0)
+			(at 262.89 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6283,6 +6547,93 @@
 			(project "CC2340_MCU"
 				(path "/37c5d5f3-4b3e-4231-924d-892b4a5e74d1"
 					(reference "C306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 267.97 154.94 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "87118dc2-b895-4be5-bcfc-047ab518f32c")
+		(property "Reference" "TP3"
+			(at 272.42 154.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RST"
+			(at 277.5 154.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 267.97 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "SWD pogo pad (replaces J1 2x5 header)"
+			(at 267.97 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "77e131f7-0846-4296-a64e-6af93b4cde52")
+		)
+		(instances
+			(project "Watch"
+				(path "/0d62a87a-e10e-4d51-a581-3dee7580092e/fb6ef4f7-335b-498a-a3d1-2c4a2a67fe5a"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+			(project "CC2340_MCU"
+				(path "/37c5d5f3-4b3e-4231-924d-892b4a5e74d1"
+					(reference "TP303")
 					(unit 1)
 				)
 			)
@@ -6705,6 +7056,180 @@
 			(project "CC2340_MCU"
 				(path "/37c5d5f3-4b3e-4231-924d-892b4a5e74d1"
 					(reference "#PWR317")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 267.97 152.4 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a4f01f32-3fb4-448b-81fa-3b9a7be5d35c")
+		(property "Reference" "TP2"
+			(at 272.42 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SWCLK"
+			(at 277.5 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 267.97 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "SWD pogo pad (replaces J1 2x5 header)"
+			(at 267.97 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "b2fa7ed2-28f1-46ab-bdcb-e2363669b159")
+		)
+		(instances
+			(project "Watch"
+				(path "/0d62a87a-e10e-4d51-a581-3dee7580092e/fb6ef4f7-335b-498a-a3d1-2c4a2a67fe5a"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+			(project "CC2340_MCU"
+				(path "/37c5d5f3-4b3e-4231-924d-892b4a5e74d1"
+					(reference "TP302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 267.97 147.32 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a91ea5f1-8569-4e85-a235-a54d228f67da")
+		(property "Reference" "TP5"
+			(at 272.42 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 277.5 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 267.97 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "SWD pogo pad (replaces J1 2x5 header)"
+			(at 267.97 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "1703decb-cea8-40ee-9b83-d4a4b0a9da53")
+		)
+		(instances
+			(project "Watch"
+				(path "/0d62a87a-e10e-4d51-a581-3dee7580092e/fb6ef4f7-335b-498a-a3d1-2c4a2a67fe5a"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+			(project "CC2340_MCU"
+				(path "/37c5d5f3-4b3e-4231-924d-892b4a5e74d1"
+					(reference "TP305")
 					(unit 1)
 				)
 			)
@@ -7169,126 +7694,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_ARM_JTAG_SWD_10")
-		(at 280.67 149.86 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c1623351-85c9-432a-a12e-087914028cd1")
-		(property "Reference" "J1"
-			(at 303.53 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_ARM_JTAG_SWD_10"
-			(at 303.53 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
-			(at 280.67 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 280.67 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 280.67 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Source" "matches existing J104 in Watch.kicad_sch"
-			(at 280.67 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bc9260db-f126-44bc-b9d0-49238bc0113d")
-		)
-		(pin "2"
-			(uuid "73ce5219-42c7-4904-b7e3-97a961aaa0de")
-		)
-		(pin "3"
-			(uuid "bf314aee-22ac-4c69-8e1c-b200cca71ec6")
-		)
-		(pin "4"
-			(uuid "ff06cf0d-8305-4bfb-bf3f-e185eaf75cc8")
-		)
-		(pin "5"
-			(uuid "cf2663bd-a891-4517-b78c-abe3eaa0467e")
-		)
-		(pin "6"
-			(uuid "53948418-1599-4683-92e8-72789cecaf1d")
-		)
-		(pin "7"
-			(uuid "6f406ba3-48e0-4503-a1f8-0e2c11f0047d")
-		)
-		(pin "8"
-			(uuid "fe0b63af-7b4b-400b-bb72-7a459d5b3c34")
-		)
-		(pin "9"
-			(uuid "d7c46b56-b43b-48ae-9452-5454d368211c")
-		)
-		(pin "10"
-			(uuid "7dc0d331-eb65-4fae-85e9-2fd370dc2119")
-		)
-		(instances
-			(project "Watch"
-				(path "/0d62a87a-e10e-4d51-a581-3dee7580092e/fb6ef4f7-335b-498a-a3d1-2c4a2a67fe5a"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-			(project "CC2340_MCU"
-				(path "/37c5d5f3-4b3e-4231-924d-892b4a5e74d1"
-					(reference "J301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 312.42 88.9 90)
 		(unit 1)
@@ -7578,7 +7983,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 280.67 165.1 180)
+		(at 262.89 144.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7588,7 +7993,7 @@
 		(dnp no)
 		(uuid "d18f074b-cd13-4013-be28-64f361ff9473")
 		(property "Reference" "#PWR0132"
-			(at 280.67 161.29 0)
+			(at 262.89 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7599,18 +8004,18 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 283.21 169.418 0)
+			(at 252.73 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 280.67 165.1 0)
+			(at 262.89 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7621,7 +8026,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 280.67 165.1 0)
+			(at 262.89 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7632,7 +8037,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 280.67 165.1 0)
+			(at 262.89 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

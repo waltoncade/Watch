@@ -1,0 +1,1611 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-23T18:50:01",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "s8.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [/leds/OUT2] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 140.6,
+                        "y": 85.9
+                    },
+                    "uuid": "c7a8417b-27d4-4a3f-8835-fe42c8aab215"
+                },
+                {
+                    "description": "Pad 1 [/leds/OUT2] of LED223 on F.Cu",
+                    "pos": {
+                        "x": 142.962969,
+                        "y": 74.47413
+                    },
+                    "uuid": "2960a64c-da58-4a92-933d-2f94654e5762"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [/leds/OUT4] of LED221 on F.Cu",
+                    "pos": {
+                        "x": 136.451642,
+                        "y": 77.755272
+                    },
+                    "uuid": "3ac6ca63-fd77-4c54-bb43-1b9c905cec45"
+                },
+                {
+                    "description": "Pad 3 [/leds/OUT4] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 139.8,
+                        "y": 85.9
+                    },
+                    "uuid": "280073a6-1d37-4378-a5d2-f2bd940a6cc4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [GND] of Y1 on F.Cu",
+                    "pos": {
+                        "x": 146.629999,
+                        "y": 98.5
+                    },
+                    "uuid": "1a5ad6ff-022b-4174-8920-b0f2d22fac9e"
+                },
+                {
+                    "description": "Track [GND] on B.Cu, length 0.9503 mm",
+                    "pos": {
+                        "x": 146.394998,
+                        "y": 99.206066
+                    },
+                    "uuid": "a1b6c83a-c438-499d-862e-8c8c45bc2ebf"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT19] on +3.3V, length 0.2559 mm",
+                    "pos": {
+                        "x": 144.313,
+                        "y": 94.2589
+                    },
+                    "uuid": "4dc75822-2b0d-42f3-94bc-dd62a92ad7e2"
+                },
+                {
+                    "description": "Track [/leds/OUT19] on +3.3V, length 0.1052 mm",
+                    "pos": {
+                        "x": 144.634,
+                        "y": 93.9778
+                    },
+                    "uuid": "d0fb7678-cbd7-4fe1-9f7e-33079141bc16"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT19] on +3.3V, length 0.2007 mm",
+                    "pos": {
+                        "x": 146.302,
+                        "y": 93.4864
+                    },
+                    "uuid": "02941568-55d4-4a76-9eff-f50ee651df00"
+                },
+                {
+                    "description": "Track [/leds/OUT19] on +3.3V, length 1.0980 mm",
+                    "pos": {
+                        "x": 146.67,
+                        "y": 92.9185
+                    },
+                    "uuid": "2f54e13a-b738-4ed6-8ff7-48cbfe25eccf"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 25 [/leds/OUT25] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 139.8,
+                        "y": 90.1
+                    },
+                    "uuid": "d1e97912-1e15-4559-aad2-d31e0ffcac7a"
+                },
+                {
+                    "description": "Pad 5 [/leds/OUT25] of LED225 on F.Cu",
+                    "pos": {
+                        "x": 144.467406,
+                        "y": 84.436827
+                    },
+                    "uuid": "60b2080a-3dc9-4ba4-8997-9bc068b7283f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT26] on F.Cu, length 0.2110 mm",
+                    "pos": {
+                        "x": 144.256,
+                        "y": 83.5868
+                    },
+                    "uuid": "bddaf79b-2ed5-4841-bbbc-ab17b9fc74a9"
+                },
+                {
+                    "description": "Track [/leds/OUT26] on F.Cu, length 0.0018 mm",
+                    "pos": {
+                        "x": 143.797,
+                        "y": 83.1282
+                    },
+                    "uuid": "4a162c72-1fbc-4ef9-bcad-611cf38c7a48"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 29 [/LED_EN] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 141.1,
+                        "y": 89.2
+                    },
+                    "uuid": "72f86c56-bfb8-480c-8dc0-63f7a7d49428"
+                },
+                {
+                    "description": "Pad 23 [/LED_EN] of U1 on F.Cu",
+                    "pos": {
+                        "x": 143.426967,
+                        "y": 93.403032
+                    },
+                    "uuid": "8457defb-c208-4c71-bd3a-009142beb063"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [/LED_EN] of R204 on B.Cu",
+                    "pos": {
+                        "x": 143.05,
+                        "y": 85.685
+                    },
+                    "uuid": "9e43d1fe-6710-4503-a3dc-5a96fa0c0267"
+                },
+                {
+                    "description": "Pad 29 [/LED_EN] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 141.1,
+                        "y": 89.2
+                    },
+                    "uuid": "72f86c56-bfb8-480c-8dc0-63f7a7d49428"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on B.Cu, length 0.2439 mm",
+                    "pos": {
+                        "x": 146.350001,
+                        "y": 96.806066
+                    },
+                    "uuid": "6992dbeb-86ec-43dc-a3a3-8140ed355957"
+                },
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 0.5496 mm",
+                    "pos": {
+                        "x": 144.030001,
+                        "y": 96.806066
+                    },
+                    "uuid": "8c9e8077-9659-4946-829d-251d7abf3195"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on F.Cu, length 0.0483 mm",
+                    "pos": {
+                        "x": 146.830001,
+                        "y": 96.806066
+                    },
+                    "uuid": "07704629-42f5-41c6-9f90-3dc2debb252d"
+                },
+                {
+                    "description": "Pad 8 [+3.3V] of U1 on F.Cu",
+                    "pos": {
+                        "x": 148.233033,
+                        "y": 93.403032
+                    },
+                    "uuid": "2c657ac0-98c4-4950-a8a9-6521748fbe9c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 35 [/leds/SCL] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 141.1,
+                        "y": 86.8
+                    },
+                    "uuid": "ea397c52-88ae-439a-8a6a-53183b416957"
+                },
+                {
+                    "description": "Pad 21 [/leds/SCL] of U1 on F.Cu",
+                    "pos": {
+                        "x": 143.426967,
+                        "y": 92.603034
+                    },
+                    "uuid": "6abc1532-0d1f-46e0-a835-c231a2959132"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [/leds/SCL] of R103 on B.Cu",
+                    "pos": {
+                        "x": 144.2,
+                        "y": 84.715
+                    },
+                    "uuid": "1890718a-61bc-4caa-a49a-120c7e877020"
+                },
+                {
+                    "description": "Pad 35 [/leds/SCL] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 141.1,
+                        "y": 86.8
+                    },
+                    "uuid": "ea397c52-88ae-439a-8a6a-53183b416957"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 14 [/MCU/MOTOR_B] of U1 on F.Cu",
+                    "pos": {
+                        "x": 146.429999,
+                        "y": 92.0
+                    },
+                    "uuid": "6ea9a8d3-3b14-4def-b265-a15e196b3a9f"
+                },
+                {
+                    "description": "Pad 1 [/MCU/MOTOR_B] of R502 on F.Cu",
+                    "pos": {
+                        "x": 149.860624,
+                        "y": 84.860624
+                    },
+                    "uuid": "55773e43-927f-418d-831a-cbaaca65f979"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [Net-(C3-Pad1)] on B.Cu, length 2.0408 mm",
+                    "pos": {
+                        "x": 144.3,
+                        "y": 98.0061
+                    },
+                    "uuid": "35a6a7fe-6ba2-4a2a-a24a-d2290a1aced5"
+                },
+                {
+                    "description": "Pad 2 [Net-(C3-Pad1)] of L1 on F.Cu",
+                    "pos": {
+                        "x": 144.2875,
+                        "y": 98.5
+                    },
+                    "uuid": "13d4bafb-4b13-45cb-96ae-15db191936a8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [Net-(C3-Pad1)] on B.Cu, length 0.1153 mm",
+                    "pos": {
+                        "x": 145.743,
+                        "y": 96.563
+                    },
+                    "uuid": "6b419801-bf87-4fe3-91b7-b485b8f3bc8c"
+                },
+                {
+                    "description": "Pad 34 [Net-(C3-Pad1)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 145.230001,
+                        "y": 96.806066
+                    },
+                    "uuid": "83750325-3c56-4992-a91c-9e45cd918074"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [Net-(C3-Pad1)] on B.Cu, length 1.4290 mm",
+                    "pos": {
+                        "x": 146.806,
+                        "y": 96.135
+                    },
+                    "uuid": "209c80c4-1dcc-47a7-9adc-c6bee38e8f8a"
+                },
+                {
+                    "description": "Pad 1 [Net-(C3-Pad1)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 148.233048,
+                        "y": 96.203032
+                    },
+                    "uuid": "66ab3139-194d-4b26-a58f-ea14c0f6f56e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 3 [/SW2] of U1 on F.Cu",
+                    "pos": {
+                        "x": 148.233033,
+                        "y": 95.403034
+                    },
+                    "uuid": "365e15ce-9a7f-4832-8017-91b1437a7959"
+                },
+                {
+                    "description": "Track [/SW2] on B.Cu, length 2.8143 mm",
+                    "pos": {
+                        "x": 155.01,
+                        "y": 89.55
+                    },
+                    "uuid": "d596040e-00a6-4fe1-a54f-748a03bfeaae"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [/SW1] on B.Cu, length 0.7212 mm",
+                    "pos": {
+                        "x": 157.0,
+                        "y": 91.9767
+                    },
+                    "uuid": "ff7ea7be-0bc7-4413-9890-d5d8f6aa2981"
+                },
+                {
+                    "description": "Pad 4 [/SW1] of U1 on F.Cu",
+                    "pos": {
+                        "x": 148.233033,
+                        "y": 95.003032
+                    },
+                    "uuid": "a9aba4ec-8ec2-472c-9c1f-b56825070324"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 20 [/ACC_INT] of U1 on F.Cu",
+                    "pos": {
+                        "x": 144.030001,
+                        "y": 92.0
+                    },
+                    "uuid": "e5844da5-1b40-46c3-8fee-50bcba15a514"
+                },
+                {
+                    "description": "Pad 5 [/ACC_INT] of U3 on F.Cu",
+                    "pos": {
+                        "x": 153.5,
+                        "y": 87.5
+                    },
+                    "uuid": "125e9a3f-4f27-4071-9f64-8586a7c3bc0f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 33 [/bSense] of U1 on F.Cu",
+                    "pos": {
+                        "x": 144.829999,
+                        "y": 96.806066
+                    },
+                    "uuid": "35d71bb7-a8f2-4b8c-bdbb-7625071e01e6"
+                },
+                {
+                    "description": "Pad 1 [/bSense] of R113 on B.Cu",
+                    "pos": {
+                        "x": 144.344999,
+                        "y": 99.206066
+                    },
+                    "uuid": "ac1e45a6-b5e4-4c0f-af75-5bb13e21dd49"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+BATT] on B.Cu, length 0.7517 mm",
+                    "pos": {
+                        "x": 147.2,
+                        "y": 80.05
+                    },
+                    "uuid": "7305bb02-09e4-407f-89ed-4d1955c1c002"
+                },
+                {
+                    "description": "Track [+BATT] on B.Cu, length 0.2600 mm",
+                    "pos": {
+                        "x": 148.99,
+                        "y": 80.5045
+                    },
+                    "uuid": "4ea68f22-c4ee-4f36-a27f-bfbdeec8b6b7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+BATT] on B.Cu, length 0.0880 mm",
+                    "pos": {
+                        "x": 150.46,
+                        "y": 87.0
+                    },
+                    "uuid": "d87dac6d-8260-4c2d-8e7b-0d42fdc7560f"
+                },
+                {
+                    "description": "Track [+BATT] on B.Cu, length 2.2287 mm",
+                    "pos": {
+                        "x": 147.414,
+                        "y": 82.0803
+                    },
+                    "uuid": "e66fc911-c62c-46d2-bdb8-1ff62075f7ec"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [+BATT] on B.Cu, length 1.5070 mm",
+                    "pos": {
+                        "x": 150.522,
+                        "y": 87.0624
+                    },
+                    "uuid": "1f7f7e01-d12b-4a9a-835b-a7368e34b2cb"
+                },
+                {
+                    "description": "Pad 2 [+BATT] of R113 on B.Cu",
+                    "pos": {
+                        "x": 145.314999,
+                        "y": 99.206066
+                    },
+                    "uuid": "f538b00e-f1cb-4aec-93df-1623de66a83c"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT19] on +3.3V, length 0.2007 mm",
+                    "pos": {
+                        "x": 146.302,
+                        "y": 93.4864
+                    },
+                    "uuid": "02941568-55d4-4a76-9eff-f50ee651df00"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT19] on +3.3V, length 1.0980 mm",
+                    "pos": {
+                        "x": 146.67,
+                        "y": 92.9185
+                    },
+                    "uuid": "2f54e13a-b738-4ed6-8ff7-48cbfe25eccf"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT19] on +3.3V, length 0.2559 mm",
+                    "pos": {
+                        "x": 144.313,
+                        "y": 94.2589
+                    },
+                    "uuid": "4dc75822-2b0d-42f3-94bc-dd62a92ad7e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT19] on +3.3V, length 0.1052 mm",
+                    "pos": {
+                        "x": 144.634,
+                        "y": 93.9778
+                    },
+                    "uuid": "d0fb7678-cbd7-4fe1-9f7e-33079141bc16"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT26] on F.Cu, length 0.0018 mm",
+                    "pos": {
+                        "x": 143.797,
+                        "y": 83.1282
+                    },
+                    "uuid": "4a162c72-1fbc-4ef9-bcad-611cf38c7a48"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint IC201",
+                    "pos": {
+                        "x": 139.0,
+                        "y": 88.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062794e93"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C201",
+                    "pos": {
+                        "x": 142.15,
+                        "y": 86.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062796283"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C202",
+                    "pos": {
+                        "x": 143.0,
+                        "y": 88.4
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062796292"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED206",
+                    "pos": {
+                        "x": 159.893,
+                        "y": 88.265
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1c836"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED205",
+                    "pos": {
+                        "x": 159.413815,
+                        "y": 84.625228
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cd63"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED204",
+                    "pos": {
+                        "x": 158.008915,
+                        "y": 81.2335
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cd7f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED203",
+                    "pos": {
+                        "x": 155.774043,
+                        "y": 78.320957
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cd9b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED202",
+                    "pos": {
+                        "x": 152.8615,
+                        "y": 76.086085
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cdb7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED201",
+                    "pos": {
+                        "x": 149.469772,
+                        "y": 74.681185
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cdd3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED224",
+                    "pos": {
+                        "x": 145.83,
+                        "y": 74.202
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cdef"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED223",
+                    "pos": {
+                        "x": 142.190228,
+                        "y": 74.681185
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce0b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED222",
+                    "pos": {
+                        "x": 138.7985,
+                        "y": 76.086085
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce27"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED221",
+                    "pos": {
+                        "x": 135.885957,
+                        "y": 78.320957
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce43"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED220",
+                    "pos": {
+                        "x": 133.651085,
+                        "y": 81.2335
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce5f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED219",
+                    "pos": {
+                        "x": 132.246185,
+                        "y": 84.625228
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce7b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED218",
+                    "pos": {
+                        "x": 131.767,
+                        "y": 88.265
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce97"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED217",
+                    "pos": {
+                        "x": 132.246185,
+                        "y": 91.904772
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ceb3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED216",
+                    "pos": {
+                        "x": 133.651085,
+                        "y": 95.2965
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cecf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED215",
+                    "pos": {
+                        "x": 135.885957,
+                        "y": 98.209043
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ceeb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED214",
+                    "pos": {
+                        "x": 138.7985,
+                        "y": 100.443915
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf07"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED213",
+                    "pos": {
+                        "x": 142.190228,
+                        "y": 101.848815
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf23"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED212",
+                    "pos": {
+                        "x": 145.83,
+                        "y": 102.328
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf3f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED211",
+                    "pos": {
+                        "x": 149.469772,
+                        "y": 101.848815
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf5b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED210",
+                    "pos": {
+                        "x": 152.8615,
+                        "y": 100.443915
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf77"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED209",
+                    "pos": {
+                        "x": 155.774043,
+                        "y": 98.209043
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf93"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED208",
+                    "pos": {
+                        "x": 158.008915,
+                        "y": 95.2965
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cfaf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED207",
+                    "pos": {
+                        "x": 159.413815,
+                        "y": 91.904772
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cfcb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C104",
+                    "pos": {
+                        "x": 153.753263,
+                        "y": 89.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000064182f85"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED101",
+                    "pos": {
+                        "x": 149.5,
+                        "y": 80.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-000064183050"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED102",
+                    "pos": {
+                        "x": 142.0,
+                        "y": 80.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000642a3e49"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED225",
+                    "pos": {
+                        "x": 145.862406,
+                        "y": 83.586827
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000642a8c62"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'EasyEDA'",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 150.907396,
+                        "y": 88.280842
+                    },
+                    "uuid": "1cca03ba-b887-451c-a357-4d563013e5f9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Logo'",
+            "items": [
+                {
+                    "description": "Footprint LOGO1",
+                    "pos": {
+                        "x": 145.808286,
+                        "y": 79.5
+                    },
+                    "uuid": "90e6d93f-2a99-4720-8a9c-9a8054b6f15e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CC2340'",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 145.83,
+                        "y": 94.403033
+                    },
+                    "uuid": "d6977ae2-b2ba-452b-abbf-b742d39e66e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BMA400'",
+            "items": [
+                {
+                    "description": "Footprint U3",
+                    "pos": {
+                        "x": 153.75,
+                        "y": 86.738
+                    },
+                    "uuid": "eb9e1157-dd6a-4873-849f-de69c315fe82"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R203",
+                    "pos": {
+                        "x": 141.9,
+                        "y": 85.2
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062796462"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R204",
+                    "pos": {
+                        "x": 143.05,
+                        "y": 85.2
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062796473"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C101",
+                    "pos": {
+                        "x": 150.713735,
+                        "y": 84.677984
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006279aa0a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R101",
+                    "pos": {
+                        "x": 154.113735,
+                        "y": 88.377984
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062b38f04"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'",
+            "items": [
+                {
+                    "description": "Footprint U102",
+                    "pos": {
+                        "x": 153.163735,
+                        "y": 85.777984
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062b3928b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C102",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 87.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000064182f67"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C103",
+                    "pos": {
+                        "x": 149.399999,
+                        "y": 80.7
+                    },
+                    "uuid": "00000000-0000-0000-0000-000064182f76"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R102",
+                    "pos": {
+                        "x": 151.024025,
+                        "y": 83.071834
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000641831e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R103",
+                    "pos": {
+                        "x": 144.2,
+                        "y": 85.2
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000641831fa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R104",
+                    "pos": {
+                        "x": 145.35,
+                        "y": 85.2
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006418320b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R106",
+                    "pos": {
+                        "x": 140.544365,
+                        "y": 95.763604
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000641842fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R108",
+                    "pos": {
+                        "x": 157.0,
+                        "y": 92.95
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006418583e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R113",
+                    "pos": {
+                        "x": 144.829999,
+                        "y": 99.206066
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000642a4106"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R114",
+                    "pos": {
+                        "x": 146.879998,
+                        "y": 99.206066
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000642a4117"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Samacsys'",
+            "items": [
+                {
+                    "description": "Footprint IC1",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 81.0
+                    },
+                    "uuid": "6adfba73-944d-473b-bc1e-1535c5d688c8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'Walton' on F.Silkscreen",
+                    "pos": {
+                        "x": 145.843143,
+                        "y": 81.382278
+                    },
+                    "uuid": "33ad5944-4d59-4a08-be25-7835c18d9265"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '12' on F.Silkscreen",
+                    "pos": {
+                        "x": 145.758017,
+                        "y": 76.962
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1d049"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '11' on F.Silkscreen",
+                    "pos": {
+                        "x": 140.081,
+                        "y": 78.359
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e16c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '10' on F.Silkscreen",
+                    "pos": {
+                        "x": 135.89,
+                        "y": 82.677
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e16e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '9' on F.Silkscreen",
+                    "pos": {
+                        "x": 134.479161,
+                        "y": 88.138
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e170"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '8' on F.Silkscreen",
+                    "pos": {
+                        "x": 135.920973,
+                        "y": 93.853
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e172"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '7' on F.Silkscreen",
+                    "pos": {
+                        "x": 140.038931,
+                        "y": 98.044
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e174"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '6' on F.Silkscreen",
+                    "pos": {
+                        "x": 145.726086,
+                        "y": 99.568
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e176"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '5' on F.Silkscreen",
+                    "pos": {
+                        "x": 151.446813,
+                        "y": 98.044
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e178"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '4' on F.Silkscreen",
+                    "pos": {
+                        "x": 155.575,
+                        "y": 93.853
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e17a"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '3' on F.Silkscreen",
+                    "pos": {
+                        "x": 157.099,
+                        "y": 88.265
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e17c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '2' on F.Silkscreen",
+                    "pos": {
+                        "x": 155.614392,
+                        "y": 82.630416
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e17e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '1' on F.Silkscreen",
+                    "pos": {
+                        "x": 151.511,
+                        "y": 78.359
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e180"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        }
+    ]
+}

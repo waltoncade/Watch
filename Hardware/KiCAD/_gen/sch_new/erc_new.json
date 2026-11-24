@@ -1,0 +1,2727 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-23T20:17:52",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/0d62a87a-e10e-4d51-a581-3dee7580092e",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0113 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 92.71,
+                                "y": 26.035
+                            },
+                            "uuid": "11a734d1-e399-417e-9bd5-53593bfe5047"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 8 [GNDIO, Power output, Line]",
+                            "pos": {
+                                "x": 264.16,
+                                "y": 101.6
+                            },
+                            "uuid": "05cfceca-f1ca-4ca1-b1e6-bd92c28b53be"
+                        },
+                        {
+                            "description": "Symbol U3 Pin 9 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 264.16,
+                                "y": 99.06
+                            },
+                            "uuid": "9bf5ea47-a97a-472e-bb55-377a10eff0e3"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 1 [GND, Unspecified, Line]",
+                            "pos": {
+                                "x": 36.83,
+                                "y": 92.71
+                            },
+                            "uuid": "3a1f837d-77aa-4d29-a2e2-8dbe0c2adf76"
+                        },
+                        {
+                            "description": "Symbol #PWR0129 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 36.83,
+                                "y": 95.25
+                            },
+                            "uuid": "3264ee34-9aec-4d1b-96aa-b697393f47f0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 2 [GND, Unspecified, Line]",
+                            "pos": {
+                                "x": 36.83,
+                                "y": 95.25
+                            },
+                            "uuid": "8c77c310-3910-41f0-a479-019f837df3ba"
+                        },
+                        {
+                            "description": "Symbol #PWR0129 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 36.83,
+                                "y": 95.25
+                            },
+                            "uuid": "3264ee34-9aec-4d1b-96aa-b697393f47f0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 4 [IOUT, Unspecified, Line]",
+                            "pos": {
+                                "x": 57.15,
+                                "y": 92.71
+                            },
+                            "uuid": "e25c0830-1544-41bb-ba80-ca5f39cde7f2"
+                        },
+                        {
+                            "description": "Symbol R106 Pin 2 [Passive, Line]",
+                            "pos": {
+                                "x": 64.77,
+                                "y": 92.71
+                            },
+                            "uuid": "ecbe10fa-97cd-4588-96ac-b84f02f67645"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 3 [VCC, Unspecified, Line]",
+                            "pos": {
+                                "x": 57.15,
+                                "y": 95.25
+                            },
+                            "uuid": "bc617404-b574-4c2a-950a-72af4c2363a4"
+                        },
+                        {
+                            "description": "Symbol #PWR0128 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 57.15,
+                                "y": 95.25
+                            },
+                            "uuid": "69b07135-6b73-4a5a-894a-d52ee9ce8c81"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol C101 [CL05A104KA5NNNC]",
+                            "pos": {
+                                "x": 59.69,
+                                "y": 50.8
+                            },
+                            "uuid": "00000000-0000-0000-0000-000062cd6321"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol C101 [CL05A104KA5NNNC]",
+                            "pos": {
+                                "x": 59.69,
+                                "y": 50.8
+                            },
+                            "uuid": "00000000-0000-0000-0000-000062cd6321"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED101 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 73.66,
+                                "y": 50.8
+                            },
+                            "uuid": "00000000-0000-0000-0000-000062cef15f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED101 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 73.66,
+                                "y": 50.8
+                            },
+                            "uuid": "00000000-0000-0000-0000-000062cef15f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 4.445 mm",
+                            "pos": {
+                                "x": 73.66,
+                                "y": 50.8
+                            },
+                            "uuid": "15f27586-cfe9-4adc-aa6a-e21065983921"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R102 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 73.66,
+                                "y": 55.245
+                            },
+                            "uuid": "9b94304e-74ff-4070-802b-4cf5b84a3628"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 32.385 mm",
+                            "pos": {
+                                "x": 73.66,
+                                "y": 62.865
+                            },
+                            "uuid": "34179b49-8848-42e6-b3e4-2034e71aaf20"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R101 Pin 2 [Passive, Line]",
+                            "pos": {
+                                "x": 82.55,
+                                "y": 55.245
+                            },
+                            "uuid": "8ca9f82a-0142-4fdd-9abb-ed8950b75ac6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0112 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 82.55,
+                                "y": 55.245
+                            },
+                            "uuid": "9da8d9ee-8692-4a55-b3cc-59bf744d0beb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0113 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 92.71,
+                                "y": 26.035
+                            },
+                            "uuid": "11a734d1-e399-417e-9bd5-53593bfe5047"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 9.525 mm",
+                            "pos": {
+                                "x": 92.71,
+                                "y": 26.035
+                            },
+                            "uuid": "78fb8125-90c1-4a54-b72b-fe8c8360c902"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 1.905 mm",
+                            "pos": {
+                                "x": 92.71,
+                                "y": 35.56
+                            },
+                            "uuid": "2066eed9-9384-424f-b089-5d1804451e84"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0111 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 92.71,
+                                "y": 52.705
+                            },
+                            "uuid": "e921d91e-d3af-494f-a35e-5b13dd538a3e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 7.62 mm",
+                            "pos": {
+                                "x": 102.87,
+                                "y": 42.545
+                            },
+                            "uuid": "023ea56d-6c70-4cf8-8af6-e686882fdd2f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol U102 Pin 1 [STAT, Tri-state, Line]",
+                            "pos": {
+                                "x": 102.87,
+                                "y": 47.625
+                            },
+                            "uuid": "6c17ba0f-f9aa-4c83-ba8c-f4730b8fe59b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 3.175 mm",
+                            "pos": {
+                                "x": 106.045,
+                                "y": 47.625
+                            },
+                            "uuid": "07ab5937-2279-43e5-a142-d21daa4bf4ba"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 15.24 mm",
+                            "pos": {
+                                "x": 106.045,
+                                "y": 62.865
+                            },
+                            "uuid": "a9138ac2-88ec-4c28-a3db-930b9215b66f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 15.24 mm",
+                            "pos": {
+                                "x": 110.49,
+                                "y": 42.545
+                            },
+                            "uuid": "8103fa68-391a-4842-a500-cdf54fd43aaf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C102 Pin 1 [~, Passive, Line]",
+                            "pos": {
+                                "x": 110.49,
+                                "y": 55.245
+                            },
+                            "uuid": "3ce68d7c-1822-4bb3-b3d0-ba3f1732bd80"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0116 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 110.49,
+                                "y": 55.245
+                            },
+                            "uuid": "c76f2185-8894-4acd-9f9a-335836700a92"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol C102 [CL05A104KA5NNNC]",
+                            "pos": {
+                                "x": 110.49,
+                                "y": 55.245
+                            },
+                            "uuid": "00000000-0000-0000-0000-000062ce2d8c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol C102 [CL05A104KA5NNNC]",
+                            "pos": {
+                                "x": 110.49,
+                                "y": 55.245
+                            },
+                            "uuid": "00000000-0000-0000-0000-000062ce2d8c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0114 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 125.73,
+                                "y": 42.545
+                            },
+                            "uuid": "8c02a9e1-adac-410d-95e7-56c63f789b9c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED102 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 137.16,
+                                "y": 97.79
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000642b53da"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED102 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 137.16,
+                                "y": 97.79
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000642b53da"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol C103 [CL05A104KA5NNNC]",
+                            "pos": {
+                                "x": 151.13,
+                                "y": 60.96
+                            },
+                            "uuid": "00000000-0000-0000-0000-000062cdf1e1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol C103 [CL05A104KA5NNNC]",
+                            "pos": {
+                                "x": 151.13,
+                                "y": 60.96
+                            },
+                            "uuid": "00000000-0000-0000-0000-000062cdf1e1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol C104 [CL05A104KA5NNNC]",
+                            "pos": {
+                                "x": 199.39,
+                                "y": 55.88
+                            },
+                            "uuid": "00000000-0000-0000-0000-00006419281e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol C104 [CL05A104KA5NNNC]",
+                            "pos": {
+                                "x": 199.39,
+                                "y": 55.88
+                            },
+                            "uuid": "00000000-0000-0000-0000-00006419281e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol C106 [CL05A104KA5NNNC]",
+                            "pos": {
+                                "x": 203.2,
+                                "y": 109.22
+                            },
+                            "uuid": "03053130-5ca0-4e0a-98fc-a41c8b90d9dd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol C106 [CL05A104KA5NNNC]",
+                            "pos": {
+                                "x": 203.2,
+                                "y": 109.22
+                            },
+                            "uuid": "03053130-5ca0-4e0a-98fc-a41c8b90d9dd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 1 [SDO, Unspecified, Line]",
+                            "pos": {
+                                "x": 218.44,
+                                "y": 91.44
+                            },
+                            "uuid": "29872c8a-9b37-40e4-8581-5fda93dd3d00"
+                        },
+                        {
+                            "description": "Symbol #PWR0401 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 215.9,
+                                "y": 91.44
+                            },
+                            "uuid": "4833e5e2-3979-4255-a155-923c4d27818e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 2 [SDX, Unspecified, Line]",
+                            "pos": {
+                                "x": 218.44,
+                                "y": 93.98
+                            },
+                            "uuid": "c685c4c2-c520-4193-beb5-247c1a68bc8c"
+                        },
+                        {
+                            "description": "Symbol R104 Pin 2 [Passive, Line]",
+                            "pos": {
+                                "x": 160.02,
+                                "y": 115.57
+                            },
+                            "uuid": "a08ae0cf-8b24-4710-bebf-89a952879a9e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 12 [SCX, Unspecified, Line]",
+                            "pos": {
+                                "x": 264.16,
+                                "y": 91.44
+                            },
+                            "uuid": "654910de-6396-4b74-ac97-3ba5ed6c2414"
+                        },
+                        {
+                            "description": "Symbol R103 Pin 2 [Passive, Line]",
+                            "pos": {
+                                "x": 152.4,
+                                "y": 115.57
+                            },
+                            "uuid": "2dafb82b-1bd6-456f-af7d-75cebdae18ec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 10 [CSB, Unspecified, Line]",
+                            "pos": {
+                                "x": 264.16,
+                                "y": 96.52
+                            },
+                            "uuid": "b1c1eb2b-480e-4561-b9c2-045d64db0d48"
+                        },
+                        {
+                            "description": "Symbol #PWR0403 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 266.7,
+                                "y": 96.52
+                            },
+                            "uuid": "be40ad71-0320-4849-91ea-e5eb0f7b3535"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol C105 [CL05A104KA5NNNC]",
+                            "pos": {
+                                "x": 265.43,
+                                "y": 116.84
+                            },
+                            "uuid": "29d37571-321c-41a0-adb5-713959c6533a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol C105 [CL05A104KA5NNNC]",
+                            "pos": {
+                                "x": 265.43,
+                                "y": 116.84
+                            },
+                            "uuid": "29d37571-321c-41a0-adb5-713959c6533a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol LED201 Pin 1 [~, Passive, Line]",
+                            "pos": {
+                                "x": 26.67,
+                                "y": 33.655
+                            },
+                            "uuid": "70a2ec7d-e00a-43f8-b278-973da3ca068b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED201 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 26.67,
+                                "y": 33.655
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000626b7b19"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED201 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 26.67,
+                                "y": 33.655
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000626b7b19"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED209 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 26.67,
+                                "y": 53.975
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628ee38a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED209 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 26.67,
+                                "y": 53.975
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628ee38a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED217 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 26.67,
+                                "y": 73.025
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628f6b11"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED217 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 26.67,
+                                "y": 73.025
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628f6b11"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0201 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 41.91,
+                                "y": 33.655
+                            },
+                            "uuid": "1f80cc57-53d8-47a4-9978-850be42503df"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0209 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 41.91,
+                                "y": 53.975
+                            },
+                            "uuid": "347f9dab-5c8a-4fdc-8cd6-d815bbe0e552"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol LED209 Pin 2 [~, Passive, Line]",
+                            "pos": {
+                                "x": 41.91,
+                                "y": 53.975
+                            },
+                            "uuid": "7a4499e6-3e04-4103-a585-59d1e6278f07"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol LED217 Pin 2 [~, Passive, Line]",
+                            "pos": {
+                                "x": 41.91,
+                                "y": 73.025
+                            },
+                            "uuid": "3e2e6efb-97c2-482b-819a-074d2296a6a5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0217 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 41.91,
+                                "y": 73.025
+                            },
+                            "uuid": "d1137baf-01db-4385-a193-eaa68c6c6e7c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol LED202 Pin 1 [~, Passive, Line]",
+                            "pos": {
+                                "x": 58.42,
+                                "y": 33.655
+                            },
+                            "uuid": "486fefae-3fa3-42bf-9ad1-d249d176dfd7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED202 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 58.42,
+                                "y": 33.655
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628b6e65"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED202 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 58.42,
+                                "y": 33.655
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628b6e65"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol LED210 Pin 1 [~, Passive, Line]",
+                            "pos": {
+                                "x": 58.42,
+                                "y": 53.975
+                            },
+                            "uuid": "aafcedb8-6272-4ad3-8887-1ee3fbcdc80d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED210 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 58.42,
+                                "y": 53.975
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628ee39f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED210 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 58.42,
+                                "y": 53.975
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628ee39f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED218 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 58.42,
+                                "y": 73.025
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628f6b26"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED218 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 58.42,
+                                "y": 73.025
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628f6b26"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0202 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 73.66,
+                                "y": 33.655
+                            },
+                            "uuid": "ae7857ae-3bda-4aef-b01e-f9e32f1fff14"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0210 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 73.66,
+                                "y": 53.975
+                            },
+                            "uuid": "799e9612-6bd2-4236-8c74-7d5fc77b06eb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0218 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 73.66,
+                                "y": 73.025
+                            },
+                            "uuid": "942065cb-3705-4730-84d3-22714ff33b63"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol LED218 Pin 2 [~, Passive, Line]",
+                            "pos": {
+                                "x": 73.66,
+                                "y": 73.025
+                            },
+                            "uuid": "9ad5d70f-51a7-47fb-ad5a-fcf57992946f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol LED203 Pin 1 [~, Passive, Line]",
+                            "pos": {
+                                "x": 90.805,
+                                "y": 33.655
+                            },
+                            "uuid": "9f47db3e-04c5-47f7-a547-303e32d50ccb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED203 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 90.805,
+                                "y": 33.655
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628bb0db"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED203 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 90.805,
+                                "y": 33.655
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628bb0db"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED211 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 90.805,
+                                "y": 53.975
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628ee3b4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED211 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 90.805,
+                                "y": 53.975
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628ee3b4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol LED219 Pin 1 [~, Passive, Line]",
+                            "pos": {
+                                "x": 90.805,
+                                "y": 73.025
+                            },
+                            "uuid": "99c848e1-7393-42df-9013-0c1cb7e586d3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED219 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 90.805,
+                                "y": 73.025
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628f6b3b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED219 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 90.805,
+                                "y": 73.025
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628f6b3b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0203 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 106.045,
+                                "y": 33.655
+                            },
+                            "uuid": "141079ae-9331-4e46-ab88-5545ed180cf8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0211 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 106.045,
+                                "y": 53.975
+                            },
+                            "uuid": "09be8e79-dd57-4c18-925a-2e383ded23d6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol LED211 Pin 2 [~, Passive, Line]",
+                            "pos": {
+                                "x": 106.045,
+                                "y": 53.975
+                            },
+                            "uuid": "c44cd09c-372f-4181-9c99-38d8c24efab5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0219 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 106.045,
+                                "y": 73.025
+                            },
+                            "uuid": "a4a97fd7-8d1c-4353-860a-10a3a000a42a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED204 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 121.92,
+                                "y": 34.29
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628bc940"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED204 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 121.92,
+                                "y": 34.29
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628bc940"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED212 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 121.92,
+                                "y": 54.61
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628ee3c9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED212 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 121.92,
+                                "y": 54.61
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628ee3c9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED220 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 121.92,
+                                "y": 73.66
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628f6b50"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED220 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 121.92,
+                                "y": 73.66
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628f6b50"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0102 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 128.905,
+                                "y": 182.245
+                            },
+                            "uuid": "8f9f638a-f26e-4821-8d32-d23754878ee0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 6.985 mm",
+                            "pos": {
+                                "x": 130.81,
+                                "y": 171.45
+                            },
+                            "uuid": "c302e394-f687-431f-a13e-3f1ce53e9c41"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 3.81 mm",
+                            "pos": {
+                                "x": 130.81,
+                                "y": 178.435
+                            },
+                            "uuid": "ea7e1342-4aba-4586-98ca-07241ef59b45"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 2.54 mm",
+                            "pos": {
+                                "x": 130.81,
+                                "y": 182.245
+                            },
+                            "uuid": "0b736aa9-b728-49bd-a33d-544b9be40153"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 1.905 mm",
+                            "pos": {
+                                "x": 130.81,
+                                "y": 182.245
+                            },
+                            "uuid": "27ce4126-e42a-4f20-a23d-a14064a94bd1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Label 'OUT28'",
+                            "pos": {
+                                "x": 131.445,
+                                "y": 151.13
+                            },
+                            "uuid": "b48eafd8-332f-430e-8259-b23a65c835d2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 5.715 mm",
+                            "pos": {
+                                "x": 133.985,
+                                "y": 156.845
+                            },
+                            "uuid": "a5c6bb99-b579-4cb1-b299-e0c3afb2c3c0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R204 Pin 2 [Passive, Line]",
+                            "pos": {
+                                "x": 133.985,
+                                "y": 164.465
+                            },
+                            "uuid": "b393ad08-d939-4a6a-ba37-806e47925a1a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0107 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 133.985,
+                                "y": 164.465
+                            },
+                            "uuid": "b62fcfb2-e9a2-415b-946d-efae7fe43b89"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 20.32 mm",
+                            "pos": {
+                                "x": 136.525,
+                                "y": 151.13
+                            },
+                            "uuid": "ddb4e56e-d71f-4bcb-b86b-8dabc2225389"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 5.715 mm",
+                            "pos": {
+                                "x": 130.81,
+                                "y": 171.45
+                            },
+                            "uuid": "9df8640f-7881-41c3-a08f-7e96bdcf5044"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 4.445 mm",
+                            "pos": {
+                                "x": 143.51,
+                                "y": 171.45
+                            },
+                            "uuid": "e323c570-f095-40a2-948d-fa4d9dddc250"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 20.32 mm",
+                            "pos": {
+                                "x": 139.065,
+                                "y": 171.45
+                            },
+                            "uuid": "f52092aa-c5d1-4e98-8ce4-f8f732f1abf3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0106 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 141.605,
+                                "y": 151.13
+                            },
+                            "uuid": "912a1356-76a7-4f27-9ed6-f8a09b4e0779"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 3.81 mm",
+                            "pos": {
+                                "x": 143.51,
+                                "y": 178.435
+                            },
+                            "uuid": "64441aa2-98d5-45bb-a50a-1932e8e3569c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C201 Pin 1 [~, Passive, Line]",
+                            "pos": {
+                                "x": 143.51,
+                                "y": 178.435
+                            },
+                            "uuid": "87319d1a-2b55-4e20-9b91-3729c8a18fba"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 6.985 mm",
+                            "pos": {
+                                "x": 143.51,
+                                "y": 171.45
+                            },
+                            "uuid": "d59c72b1-4157-413e-b50c-bacfb5d0d76e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol C201 [CL05A104KA5NNNC]",
+                            "pos": {
+                                "x": 143.51,
+                                "y": 178.435
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000627d8620"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol C201 [CL05A104KA5NNNC]",
+                            "pos": {
+                                "x": 143.51,
+                                "y": 178.435
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000627d8620"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 2.54 mm",
+                            "pos": {
+                                "x": 143.51,
+                                "y": 184.785
+                            },
+                            "uuid": "7bc406f5-4247-4725-9ef4-166e65d3bbda"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol C202 Pin 1 [~, Passive, Line]",
+                            "pos": {
+                                "x": 143.51,
+                                "y": 184.785
+                            },
+                            "uuid": "cb9e6220-f453-4f76-9139-9b669eb5979a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol C202 [CL05A105KQ5NNNC]",
+                            "pos": {
+                                "x": 143.51,
+                                "y": 184.785
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000627cd130"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol C202 [CL05A105KQ5NNNC]",
+                            "pos": {
+                                "x": 143.51,
+                                "y": 184.785
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000627cd130"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0103 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 144.145,
+                                "y": 89.535
+                            },
+                            "uuid": "5425ea8c-4ddc-4593-a164-21c288471aaa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 5.715 mm",
+                            "pos": {
+                                "x": 144.145,
+                                "y": 89.535
+                            },
+                            "uuid": "ea39ed4d-9ccd-42ed-9a58-e1c31b849adf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 5.715 mm",
+                            "pos": {
+                                "x": 144.145,
+                                "y": 156.845
+                            },
+                            "uuid": "2c81c24f-092d-4f24-96ae-cb16c19e6bbe"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 1.27 mm",
+                            "pos": {
+                                "x": 144.145,
+                                "y": 164.465
+                            },
+                            "uuid": "96b43f2a-0710-4f2c-8fad-88a794e28ea4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol R203 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 144.145,
+                                "y": 164.465
+                            },
+                            "uuid": "b0ea3911-f8ca-402a-a94c-774f028fc808"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0104 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 144.145,
+                                "y": 165.735
+                            },
+                            "uuid": "e77db4e5-8624-4c27-92de-5ad00273f20b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0101 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 145.415,
+                                "y": 182.245
+                            },
+                            "uuid": "575407dd-1d74-4524-8bb9-60ae3042844f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 1.905 mm",
+                            "pos": {
+                                "x": 145.415,
+                                "y": 182.245
+                            },
+                            "uuid": "8698249b-b3b9-4098-8676-bb8a6fec1108"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED205 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 151.13,
+                                "y": 34.29
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628cbf4c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED205 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 151.13,
+                                "y": 34.29
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628cbf4c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED213 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 151.13,
+                                "y": 54.61
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628ee3de"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED213 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 151.13,
+                                "y": 54.61
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628ee3de"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED221 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 151.13,
+                                "y": 73.66
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628f6b65"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED221 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 151.13,
+                                "y": 73.66
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628f6b65"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0108 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 154.305,
+                                "y": 151.13
+                            },
+                            "uuid": "39093908-4a19-4b19-9b85-085a480bc4a6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol IC201 Pin 6 [OUT7, Output, Line]",
+                            "pos": {
+                                "x": 161.925,
+                                "y": 120.65
+                            },
+                            "uuid": "8ac8ce3f-8559-46c7-a17a-19bc279f5111"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol IC201 [IS31FL3235A-QFLS2-TR]",
+                            "pos": {
+                                "x": 161.925,
+                                "y": 133.35
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000627a4fc0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol IC201 [IS31FL3235A-QFLS2-TR]",
+                            "pos": {
+                                "x": 161.925,
+                                "y": 133.35
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000627a4fc0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED206 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 182.88,
+                                "y": 34.29
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628cbf61"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED206 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 182.88,
+                                "y": 34.29
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628cbf61"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED214 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 182.88,
+                                "y": 54.61
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628ee3f3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED214 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 182.88,
+                                "y": 54.61
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628ee3f3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED222 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 182.88,
+                                "y": 73.66
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628f6b7a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED222 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 182.88,
+                                "y": 73.66
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628f6b7a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED225 [150352M173300]",
+                            "pos": {
+                                "x": 210.82,
+                                "y": 113.665
+                            },
+                            "uuid": "00000000-0000-0000-0000-000062b44af1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED225 [150352M173300]",
+                            "pos": {
+                                "x": 210.82,
+                                "y": 113.665
+                            },
+                            "uuid": "00000000-0000-0000-0000-000062b44af1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol LED225 Pin 3 [K_R, Passive, Line]",
+                            "pos": {
+                                "x": 210.82,
+                                "y": 116.205
+                            },
+                            "uuid": "80ec7ced-9e57-4159-88f0-95edf0838074"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol LED207 Pin 1 [~, Passive, Line]",
+                            "pos": {
+                                "x": 215.265,
+                                "y": 34.29
+                            },
+                            "uuid": "e84f98ce-b4fb-419f-9ef8-04a322cf8552"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED207 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 215.265,
+                                "y": 34.29
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628cbf76"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED207 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 215.265,
+                                "y": 34.29
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628cbf76"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol LED215 Pin 1 [~, Passive, Line]",
+                            "pos": {
+                                "x": 215.265,
+                                "y": 54.61
+                            },
+                            "uuid": "6750cb38-054d-46e1-a219-ba89b72f6aad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED215 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 215.265,
+                                "y": 54.61
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628ee408"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED215 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 215.265,
+                                "y": 54.61
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628ee408"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol LED223 Pin 1 [~, Passive, Line]",
+                            "pos": {
+                                "x": 215.265,
+                                "y": 73.66
+                            },
+                            "uuid": "6e10065a-4780-4430-b3bb-f43733b63161"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED223 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 215.265,
+                                "y": 73.66
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628f6b8f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED223 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 215.265,
+                                "y": 73.66
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628f6b8f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0207 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 230.505,
+                                "y": 34.29
+                            },
+                            "uuid": "a45e85fb-bdaf-45e5-bc64-160336186aaa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0215 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 230.505,
+                                "y": 54.61
+                            },
+                            "uuid": "78e722f3-377e-4a90-b011-2fe740c4a5de"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0223 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 230.505,
+                                "y": 73.66
+                            },
+                            "uuid": "7fce2ead-866d-4f78-b5b1-4402c563c67a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 2.54 mm",
+                            "pos": {
+                                "x": 236.22,
+                                "y": 113.665
+                            },
+                            "uuid": "4768e25f-6300-400a-96a2-a43b27680448"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 2.54 mm",
+                            "pos": {
+                                "x": 236.22,
+                                "y": 116.205
+                            },
+                            "uuid": "c6c690c1-30dd-4261-a899-f0ef2b0883aa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 2.54 mm",
+                            "pos": {
+                                "x": 238.76,
+                                "y": 116.205
+                            },
+                            "uuid": "544564ec-d9af-4f84-928c-1f651a33dbf0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0115 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 238.76,
+                                "y": 116.205
+                            },
+                            "uuid": "7a9e3fa1-f6d0-4224-bc4d-115dfc8e73f7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED208 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 246.38,
+                                "y": 34.925
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628cbf8b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED208 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 246.38,
+                                "y": 34.925
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628cbf8b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED216 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 246.38,
+                                "y": 55.245
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628ee41d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED216 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 246.38,
+                                "y": 55.245
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628ee41d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol LED224 Pin 1 [~, Passive, Line]",
+                            "pos": {
+                                "x": 246.38,
+                                "y": 74.295
+                            },
+                            "uuid": "49769496-00e2-4c45-abb6-085da2e717ab"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library ''",
+                    "items": [
+                        {
+                            "description": "Symbol LED224 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 246.38,
+                                "y": 74.295
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628f6ba4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'SamacSys_Parts'",
+                    "items": [
+                        {
+                            "description": "Symbol LED224 [LTST-C191KRKT]",
+                            "pos": {
+                                "x": 246.38,
+                                "y": 74.295
+                            },
+                            "uuid": "00000000-0000-0000-0000-0000628f6ba4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0208 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 261.62,
+                                "y": 34.925
+                            },
+                            "uuid": "75e02e25-2e5e-45b7-b7b0-fb5a0789abfc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol LED208 Pin 2 [~, Passive, Line]",
+                            "pos": {
+                                "x": 261.62,
+                                "y": 34.925
+                            },
+                            "uuid": "b261e61e-d25f-4116-8441-46abab4562fa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0216 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 261.62,
+                                "y": 55.245
+                            },
+                            "uuid": "2b5f81ae-7e09-4ec7-9ba5-911392529bf4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol LED216 Pin 2 [~, Passive, Line]",
+                            "pos": {
+                                "x": 261.62,
+                                "y": 55.245
+                            },
+                            "uuid": "e733f835-40e1-4a58-b294-972c3af44450"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0224 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 261.62,
+                                "y": 74.295
+                            },
+                            "uuid": "77d28dfa-6b09-47c8-9c0c-6297856e1fed"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                }
+            ]
+        },
+        {
+            "path": "/leds/",
+            "uuid_path": "/0d62a87a-e10e-4d51-a581-3dee7580092e/00000000-0000-0000-0000-0000626a0ad6",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0101 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 145.415,
+                                "y": 182.245
+                            },
+                            "uuid": "575407dd-1d74-4524-8bb9-60ae3042844f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/MCU/",
+            "uuid_path": "/0d62a87a-e10e-4d51-a581-3dee7580092e/fb6ef4f7-335b-498a-a3d1-2c4a2a67fe5a",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 28 [VDDD, Power input, Line]",
+                            "pos": {
+                                "x": 193.04,
+                                "y": 104.14
+                            },
+                            "uuid": "9fb1081e-7bb5-4465-bded-1f140134ba5f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 1 [VDDR, Power input, Line]",
+                            "pos": {
+                                "x": 193.04,
+                                "y": 109.22
+                            },
+                            "uuid": "c3aa23e8-4c7a-4336-a2b6-a95ca2bcabc5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 30 [DCDC, Unspecified, Line]",
+                            "pos": {
+                                "x": 193.04,
+                                "y": 129.54
+                            },
+                            "uuid": "aae4f468-4776-42f3-9b1b-371cdbff8780"
+                        },
+                        {
+                            "description": "Symbol L1 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 133.35,
+                                "y": 123.19
+                            },
+                            "uuid": "9cac01bc-32cc-4d6a-91cd-cdf1b009bcb9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 35 [X48P, Unspecified, Line]",
+                            "pos": {
+                                "x": 193.04,
+                                "y": 134.62
+                            },
+                            "uuid": "eaa1911f-8ed1-4d4c-8c23-e9ce19cc2da0"
+                        },
+                        {
+                            "description": "Symbol Y1 Pin 3 [3, Passive, Line]",
+                            "pos": {
+                                "x": 163.83,
+                                "y": 144.78
+                            },
+                            "uuid": "a4d7e0ac-a6bf-4374-aa75-549b5729d546"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 36 [X48N, Unspecified, Line]",
+                            "pos": {
+                                "x": 193.04,
+                                "y": 137.16
+                            },
+                            "uuid": "4d1b038f-7337-4bc8-b045-2069edc05414"
+                        },
+                        {
+                            "description": "Symbol Y1 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 171.45,
+                                "y": 144.78
+                            },
+                            "uuid": "db6c4b13-31c2-4d7d-8b99-ae866e50a879"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 39 [ANT, Unspecified, Line]",
+                            "pos": {
+                                "x": 241.3,
+                                "y": 104.14
+                            },
+                            "uuid": "b66efe1e-5fa5-4942-835a-9cb9a36c2163"
+                        },
+                        {
+                            "description": "Symbol C12 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 248.92,
+                                "y": 87.63
+                            },
+                            "uuid": "d53bdf8a-261c-4b6d-9e17-b5cce49f750b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 41 [EP, Unspecified, Line]",
+                            "pos": {
+                                "x": 241.3,
+                                "y": 177.8
+                            },
+                            "uuid": "8e6c0622-27de-4013-adc0-800aaac943bf"
+                        },
+                        {
+                            "description": "Symbol U1 Pin 40 [RFGND, Power input, Line]",
+                            "pos": {
+                                "x": 241.3,
+                                "y": 180.34
+                            },
+                            "uuid": "44910e43-01ac-42a6-a67f-a08e51bbbd9f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        }
+    ],
+    "source": "Watch.kicad_sch"
+}

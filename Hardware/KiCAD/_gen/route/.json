@@ -1,0 +1,3874 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-23T19:20:49",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "s9i2.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 20 [/leds/OUT20] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 137.8,
+                        "y": 90.1
+                    },
+                    "uuid": "193f89b8-d4af-4738-8aed-9909d2dd9fda"
+                },
+                {
+                    "description": "Pad 1 [/leds/OUT20] of LED205 on F.Cu",
+                    "pos": {
+                        "x": 159.62087,
+                        "y": 85.397969
+                    },
+                    "uuid": "afe2d52a-c177-4551-81a4-533778cc8304"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 21 [/leds/OUT21] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 138.2,
+                        "y": 90.1
+                    },
+                    "uuid": "c7b6bd4e-893d-410f-8b22-54fd874745e1"
+                },
+                {
+                    "description": "Pad 1 [/leds/OUT21] of LED204 on F.Cu",
+                    "pos": {
+                        "x": 158.408915,
+                        "y": 81.92632
+                    },
+                    "uuid": "0f50e0c6-7b74-4c7d-9527-5018c991cc77"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 22 [/leds/OUT22] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 138.6,
+                        "y": 90.1
+                    },
+                    "uuid": "21988593-9122-4e6e-914a-d6e83bf19b14"
+                },
+                {
+                    "description": "Pad 1 [/leds/OUT22] of LED203 on F.Cu",
+                    "pos": {
+                        "x": 156.339728,
+                        "y": 78.886642
+                    },
+                    "uuid": "c466192f-535a-49ea-bb1a-aceaff812608"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 23 [/leds/OUT23] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 139.0,
+                        "y": 90.1
+                    },
+                    "uuid": "ef44ff10-fceb-4568-8a4c-b891ac8a49f5"
+                },
+                {
+                    "description": "Pad 1 [/leds/OUT23] of LED202 on F.Cu",
+                    "pos": {
+                        "x": 153.55432,
+                        "y": 76.486085
+                    },
+                    "uuid": "f97a4d8f-63a0-41d1-afe5-f8cba0d8769f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 26 [/leds/OUT26] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 140.2,
+                        "y": 90.1
+                    },
+                    "uuid": "984ceef1-dbb7-47ee-bd4b-3327eb04575f"
+                },
+                {
+                    "description": "Pad 3 [/leds/OUT26] of LED225 on F.Cu",
+                    "pos": {
+                        "x": 144.467406,
+                        "y": 83.586827
+                    },
+                    "uuid": "d09aedb2-12c3-40df-b7dd-4924783d67c7"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 33 [Net-(IC201-R_EXT)] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 141.1,
+                        "y": 87.6
+                    },
+                    "uuid": "670a2c72-de49-4b3e-a123-1ee19a1db576"
+                },
+                {
+                    "description": "Pad 2 [Net-(IC201-R_EXT)] of R203 on B.Cu",
+                    "pos": {
+                        "x": 141.9,
+                        "y": 84.715
+                    },
+                    "uuid": "7ced37ca-7a0d-4bab-9bea-3f0aa3061ff9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 34 [/leds/SDA] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 141.1,
+                        "y": 87.2
+                    },
+                    "uuid": "43cdc257-dcec-437a-820a-227c65cb1353"
+                },
+                {
+                    "description": "Pad 22 [/leds/SDA] of U1 on F.Cu",
+                    "pos": {
+                        "x": 143.426967,
+                        "y": 93.003033
+                    },
+                    "uuid": "b24ee683-1202-4024-9b36-c740667432e9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [/leds/SDA] of R104 on B.Cu",
+                    "pos": {
+                        "x": 145.35,
+                        "y": 84.715
+                    },
+                    "uuid": "32e5e2e3-63a1-465f-bb22-f5d55bfbbfea"
+                },
+                {
+                    "description": "Pad 34 [/leds/SDA] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 141.1,
+                        "y": 87.2
+                    },
+                    "uuid": "43cdc257-dcec-437a-820a-227c65cb1353"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 35 [/leds/SCL] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 141.1,
+                        "y": 86.8
+                    },
+                    "uuid": "ea397c52-88ae-439a-8a6a-53183b416957"
+                },
+                {
+                    "description": "Pad 21 [/leds/SCL] of U1 on F.Cu",
+                    "pos": {
+                        "x": 143.426967,
+                        "y": 92.603034
+                    },
+                    "uuid": "6abc1532-0d1f-46e0-a835-c231a2959132"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [/leds/SCL] of R103 on B.Cu",
+                    "pos": {
+                        "x": 144.2,
+                        "y": 84.715
+                    },
+                    "uuid": "1890718a-61bc-4caa-a49a-120c7e877020"
+                },
+                {
+                    "description": "Pad 35 [/leds/SCL] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 141.1,
+                        "y": 86.8
+                    },
+                    "uuid": "ea397c52-88ae-439a-8a6a-53183b416957"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 12 [/leds/SCL] of U3 on F.Cu",
+                    "pos": {
+                        "x": 153.5,
+                        "y": 85.976
+                    },
+                    "uuid": "842294c9-9a9c-4f18-a6b4-f37891cdd5cf"
+                },
+                {
+                    "description": "Pad 2 [/leds/SCL] of R103 on B.Cu",
+                    "pos": {
+                        "x": 144.2,
+                        "y": 84.715
+                    },
+                    "uuid": "1890718a-61bc-4caa-a49a-120c7e877020"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 36 [/leds/OUT1] of IC201 on F.Cu",
+                    "pos": {
+                        "x": 141.1,
+                        "y": 86.4
+                    },
+                    "uuid": "63c170b6-c76e-4acc-b392-9fb698e58c53"
+                },
+                {
+                    "description": "Pad 1 [/leds/OUT1] of LED224 on F.Cu",
+                    "pos": {
+                        "x": 146.63,
+                        "y": 74.202
+                    },
+                    "uuid": "8da182f8-482a-4734-b072-c0e7cbdde1d8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 3 [Net-(D501-COM)] of D501 on F.Cu",
+                    "pos": {
+                        "x": 140.662913,
+                        "y": 83.162913
+                    },
+                    "uuid": "076ad67d-2253-47a8-9ac4-a99c0537854d"
+                },
+                {
+                    "description": "Pad 2 [Net-(D501-COM)] of R501 on F.Cu",
+                    "pos": {
+                        "x": 142.359036,
+                        "y": 84.070317
+                    },
+                    "uuid": "c71f2514-9b4e-4b9f-b5ef-54a4c9734af5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(D501-COM)] of TP501 on B.Cu",
+                    "pos": {
+                        "x": 141.4,
+                        "y": 77.482642
+                    },
+                    "uuid": "740e7aaf-30ca-4e99-b4a2-29703f93b0f3"
+                },
+                {
+                    "description": "Pad 3 [Net-(D501-COM)] of D501 on F.Cu",
+                    "pos": {
+                        "x": 140.662913,
+                        "y": 83.162913
+                    },
+                    "uuid": "076ad67d-2253-47a8-9ac4-a99c0537854d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [/vLUX] of R106 on B.Cu",
+                    "pos": {
+                        "x": 141.029365,
+                        "y": 95.763604
+                    },
+                    "uuid": "6d7720a4-8df1-4a4d-a9dc-994679c80cd1"
+                },
+                {
+                    "description": "Pad 32 [/vLUX] of U1 on F.Cu",
+                    "pos": {
+                        "x": 144.43,
+                        "y": 96.806066
+                    },
+                    "uuid": "cc9e2bf2-0189-42d9-84fc-09fe787d4932"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 32 [/vLUX] of U1 on F.Cu",
+                    "pos": {
+                        "x": 144.43,
+                        "y": 96.806066
+                    },
+                    "uuid": "cc9e2bf2-0189-42d9-84fc-09fe787d4932"
+                },
+                {
+                    "description": "Pad 4 [/vLUX] of U2 on F.Cu",
+                    "pos": {
+                        "x": 151.557396,
+                        "y": 89.830842
+                    },
+                    "uuid": "1a0a3727-088b-4f51-8530-2d2a4c01286a"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 14 [/MCU/MOTOR_B] of U1 on F.Cu",
+                    "pos": {
+                        "x": 146.429999,
+                        "y": 92.0
+                    },
+                    "uuid": "6ea9a8d3-3b14-4def-b265-a15e196b3a9f"
+                },
+                {
+                    "description": "Pad 1 [/MCU/MOTOR_B] of R502 on F.Cu",
+                    "pos": {
+                        "x": 149.860624,
+                        "y": 84.860624
+                    },
+                    "uuid": "55773e43-927f-418d-831a-cbaaca65f979"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 3 [/SW2] of U1 on F.Cu",
+                    "pos": {
+                        "x": 148.233033,
+                        "y": 95.403034
+                    },
+                    "uuid": "365e15ce-9a7f-4832-8017-91b1437a7959"
+                },
+                {
+                    "description": "Track [/SW2] on B.Cu, length 2.8143 mm",
+                    "pos": {
+                        "x": 155.01,
+                        "y": 89.55
+                    },
+                    "uuid": "01f52364-6f91-415a-a02e-3952eb8b16f9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(J1-SWDIO/TMS)] of J1 on B.Cu",
+                    "pos": {
+                        "x": 139.44,
+                        "y": 86.32
+                    },
+                    "uuid": "f78a60bc-e014-484e-a34d-2f2ca50f147e"
+                },
+                {
+                    "description": "Pad 11 [Net-(J1-SWDIO/TMS)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 147.629999,
+                        "y": 92.0
+                    },
+                    "uuid": "ead4afa0-e1ef-448d-99f1-d71dd7c0d194"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 4 [Net-(J1-SWCLK/TCK)] of J1 on B.Cu",
+                    "pos": {
+                        "x": 138.17,
+                        "y": 86.32
+                    },
+                    "uuid": "dd950a3a-968a-4b54-9096-97cf89326110"
+                },
+                {
+                    "description": "Pad 12 [Net-(J1-SWCLK/TCK)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 147.23,
+                        "y": 92.0
+                    },
+                    "uuid": "b2546b67-58f7-4c43-880a-0ea5c1444e69"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 20 [/ACC_INT] of U1 on F.Cu",
+                    "pos": {
+                        "x": 144.030001,
+                        "y": 92.0
+                    },
+                    "uuid": "e5844da5-1b40-46c3-8fee-50bcba15a514"
+                },
+                {
+                    "description": "Pad 5 [/ACC_INT] of U3 on F.Cu",
+                    "pos": {
+                        "x": 153.5,
+                        "y": 87.5
+                    },
+                    "uuid": "125e9a3f-4f27-4071-9f64-8586a7c3bc0f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(U1-DIO4_X32N)] of C14 on B.Cu",
+                    "pos": {
+                        "x": 142.846966,
+                        "y": 93.653032
+                    },
+                    "uuid": "b964eb75-9321-48d8-b8db-a7828ba864e3"
+                },
+                {
+                    "description": "Pad 27 [Net-(U1-DIO4_X32N)] of U1 on F.Cu",
+                    "pos": {
+                        "x": 143.426967,
+                        "y": 95.003032
+                    },
+                    "uuid": "39aa3e73-906b-424b-8ca3-dc6b66a24794"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(U1-DIO4_X32N)] of Y2 on B.Cu",
+                    "pos": {
+                        "x": 143.326966,
+                        "y": 91.903032
+                    },
+                    "uuid": "cededeb7-f53c-4f22-a5a3-13e14445539f"
+                },
+                {
+                    "description": "Pad 1 [Net-(U1-DIO4_X32N)] of C14 on B.Cu",
+                    "pos": {
+                        "x": 142.846966,
+                        "y": 93.653032
+                    },
+                    "uuid": "b964eb75-9321-48d8-b8db-a7828ba864e3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [/bSense] of R113 on B.Cu",
+                    "pos": {
+                        "x": 144.344999,
+                        "y": 99.206066
+                    },
+                    "uuid": "ac1e45a6-b5e4-4c0f-af75-5bb13e21dd49"
+                },
+                {
+                    "description": "Pad 2 [/bSense] of R114 on B.Cu",
+                    "pos": {
+                        "x": 147.364998,
+                        "y": 99.206066
+                    },
+                    "uuid": "219cf1c8-0e6d-4de0-9db1-402267c16e2b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 33 [/bSense] of U1 on F.Cu",
+                    "pos": {
+                        "x": 144.829999,
+                        "y": 96.806066
+                    },
+                    "uuid": "35d71bb7-a8f2-4b8c-bdbb-7625071e01e6"
+                },
+                {
+                    "description": "Pad 1 [/bSense] of R113 on B.Cu",
+                    "pos": {
+                        "x": 144.344999,
+                        "y": 99.206066
+                    },
+                    "uuid": "ac1e45a6-b5e4-4c0f-af75-5bb13e21dd49"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0745 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 142.25,
+                        "y": 85.4
+                    },
+                    "uuid": "84cee2dd-092b-4317-8f74-557d77d31c4b"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [Net-(D502-COM)] on +3.3V, length 1.9799 mm",
+                    "pos": {
+                        "x": 147.9,
+                        "y": 81.199999
+                    },
+                    "uuid": "d81931da-82b8-4e3d-88a1-d9c7dcd70173"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [Net-(D502-COM)] on +3.3V, length 1.0607 mm",
+                    "pos": {
+                        "x": 143.05,
+                        "y": 80.449999
+                    },
+                    "uuid": "d5ae1720-52e5-447b-8d7d-3e6c5d15dc70"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [Net-(D502-COM)] on +3.3V, length 4.5500 mm",
+                    "pos": {
+                        "x": 138.5,
+                        "y": 80.449999
+                    },
+                    "uuid": "a22acaa0-187c-45d1-858a-27a974643997"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [Net-(D502-COM)] on +3.3V, length 4.1000 mm",
+                    "pos": {
+                        "x": 143.8,
+                        "y": 81.199999
+                    },
+                    "uuid": "99d12a89-33ed-4f40-9782-a655028afdb3"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [Net-(D502-COM)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 138.5,
+                        "y": 80.449999
+                    },
+                    "uuid": "2ac8239b-e925-4856-9b82-e65544807622"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [Net-(D502-COM)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 138.5,
+                        "y": 80.449999
+                    },
+                    "uuid": "2ac8239b-e925-4856-9b82-e65544807622"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [Net-(D502-COM)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 138.5,
+                        "y": 80.449999
+                    },
+                    "uuid": "2ac8239b-e925-4856-9b82-e65544807622"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [Net-(D502-COM)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 138.5,
+                        "y": 80.449999
+                    },
+                    "uuid": "2ac8239b-e925-4856-9b82-e65544807622"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/MCU/MOTOR_A] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 144.7,
+                        "y": 86.349999
+                    },
+                    "uuid": "5b723e15-2549-4948-8b45-af4919f976d0"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/MCU/MOTOR_A] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 144.7,
+                        "y": 86.349999
+                    },
+                    "uuid": "5b723e15-2549-4948-8b45-af4919f976d0"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/MCU/MOTOR_A] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 146.85,
+                        "y": 91.299999
+                    },
+                    "uuid": "1fbcba44-45b0-4146-8e1f-2243c24d92bb"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/MCU/MOTOR_A] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 144.7,
+                        "y": 86.349999
+                    },
+                    "uuid": "5b723e15-2549-4948-8b45-af4919f976d0"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/SDA] on +3.3V, length 0.8500 mm",
+                    "pos": {
+                        "x": 149.699999,
+                        "y": 87.999999
+                    },
+                    "uuid": "e4016f72-b889-4a33-82d6-79ec8dcf2e28"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/MCU/MOTOR_A] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 144.7,
+                        "y": 86.349999
+                    },
+                    "uuid": "5b723e15-2549-4948-8b45-af4919f976d0"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/SDA] on +3.3V, length 0.1414 mm",
+                    "pos": {
+                        "x": 149.799999,
+                        "y": 88.099999
+                    },
+                    "uuid": "cd9299fc-0e6e-444b-8271-7dc9709d2ebe"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/SDA] on +3.3V, length 1.9092 mm",
+                    "pos": {
+                        "x": 148.849999,
+                        "y": 87.999999
+                    },
+                    "uuid": "5b4652cb-4991-4107-aba2-1a25b46ee4de"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/SDA] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.499999,
+                        "y": 86.649999
+                    },
+                    "uuid": "3959f16b-085e-43b0-908b-250425dad0e9"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/SDA] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.499999,
+                        "y": 86.649999
+                    },
+                    "uuid": "3959f16b-085e-43b0-908b-250425dad0e9"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/SDA] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 149.799999,
+                        "y": 88.099999
+                    },
+                    "uuid": "3c25c2b9-8d38-4802-a582-de9968fe8bcf"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/SDA] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 149.799999,
+                        "y": 88.099999
+                    },
+                    "uuid": "3c25c2b9-8d38-4802-a582-de9968fe8bcf"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/SDA] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.499999,
+                        "y": 86.649999
+                    },
+                    "uuid": "3959f16b-085e-43b0-908b-250425dad0e9"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/SDA] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.499999,
+                        "y": 86.649999
+                    },
+                    "uuid": "3959f16b-085e-43b0-908b-250425dad0e9"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/SDA] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 149.799999,
+                        "y": 88.099999
+                    },
+                    "uuid": "3c25c2b9-8d38-4802-a582-de9968fe8bcf"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/SDA] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 149.799999,
+                        "y": 88.099999
+                    },
+                    "uuid": "3c25c2b9-8d38-4802-a582-de9968fe8bcf"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1745 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 142.25,
+                        "y": 85.4
+                    },
+                    "uuid": "84cee2dd-092b-4317-8f74-557d77d31c4b"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.3936 mm)",
+            "items": [
+                {
+                    "description": "Via [Net-(D502-COM)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 149.3,
+                        "y": 82.599999
+                    },
+                    "uuid": "6908e47e-4f05-4485-a035-b1d90efef2fc"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [Net-(D502-COM)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 149.3,
+                        "y": 82.599999
+                    },
+                    "uuid": "6908e47e-4f05-4485-a035-b1d90efef2fc"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [Net-(D502-COM)] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 149.3,
+                        "y": 82.599999
+                    },
+                    "uuid": "6908e47e-4f05-4485-a035-b1d90efef2fc"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT27] on +3.3V, length 0.4243 mm",
+                    "pos": {
+                        "x": 143.7,
+                        "y": 88.4
+                    },
+                    "uuid": "fdb2fde9-2448-4627-addf-3f581b66c1bd"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT27] on +3.3V, length 1.3500 mm",
+                    "pos": {
+                        "x": 144.0,
+                        "y": 88.1
+                    },
+                    "uuid": "df7896c7-3ef7-4072-bd55-32f2ac234f31"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT27] on +3.3V, length 1.8500 mm",
+                    "pos": {
+                        "x": 144.15,
+                        "y": 86.6
+                    },
+                    "uuid": "80fcf373-251a-4a66-860d-3e2583f4ef52"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT27] on +3.3V, length 1.2021 mm",
+                    "pos": {
+                        "x": 144.15,
+                        "y": 84.75
+                    },
+                    "uuid": "ac804dbc-f1cb-40af-a58d-ffb9e752a1b9"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT27] on +3.3V, length 0.8500 mm",
+                    "pos": {
+                        "x": 141.95,
+                        "y": 90.699999
+                    },
+                    "uuid": "459151d1-9814-4046-97dc-0ad844d62992"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT27] on +3.3V, length 0.3000 mm",
+                    "pos": {
+                        "x": 143.4,
+                        "y": 88.4
+                    },
+                    "uuid": "1ee7b8ac-0f14-4c7f-841f-133bcc2053c8"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT27] on +3.3V, length 0.2121 mm",
+                    "pos": {
+                        "x": 144.0,
+                        "y": 86.75
+                    },
+                    "uuid": "368bd482-7a3a-4fb7-bb91-a56405491503"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT27] on +3.3V, length 2.0506 mm",
+                    "pos": {
+                        "x": 141.95,
+                        "y": 89.85
+                    },
+                    "uuid": "63d6d463-df34-4b1a-81ef-69d326a429e6"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT27] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 141.95,
+                        "y": 90.699999
+                    },
+                    "uuid": "fa46ce9f-3259-4bca-8b8f-403cf5b6a4bd"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT27] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 143.3,
+                        "y": 83.9
+                    },
+                    "uuid": "84aaa79b-3725-4b4d-b63e-67bea159d52c"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT27] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 141.95,
+                        "y": 90.699999
+                    },
+                    "uuid": "fa46ce9f-3259-4bca-8b8f-403cf5b6a4bd"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT27] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 143.3,
+                        "y": 83.9
+                    },
+                    "uuid": "84aaa79b-3725-4b4d-b63e-67bea159d52c"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT27] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 141.95,
+                        "y": 90.699999
+                    },
+                    "uuid": "fa46ce9f-3259-4bca-8b8f-403cf5b6a4bd"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT27] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 143.3,
+                        "y": 83.9
+                    },
+                    "uuid": "84aaa79b-3725-4b4d-b63e-67bea159d52c"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT27] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 143.3,
+                        "y": 83.9
+                    },
+                    "uuid": "84aaa79b-3725-4b4d-b63e-67bea159d52c"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT27] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 141.95,
+                        "y": 90.699999
+                    },
+                    "uuid": "fa46ce9f-3259-4bca-8b8f-403cf5b6a4bd"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0158 mm)",
+            "items": [
+                {
+                    "description": "Via [/MCU/MOTOR_A] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 146.85,
+                        "y": 91.299999
+                    },
+                    "uuid": "1fbcba44-45b0-4146-8e1f-2243c24d92bb"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT24] on +3.3V, length 0.5500 mm",
+                    "pos": {
+                        "x": 139.099999,
+                        "y": 92.199999
+                    },
+                    "uuid": "b3aea736-3f10-4b74-b172-10c04a0aae4d"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT24] on +3.3V, length 0.3536 mm",
+                    "pos": {
+                        "x": 138.549999,
+                        "y": 92.199999
+                    },
+                    "uuid": "7175ddae-8ce7-4ae9-a66c-f06912d301b8"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT24] on +3.3V, length 0.9500 mm",
+                    "pos": {
+                        "x": 138.299999,
+                        "y": 91.949999
+                    },
+                    "uuid": "6d6779ff-c818-47d6-aaa1-079d863eca6c"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/MCU/MOTOR_A] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 146.85,
+                        "y": 91.299999
+                    },
+                    "uuid": "1fbcba44-45b0-4146-8e1f-2243c24d92bb"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/MCU/MOTOR_A] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 146.85,
+                        "y": 91.299999
+                    },
+                    "uuid": "1fbcba44-45b0-4146-8e1f-2243c24d92bb"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT24] on +3.3V, length 0.0500 mm",
+                    "pos": {
+                        "x": 141.7,
+                        "y": 87.6
+                    },
+                    "uuid": "47fe0106-3ad7-4a3a-ab7c-4970bce36efb"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.2565 mm)",
+            "items": [
+                {
+                    "description": "Via [+3.3V] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 143.249999,
+                        "y": 97.149999
+                    },
+                    "uuid": "d8bb5ed9-6985-4063-b6a9-8a2900f07906"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT24] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 149.3,
+                        "y": 75.6
+                    },
+                    "uuid": "36ca88c6-cfce-44bf-b21d-5e01309edaf5"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT24] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 139.099999,
+                        "y": 92.199999
+                    },
+                    "uuid": "063c11dd-84ef-4410-a91a-2f10b1351c66"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT24] on +3.3V, length 4.8083 mm",
+                    "pos": {
+                        "x": 138.299999,
+                        "y": 90.999999
+                    },
+                    "uuid": "d3121347-7dce-48b8-84cf-2aa60feeb67f"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT24] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 149.3,
+                        "y": 75.6
+                    },
+                    "uuid": "36ca88c6-cfce-44bf-b21d-5e01309edaf5"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT24] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 139.099999,
+                        "y": 92.199999
+                    },
+                    "uuid": "063c11dd-84ef-4410-a91a-2f10b1351c66"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT24] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 149.3,
+                        "y": 75.6
+                    },
+                    "uuid": "36ca88c6-cfce-44bf-b21d-5e01309edaf5"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT19] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 158.95,
+                        "y": 89.25
+                    },
+                    "uuid": "23488bf7-a7b6-4aa9-b7f5-5040078a9e36"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT19] on +3.3V, length 12.0500 mm",
+                    "pos": {
+                        "x": 138.75,
+                        "y": 91.749999
+                    },
+                    "uuid": "0ab07a7e-6bb4-4c2f-b2e3-7fe9101d62f3"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT19] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 150.8,
+                        "y": 91.749999
+                    },
+                    "uuid": "7991f6d9-bd14-425c-988f-b5b065a010d9"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT24] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 149.3,
+                        "y": 75.6
+                    },
+                    "uuid": "36ca88c6-cfce-44bf-b21d-5e01309edaf5"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT24] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 139.099999,
+                        "y": 92.199999
+                    },
+                    "uuid": "063c11dd-84ef-4410-a91a-2f10b1351c66"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT19] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 138.75,
+                        "y": 91.749999
+                    },
+                    "uuid": "0169152d-0ba1-4fcc-996c-b9a01cd40fb1"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT19] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 158.95,
+                        "y": 89.25
+                    },
+                    "uuid": "23488bf7-a7b6-4aa9-b7f5-5040078a9e36"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT24] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 141.75,
+                        "y": 87.6
+                    },
+                    "uuid": "3dc78591-407b-4792-b692-c35bf1819598"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT24] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 139.099999,
+                        "y": 92.199999
+                    },
+                    "uuid": "063c11dd-84ef-4410-a91a-2f10b1351c66"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT19] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 150.8,
+                        "y": 91.749999
+                    },
+                    "uuid": "7991f6d9-bd14-425c-988f-b5b065a010d9"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT19] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 138.75,
+                        "y": 91.749999
+                    },
+                    "uuid": "0169152d-0ba1-4fcc-996c-b9a01cd40fb1"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT24] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 141.75,
+                        "y": 87.6
+                    },
+                    "uuid": "3dc78591-407b-4792-b692-c35bf1819598"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT19] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 158.95,
+                        "y": 89.25
+                    },
+                    "uuid": "23488bf7-a7b6-4aa9-b7f5-5040078a9e36"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT19] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 150.8,
+                        "y": 91.749999
+                    },
+                    "uuid": "7991f6d9-bd14-425c-988f-b5b065a010d9"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT19] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 158.95,
+                        "y": 89.25
+                    },
+                    "uuid": "23488bf7-a7b6-4aa9-b7f5-5040078a9e36"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT19] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 150.8,
+                        "y": 91.749999
+                    },
+                    "uuid": "7991f6d9-bd14-425c-988f-b5b065a010d9"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT19] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 138.75,
+                        "y": 91.749999
+                    },
+                    "uuid": "0169152d-0ba1-4fcc-996c-b9a01cd40fb1"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT24] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 141.75,
+                        "y": 87.6
+                    },
+                    "uuid": "3dc78591-407b-4792-b692-c35bf1819598"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT19] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 138.75,
+                        "y": 91.749999
+                    },
+                    "uuid": "0169152d-0ba1-4fcc-996c-b9a01cd40fb1"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT24] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 141.75,
+                        "y": 87.6
+                    },
+                    "uuid": "3dc78591-407b-4792-b692-c35bf1819598"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT15] on F.Cu, length 0.4950 mm",
+                    "pos": {
+                        "x": 151.25,
+                        "y": 100.299999
+                    },
+                    "uuid": "964089e3-d70c-4d39-a096-a02f3722f579"
+                },
+                {
+                    "description": "Zone 'RF_GND_F' [GND] on F.Cu, priority 5",
+                    "pos": {
+                        "x": 151.794974,
+                        "y": 97.489238
+                    },
+                    "uuid": "1d9523e8-9e61-4d2a-9066-10e58c4a9cd8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation ( clearance 0.1500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT15] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 151.25,
+                        "y": 100.299999
+                    },
+                    "uuid": "02dd53f2-c74b-4ed1-9c6c-1baf3ba5cc40"
+                },
+                {
+                    "description": "Zone 'RF_GND_F' [GND] on F.Cu, priority 5",
+                    "pos": {
+                        "x": 151.794974,
+                        "y": 97.489238
+                    },
+                    "uuid": "1d9523e8-9e61-4d2a-9066-10e58c4a9cd8"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT15] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 151.25,
+                        "y": 100.299999
+                    },
+                    "uuid": "02dd53f2-c74b-4ed1-9c6c-1baf3ba5cc40"
+                },
+                {
+                    "description": "Zone 'RF_GND_F' [GND] on F.Cu, priority 5",
+                    "pos": {
+                        "x": 151.794974,
+                        "y": 97.489238
+                    },
+                    "uuid": "1d9523e8-9e61-4d2a-9066-10e58c4a9cd8"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT15] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 136.349999,
+                        "y": 88.35
+                    },
+                    "uuid": "38270adf-58c0-46de-a3bd-4957de1af548"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT15] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 136.349999,
+                        "y": 88.35
+                    },
+                    "uuid": "38270adf-58c0-46de-a3bd-4957de1af548"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT15] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 136.349999,
+                        "y": 88.35
+                    },
+                    "uuid": "38270adf-58c0-46de-a3bd-4957de1af548"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT15] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 136.349999,
+                        "y": 88.35
+                    },
+                    "uuid": "38270adf-58c0-46de-a3bd-4957de1af548"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT15] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 151.25,
+                        "y": 100.299999
+                    },
+                    "uuid": "02dd53f2-c74b-4ed1-9c6c-1baf3ba5cc40"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT15] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 151.25,
+                        "y": 100.299999
+                    },
+                    "uuid": "02dd53f2-c74b-4ed1-9c6c-1baf3ba5cc40"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 140.05,
+                        "y": 95.3
+                    },
+                    "uuid": "73bb8c5f-6844-4133-adec-4e292b4283cb"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 140.05,
+                        "y": 95.3
+                    },
+                    "uuid": "73bb8c5f-6844-4133-adec-4e292b4283cb"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 141.799999,
+                        "y": 85.499999
+                    },
+                    "uuid": "2a7b2cf6-b4da-4be4-973c-e56883a3bcf2"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [GND] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 141.799999,
+                        "y": 85.499999
+                    },
+                    "uuid": "2a7b2cf6-b4da-4be4-973c-e56883a3bcf2"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 139.5,
+                        "y": 76.749999
+                    },
+                    "uuid": "ebd823f4-ab9c-462a-a836-6888302ea373"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 139.5,
+                        "y": 76.749999
+                    },
+                    "uuid": "ebd823f4-ab9c-462a-a836-6888302ea373"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 139.149999,
+                        "y": 82.049999
+                    },
+                    "uuid": "a98b38d1-eeaf-400b-a4a2-82516afb67ee"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 139.5,
+                        "y": 76.749999
+                    },
+                    "uuid": "ebd823f4-ab9c-462a-a836-6888302ea373"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 139.149999,
+                        "y": 82.049999
+                    },
+                    "uuid": "a98b38d1-eeaf-400b-a4a2-82516afb67ee"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 139.5,
+                        "y": 76.749999
+                    },
+                    "uuid": "ebd823f4-ab9c-462a-a836-6888302ea373"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 139.149999,
+                        "y": 82.049999
+                    },
+                    "uuid": "a98b38d1-eeaf-400b-a4a2-82516afb67ee"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT3] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 139.149999,
+                        "y": 82.049999
+                    },
+                    "uuid": "a98b38d1-eeaf-400b-a4a2-82516afb67ee"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on +3.3V, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "Track [+3.3V] on B.Cu, length 0.7000 mm",
+                    "pos": {
+                        "x": 144.999999,
+                        "y": 91.15
+                    },
+                    "uuid": "04718682-dc07-46c4-9772-b824e80e8ed4"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint IC201",
+                    "pos": {
+                        "x": 139.0,
+                        "y": 88.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062794e93"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C201",
+                    "pos": {
+                        "x": 142.15,
+                        "y": 86.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062796283"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C202",
+                    "pos": {
+                        "x": 143.0,
+                        "y": 88.4
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062796292"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED206",
+                    "pos": {
+                        "x": 159.893,
+                        "y": 88.265
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1c836"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED205",
+                    "pos": {
+                        "x": 159.413815,
+                        "y": 84.625228
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cd63"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED204",
+                    "pos": {
+                        "x": 158.008915,
+                        "y": 81.2335
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cd7f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED203",
+                    "pos": {
+                        "x": 155.774043,
+                        "y": 78.320957
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cd9b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED202",
+                    "pos": {
+                        "x": 152.8615,
+                        "y": 76.086085
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cdb7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED201",
+                    "pos": {
+                        "x": 149.469772,
+                        "y": 74.681185
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cdd3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED224",
+                    "pos": {
+                        "x": 145.83,
+                        "y": 74.202
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cdef"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED223",
+                    "pos": {
+                        "x": 142.190228,
+                        "y": 74.681185
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce0b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED222",
+                    "pos": {
+                        "x": 138.7985,
+                        "y": 76.086085
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce27"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED221",
+                    "pos": {
+                        "x": 135.885957,
+                        "y": 78.320957
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce43"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED220",
+                    "pos": {
+                        "x": 133.651085,
+                        "y": 81.2335
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce5f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED219",
+                    "pos": {
+                        "x": 132.246185,
+                        "y": 84.625228
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce7b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED218",
+                    "pos": {
+                        "x": 131.767,
+                        "y": 88.265
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce97"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED217",
+                    "pos": {
+                        "x": 132.246185,
+                        "y": 91.904772
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ceb3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED216",
+                    "pos": {
+                        "x": 133.651085,
+                        "y": 95.2965
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cecf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED215",
+                    "pos": {
+                        "x": 135.885957,
+                        "y": 98.209043
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ceeb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED214",
+                    "pos": {
+                        "x": 138.7985,
+                        "y": 100.443915
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf07"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED213",
+                    "pos": {
+                        "x": 142.190228,
+                        "y": 101.848815
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf23"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED212",
+                    "pos": {
+                        "x": 145.83,
+                        "y": 102.328
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf3f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED211",
+                    "pos": {
+                        "x": 149.469772,
+                        "y": 101.848815
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf5b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED210",
+                    "pos": {
+                        "x": 152.8615,
+                        "y": 100.443915
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf77"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED209",
+                    "pos": {
+                        "x": 155.774043,
+                        "y": 98.209043
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf93"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED208",
+                    "pos": {
+                        "x": 158.008915,
+                        "y": 95.2965
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cfaf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED207",
+                    "pos": {
+                        "x": 159.413815,
+                        "y": 91.904772
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cfcb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C104",
+                    "pos": {
+                        "x": 153.753263,
+                        "y": 89.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000064182f85"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED101",
+                    "pos": {
+                        "x": 149.5,
+                        "y": 80.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-000064183050"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED102",
+                    "pos": {
+                        "x": 142.0,
+                        "y": 80.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000642a3e49"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED225",
+                    "pos": {
+                        "x": 145.862406,
+                        "y": 83.586827
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000642a8c62"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'EasyEDA'",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 150.907396,
+                        "y": 88.280842
+                    },
+                    "uuid": "1cca03ba-b887-451c-a357-4d563013e5f9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Logo'",
+            "items": [
+                {
+                    "description": "Footprint LOGO1",
+                    "pos": {
+                        "x": 145.808286,
+                        "y": 79.5
+                    },
+                    "uuid": "90e6d93f-2a99-4720-8a9c-9a8054b6f15e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CC2340'",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 145.83,
+                        "y": 94.403033
+                    },
+                    "uuid": "d6977ae2-b2ba-452b-abbf-b742d39e66e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BMA400'",
+            "items": [
+                {
+                    "description": "Footprint U3",
+                    "pos": {
+                        "x": 153.75,
+                        "y": 86.738
+                    },
+                    "uuid": "eb9e1157-dd6a-4873-849f-de69c315fe82"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R203",
+                    "pos": {
+                        "x": 141.9,
+                        "y": 85.2
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062796462"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R204",
+                    "pos": {
+                        "x": 143.05,
+                        "y": 85.2
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062796473"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C101",
+                    "pos": {
+                        "x": 150.713735,
+                        "y": 84.677984
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006279aa0a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R101",
+                    "pos": {
+                        "x": 154.113735,
+                        "y": 88.377984
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062b38f04"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'",
+            "items": [
+                {
+                    "description": "Footprint U102",
+                    "pos": {
+                        "x": 153.163735,
+                        "y": 85.777984
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062b3928b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C102",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 87.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000064182f67"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C103",
+                    "pos": {
+                        "x": 149.399999,
+                        "y": 80.7
+                    },
+                    "uuid": "00000000-0000-0000-0000-000064182f76"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R102",
+                    "pos": {
+                        "x": 151.024025,
+                        "y": 83.071834
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000641831e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R103",
+                    "pos": {
+                        "x": 144.2,
+                        "y": 85.2
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000641831fa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R104",
+                    "pos": {
+                        "x": 145.35,
+                        "y": 85.2
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006418320b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R106",
+                    "pos": {
+                        "x": 140.544365,
+                        "y": 95.763604
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000641842fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R108",
+                    "pos": {
+                        "x": 157.0,
+                        "y": 92.95
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006418583e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R113",
+                    "pos": {
+                        "x": 144.829999,
+                        "y": 99.206066
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000642a4106"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R114",
+                    "pos": {
+                        "x": 146.879998,
+                        "y": 99.206066
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000642a4117"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Samacsys'",
+            "items": [
+                {
+                    "description": "Footprint IC1",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 81.0
+                    },
+                    "uuid": "6adfba73-944d-473b-bc1e-1535c5d688c8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'Walton' on F.Silkscreen",
+                    "pos": {
+                        "x": 145.843143,
+                        "y": 81.382278
+                    },
+                    "uuid": "33ad5944-4d59-4a08-be25-7835c18d9265"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '12' on F.Silkscreen",
+                    "pos": {
+                        "x": 145.758017,
+                        "y": 76.962
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1d049"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '11' on F.Silkscreen",
+                    "pos": {
+                        "x": 140.081,
+                        "y": 78.359
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e16c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '10' on F.Silkscreen",
+                    "pos": {
+                        "x": 135.89,
+                        "y": 82.677
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e16e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '9' on F.Silkscreen",
+                    "pos": {
+                        "x": 134.479161,
+                        "y": 88.138
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e170"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '8' on F.Silkscreen",
+                    "pos": {
+                        "x": 135.920973,
+                        "y": 93.853
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e172"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '7' on F.Silkscreen",
+                    "pos": {
+                        "x": 140.038931,
+                        "y": 98.044
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e174"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '6' on F.Silkscreen",
+                    "pos": {
+                        "x": 145.726086,
+                        "y": 99.568
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e176"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '5' on F.Silkscreen",
+                    "pos": {
+                        "x": 151.446813,
+                        "y": 98.044
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e178"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '4' on F.Silkscreen",
+                    "pos": {
+                        "x": 155.575,
+                        "y": 93.853
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e17a"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '3' on F.Silkscreen",
+                    "pos": {
+                        "x": 157.099,
+                        "y": 88.265
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e17c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '2' on F.Silkscreen",
+                    "pos": {
+                        "x": 155.614392,
+                        "y": 82.630416
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e17e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '1' on F.Silkscreen",
+                    "pos": {
+                        "x": 151.511,
+                        "y": 78.359
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e180"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        }
+    ]
+}
