@@ -2822,6 +2822,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 266.065 141.605)
+		(end 313.055 157.48)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "324420fa-5065-4171-b27d-4dc7dea5ecbe")
+	)
+	(text "Programming Headers"
+		(exclude_from_sim no)
+		(at 300.228 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "135d1892-f42f-4bf8-aac8-b3ea5d1338ad")
+	)
 	(junction
 		(at 172.72 109.22)
 		(diameter 0)
@@ -3322,6 +3344,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 144.78) (xy 267.97 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d9f0fc-7502-42d0-8c5b-9fdf4f2c0e06")
+	)
+	(wire
+		(pts
 			(xy 243.84 88.9) (xy 248.92 88.9)
 		)
 		(stroke
@@ -3389,6 +3421,16 @@
 			(type default)
 		)
 		(uuid "c047ec39-d71c-42c4-a3a5-97a8b03ce44e")
+	)
+	(wire
+		(pts
+			(xy 262.89 147.32) (xy 267.97 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f9416c-81a5-4463-82cb-6451c6fdf52f")
 	)
 	(wire
 		(pts
@@ -3631,26 +3673,6 @@
 			(justify left)
 		)
 		(uuid "fda90dfa-662d-47a6-9092-74f765069857")
-	)
-	(wire
-		(pts
-			(xy 262.89 144.78) (xy 267.97 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5d9f0fc-7502-42d0-8c5b-9fdf4f2c0e06")
-	)
-	(wire
-		(pts
-			(xy 262.89 147.32) (xy 267.97 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0f9416c-81a5-4463-82cb-6451c6fdf52f")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
