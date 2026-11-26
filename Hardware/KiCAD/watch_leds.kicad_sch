@@ -4275,6 +4275,7 @@
 		)
 		(property "Description" "3.3k 1% 1/16W 0402 thick film"
 			(at 144.145 160.655 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4538,6 +4539,7 @@
 		)
 		(property "Description" "10k 1% 1/16W 0402 thick film"
 			(at 133.985 160.655 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
