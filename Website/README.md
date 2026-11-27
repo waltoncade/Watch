@@ -19,6 +19,7 @@ Search the repo for `placeholder` (case-insensitive) to find them all.
 - **Model name: "Walton one".** Change it in `index.html` (title, hero, characteristics heading, image alt text, the mailto subject) and in `about.html` (image alt text).
 - **Price: "Price TBA"** and **Availability: "Coming soon"** in the hero of `index.html`.
 - **Characteristics marked "To be announced" / "Details to come"** (case, diameter, strap, water resistance, battery life, wireless) in `index.html`.
+- **"What's inside" callouts.** The six feature descriptions (LEDs, Multi-color LED, The brain, Motion sensor, Light sensor, Bluetooth) are placeholder copy. Edit the titles and text in `src/callouts.js`, the only place they live. The `x`/`y` values there are each part's position on `public/images/hero.webp` (in percent), measured from the board layout; update them if the hero image changes.
 - **Story copy.** The three story sections on Home are short, honest placeholder copy. Rewrite as you like.
 - **About page.** The intro line and the "Our story", "The maker" and "Craft" sections are italic placeholder text, marked with `<!-- Placeholder -->` comments.
 - **Images.** `public/images/` holds preview 3D renderings (`hero`, `hero_angle`, `detail`, `back`, each with an `-800` small version). Replace them with photos when you have them, keeping the same file names, or update the `src`/`srcset` paths. The reverse view (`back`) shows the board's printed labels; swap it for a case-back photo when there is one.
@@ -26,7 +27,7 @@ Search the repo for `placeholder` (case-insensitive) to find them all.
 
 Colors and fonts are at the top of `src/styles.css` (`:root`).
 
-`src/main.js` only handles the header background on scroll, the gallery thumbnails, and the footer year. It sends nothing anywhere.
+`src/main.js` only handles the header background on scroll, the gallery thumbnails, the drawing/finished slider, the "What's inside" callouts (a small card that opens next to the clicked label or dot), and the footer year. It sends nothing anywhere.
 
 ## Run locally
 

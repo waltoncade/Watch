@@ -19,14 +19,19 @@
 
     <header class="site-header" data-header>
       <div class="header-inner">
-        <a class="brand" href="./" aria-label="Walton Watches, home">
-          <img class="brand-mark" src="/logo/w-logo-white.svg" alt="" width="36" height="28" />
+        <a class="brand" href="./">
           <span class="brand-name">Walton Watches</span>
         </a>
-        <nav class="site-nav" aria-label="Main">
-          <a href="./" aria-current="page">Home</a>
-          <a href="./about.html">About</a>
-        </nav>
+        <a class="header-mark" href="./" aria-label="Walton Watches, home">
+          <img src="/logo/w-logo-white.svg" alt="" width="40" height="32" />
+        </a>
+        <div class="header-right">
+          <nav class="site-nav" aria-label="Main">
+            <a href="./" aria-current="page">Home</a>
+            <a href="./about.html">About</a>
+          </nav>
+          <a class="btn btn-primary btn-header" href="mailto:placeholder@example.com?subject=Walton%20one%20%E2%80%94%20register%20interest" aria-label="Register interest"><span>Register<span class="btn-header-more"> interest</span></span></a>
+        </div>
       </div>
     </header>
 
@@ -45,30 +50,12 @@
           />
         </div>
         <div class="hero-panel">
-          <p class="eyebrow">Walton Watches</p>
           <!-- Model name: "Walton one", set as a two-line wordmark. To rename, edit it everywhere it appears. -->
           <h1 id="product-name" class="product-name" aria-label="Walton one">
             <span class="wm-line1">Walton</span>
             <span class="wm-line2"><span class="wm-ghost" aria-hidden="true">Walt</span>one</span>
           </h1>
           <p class="tagline">Time, told in light.</p>
-          <p class="hero-copy">
-            Classic hands at the center. A ring of twenty-four lights around them. A watch that
-            looks familiar from across the room and surprising up close.
-          </p>
-          <dl class="hero-facts">
-            <div><dt>Price</dt><dd>Price TBA</dd></div>
-            <div><dt>Availability</dt><dd>Coming soon</dd></div>
-          </dl>
-          <div class="hero-actions">
-            <a
-              class="btn btn-primary"
-              href="mailto:placeholder@example.com?subject=Walton%20one%20%E2%80%94%20register%20interest"
-              >Register interest</a
-            >
-            <a class="btn btn-ghost" href="#gallery">View gallery</a>
-          </div>
-          <p class="fine">Images are preview renderings. Photography coming soon.</p>
         </div>
       </section>
 
@@ -127,7 +114,7 @@
         <div class="compare-head">
           <p class="eyebrow">Inside and out</p>
           <h2 id="compare-title">From drawing to dial</h2>
-          <p>Every line of the design, and the piece it becomes. Drag to compare.</p>
+          <p>Every line of the design, and the piece it becomes.</p>
         </div>
         <div class="compare-frame" data-compare style="--pos: 50%">
           <img class="compare-img compare-after"
@@ -144,6 +131,27 @@
           <span class="compare-label compare-label-left" aria-hidden="true">Design</span>
           <span class="compare-label compare-label-right" aria-hidden="true">Finished</span>
         </div>
+      </section>
+
+      <!-- WHAT'S INSIDE: callouts. Copy and positions live in src/callouts.js -->
+      <section class="inside" aria-labelledby="inside-title">
+        <div class="inside-head">
+          <p class="eyebrow">Details</p>
+          <h2 id="inside-title">What&rsquo;s inside</h2>
+        </div>
+        <div class="inside-stage" data-inside>
+          <svg class="inside-lines" viewBox="0 0 1600 1000" preserveAspectRatio="none" aria-hidden="true"></svg>
+          <div class="inside-media">
+            <img src="/images/hero.webp" srcset="/images/hero-800.webp 800w, /images/hero.webp 1600w"
+              sizes="(min-width: 900px) 640px, 92vw" width="1600" height="1600" loading="lazy"
+              alt="Walton one seen face-on, with its main features marked" />
+          </div>
+          <div class="inside-pop" id="inside-pop" role="dialog" aria-labelledby="inside-pop-title" hidden>
+            <h3 id="inside-pop-title"></h3>
+            <p></p>
+          </div>
+        </div>
+        <ol class="inside-list" data-inside-list></ol>
       </section>
 
       <!-- STORY SECTIONS -->
@@ -233,6 +241,31 @@
               <div><dt>Water resistance</dt><dd>To be announced</dd></div>
             </dl>
           </div>
+        </div>
+      </section>
+
+      <!-- CLOSING: summary, price and availability -->
+      <section class="closing" aria-labelledby="closing-title">
+        <div class="closing-media">
+          <img src="/images/hero_angle-800.webp" srcset="/images/hero_angle-800.webp 800w, /images/hero_angle.webp 1600w"
+            sizes="(min-width: 900px) 560px, 92vw" width="1600" height="1254" loading="lazy"
+            alt="Walton one, seen at an angle" />
+        </div>
+        <div class="closing-panel">
+          <p class="eyebrow">The watch</p>
+          <h2 id="closing-title">Walton one</h2>
+          <p class="closing-copy">
+            Classic hands at the center. A ring of twenty-four lights around them. A watch that
+            looks familiar from across the room and surprising up close.
+          </p>
+          <dl class="closing-facts">
+            <div><dt>Price</dt><dd>Price TBA</dd></div>
+            <div><dt>Availability</dt><dd>Coming soon</dd></div>
+          </dl>
+          <div class="closing-actions">
+            <a class="btn btn-ghost" href="#gallery">View gallery</a>
+          </div>
+          <p class="fine">Images are preview renderings. Photography coming soon.</p>
         </div>
       </section>
 
