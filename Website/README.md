@@ -16,7 +16,7 @@ The nav has only these two tabs. Both pages end with a **Contact** button, and t
 Search the repo for `placeholder` (case-insensitive) to find them all.
 
 - **Contact email: `placeholder@example.com`.** Every Contact / Register interest button is a `mailto:` link to this address. Replace every occurrence in `index.html` and `about.html` with a real address.
-- **Model name: "Walton No. 1".** A working name. Change it in `index.html` (title, hero, characteristics heading, image alt text, the mailto subject) and in `about.html` (image alt text).
+- **Model name: "Walton one".** Change it in `index.html` (title, hero, characteristics heading, image alt text, the mailto subject) and in `about.html` (image alt text).
 - **Price: "Price TBA"** and **Availability: "Coming soon"** in the hero of `index.html`.
 - **Characteristics marked "To be announced" / "Details to come"** (case, diameter, strap, water resistance, battery life, wireless) in `index.html`.
 - **Story copy.** The three story sections on Home are short, honest placeholder copy. Rewrite as you like.

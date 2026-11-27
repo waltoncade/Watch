@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Walton No. 1 · Walton Watches</title>
+    <title>Walton one · Walton Watches</title>
     <meta
       name="description"
       content="Walton Watches. A watch with a ring of 24 lights around the dial, classic hands at its center, and a rechargeable heart."
@@ -39,15 +39,18 @@
             srcset="/images/hero-800.webp 800w, /images/hero.webp 1600w"
             sizes="(min-width: 960px) 60vw, 100vw"
             width="1600"
-            height="1599"
-            alt="The Walton No. 1, seen face-on, with its ring of lights around the dial"
+            height="1600"
+            alt="Walton one, seen face-on, with its ring of lights around the dial"
             fetchpriority="high"
           />
         </div>
         <div class="hero-panel">
           <p class="eyebrow">Walton Watches</p>
-          <!-- Placeholder model name: edit "Walton No. 1" everywhere it appears. -->
-          <h1 id="product-name" class="product-name">Walton No.&nbsp;1</h1>
+          <!-- Model name: "Walton one", set as a two-line wordmark. To rename, edit it everywhere it appears. -->
+          <h1 id="product-name" class="product-name" aria-label="Walton one">
+            <span class="wm-line1">Walton</span>
+            <span class="wm-line2"><span class="wm-ghost" aria-hidden="true">Walt</span>one</span>
+          </h1>
           <p class="tagline">Time, told in light.</p>
           <p class="hero-copy">
             Classic hands at the center. A ring of twenty-four lights around them. A watch that
@@ -60,7 +63,7 @@
           <div class="hero-actions">
             <a
               class="btn btn-primary"
-              href="mailto:placeholder@example.com?subject=Walton%20No.%201%20%E2%80%94%20register%20interest"
+              href="mailto:placeholder@example.com?subject=Walton%20one%20%E2%80%94%20register%20interest"
               >Register interest</a
             >
             <a class="btn btn-ghost" href="#gallery">View gallery</a>
@@ -86,36 +89,60 @@
             srcset="/images/hero_angle-800.webp 800w, /images/hero_angle.webp 1600w"
             sizes="(min-width: 1200px) 1100px, 100vw"
             width="1600"
-            height="1259"
-            alt="The Walton No. 1 at an angle, showing the depth of the dial"
+            height="1253"
+            alt="Walton one at an angle, showing the depth of the dial"
             loading="lazy"
           />
         </div>
         <div class="gallery-thumbs" role="list">
           <button class="thumb is-active" type="button" role="listitem" aria-pressed="true"
             data-src="./images/hero_angle.webp" data-srcset="./images/hero_angle-800.webp 800w, ./images/hero_angle.webp 1600w"
-            data-w="1600" data-h="1259" data-alt="The Walton No. 1 at an angle, showing the depth of the dial">
-            <img src="/images/hero_angle-800.webp" alt="" loading="lazy" width="800" height="630" />
+            data-w="1600" data-h="1253" data-alt="Walton one at an angle, showing the depth of the dial">
+            <img src="/images/hero_angle-800.webp" alt="" loading="lazy" width="800" height="627" />
             <span>Three-quarter</span>
           </button>
           <button class="thumb" type="button" role="listitem" aria-pressed="false"
             data-src="./images/hero.webp" data-srcset="./images/hero-800.webp 800w, ./images/hero.webp 1600w"
-            data-w="1600" data-h="1599" data-alt="The Walton No. 1, face-on">
+            data-w="1600" data-h="1600" data-alt="Walton one, face-on">
             <img src="/images/hero-800.webp" alt="" loading="lazy" width="800" height="800" />
             <span>Face</span>
           </button>
           <button class="thumb" type="button" role="listitem" aria-pressed="false"
             data-src="./images/detail.webp" data-srcset="./images/detail-800.webp 800w, ./images/detail.webp 1600w"
-            data-w="1600" data-h="993" data-alt="A close look across the dial and its ring of lights">
-            <img src="/images/detail-800.webp" alt="" loading="lazy" width="800" height="497" />
+            data-w="1600" data-h="983" data-alt="A close look across the dial and its ring of lights">
+            <img src="/images/detail-800.webp" alt="" loading="lazy" width="800" height="492" />
             <span>Detail</span>
           </button>
           <button class="thumb" type="button" role="listitem" aria-pressed="false"
             data-src="./images/back.webp" data-srcset="./images/back-800.webp 800w, ./images/back.webp 1600w"
-            data-w="1599" data-h="1600" data-alt="The reverse side of the Walton No. 1">
-            <img src="/images/back-800.webp" alt="" loading="lazy" width="799" height="800" />
+            data-w="1600" data-h="1600" data-alt="The reverse side of Walton one">
+            <img src="/images/back-800.webp" alt="" loading="lazy" width="800" height="800" />
             <span>Reverse</span>
           </button>
+        </div>
+      </section>
+
+      <!-- INSIDE AND OUT: drag slider between the design drawing (left) and the finished piece (right) -->
+      <section class="compare" aria-labelledby="compare-title">
+        <div class="compare-head">
+          <p class="eyebrow">Inside and out</p>
+          <h2 id="compare-title">From drawing to dial</h2>
+          <p>Every line of the design, and the piece it becomes. Drag to compare.</p>
+        </div>
+        <div class="compare-frame" data-compare style="--pos: 50%">
+          <img class="compare-img compare-after"
+            src="/images/split-3d.webp" srcset="/images/split-3d-800.webp 800w, /images/split-3d.webp 1600w"
+            sizes="(min-width: 900px) 760px, 92vw" width="1600" height="1600" loading="lazy"
+            alt="The finished Walton one, seen face-on" />
+          <img class="compare-img compare-before"
+            src="/images/split-layout.webp" srcset="/images/split-layout-800.webp 800w, /images/split-layout.webp 1600w"
+            sizes="(min-width: 900px) 760px, 92vw" width="1600" height="1600" loading="lazy"
+            alt="The design drawing of Walton one, showing every line on the board" />
+          <div class="compare-seam" aria-hidden="true"><span class="compare-knob"></span></div>
+          <input class="compare-range" type="range" min="0" max="100" value="50" step="0.5"
+            aria-label="Drag to compare the design drawing and the finished watch" />
+          <span class="compare-label compare-label-left" aria-hidden="true">Design</span>
+          <span class="compare-label compare-label-right" aria-hidden="true">Finished</span>
         </div>
       </section>
 
@@ -123,7 +150,7 @@
       <section class="story">
         <div class="story-media story-media-fill">
           <img src="/images/detail.webp" srcset="/images/detail-800.webp 800w, /images/detail.webp 1600w"
-            sizes="(min-width: 960px) 55vw, 100vw" width="1600" height="993" loading="lazy"
+            sizes="(min-width: 960px) 55vw, 100vw" width="1600" height="983" loading="lazy"
             alt="Close view of the lights set around the edge of the dial" />
         </div>
         <div class="story-text">
@@ -139,14 +166,14 @@
       <section class="story story-reverse">
         <div class="story-media">
           <img src="/images/hero_angle.webp" srcset="/images/hero_angle-800.webp 800w, /images/hero_angle.webp 1600w"
-            sizes="(min-width: 960px) 55vw, 100vw" width="1600" height="1259" loading="lazy"
-            alt="The Walton No. 1 catching the light at an angle" />
+            sizes="(min-width: 960px) 55vw, 100vw" width="1600" height="1253" loading="lazy"
+            alt="Walton one catching the light at an angle" />
         </div>
         <div class="story-text">
           <p class="eyebrow">Awareness</p>
           <h2>Made to notice</h2>
           <p>
-            The Walton No. 1 can sense the light around it and the movement of your wrist. How it
+            Walton one can sense the light around it and the movement of your wrist. How it
             puts that to use is still being refined. More to share soon.
           </p>
         </div>
@@ -155,8 +182,8 @@
       <section class="story">
         <div class="story-media">
           <img src="/images/hero.webp" srcset="/images/hero-800.webp 800w, /images/hero.webp 1600w"
-            sizes="(min-width: 960px) 55vw, 100vw" width="1600" height="1599" loading="lazy"
-            alt="The Walton No. 1, face-on" />
+            sizes="(min-width: 960px) 55vw, 100vw" width="1600" height="1600" loading="lazy"
+            alt="Walton one, face-on" />
         </div>
         <div class="story-text">
           <p class="eyebrow">Power</p>
@@ -171,7 +198,7 @@
       <!-- CHARACTERISTICS -->
       <section class="specs" aria-labelledby="specs-title">
         <div class="specs-head">
-          <p class="eyebrow">Walton No. 1</p>
+          <p class="eyebrow">Walton one</p>
           <h2 id="specs-title">Characteristics</h2>
         </div>
         <div class="specs-grid">

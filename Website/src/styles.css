@@ -141,6 +141,13 @@ h2 {
   font-variation-settings: "opsz" 144;
   letter-spacing: -0.02em;
 }
+/* Two-line wordmark: "one" sits under the "on" of "Walton".
+   Line 2 repeats "Walt" in transparent ink, in the same font and size,
+   so the letters line up exactly at every screen size. */
+.product-name { display: inline-block; text-align: left; }
+.product-name .wm-line1, .product-name .wm-line2 { display: block; white-space: nowrap; }
+.product-name .wm-line2 { color: var(--accent); margin-top: -0.2em; }
+.product-name .wm-ghost { color: transparent; user-select: none; }
 .tagline {
   font-family: var(--serif); font-style: italic; font-weight: 300;
   font-size: clamp(1.25rem, 2vw, 1.6rem); color: var(--muted);
@@ -324,3 +331,62 @@ h2 {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }
 }
+
+/* ---------- Inside and out (compare slider) ---------- */
+.compare {
+  max-width: var(--max); margin: 0 auto;
+  padding: clamp(4rem, 9vw, 7rem) var(--pad);
+  text-align: center;
+}
+.compare-head { max-width: 36rem; margin: 0 auto clamp(2rem, 5vw, 3.5rem); }
+.compare-head h2 { margin: 0.9rem 0 1rem; }
+.compare-head p:not(.eyebrow) { color: var(--muted); }
+.compare-frame {
+  --pos: 50%;
+  position: relative;
+  width: min(760px, 100%);
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: pan-y;
+}
+.compare-img {
+  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain;
+  pointer-events: none;
+}
+.compare-before { clip-path: inset(0 calc(100% - var(--pos)) 0 0); }
+.compare-seam {
+  position: absolute; top: 2%; bottom: 2%; left: var(--pos); width: 1px;
+  transform: translateX(-0.5px);
+  background: linear-gradient(to bottom, transparent, rgba(240, 236, 228, 0.85) 12%, rgba(240, 236, 228, 0.85) 88%, transparent);
+  pointer-events: none;
+}
+.compare-knob {
+  position: absolute; top: 50%; left: 50%;
+  width: 2.75rem; height: 2.75rem; transform: translate(-50%, -50%);
+  border: 1px solid rgba(240, 236, 228, 0.85); border-radius: 50%;
+  background: rgba(11, 11, 13, 0.6);
+  backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+}
+.compare-knob::before, .compare-knob::after {
+  content: ""; position: absolute; top: 50%; width: 0.4rem; height: 0.4rem;
+  border-top: 1px solid var(--text); border-left: 1px solid var(--text);
+}
+.compare-knob::before { left: 0.7rem; transform: translateY(-50%) rotate(-45deg); }
+.compare-knob::after { right: 0.7rem; transform: translateY(-50%) rotate(135deg); }
+.compare-range {
+  position: absolute; inset: 0; width: 100%; height: 100%; margin: 0;
+  opacity: 0; cursor: ew-resize; touch-action: pan-y;
+  -webkit-appearance: none; appearance: none; background: transparent;
+}
+.compare-range::-webkit-slider-thumb { -webkit-appearance: none; width: 3rem; height: 100%; }
+.compare-range::-moz-range-thumb { width: 3rem; height: 100%; border: 0; background: transparent; }
+.compare-range:focus-visible + .compare-label,
+.compare-frame:focus-within .compare-knob { border-color: var(--accent); }
+.compare-label {
+  position: absolute; bottom: 0; font-size: 0.68rem; letter-spacing: 0.24em;
+  text-transform: uppercase; color: var(--dim); pointer-events: none;
+}
+.compare-label-left { left: 0; }
+.compare-label-right { right: 0; }

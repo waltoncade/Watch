@@ -34,3 +34,13 @@ thumbs.forEach((thumb) => {
 document.querySelectorAll("[data-year]").forEach((el) => {
   el.textContent = String(new Date().getFullYear());
 });
+
+// "Inside and out" compare slider. The range input drives a CSS variable;
+// the drawing (left) is clipped to the left of the seam.
+document.querySelectorAll("[data-compare]").forEach((frame) => {
+  const range = frame.querySelector(".compare-range");
+  if (!range) return;
+  const set = () => frame.style.setProperty("--pos", `${range.value}%`);
+  range.addEventListener("input", set);
+  set();
+});
