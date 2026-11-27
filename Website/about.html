@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About — Watch</title>
+    <meta
+      name="description"
+      content="About Watch, Cade's informal open-hardware PCB smartwatch. A static site until there is an official home."
+    />
+    <meta name="theme-color" content="#0e0f0c" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <noscript>
+      <style>
+        @media (max-width: 799px) {
+          .header-bar { flex-wrap: wrap; }
+          .nav-toggle { display: none !important; }
+          .site-nav {
+            display: flex !important;
+            position: static !important;
+            flex-basis: 100%;
+            background: transparent;
+            border: 0;
+            padding-bottom: 0.75rem;
+          }
+        }
+      </style>
+    </noscript>
+  </head>
+  <body>
+    <!--
+      ABOUT
+      The biography block is intentionally empty of personal facts.
+      Replace the placeholder paragraph. Do not invent a city, job, or photo.
+    -->
+    <a class="skip" href="#content">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-bar">
+        <a class="wordmark" href="./index.html">Watch</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="nav-toggle-open">Menu</span>
+          <span class="nav-toggle-close">Close</span>
+        </button>
+        <nav id="site-nav" class="site-nav" data-open="false">
+          <a href="./index.html">Home</a>
+          <a href="./build-log.html">Build log</a>
+          <a href="./hardware.html">Hardware</a>
+          <a href="./about.html" aria-current="page">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content">
+      <div class="container">
+        <header class="page-hero">
+          <p class="kicker">About</p>
+          <h1>A hobby watch, in the open</h1>
+          <p class="lede">
+            Watch is Cade’s custom open-hardware PCB smartwatch. It is an
+            informal project for now. This site is a placeholder home until
+            the project is hosted officially.
+          </p>
+        </header>
+
+        <section class="section" aria-labelledby="project-heading">
+          <div class="section-head">
+            <p class="kicker">The project</p>
+            <h2 id="project-heading">A board you can wear</h2>
+          </div>
+          <div class="prose">
+            <p>
+              The thing being built is a round four-layer circuit board, 1.6&nbsp;mm
+              thick, meant to be a watch. It is drawn in KiCad, fabricated and
+              assembled at JLCPCB on stackup JLC04161H-7628, and the firmware
+              is a PlatformIO project.
+            </p>
+            <p>
+              The published parts are a Bosch BMA400 accelerometer, an OSRAM
+              SFH 5711 light sensor, a 110&nbsp;mAh coin cell charged by an
+              MCP73831, an onboard antenna, and status LEDs. The
+              <a href="./hardware.html">hardware page</a> is the full list.
+              The <a href="./build-log.html">build log</a> is where the bench
+              notes go.
+            </p>
+            <p>
+              The name on the masthead is a working title.
+              <span class="tag">Placeholder</span> Change “Watch” in the HTML
+              when there is a real name.
+            </p>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="who-heading">
+          <div class="section-head">
+            <p class="kicker">Who</p>
+            <h2 id="who-heading">Cade</h2>
+          </div>
+          <div class="prose">
+            <p>
+              <span class="tag">Placeholder</span> A short bio goes here. Nothing
+              personal has been filled in — no city, no photo, no job. Edit this
+              paragraph.
+            </p>
+            <figure class="photo-slot">
+              <div class="photo-slot-frame" aria-hidden="true">Photo</div>
+              <figcaption>Portrait — placeholder, optional. Leave it out if you would rather not.</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="files-heading">
+          <div class="section-head">
+            <p class="kicker">Open hardware</p>
+            <h2 id="files-heading">Files are not linked yet</h2>
+          </div>
+          <div class="prose">
+            <p>
+              The intent is open hardware. The KiCad project and the PlatformIO
+              tree are not linked from this site yet.
+              <span class="tag">Placeholder</span> Add the repository URL here
+              when it is public.
+            </p>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="status-heading">
+          <div class="section-head">
+            <p class="kicker">Status</p>
+            <h2 id="status-heading">Not a launch</h2>
+          </div>
+          <div class="prose">
+            <p>
+              There is no checkout. The “Get notified” control on the
+              <a href="./index.html#notify">home page</a> only opens an email
+              to a placeholder address. Price, photos, and a real mailing list
+              are all still open.
+            </p>
+            <p>
+              Questions go to the same mailbox:
+              <a href="mailto:placeholder@example.com?subject=Watch%20%E2%80%94%20preorder%20interest">placeholder@example.com</a>.
+              <span class="tag">Placeholder address</span>
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <a class="wordmark" href="./index.html">Watch</a>
+          <p>Cade’s open-hardware hobby project. Not for sale. Official site later.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="./index.html">Home</a>
+          <a href="./build-log.html">Build log</a>
+          <a href="./hardware.html">Hardware</a>
+          <a href="./about.html" aria-current="page">About</a>
+        </nav>
+      </div>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

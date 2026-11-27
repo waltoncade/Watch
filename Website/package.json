@@ -1,0 +1,23 @@
+{
+  "name": "watch-site",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Static site for Watch, Cade's open-hardware PCB smartwatch.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "vite": "^8.4.0"
+  },
+  "dependencies": {
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/outfit": "^5.3.0"
+  }
+}

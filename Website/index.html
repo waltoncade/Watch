@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Watch — open-hardware PCB smartwatch</title>
+    <meta
+      name="description"
+      content="Watch is Cade's custom open-hardware PCB smartwatch. A round 4-layer board designed in KiCad, fabricated and assembled at JLCPCB, with PlatformIO firmware."
+    />
+    <meta name="theme-color" content="#0e0f0c" />
+    <meta property="og:title" content="Watch — open-hardware PCB smartwatch" />
+    <meta
+      property="og:description"
+      content="A hobby smartwatch built as a round circuit board. Not for sale yet."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <noscript>
+      <style>
+        @media (max-width: 799px) {
+          .header-bar { flex-wrap: wrap; }
+          .nav-toggle { display: none !important; }
+          .site-nav {
+            display: flex !important;
+            position: static !important;
+            flex-basis: 100%;
+            background: transparent;
+            border: 0;
+            padding-bottom: 0.75rem;
+          }
+        }
+      </style>
+    </noscript>
+  </head>
+  <body>
+    <!--
+      HOME / PRODUCT PAGE
+      Placeholders are marked with class "tag" or the words "Placeholder — edit this".
+      Notify address: data-mailto and data-subject on #notify-form, plus the
+      visible mailto link. Search the repo for placeholder@example.com.
+    -->
+    <a class="skip" href="#content">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-bar">
+        <a class="wordmark" href="./index.html">Watch</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="nav-toggle-open">Menu</span>
+          <span class="nav-toggle-close">Close</span>
+        </button>
+        <nav id="site-nav" class="site-nav" data-open="false">
+          <a href="./index.html" aria-current="page">Home</a>
+          <a href="./build-log.html">Build log</a>
+          <a href="./hardware.html">Hardware</a>
+          <a href="./about.html">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content">
+      <div class="container">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="kicker">Cade · open-hardware PCB smartwatch</p>
+            <h1 id="hero-title">Watch</h1>
+            <p class="name-note"><span class="tag">Placeholder</span> Working name — edit this</p>
+            <p class="lede">
+              An informal hobby project: a smartwatch built as a round circuit board.
+              Designed in KiCad, fabricated and assembled at JLCPCB, firmware in
+              PlatformIO. This is the product sketch. Nothing here is for sale yet.
+            </p>
+            <ul class="fact-row">
+              <li>Round</li>
+              <li>4-layer</li>
+              <li>1.6 mm</li>
+              <li>KiCad</li>
+              <li>JLCPCB</li>
+              <li>PlatformIO</li>
+            </ul>
+            <div class="actions">
+              <a class="button button-primary" href="#notify">Get notified</a>
+              <a class="button button-ghost" href="./build-log.html">Build log</a>
+            </div>
+          </div>
+
+          <figure class="hero-plate">
+            <svg viewBox="0 0 300 336" fill="none" role="img" aria-labelledby="watch-title">
+              <title id="watch-title">Outline of a round watch</title>
+              <rect x="112" y="16" width="56" height="42" rx="6" stroke="currentColor" stroke-width="1.5" />
+              <rect x="112" y="278" width="56" height="42" rx="6" stroke="currentColor" stroke-width="1.5" />
+              <circle cx="140" cy="168" r="108" stroke="currentColor" stroke-width="1.5" />
+              <circle cx="140" cy="168" r="96" stroke="currentColor" stroke-width="1" opacity="0.45" />
+              <circle cx="140" cy="168" r="78" stroke="currentColor" stroke-width="1" opacity="0.7" />
+              <!-- cardinal ticks -->
+              <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round" d="M140 98v16M214 168h-16M140 238v-16M66 168h16" />
+              <!-- minor ticks, 1 2 4 5 7 8 10 11 -->
+              <g stroke="currentColor" stroke-width="1.25" stroke-linecap="round" opacity="0.55">
+                <path d="M177 103.9 173 110.8" />
+                <path d="M204.1 131 197.2 135" />
+                <path d="M204.1 205 197.2 201" />
+                <path d="M177 232.1 173 225.2" />
+                <path d="M103 232.1 107 225.2" />
+                <path d="M75.9 205 82.8 201" />
+                <path d="M75.9 131 82.8 135" />
+                <path d="M103 103.9 107 110.8" />
+              </g>
+              <path stroke="currentColor" stroke-width="1.6" stroke-linecap="round" d="M140 168 108.8 150" />
+              <path stroke="currentColor" stroke-width="1.4" stroke-linecap="round" d="M140 168 185 142" />
+              <circle cx="140" cy="168" r="3.2" fill="currentColor" />
+              <rect x="246" y="156" width="16" height="24" rx="3" stroke="currentColor" stroke-width="1.5" />
+              <rect x="262" y="161" width="7" height="14" rx="2" stroke="currentColor" stroke-width="1.5" />
+            </svg>
+            <figcaption>Illustration placeholder — not a photo of the board.</figcaption>
+          </figure>
+        </section>
+
+        <section class="section" aria-labelledby="board-heading">
+          <div class="section-head">
+            <p class="kicker">01 — On the board</p>
+            <h2 id="board-heading">Only what the notes name</h2>
+            <p>Each item below is taken from the hardware that is actually specified.</p>
+          </div>
+          <div class="feature-grid">
+            <article class="feature">
+              <p class="feature-index">01</p>
+              <h3>Motion</h3>
+              <p>
+                Bosch BMA400, an ultra-low-power 3-axis accelerometer. It sits on I2C,
+                and its interrupt goes to the MCU, for motion and step/wake detection.
+              </p>
+            </article>
+            <article class="feature">
+              <p class="feature-index">02</p>
+              <h3>Auto-brightness</h3>
+              <p>OSRAM SFH 5711 ambient light sensor, used to set brightness from the room.</p>
+            </article>
+            <article class="feature">
+              <p class="feature-index">03</p>
+              <h3>Coin cell</h3>
+              <p>
+                3.7&nbsp;V, 110&nbsp;mAh Li-ion coin cell, Cornell Dubilier / Illinois
+                Capacitor RJD2430C1. An MCP73831 charges it at 50&nbsp;mA / 4.2&nbsp;V.
+              </p>
+            </article>
+            <article class="feature">
+              <p class="feature-index">04</p>
+              <h3>Wireless</h3>
+              <p>
+                Onboard antenna with a 50-ohm coplanar RF feed. The radio protocol is
+                not written down yet.
+              </p>
+            </article>
+            <article class="feature">
+              <p class="feature-index">05</p>
+              <h3>Status LEDs</h3>
+              <p>Indicators on the board for bring-up and state. Colors are not specified.</p>
+            </article>
+            <article class="feature">
+              <p class="feature-index">06</p>
+              <h3>Open board</h3>
+              <p>
+                Round 4-layer PCB, 1.6&nbsp;mm, JLCPCB stackup JLC04161H-7628.
+                Designed in KiCad. Fabricated and assembled at JLCPCB. Firmware is
+                built with PlatformIO.
+              </p>
+            </article>
+          </div>
+          <p class="more"><a href="./hardware.html">Full hardware notes</a></p>
+        </section>
+
+        <section class="section" aria-labelledby="specs-heading">
+          <div class="section-head">
+            <p class="kicker">02 — Specs</p>
+            <h2 id="specs-heading">At a glance</h2>
+            <p>The short table. The hardware page has the same facts with more room around them.</p>
+          </div>
+          <div class="specs-wrap">
+            <table class="specs">
+              <caption class="sr-only">Selected Watch specifications</caption>
+              <tbody>
+                <tr>
+                  <th scope="row">Board</th>
+                  <td>Round 4-layer PCB, 1.6 mm</td>
+                </tr>
+                <tr>
+                  <th scope="row">Stackup</th>
+                  <td>JLCPCB JLC04161H-7628</td>
+                </tr>
+                <tr>
+                  <th scope="row">Made at</th>
+                  <td>JLCPCB, fabricated and assembled</td>
+                </tr>
+                <tr>
+                  <th scope="row">Design</th>
+                  <td>KiCad</td>
+                </tr>
+                <tr>
+                  <th scope="row">Firmware</th>
+                  <td>PlatformIO</td>
+                </tr>
+                <tr>
+                  <th scope="row">Motion</th>
+                  <td>Bosch BMA400, I2C, interrupt to the MCU</td>
+                </tr>
+                <tr>
+                  <th scope="row">Light</th>
+                  <td>OSRAM SFH 5711 ambient light sensor</td>
+                </tr>
+                <tr>
+                  <th scope="row">Cell</th>
+                  <td>3.7 V, 110 mAh Li-ion coin, RJD2430C1</td>
+                </tr>
+                <tr>
+                  <th scope="row">Charger</th>
+                  <td>MCP73831, 50 mA / 4.2 V</td>
+                </tr>
+                <tr>
+                  <th scope="row">RF</th>
+                  <td>Onboard antenna, 50-ohm coplanar feed</td>
+                </tr>
+                <tr>
+                  <th scope="row">Indicators</th>
+                  <td>Status LEDs</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="section" aria-labelledby="open-heading">
+          <div class="section-head">
+            <p class="kicker">03 — Still open</p>
+            <h2 id="open-heading">Not in the notes yet</h2>
+            <p>Listed so they are not read as features. Replace each line when you know the answer.</p>
+          </div>
+          <ul class="open-list">
+            <li>
+              <span class="label">Name</span>
+              <span>Watch is a working title. <span class="tag">Placeholder</span></span>
+            </li>
+            <li>
+              <span class="label">Price</span>
+              <span>Not set. Nothing is for sale. <span class="tag">Placeholder</span></span>
+            </li>
+            <li>
+              <span class="label">Photos</span>
+              <span>The hero is an outline drawing. <span class="tag">Placeholder</span></span>
+            </li>
+            <li>
+              <span class="label">Display</span>
+              <span>Not specified. <span class="tag">Placeholder</span></span>
+            </li>
+            <li>
+              <span class="label">Case and strap</span>
+              <span>Not specified. <span class="tag">Placeholder</span></span>
+            </li>
+            <li>
+              <span class="label">MCU</span>
+              <span>The BMA400 interrupt goes to the MCU. The part number is not listed. <span class="tag">Placeholder</span></span>
+            </li>
+            <li>
+              <span class="label">Radio protocol</span>
+              <span>The antenna and feed are real. The protocol is not named. <span class="tag">Placeholder</span></span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section" id="notify" aria-labelledby="notify-heading">
+          <div class="notify">
+            <p class="kicker">Preorder interest</p>
+            <h2 id="notify-heading">Get notified</h2>
+            <p class="lede">
+              Leave an email if you want to hear when there is something real to
+              order. There is no checkout on this site.
+            </p>
+            <p class="callout">
+              Placeholder — edit the address before you publish. Submitting only
+              opens your email app. Nothing is charged and nothing is stored.
+            </p>
+            <form
+              id="notify-form"
+              class="notify-form"
+              data-mailto="placeholder@example.com"
+              data-subject="Watch — preorder interest"
+            >
+              <div class="notify-row">
+                <label class="field">
+                  <span>Email</span>
+                  <input
+                    type="email"
+                    name="email"
+                    autocomplete="email"
+                    required
+                    maxlength="200"
+                    placeholder="you@example.com"
+                  />
+                </label>
+                <button class="button button-primary" type="submit">Get notified</button>
+              </div>
+              <label class="field">
+                <span>Note, optional</span>
+                <textarea
+                  name="note"
+                  maxlength="1000"
+                  placeholder="A question, or just a hello"
+                ></textarea>
+              </label>
+              <p id="notify-status" class="form-status" role="status"></p>
+              <p class="fine">
+                Or write directly to
+                <a href="mailto:placeholder@example.com?subject=Watch%20%E2%80%94%20preorder%20interest">placeholder@example.com</a>.
+                <span class="tag">Placeholder address</span>
+              </p>
+            </form>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <a class="wordmark" href="./index.html">Watch</a>
+          <p>Cade’s open-hardware hobby project. Not for sale. Official site later.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="./index.html" aria-current="page">Home</a>
+          <a href="./build-log.html">Build log</a>
+          <a href="./hardware.html">Hardware</a>
+          <a href="./about.html">About</a>
+        </nav>
+      </div>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

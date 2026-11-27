@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Build log — Watch</title>
+    <meta
+      name="description"
+      content="Build log for Watch, Cade's open-hardware PCB smartwatch. Early placeholder entries, including the first JLCPCB order."
+    />
+    <meta name="theme-color" content="#0e0f0c" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <noscript>
+      <style>
+        @media (max-width: 799px) {
+          .header-bar { flex-wrap: wrap; }
+          .nav-toggle { display: none !important; }
+          .site-nav {
+            display: flex !important;
+            position: static !important;
+            flex-basis: 100%;
+            background: transparent;
+            border: 0;
+            padding-bottom: 0.75rem;
+          }
+        }
+      </style>
+    </noscript>
+  </head>
+  <body>
+    <!--
+      BUILD LOG
+      Copy an <article class="entry"> to add a note.
+      Replace "Date — edit this" with a real date and remove the Placeholder
+      tag when the entry is no longer a stub.
+    -->
+    <a class="skip" href="#content">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-bar">
+        <a class="wordmark" href="./index.html">Watch</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span class="nav-toggle-open">Menu</span>
+          <span class="nav-toggle-close">Close</span>
+        </button>
+        <nav id="site-nav" class="site-nav" data-open="false">
+          <a href="./index.html">Home</a>
+          <a href="./build-log.html" aria-current="page">Build log</a>
+          <a href="./hardware.html">Hardware</a>
+          <a href="./about.html">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content">
+      <div class="container">
+        <header class="page-hero">
+          <p class="kicker">Build log</p>
+          <h1>Notes from the bench</h1>
+          <p class="lede">
+            Three starter entries. Every date is a placeholder, so the order is
+            just a sketch — reorder them when the dates are real. The hardware
+            facts inside them are the ones already known.
+          </p>
+        </header>
+
+        <div class="log">
+          <article class="entry" id="first-boards">
+            <header class="entry-head">
+              <p class="entry-meta">
+                <span class="entry-index">01</span>
+                <span class="tag">Placeholder</span>
+                Date — edit this
+              </p>
+              <h2>First boards ordered from JLCPCB</h2>
+            </header>
+            <div class="entry-body">
+              <p>
+                The round boards went out to JLCPCB. Four layers, 1.6&nbsp;mm,
+                stackup JLC04161H-7628. Fabrication and assembly are both at
+                JLCPCB. The manufacturing data comes from the KiCad design.
+              </p>
+              <p>
+                This entry is a stub. Add the real order date, the order number,
+                and a photo of what came back.
+              </p>
+              <figure class="photo-slot">
+                <div class="photo-slot-frame" aria-hidden="true">Photo</div>
+                <figcaption>
+                  Boards from the first JLCPCB order — placeholder, drop a photo in here.
+                </figcaption>
+              </figure>
+            </div>
+          </article>
+
+          <article class="entry" id="platformio">
+            <header class="entry-head">
+              <p class="entry-meta">
+                <span class="entry-index">02</span>
+                <span class="tag">Placeholder</span>
+                Date — edit this
+              </p>
+              <h2>Firmware project in PlatformIO</h2>
+            </header>
+            <div class="entry-body">
+              <p>
+                Firmware is built with PlatformIO. Nothing in this entry is a
+                test result. When there is a bring-up note, it starts with the
+                Bosch BMA400 on I2C and its interrupt to the MCU, the OSRAM
+                SFH 5711, the MCP73831 charger, and the status LEDs.
+              </p>
+              <p>
+                Placeholder — edit this. Add the target, the first thing that
+                blinked, and what did not.
+              </p>
+            </div>
+          </article>
+
+          <article class="entry" id="kicad">
+            <header class="entry-head">
+              <p class="entry-meta">
+                <span class="entry-index">03</span>
+                <span class="tag">Placeholder</span>
+                Date — edit this
+              </p>
+              <h2>Round board drawn in KiCad</h2>
+            </header>
+            <div class="entry-body">
+              <p>
+                The watch is a round board drawn in KiCad. On it: a Bosch BMA400
+                on I2C with its interrupt run to the MCU, an OSRAM SFH 5711 for
+                ambient light, status LEDs, an MCP73831 charging the coin cell,
+                and a 50-ohm coplanar feed to the onboard antenna.
+              </p>
+              <p>
+                Placeholder — edit this. Replace this with the revision, what
+                changed, and a screenshot of the layout.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <a class="wordmark" href="./index.html">Watch</a>
+          <p>Cade’s open-hardware hobby project. Not for sale. Official site later.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="./index.html">Home</a>
+          <a href="./build-log.html" aria-current="page">Build log</a>
+          <a href="./hardware.html">Hardware</a>
+          <a href="./about.html">About</a>
+        </nav>
+      </div>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
