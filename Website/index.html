@@ -1,337 +1,238 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Watch — open-hardware PCB smartwatch</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Walton No. 1 · Walton Watches</title>
     <meta
       name="description"
-      content="Watch is Cade's custom open-hardware PCB smartwatch. A round 4-layer board designed in KiCad, fabricated and assembled at JLCPCB, with PlatformIO firmware."
+      content="Walton Watches. A watch with a ring of 24 lights around the dial, classic hands at its center, and a rechargeable heart."
     />
-    <meta name="theme-color" content="#0e0f0c" />
-    <meta property="og:title" content="Watch — open-hardware PCB smartwatch" />
-    <meta
-      property="og:description"
-      content="A hobby smartwatch built as a round circuit board. Not for sale yet."
-    />
-    <meta property="og:type" content="website" />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#0b0b0d" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="stylesheet" href="/src/styles.css" />
-    <noscript>
-      <style>
-        @media (max-width: 799px) {
-          .header-bar { flex-wrap: wrap; }
-          .nav-toggle { display: none !important; }
-          .site-nav {
-            display: flex !important;
-            position: static !important;
-            flex-basis: 100%;
-            background: transparent;
-            border: 0;
-            padding-bottom: 0.75rem;
-          }
-        }
-      </style>
-    </noscript>
+    <link rel="preload" as="image" href="/images/hero.webp" />
   </head>
-  <body>
-    <!--
-      HOME / PRODUCT PAGE
-      Placeholders are marked with class "tag" or the words "Placeholder — edit this".
-      Notify address: data-mailto and data-subject on #notify-form, plus the
-      visible mailto link. Search the repo for placeholder@example.com.
-    -->
-    <a class="skip" href="#content">Skip to content</a>
-    <header class="site-header">
-      <div class="container header-bar">
-        <a class="wordmark" href="./index.html">Watch</a>
-        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-          <span class="nav-toggle-open">Menu</span>
-          <span class="nav-toggle-close">Close</span>
-        </button>
-        <nav id="site-nav" class="site-nav" data-open="false">
-          <a href="./index.html" aria-current="page">Home</a>
-          <a href="./build-log.html">Build log</a>
-          <a href="./hardware.html">Hardware</a>
+  <body class="page-home">
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="header-inner">
+        <a class="brand" href="./" aria-label="Walton Watches, home">
+          <img class="brand-mark" src="/logo/w-logo-white.svg" alt="" width="36" height="28" />
+          <span class="brand-name">Walton Watches</span>
+        </a>
+        <nav class="site-nav" aria-label="Main">
+          <a href="./" aria-current="page">Home</a>
           <a href="./about.html">About</a>
         </nav>
       </div>
     </header>
 
-    <main id="content">
-      <div class="container">
-        <section class="hero" aria-labelledby="hero-title">
-          <div class="hero-copy">
-            <p class="kicker">Cade · open-hardware PCB smartwatch</p>
-            <h1 id="hero-title">Watch</h1>
-            <p class="name-note"><span class="tag">Placeholder</span> Working name — edit this</p>
-            <p class="lede">
-              An informal hobby project: a smartwatch built as a round circuit board.
-              Designed in KiCad, fabricated and assembled at JLCPCB, firmware in
-              PlatformIO. This is the product sketch. Nothing here is for sale yet.
-            </p>
-            <ul class="fact-row">
-              <li>Round</li>
-              <li>4-layer</li>
-              <li>1.6 mm</li>
-              <li>KiCad</li>
-              <li>JLCPCB</li>
-              <li>PlatformIO</li>
-            </ul>
-            <div class="actions">
-              <a class="button button-primary" href="#notify">Get notified</a>
-              <a class="button button-ghost" href="./build-log.html">Build log</a>
-            </div>
-          </div>
-
-          <figure class="hero-plate">
-            <svg viewBox="0 0 300 336" fill="none" role="img" aria-labelledby="watch-title">
-              <title id="watch-title">Outline of a round watch</title>
-              <rect x="112" y="16" width="56" height="42" rx="6" stroke="currentColor" stroke-width="1.5" />
-              <rect x="112" y="278" width="56" height="42" rx="6" stroke="currentColor" stroke-width="1.5" />
-              <circle cx="140" cy="168" r="108" stroke="currentColor" stroke-width="1.5" />
-              <circle cx="140" cy="168" r="96" stroke="currentColor" stroke-width="1" opacity="0.45" />
-              <circle cx="140" cy="168" r="78" stroke="currentColor" stroke-width="1" opacity="0.7" />
-              <!-- cardinal ticks -->
-              <path stroke="currentColor" stroke-width="1.5" stroke-linecap="round" d="M140 98v16M214 168h-16M140 238v-16M66 168h16" />
-              <!-- minor ticks, 1 2 4 5 7 8 10 11 -->
-              <g stroke="currentColor" stroke-width="1.25" stroke-linecap="round" opacity="0.55">
-                <path d="M177 103.9 173 110.8" />
-                <path d="M204.1 131 197.2 135" />
-                <path d="M204.1 205 197.2 201" />
-                <path d="M177 232.1 173 225.2" />
-                <path d="M103 232.1 107 225.2" />
-                <path d="M75.9 205 82.8 201" />
-                <path d="M75.9 131 82.8 135" />
-                <path d="M103 103.9 107 110.8" />
-              </g>
-              <path stroke="currentColor" stroke-width="1.6" stroke-linecap="round" d="M140 168 108.8 150" />
-              <path stroke="currentColor" stroke-width="1.4" stroke-linecap="round" d="M140 168 185 142" />
-              <circle cx="140" cy="168" r="3.2" fill="currentColor" />
-              <rect x="246" y="156" width="16" height="24" rx="3" stroke="currentColor" stroke-width="1.5" />
-              <rect x="262" y="161" width="7" height="14" rx="2" stroke="currentColor" stroke-width="1.5" />
-            </svg>
-            <figcaption>Illustration placeholder — not a photo of the board.</figcaption>
-          </figure>
-        </section>
-
-        <section class="section" aria-labelledby="board-heading">
-          <div class="section-head">
-            <p class="kicker">01 — On the board</p>
-            <h2 id="board-heading">Only what the notes name</h2>
-            <p>Each item below is taken from the hardware that is actually specified.</p>
-          </div>
-          <div class="feature-grid">
-            <article class="feature">
-              <p class="feature-index">01</p>
-              <h3>Motion</h3>
-              <p>
-                Bosch BMA400, an ultra-low-power 3-axis accelerometer. It sits on I2C,
-                and its interrupt goes to the MCU, for motion and step/wake detection.
-              </p>
-            </article>
-            <article class="feature">
-              <p class="feature-index">02</p>
-              <h3>Auto-brightness</h3>
-              <p>OSRAM SFH 5711 ambient light sensor, used to set brightness from the room.</p>
-            </article>
-            <article class="feature">
-              <p class="feature-index">03</p>
-              <h3>Coin cell</h3>
-              <p>
-                3.7&nbsp;V, 110&nbsp;mAh Li-ion coin cell, Cornell Dubilier / Illinois
-                Capacitor RJD2430C1. An MCP73831 charges it at 50&nbsp;mA / 4.2&nbsp;V.
-              </p>
-            </article>
-            <article class="feature">
-              <p class="feature-index">04</p>
-              <h3>Wireless</h3>
-              <p>
-                Onboard antenna with a 50-ohm coplanar RF feed. The radio protocol is
-                not written down yet.
-              </p>
-            </article>
-            <article class="feature">
-              <p class="feature-index">05</p>
-              <h3>Status LEDs</h3>
-              <p>Indicators on the board for bring-up and state. Colors are not specified.</p>
-            </article>
-            <article class="feature">
-              <p class="feature-index">06</p>
-              <h3>Open board</h3>
-              <p>
-                Round 4-layer PCB, 1.6&nbsp;mm, JLCPCB stackup JLC04161H-7628.
-                Designed in KiCad. Fabricated and assembled at JLCPCB. Firmware is
-                built with PlatformIO.
-              </p>
-            </article>
-          </div>
-          <p class="more"><a href="./hardware.html">Full hardware notes</a></p>
-        </section>
-
-        <section class="section" aria-labelledby="specs-heading">
-          <div class="section-head">
-            <p class="kicker">02 — Specs</p>
-            <h2 id="specs-heading">At a glance</h2>
-            <p>The short table. The hardware page has the same facts with more room around them.</p>
-          </div>
-          <div class="specs-wrap">
-            <table class="specs">
-              <caption class="sr-only">Selected Watch specifications</caption>
-              <tbody>
-                <tr>
-                  <th scope="row">Board</th>
-                  <td>Round 4-layer PCB, 1.6 mm</td>
-                </tr>
-                <tr>
-                  <th scope="row">Stackup</th>
-                  <td>JLCPCB JLC04161H-7628</td>
-                </tr>
-                <tr>
-                  <th scope="row">Made at</th>
-                  <td>JLCPCB, fabricated and assembled</td>
-                </tr>
-                <tr>
-                  <th scope="row">Design</th>
-                  <td>KiCad</td>
-                </tr>
-                <tr>
-                  <th scope="row">Firmware</th>
-                  <td>PlatformIO</td>
-                </tr>
-                <tr>
-                  <th scope="row">Motion</th>
-                  <td>Bosch BMA400, I2C, interrupt to the MCU</td>
-                </tr>
-                <tr>
-                  <th scope="row">Light</th>
-                  <td>OSRAM SFH 5711 ambient light sensor</td>
-                </tr>
-                <tr>
-                  <th scope="row">Cell</th>
-                  <td>3.7 V, 110 mAh Li-ion coin, RJD2430C1</td>
-                </tr>
-                <tr>
-                  <th scope="row">Charger</th>
-                  <td>MCP73831, 50 mA / 4.2 V</td>
-                </tr>
-                <tr>
-                  <th scope="row">RF</th>
-                  <td>Onboard antenna, 50-ohm coplanar feed</td>
-                </tr>
-                <tr>
-                  <th scope="row">Indicators</th>
-                  <td>Status LEDs</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </section>
-
-        <section class="section" aria-labelledby="open-heading">
-          <div class="section-head">
-            <p class="kicker">03 — Still open</p>
-            <h2 id="open-heading">Not in the notes yet</h2>
-            <p>Listed so they are not read as features. Replace each line when you know the answer.</p>
-          </div>
-          <ul class="open-list">
-            <li>
-              <span class="label">Name</span>
-              <span>Watch is a working title. <span class="tag">Placeholder</span></span>
-            </li>
-            <li>
-              <span class="label">Price</span>
-              <span>Not set. Nothing is for sale. <span class="tag">Placeholder</span></span>
-            </li>
-            <li>
-              <span class="label">Photos</span>
-              <span>The hero is an outline drawing. <span class="tag">Placeholder</span></span>
-            </li>
-            <li>
-              <span class="label">Display</span>
-              <span>Not specified. <span class="tag">Placeholder</span></span>
-            </li>
-            <li>
-              <span class="label">Case and strap</span>
-              <span>Not specified. <span class="tag">Placeholder</span></span>
-            </li>
-            <li>
-              <span class="label">MCU</span>
-              <span>The BMA400 interrupt goes to the MCU. The part number is not listed. <span class="tag">Placeholder</span></span>
-            </li>
-            <li>
-              <span class="label">Radio protocol</span>
-              <span>The antenna and feed are real. The protocol is not named. <span class="tag">Placeholder</span></span>
-            </li>
-          </ul>
-        </section>
-
-        <section class="section" id="notify" aria-labelledby="notify-heading">
-          <div class="notify">
-            <p class="kicker">Preorder interest</p>
-            <h2 id="notify-heading">Get notified</h2>
-            <p class="lede">
-              Leave an email if you want to hear when there is something real to
-              order. There is no checkout on this site.
-            </p>
-            <p class="callout">
-              Placeholder — edit the address before you publish. Submitting only
-              opens your email app. Nothing is charged and nothing is stored.
-            </p>
-            <form
-              id="notify-form"
-              class="notify-form"
-              data-mailto="placeholder@example.com"
-              data-subject="Watch — preorder interest"
+    <main id="main">
+      <!-- HERO -->
+      <section class="hero" aria-labelledby="product-name">
+        <div class="hero-media">
+          <img
+            src="/images/hero.webp"
+            srcset="/images/hero-800.webp 800w, /images/hero.webp 1600w"
+            sizes="(min-width: 960px) 60vw, 100vw"
+            width="1600"
+            height="1599"
+            alt="The Walton No. 1, seen face-on, with its ring of lights around the dial"
+            fetchpriority="high"
+          />
+        </div>
+        <div class="hero-panel">
+          <p class="eyebrow">Walton Watches</p>
+          <!-- Placeholder model name: edit "Walton No. 1" everywhere it appears. -->
+          <h1 id="product-name" class="product-name">Walton No.&nbsp;1</h1>
+          <p class="tagline">Time, told in light.</p>
+          <p class="hero-copy">
+            Classic hands at the center. A ring of twenty-four lights around them. A watch that
+            looks familiar from across the room and surprising up close.
+          </p>
+          <dl class="hero-facts">
+            <div><dt>Price</dt><dd>Price TBA</dd></div>
+            <div><dt>Availability</dt><dd>Coming soon</dd></div>
+          </dl>
+          <div class="hero-actions">
+            <a
+              class="btn btn-primary"
+              href="mailto:placeholder@example.com?subject=Walton%20No.%201%20%E2%80%94%20register%20interest"
+              >Register interest</a
             >
-              <div class="notify-row">
-                <label class="field">
-                  <span>Email</span>
-                  <input
-                    type="email"
-                    name="email"
-                    autocomplete="email"
-                    required
-                    maxlength="200"
-                    placeholder="you@example.com"
-                  />
-                </label>
-                <button class="button button-primary" type="submit">Get notified</button>
-              </div>
-              <label class="field">
-                <span>Note, optional</span>
-                <textarea
-                  name="note"
-                  maxlength="1000"
-                  placeholder="A question, or just a hello"
-                ></textarea>
-              </label>
-              <p id="notify-status" class="form-status" role="status"></p>
-              <p class="fine">
-                Or write directly to
-                <a href="mailto:placeholder@example.com?subject=Watch%20%E2%80%94%20preorder%20interest">placeholder@example.com</a>.
-                <span class="tag">Placeholder address</span>
-              </p>
-            </form>
+            <a class="btn btn-ghost" href="#gallery">View gallery</a>
           </div>
-        </section>
-      </div>
+          <p class="fine">Images are preview renderings. Photography coming soon.</p>
+        </div>
+      </section>
+
+      <!-- INTRO STATEMENT -->
+      <section class="statement">
+        <p class="statement-text">
+          Twenty-four points of light, set in a perfect circle. Each one marks its place on the dial,
+          the way the hours always have.
+        </p>
+      </section>
+
+      <!-- GALLERY -->
+      <section id="gallery" class="gallery" aria-label="Gallery">
+        <div class="gallery-stage">
+          <img
+            data-gallery-main
+            src="/images/hero_angle.webp"
+            srcset="/images/hero_angle-800.webp 800w, /images/hero_angle.webp 1600w"
+            sizes="(min-width: 1200px) 1100px, 100vw"
+            width="1600"
+            height="1259"
+            alt="The Walton No. 1 at an angle, showing the depth of the dial"
+            loading="lazy"
+          />
+        </div>
+        <div class="gallery-thumbs" role="list">
+          <button class="thumb is-active" type="button" role="listitem" aria-pressed="true"
+            data-src="./images/hero_angle.webp" data-srcset="./images/hero_angle-800.webp 800w, ./images/hero_angle.webp 1600w"
+            data-w="1600" data-h="1259" data-alt="The Walton No. 1 at an angle, showing the depth of the dial">
+            <img src="/images/hero_angle-800.webp" alt="" loading="lazy" width="800" height="630" />
+            <span>Three-quarter</span>
+          </button>
+          <button class="thumb" type="button" role="listitem" aria-pressed="false"
+            data-src="./images/hero.webp" data-srcset="./images/hero-800.webp 800w, ./images/hero.webp 1600w"
+            data-w="1600" data-h="1599" data-alt="The Walton No. 1, face-on">
+            <img src="/images/hero-800.webp" alt="" loading="lazy" width="800" height="800" />
+            <span>Face</span>
+          </button>
+          <button class="thumb" type="button" role="listitem" aria-pressed="false"
+            data-src="./images/detail.webp" data-srcset="./images/detail-800.webp 800w, ./images/detail.webp 1600w"
+            data-w="1600" data-h="993" data-alt="A close look across the dial and its ring of lights">
+            <img src="/images/detail-800.webp" alt="" loading="lazy" width="800" height="497" />
+            <span>Detail</span>
+          </button>
+          <button class="thumb" type="button" role="listitem" aria-pressed="false"
+            data-src="./images/back.webp" data-srcset="./images/back-800.webp 800w, ./images/back.webp 1600w"
+            data-w="1599" data-h="1600" data-alt="The reverse side of the Walton No. 1">
+            <img src="/images/back-800.webp" alt="" loading="lazy" width="799" height="800" />
+            <span>Reverse</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- STORY SECTIONS -->
+      <section class="story">
+        <div class="story-media story-media-fill">
+          <img src="/images/detail.webp" srcset="/images/detail-800.webp 800w, /images/detail.webp 1600w"
+            sizes="(min-width: 960px) 55vw, 100vw" width="1600" height="993" loading="lazy"
+            alt="Close view of the lights set around the edge of the dial" />
+        </div>
+        <div class="story-text">
+          <p class="eyebrow">The dial</p>
+          <h2>A circle of light</h2>
+          <p>
+            Around the dial sits a ring of twenty-four small lights, one for every hour of the day.
+            They frame the hands and give the face a quiet glow of its own.
+          </p>
+        </div>
+      </section>
+
+      <section class="story story-reverse">
+        <div class="story-media">
+          <img src="/images/hero_angle.webp" srcset="/images/hero_angle-800.webp 800w, /images/hero_angle.webp 1600w"
+            sizes="(min-width: 960px) 55vw, 100vw" width="1600" height="1259" loading="lazy"
+            alt="The Walton No. 1 catching the light at an angle" />
+        </div>
+        <div class="story-text">
+          <p class="eyebrow">Awareness</p>
+          <h2>Made to notice</h2>
+          <p>
+            The Walton No. 1 can sense the light around it and the movement of your wrist. How it
+            puts that to use is still being refined. More to share soon.
+          </p>
+        </div>
+      </section>
+
+      <section class="story">
+        <div class="story-media">
+          <img src="/images/hero.webp" srcset="/images/hero-800.webp 800w, /images/hero.webp 1600w"
+            sizes="(min-width: 960px) 55vw, 100vw" width="1600" height="1599" loading="lazy"
+            alt="The Walton No. 1, face-on" />
+        </div>
+        <div class="story-text">
+          <p class="eyebrow">Power</p>
+          <h2>Charged, not replaced</h2>
+          <p>
+            Inside is a rechargeable battery. Top it up and carry on, with no tiny batteries to hunt
+            down. Battery life will be shared once testing is complete.
+          </p>
+        </div>
+      </section>
+
+      <!-- CHARACTERISTICS -->
+      <section class="specs" aria-labelledby="specs-title">
+        <div class="specs-head">
+          <p class="eyebrow">Walton No. 1</p>
+          <h2 id="specs-title">Characteristics</h2>
+        </div>
+        <div class="specs-grid">
+          <div class="spec-group">
+            <h3>Dial</h3>
+            <dl>
+              <div><dt>Hands</dt><dd>Classic hour, minute and seconds hands</dd></div>
+              <div><dt>Lights</dt><dd>A ring of 24 lights</dd></div>
+              <div><dt>Markers</dt><dd>Hours 1 to 12</dd></div>
+            </dl>
+          </div>
+          <div class="spec-group">
+            <h3>Features</h3>
+            <dl>
+              <div><dt>Senses</dt><dd>Ambient light and motion</dd></div>
+              <div><dt>Wireless</dt><dd>Details to come</dd></div>
+            </dl>
+          </div>
+          <div class="spec-group">
+            <h3>Power</h3>
+            <dl>
+              <div><dt>Battery</dt><dd>Rechargeable</dd></div>
+              <div><dt>Battery life</dt><dd>To be announced</dd></div>
+            </dl>
+          </div>
+          <div class="spec-group">
+            <h3>Case &amp; strap</h3>
+            <dl>
+              <div><dt>Case</dt><dd>To be announced</dd></div>
+              <div><dt>Diameter</dt><dd>To be announced</dd></div>
+              <div><dt>Strap</dt><dd>To be announced</dd></div>
+              <div><dt>Water resistance</dt><dd>To be announced</dd></div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT CTA -->
+      <section class="cta" aria-labelledby="cta-title">
+        <img class="cta-mark" src="/logo/w-logo-white.svg" alt="" width="64" height="51" loading="lazy" />
+        <h2 id="cta-title">Questions, or want to be first in line?</h2>
+        <p>We would love to hear from you.</p>
+        <a class="btn btn-primary" href="mailto:placeholder@example.com?subject=Walton%20Watches">Contact</a>
+      </section>
     </main>
 
     <footer class="site-footer">
-      <div class="container footer-inner">
-        <div>
-          <a class="wordmark" href="./index.html">Watch</a>
-          <p>Cade’s open-hardware hobby project. Not for sale. Official site later.</p>
-        </div>
+      <div class="footer-inner">
+        <a class="brand" href="./" aria-label="Walton Watches, home">
+          <img class="brand-mark" src="/logo/w-logo-white.svg" alt="" width="30" height="24" loading="lazy" />
+          <span class="brand-name">Walton Watches</span>
+        </a>
         <nav class="footer-nav" aria-label="Footer">
-          <a href="./index.html" aria-current="page">Home</a>
-          <a href="./build-log.html">Build log</a>
-          <a href="./hardware.html">Hardware</a>
+          <a href="./">Home</a>
           <a href="./about.html">About</a>
         </nav>
+        <a class="btn btn-ghost btn-small" href="mailto:placeholder@example.com?subject=Walton%20Watches">Contact</a>
       </div>
+      <p class="copyright">© <span data-year>2026</span> Walton Watches</p>
     </footer>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

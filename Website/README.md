@@ -1,39 +1,32 @@
-# Watch
+# Walton Watches website
 
-Static site for **Watch**, Cade’s custom open-hardware PCB smartwatch. Informal hobby project. The name is a working title.
-
-The site is a product page plus a build log. It is plain HTML, CSS, and a little JavaScript, built with [Vite](https://vite.dev/) into a `dist/` folder. No server, no database, no payment backend. It can be hosted on GitHub Pages or Vercel.
+Static website for **Walton Watches**. Two pages, built with [Vite](https://vite.dev/) into a `dist/` folder. Plain HTML, CSS and a little JavaScript. No server, no database, no payments, no analytics.
 
 ## Pages
 
 | Page | File | What it is |
 | --- | --- | --- |
-| Home / product | `index.html` | Hero, features, short specs, notify form |
-| Build log | `build-log.html` | Dated bench notes |
-| Hardware / specs | `hardware.html` | The known parts and a specs table |
-| About | `about.html` | What the project is, and a blank bio |
+| Home | `index.html` | The product page: hero, gallery, story sections, characteristics, contact |
+| About | `about.html` | Simple page with placeholder sections to fill in |
 
-## Edit the content
+The nav has only these two tabs. Both pages end with a **Contact** button, and the footer on both pages has one too.
 
-Content lives in the HTML files. Search the repo for `Placeholder` and update those spots.
+## Placeholders to replace
 
-- **Watch name.** Working title, used in titles, the wordmark, and the mailto subject. Search for `Watch` and rename when there is a real one. Leave part numbers alone.
-- **Notify address.** There is no mailing-list server. The form opens the visitor’s email app. Replace every `placeholder@example.com` (the form’s `data-mailto` on `#notify-form` in `index.html`, the visible mailto links, and the About page). The subject is `data-subject` on the same form.
-- **Price.** Not set. The home and hardware pages say so on purpose. Do not invent one.
-- **Photos.** Dashed boxes are empty slots. Put a file in `public/photos/`, then replace a `.photo-slot-frame` div with an image:
+Search the repo for `placeholder` (case-insensitive) to find them all.
 
-  ```html
-  <img src="/photos/front.jpg" alt="Front of the first assembled board" />
-  ```
+- **Contact email: `placeholder@example.com`.** Every Contact / Register interest button is a `mailto:` link to this address. Replace every occurrence in `index.html` and `about.html` with a real address.
+- **Model name: "Walton No. 1".** A working name. Change it in `index.html` (title, hero, characteristics heading, image alt text, the mailto subject) and in `about.html` (image alt text).
+- **Price: "Price TBA"** and **Availability: "Coming soon"** in the hero of `index.html`.
+- **Characteristics marked "To be announced" / "Details to come"** (case, diameter, strap, water resistance, battery life, wireless) in `index.html`.
+- **Story copy.** The three story sections on Home are short, honest placeholder copy. Rewrite as you like.
+- **About page.** The intro line and the "Our story", "The maker" and "Craft" sections are italic placeholder text, marked with `<!-- Placeholder -->` comments.
+- **Images.** `public/images/` holds preview 3D renderings (`hero`, `hero_angle`, `detail`, `back`, each with an `-800` small version). Replace them with photos when you have them, keeping the same file names, or update the `src`/`srcset` paths. The reverse view (`back`) shows the board's printed labels; swap it for a case-back photo when there is one.
+- **Logo.** `public/logo/w-logo-white.svg` (header, footer) and `public/logo/w-logo.svg` (uses `currentColor`). Favicon: `public/favicon.svg` and `public/apple-touch-icon.png`.
 
-  Vite rewrites that path for the `base` setting at build time.
+Colors and fonts are at the top of `src/styles.css` (`:root`).
 
-- **Build log.** Copy an `<article class="entry">` in `build-log.html`. Replace `Date — edit this`. Remove the Placeholder tag when the note is real. One entry is titled “First boards ordered from JLCPCB” — keep that title unless the note itself changes.
-- **Hardware facts.** `hardware.html` is the source of truth. Do not add a display, an MCU part number, a radio protocol, battery life, or a case unless you actually know them. Unknowns belong in the “Not specified yet” list.
-- **Bio.** The About page biography is empty on purpose.
-- **Accent color and type.** `:root` at the top of `src/styles.css`.
-
-`src/main.js` only opens and closes the mobile menu and builds the `mailto:` link. It does not send data anywhere.
+`src/main.js` only handles the header background on scroll, the gallery thumbnails, and the footer year. It sends nothing anywhere.
 
 ## Run locally
 
@@ -44,44 +37,29 @@ npm install
 npm run dev
 ```
 
-The dev server is [http://127.0.0.1:43123](http://127.0.0.1:43123). The port is set in `vite.config.js`.
-
-Production build, then a local preview of `dist/`:
+Dev server: <http://127.0.0.1:43123>. Production build and local preview of `dist/`:
 
 ```bash
 npm run build
 npm run preview
 ```
 
-Preview uses port **43124** so it can run beside the dev server.
+Preview runs on port **43124**.
 
 ## Deploy to GitHub Pages
 
-A workflow is included at `.github/workflows/pages.yml`. It installs, runs `npm run build`, and deploys the `dist/` folder with GitHub Actions.
+A workflow is included at `.github/workflows/pages.yml`. **GitHub only runs workflows from the `.github/workflows/` folder at the root of the repository.** If this `website/` folder lives inside a bigger repo (for example the `Watch` repo), move the workflow to `<repo root>/.github/workflows/pages.yml` and point it at this folder: add `defaults: run: working-directory: website` to the build job, set `cache-dependency-path: website/package-lock.json` on `setup-node`, and change the upload `path` to `website/dist`.
 
-1. Push the repository to GitHub.
-2. In the repo, open **Settings → Pages**.
-3. Set **Build and deployment → Source** to **GitHub Actions**.
-4. Push to `main`, or run the “Deploy GitHub Pages” workflow by hand.
+Then, on GitHub:
 
-`vite.config.js` sets `base: './'`, so asset paths are relative. That works for a user site (`https://USERNAME.github.io/`) and a project site (`https://USERNAME.github.io/REPO/`).
+1. Open **Settings → Pages**.
+2. Set **Build and deployment → Source** to **GitHub Actions**.
+3. Push to `main`, or run the "Deploy GitHub Pages" workflow by hand.
 
-Until Pages is enabled, the deploy job has nothing to publish to. The build job can still be used to confirm `npm run build` passes.
+`vite.config.js` sets `base: './'` and all links are relative, so the site works at a domain root and in a project subpath (`https://USERNAME.github.io/REPO/`).
 
 ## Deploy to Vercel
 
-This is a static Vite build. No environment variables.
+Import the repo, framework preset **Vite**, build command `npm run build`, output directory `dist` (set the root directory to `website` if it is in a subfolder). No environment variables.
 
-1. Import the Git repository in Vercel.
-2. Framework preset: **Vite**.
-3. Build command: `npm run build`.
-4. Output directory: `dist`.
-5. Deploy.
-
-The notify form is still a mailto link after deploy. Point `placeholder@example.com` at a real mailbox first, or the button will draft a message to an address that does not exist.
-
-## What this site does not do
-
-- No accounts, no database, no analytics snippet.
-- No payment. “Get notified” is preorder *interest*, not an order.
-- No invented specs. Photos, price, the final name, the MCU, the display, the case, and the radio protocol are marked as placeholders.
+Point `placeholder@example.com` at a real mailbox before going public, or the Contact buttons will draft emails to an address that does not exist.

@@ -1,8 +1,8 @@
 {
-  "name": "watch-site",
+  "name": "walton-watches-site",
   "private": true,
   "version": "0.1.0",
-  "description": "Static site for Watch, Cade's open-hardware PCB smartwatch.",
+  "description": "Website for Walton Watches.",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -17,7 +17,6 @@
   },
   "dependencies": {
     "@fontsource-variable/fraunces": "^5.3.0",
-    "@fontsource/ibm-plex-mono": "^5.3.0",
     "@fontsource/outfit": "^5.3.0"
   }
 }

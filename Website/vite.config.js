@@ -23,8 +23,6 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(root, "index.html"),
-        buildLog: resolve(root, "build-log.html"),
-        hardware: resolve(root, "hardware.html"),
         about: resolve(root, "about.html"),
       },
     },
