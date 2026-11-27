@@ -1,0 +1,1189 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-26T08:49:32",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "Watch.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT1] on In2.Mixed, length 0.9880 mm",
+                    "pos": {
+                        "x": 147.401043,
+                        "y": 79.236979
+                    },
+                    "uuid": "9f421843-794c-44f9-8ab6-4805c7a647a9"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on In2.Mixed, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.41849,
+                        "y": 79.219532
+                    },
+                    "uuid": "71512b3c-d798-4704-acb8-a47428665afc"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.41849,
+                        "y": 79.219532
+                    },
+                    "uuid": "71512b3c-d798-4704-acb8-a47428665afc"
+                },
+                {
+                    "description": "Zone 'GND_PLANE' [GND] on GND, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "9f212491-feb0-404f-bf8f-6d2d2af8485a"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.41849,
+                        "y": 79.219532
+                    },
+                    "uuid": "71512b3c-d798-4704-acb8-a47428665afc"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on In2.Mixed, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Via [/leds/OUT1] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 147.41849,
+                        "y": 79.219532
+                    },
+                    "uuid": "71512b3c-d798-4704-acb8-a47428665afc"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on In2.Mixed, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.1303 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT1] on In2.Mixed, length 1.0437 mm",
+                    "pos": {
+                        "x": 146.413021,
+                        "y": 79.236979
+                    },
+                    "uuid": "3673582a-a9c2-4401-9db9-daff5fffb288"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on In2.Mixed, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.2000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Track [/leds/OUT1] on In2.Mixed, length 0.0247 mm",
+                    "pos": {
+                        "x": 147.41849,
+                        "y": 79.219532
+                    },
+                    "uuid": "d907b887-1bf4-4b16-a37c-5ada1cc9d056"
+                },
+                {
+                    "description": "Zone '3V3_PLANE' [+3.3V] on In2.Mixed, priority 0",
+                    "pos": {
+                        "x": 161.53,
+                        "y": 88.27
+                    },
+                    "uuid": "45e6983f-5550-47cd-9100-5aef26456415"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint IC201",
+                    "pos": {
+                        "x": 139.0,
+                        "y": 88.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062794e93"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C201",
+                    "pos": {
+                        "x": 147.0,
+                        "y": 86.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062796283"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C202",
+                    "pos": {
+                        "x": 143.0,
+                        "y": 88.4
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062796292"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED206",
+                    "pos": {
+                        "x": 159.893,
+                        "y": 88.265
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1c836"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED205",
+                    "pos": {
+                        "x": 159.413815,
+                        "y": 84.625228
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cd63"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED204",
+                    "pos": {
+                        "x": 158.008915,
+                        "y": 81.2335
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cd7f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED203",
+                    "pos": {
+                        "x": 155.774043,
+                        "y": 78.320957
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cd9b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED202",
+                    "pos": {
+                        "x": 152.8615,
+                        "y": 76.086085
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cdb7"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED201",
+                    "pos": {
+                        "x": 149.469772,
+                        "y": 74.681185
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cdd3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED224",
+                    "pos": {
+                        "x": 145.83,
+                        "y": 74.202
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cdef"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED223",
+                    "pos": {
+                        "x": 142.190228,
+                        "y": 74.681185
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce0b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED222",
+                    "pos": {
+                        "x": 138.7985,
+                        "y": 76.086085
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce27"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED221",
+                    "pos": {
+                        "x": 135.885957,
+                        "y": 78.320957
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce43"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED220",
+                    "pos": {
+                        "x": 133.651085,
+                        "y": 81.2335
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce5f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED219",
+                    "pos": {
+                        "x": 132.246185,
+                        "y": 84.625228
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce7b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED218",
+                    "pos": {
+                        "x": 131.767,
+                        "y": 88.265
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ce97"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED217",
+                    "pos": {
+                        "x": 132.246185,
+                        "y": 91.904772
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ceb3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED216",
+                    "pos": {
+                        "x": 133.651085,
+                        "y": 95.2965
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cecf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED215",
+                    "pos": {
+                        "x": 135.885957,
+                        "y": 98.209043
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1ceeb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED214",
+                    "pos": {
+                        "x": 138.7985,
+                        "y": 100.443915
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf07"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED213",
+                    "pos": {
+                        "x": 142.190228,
+                        "y": 101.848815
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf23"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED212",
+                    "pos": {
+                        "x": 145.83,
+                        "y": 102.328
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf3f"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED211",
+                    "pos": {
+                        "x": 149.469772,
+                        "y": 101.848815
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf5b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED210",
+                    "pos": {
+                        "x": 152.8615,
+                        "y": 100.443915
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf77"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED209",
+                    "pos": {
+                        "x": 155.774043,
+                        "y": 98.209043
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cf93"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED208",
+                    "pos": {
+                        "x": 158.008915,
+                        "y": 95.2965
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cfaf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED207",
+                    "pos": {
+                        "x": 159.413815,
+                        "y": 91.904772
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1cfcb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C104",
+                    "pos": {
+                        "x": 153.753263,
+                        "y": 89.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000064182f85"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED101",
+                    "pos": {
+                        "x": 149.5,
+                        "y": 80.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-000064183050"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED102",
+                    "pos": {
+                        "x": 142.0,
+                        "y": 80.5
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000642a3e49"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint LED225",
+                    "pos": {
+                        "x": 145.862406,
+                        "y": 83.586827
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000642a8c62"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'EasyEDA'",
+            "items": [
+                {
+                    "description": "Footprint U2",
+                    "pos": {
+                        "x": 150.907396,
+                        "y": 88.280842
+                    },
+                    "uuid": "1cca03ba-b887-451c-a357-4d563013e5f9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'BMA400'",
+            "items": [
+                {
+                    "description": "Footprint U3",
+                    "pos": {
+                        "x": 153.75,
+                        "y": 86.738
+                    },
+                    "uuid": "82963bb0-1f44-4e3d-86e0-6d5ae2293cda"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Logo'",
+            "items": [
+                {
+                    "description": "Footprint LOGO1",
+                    "pos": {
+                        "x": 145.808286,
+                        "y": 79.5
+                    },
+                    "uuid": "90e6d93f-2a99-4720-8a9c-9a8054b6f15e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'CC2340'",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 145.83,
+                        "y": 94.403033
+                    },
+                    "uuid": "d6977ae2-b2ba-452b-abbf-b742d39e66e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R203",
+                    "pos": {
+                        "x": 141.9,
+                        "y": 85.2
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062796462"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R204",
+                    "pos": {
+                        "x": 143.05,
+                        "y": 85.2
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062796473"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C101",
+                    "pos": {
+                        "x": 150.713735,
+                        "y": 84.677984
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006279aa0a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R101",
+                    "pos": {
+                        "x": 154.113735,
+                        "y": 88.377984
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062b38f04"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'",
+            "items": [
+                {
+                    "description": "Footprint U102",
+                    "pos": {
+                        "x": 153.163735,
+                        "y": 85.777984
+                    },
+                    "uuid": "00000000-0000-0000-0000-000062b3928b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C102",
+                    "pos": {
+                        "x": 150.0,
+                        "y": 87.0
+                    },
+                    "uuid": "00000000-0000-0000-0000-000064182f67"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C103",
+                    "pos": {
+                        "x": 149.399999,
+                        "y": 80.7
+                    },
+                    "uuid": "00000000-0000-0000-0000-000064182f76"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R102",
+                    "pos": {
+                        "x": 151.024025,
+                        "y": 83.071834
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000641831e9"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R103",
+                    "pos": {
+                        "x": 141.9,
+                        "y": 83.3
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000641831fa"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R104",
+                    "pos": {
+                        "x": 139.95,
+                        "y": 83.3
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006418320b"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R106",
+                    "pos": {
+                        "x": 140.544365,
+                        "y": 95.763604
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000641842fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R108",
+                    "pos": {
+                        "x": 157.0,
+                        "y": 92.95
+                    },
+                    "uuid": "00000000-0000-0000-0000-00006418583e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R113",
+                    "pos": {
+                        "x": 144.829999,
+                        "y": 99.206066
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000642a4106"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'",
+            "items": [
+                {
+                    "description": "Footprint R114",
+                    "pos": {
+                        "x": 146.879998,
+                        "y": 99.206066
+                    },
+                    "uuid": "00000000-0000-0000-0000-0000642a4117"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'Samacsys'",
+            "items": [
+                {
+                    "description": "Footprint IC1",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 81.0
+                    },
+                    "uuid": "6adfba73-944d-473b-bc1e-1535c5d688c8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C105",
+                    "pos": {
+                        "x": 155.95,
+                        "y": 86.99
+                    },
+                    "uuid": "6e68b149-c61a-49dc-bc82-4e47ed695f23"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C107",
+                    "pos": {
+                        "x": 145.2,
+                        "y": 78.05
+                    },
+                    "uuid": "88593c6a-c8e4-45e0-939b-aeaa0b2b0501"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "The current configuration does not include the footprint library 'SamacSys_Parts'",
+            "items": [
+                {
+                    "description": "Footprint C106",
+                    "pos": {
+                        "x": 151.7,
+                        "y": 88.34
+                    },
+                    "uuid": "f3010002-b645-4a40-9bbb-be658ed77710"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_issues"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.6000 mm)",
+            "items": [
+                {
+                    "description": "PCB text 'Walton' on F.Silkscreen",
+                    "pos": {
+                        "x": 145.843143,
+                        "y": 81.382278
+                    },
+                    "uuid": "33ad5944-4d59-4a08-be25-7835c18d9265"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '12' on F.Silkscreen",
+                    "pos": {
+                        "x": 145.758017,
+                        "y": 76.962
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f1d049"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '11' on F.Silkscreen",
+                    "pos": {
+                        "x": 140.081,
+                        "y": 78.359
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e16c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '10' on F.Silkscreen",
+                    "pos": {
+                        "x": 135.89,
+                        "y": 82.677
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e16e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '9' on F.Silkscreen",
+                    "pos": {
+                        "x": 134.479161,
+                        "y": 88.138
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e170"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '8' on F.Silkscreen",
+                    "pos": {
+                        "x": 135.920973,
+                        "y": 93.853
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e172"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '7' on F.Silkscreen",
+                    "pos": {
+                        "x": 140.038931,
+                        "y": 98.044
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e174"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '6' on F.Silkscreen",
+                    "pos": {
+                        "x": 145.726086,
+                        "y": 99.568
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e176"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '5' on F.Silkscreen",
+                    "pos": {
+                        "x": 151.446813,
+                        "y": 98.044
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e178"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '4' on F.Silkscreen",
+                    "pos": {
+                        "x": 155.575,
+                        "y": 93.853
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e17a"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '3' on F.Silkscreen",
+                    "pos": {
+                        "x": 157.099,
+                        "y": 88.265
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e17c"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '2' on F.Silkscreen",
+                    "pos": {
+                        "x": 155.614392,
+                        "y": 82.630416
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e17e"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7500 mm)",
+            "items": [
+                {
+                    "description": "PCB text '1' on F.Silkscreen",
+                    "pos": {
+                        "x": 151.511,
+                        "y": 78.359
+                    },
+                    "uuid": "00000000-0000-0000-0000-000063f2e180"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        }
+    ]
+}
