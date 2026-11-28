@@ -19,15 +19,16 @@ Search the repo for `placeholder` (case-insensitive) to find them all.
 - **Model name: "Walton one".** Change it in `index.html` (title, hero, characteristics heading, image alt text, the mailto subject) and in `about.html` (image alt text).
 - **Price: "Price TBA"** and **Availability: "Coming soon"** in the hero of `index.html`.
 - **Characteristics marked "To be announced" / "Details to come"** (case, diameter, strap, water resistance, battery life, wireless) in `index.html`.
-- **"What's inside" callouts.** The six feature descriptions (LEDs, Multi-color LED, The brain, Motion sensor, Light sensor, Bluetooth) are placeholder copy. Edit the titles and text in `src/callouts.js`, the only place they live. The `x`/`y` values there are each part's position on `public/images/hero.webp` (in percent), measured from the board layout; update them if the hero image changes.
+- **Hero ring light.** As the page scrolls, a red light travels once round the ring of 24 LEDs on the hero image (`src/main.js`). The LED positions are in `src/ring-leds.json`, in `hero.webp` pixels clockwise from 12, taken from the board layout; update them if the hero image changes. Visitors who ask for reduced motion see a single lit LED at 12. A white mechanical second hand sits on the centre hole of the hero image and sweeps smoothly with the visitor's clock, independent of scroll (it stays still for reduced motion, and a still copy sits on the "What's inside" image). The red ring light is still driven only by scroll.
+- **"What's inside" callouts.** The seven feature descriptions (LEDs, Multi-color LED, Second hand, The brain, Motion sensor, Light sensor, Bluetooth) are placeholder copy. Edit the titles and text in `src/callouts.js`, the only place they live. The `x`/`y` values there are each part's position on `public/images/hero.webp` (in percent), measured from the board layout; update them if the hero image changes.
 - **Story copy.** The three story sections on Home are short, honest placeholder copy. Rewrite as you like.
 - **About page.** The intro line and the "Our story", "The maker" and "Craft" sections are italic placeholder text, marked with `<!-- Placeholder -->` comments.
-- **Images.** `public/images/` holds preview 3D renderings (`hero`, `hero_angle`, `detail`, `back`, each with an `-800` small version). Replace them with photos when you have them, keeping the same file names, or update the `src`/`srcset` paths. The reverse view (`back`) shows the board's printed labels; swap it for a case-back photo when there is one.
+- **Images.** `public/images/` holds preview 3D renderings (`hero`, `hero_angle`, `detail`, `back`, each with an `-800` small version). Replace them with photos when you have them, keeping the same file names, or update the `src`/`srcset` paths. The reverse view (`back`) shows the board's printed labels; swap it for a case-back photo when there is one. The "Images are preview renderings. Photography coming soon." note has been removed from the page, so nothing on the site currently says these are renderings; add a note back if you want one before real photos arrive.
 - **Logo.** `public/logo/w-logo-white.svg` (header, footer) and `public/logo/w-logo.svg` (uses `currentColor`). Favicon: `public/favicon.svg` and `public/apple-touch-icon.png`.
 
 Colors and fonts are at the top of `src/styles.css` (`:root`).
 
-`src/main.js` only handles the header background on scroll, the gallery thumbnails, the drawing/finished slider, the "What's inside" callouts (a small card that opens next to the clicked label or dot), and the footer year. It sends nothing anywhere.
+`src/main.js` only handles the header background on scroll, the gallery thumbnails, the drawing/finished slider, the hero second hand and ring light, the "What's inside" callouts (a small card that opens next to the clicked label or dot), and the footer year. It sends nothing anywhere.
 
 ## Run locally
 

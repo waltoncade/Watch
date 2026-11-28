@@ -140,6 +140,19 @@ h2 {
   filter: blur(20px);
 }
 .hero-media img { width: 100%; max-height: calc(100vh - var(--header) - 2rem); object-fit: contain; }
+/* Slightly darker hero image so the lit LED reads as light. */
+.hero-media img { filter: brightness(0.8) saturate(0.95); }
+/* Scroll-driven red light travelling round the LED ring (built in main.js). */
+.hero-ring {
+  position: absolute; inset: 0; z-index: 2; width: 100%; height: 100%;
+  pointer-events: none; overflow: visible; mix-blend-mode: screen;
+}
+.hero-ring .ring-led { opacity: 0; will-change: opacity; }
+/* Mechanical second hand, centred on the shaft hole of hero.webp. */
+.seconds-hand {
+  position: absolute; inset: 0; z-index: 3; width: 100%; height: 100%;
+  pointer-events: none; overflow: visible;
+}
 .hero-panel { max-width: 30rem; }
 .product-name {
   margin: 0.9rem 0 0.6rem;
@@ -159,7 +172,6 @@ h2 {
   font-family: var(--serif); font-style: italic; font-weight: 300;
   font-size: clamp(1.25rem, 2vw, 1.6rem); color: var(--muted);
 }
-.fine { margin-top: 1.5rem; font-size: 0.8rem; color: var(--dim); }
 
 /* ---------- Closing summary ---------- */
 .closing {
@@ -176,10 +188,8 @@ h2 {
   filter: blur(24px);
 }
 .closing-media img { width: 100%; height: auto; }
-.closing-panel { max-width: 30rem; }
-.closing-panel h2 { margin-top: 0.9rem; }
-.closing-copy { margin-top: 1.25rem; color: var(--muted); }
-.closing-facts { margin: 2rem 0; border-top: 1px solid var(--line); }
+.closing-panel { width: 100%; max-width: 26rem; justify-self: start; }
+.closing-facts { margin: 0; border-top: 1px solid var(--line); }
 .closing-facts > div {
   display: flex; justify-content: space-between; gap: 1rem;
   padding: 0.9rem 0; border-bottom: 1px solid var(--line);
@@ -188,8 +198,8 @@ h2 {
   font-size: 0.72rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--dim);
   align-self: center;
 }
-.closing-facts dd { font-family: var(--serif); font-size: 1.2rem; }
-.closing-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+.closing-facts > div { padding: 1.4rem 0; }
+.closing-facts dd { font-family: var(--serif); font-size: clamp(1.3rem, 2vw, 1.6rem); }
 
 /* ---------- Statement ---------- */
 .statement {
@@ -280,6 +290,16 @@ h2 {
 .cta-mark { width: 64px; margin: 0 auto 2rem; opacity: 0.9; }
 .cta h2 { margin-bottom: 1rem; }
 .cta p { color: var(--muted); margin-bottom: 2.25rem; }
+.cta-up {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  font-size: 0.75rem; letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--accent); text-decoration: none;
+  padding: 0.5rem 0; border-bottom: 1px solid rgba(216, 195, 160, 0.4);
+  transition: color 0.3s var(--ease), border-color 0.3s var(--ease);
+}
+.cta-up span { transition: transform 0.3s var(--ease); }
+.cta-up:hover { color: var(--text); border-color: var(--text); }
+.cta-up:hover span { transform: translateY(-3px); }
 
 /* ---------- Footer ---------- */
 .site-footer { border-top: 1px solid var(--line); padding: 2.5rem var(--pad) 2rem; }
@@ -333,7 +353,7 @@ h2 {
   .hero-panel { margin: 0 auto; }
   .closing { grid-template-columns: 1fr; }
   .closing-media { max-width: 560px; margin: 0 auto; width: 100%; }
-  .closing-panel { margin: 0 auto; width: 100%; }
+  .closing-panel { margin: 0 auto; justify-self: center; }
   .story { grid-template-columns: 1fr; }
   .story-reverse .story-media { order: 0; }
   .story-text { max-width: none; }
@@ -349,7 +369,6 @@ h2 {
   .gallery-stage { aspect-ratio: 1 / 1; }
   .gallery-thumbs { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .specs-grid { grid-template-columns: 1fr; }
-  .closing-actions .btn { flex: 1 1 100%; }
   .header-right { gap: 1rem; }
   .btn-header { min-height: 2.1rem; padding: 0 0.85rem; font-size: 0.62rem; letter-spacing: 0.14em; }
   .footer-inner { flex-direction: column; text-align: center; }
@@ -461,6 +480,7 @@ h2 {
   fill: none; stroke: rgba(0, 0, 0, 0.55); stroke-width: 3.5;
   vector-effect: non-scaling-stroke;
 }
+.inside-media .seconds-hand { z-index: 1; }
 .inside-media {
   position: absolute; top: 0; bottom: 0; left: 18.75%; width: 62.5%;
 }

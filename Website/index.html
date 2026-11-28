@@ -45,9 +45,11 @@
             sizes="(min-width: 960px) 60vw, 100vw"
             width="1600"
             height="1600"
-            alt="Walton one, seen face-on, with its ring of lights around the dial"
+            alt="Walton one, seen face-on, with its ring of lights and a second hand"
             fetchpriority="high"
           />
+          <svg class="hero-ring" viewBox="0 0 1600 1600" preserveAspectRatio="xMidYMid meet" aria-hidden="true" data-hero-ring></svg>
+          <svg class="seconds-hand" viewBox="0 0 1600 1600" preserveAspectRatio="xMidYMid meet" aria-hidden="true" data-seconds-hand data-seconds-live></svg>
         </div>
         <div class="hero-panel">
           <!-- Model name: "Walton one", set as a two-line wordmark. To rename, edit it everywhere it appears. -->
@@ -144,7 +146,8 @@
           <div class="inside-media">
             <img src="/images/hero.webp" srcset="/images/hero-800.webp 800w, /images/hero.webp 1600w"
               sizes="(min-width: 900px) 640px, 92vw" width="1600" height="1600" loading="lazy"
-              alt="Walton one seen face-on, with its main features marked" />
+              alt="Walton one seen face-on, with its second hand and main features marked" />
+            <svg class="seconds-hand" viewBox="0 0 1600 1600" preserveAspectRatio="xMidYMid meet" aria-hidden="true" data-seconds-hand data-seconds-rest="245"></svg>
           </div>
           <div class="inside-pop" id="inside-pop" role="dialog" aria-labelledby="inside-pop-title" hidden>
             <h3 id="inside-pop-title"></h3>
@@ -244,28 +247,18 @@
         </div>
       </section>
 
-      <!-- CLOSING: summary, price and availability -->
-      <section class="closing" aria-labelledby="closing-title">
+      <!-- CLOSING: angled image with price and availability -->
+      <section class="closing" aria-label="Price and availability">
         <div class="closing-media">
           <img src="/images/hero_angle-800.webp" srcset="/images/hero_angle-800.webp 800w, /images/hero_angle.webp 1600w"
             sizes="(min-width: 900px) 560px, 92vw" width="1600" height="1254" loading="lazy"
             alt="Walton one, seen at an angle" />
         </div>
         <div class="closing-panel">
-          <p class="eyebrow">The watch</p>
-          <h2 id="closing-title">Walton one</h2>
-          <p class="closing-copy">
-            Classic hands at the center. A ring of twenty-four lights around them. A watch that
-            looks familiar from across the room and surprising up close.
-          </p>
           <dl class="closing-facts">
             <div><dt>Price</dt><dd>Price TBA</dd></div>
             <div><dt>Availability</dt><dd>Coming soon</dd></div>
           </dl>
-          <div class="closing-actions">
-            <a class="btn btn-ghost" href="#gallery">View gallery</a>
-          </div>
-          <p class="fine">Images are preview renderings. Photography coming soon.</p>
         </div>
       </section>
 
@@ -274,7 +267,7 @@
         <img class="cta-mark" src="/logo/w-logo-white.svg" alt="" width="64" height="51" loading="lazy" />
         <h2 id="cta-title">Questions, or want to be first in line?</h2>
         <p>We would love to hear from you.</p>
-        <a class="btn btn-primary" href="mailto:placeholder@example.com?subject=Walton%20Watches">Contact</a>
+        <a class="cta-up" href="#main" data-register-up>Register interest above <span aria-hidden="true">&uarr;</span></a>
       </section>
     </main>
 

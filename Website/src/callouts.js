@@ -17,6 +17,12 @@ export const callouts = [
     x: 50.06, y: 37.19, side: "left", labelY: 44,
   },
   {
+    id: "seconds",
+    title: "Second hand",
+    text: "A slender white hand in the centre, driven by a Japanese quartz movement. It marks the seconds, while the lights show the hours and minutes.",
+    x: 50.0, y: 50.03, side: "left", labelY: 55,
+  },
+  {
     id: "brain",
     title: "The brain",
     text: "Brain of the device, reprogrammable for over the air software updates",

@@ -30,6 +30,117 @@ thumbs.forEach((thumb) => {
   });
 });
 
+// "Register interest above" link: back to the top, focus the header button.
+document.querySelectorAll("[data-register-up]").forEach((link) => {
+  link.addEventListener("click", (e) => {
+    const target = document.querySelector(".btn-header");
+    if (!target) return;
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    target.focus({ preventScroll: true });
+  });
+});
+
+// Hero: a red light travels round the ring of 24 LEDs as the page scrolls.
+// LED positions (in hero.webp pixels, clockwise from 12) come from the board layout.
+import ringLeds from "./ring-leds.json";
+
+const ring = document.querySelector("[data-hero-ring]");
+if (ring) {
+  const NS = "http://www.w3.org/2000/svg";
+  ring.innerHTML = `<defs>
+    <radialGradient id="ledHalo"><stop offset="0" stop-color="#ff4a36" stop-opacity="1"/><stop offset="0.3" stop-color="#ff2a1a" stop-opacity="0.6"/><stop offset="0.65" stop-color="#ff1a0a" stop-opacity="0.18"/><stop offset="1" stop-color="#ff1a0a" stop-opacity="0"/></radialGradient>
+    <radialGradient id="ledCore"><stop offset="0" stop-color="#fff4f0"/><stop offset="0.5" stop-color="#ff5a44"/><stop offset="1" stop-color="#ff2a1a" stop-opacity="0"/></radialGradient>
+  </defs>`;
+  const leds = ringLeds.map(([x, y]) => {
+    const g = document.createElementNS(NS, "g");
+    g.setAttribute("class", "ring-led");
+    g.innerHTML = `<circle cx="${x}" cy="${y}" r="120" fill="url(#ledHalo)"/><circle cx="${x}" cy="${y}" r="30" fill="url(#ledCore)"/>`;
+    ring.appendChild(g);
+    return g;
+  });
+  const N = leds.length;
+  const media = ring.closest(".hero-media");
+  // Brightness of LED i when the light's head is at position h (0..N, clockwise).
+  const level = (h, i) => {
+    let a = (((h - i) % N) + N) % N; // how far LED i is behind the head
+    if (a > N - 1) return a - (N - 1); // next LED, fading in
+    if (a > h + 0.001) return 0; // no trail before the light has started moving
+    return Math.exp(-a / 2.2); // head and fading trail
+  };
+  const paint = (h) => leds.forEach((g, i) => { g.style.opacity = level(h, i).toFixed(3); });
+  const reduce = window.matchMedia("(prefers-reduced-motion: reduce)");
+  let queued = false;
+  const update = () => {
+    queued = false;
+    if (reduce.matches) { paint(0); return; }
+    // One full turn while the hero watch scrolls up out of view.
+    const span = Math.max(1, (media.offsetTop + media.offsetHeight) * 0.85);
+    const p = Math.min(Math.max(window.scrollY / span, 0), 1);
+    paint(p * N);
+  };
+  const onScroll = () => { if (!queued) { queued = true; requestAnimationFrame(update); } };
+  window.addEventListener("scroll", onScroll, { passive: true });
+  window.addEventListener("resize", onScroll);
+  reduce.addEventListener?.("change", onScroll);
+  update();
+}
+
+// White mechanical second hand, pivoting on the centre hole of hero.webp
+// (799.5, 800.5 in the 1600 image, from the board layout).
+const HAND_CX = 799.5, HAND_CY = 800.5;
+const HAND_REST = 245; // ~8:10, used when still (inside, or reduced motion)
+
+function handMarkup(id) {
+  return `<defs>
+    <linearGradient id="${id}-sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c5c0b6"/>
+      <stop offset="0.4" stop-color="#f7f4ee"/>
+      <stop offset="0.55" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#b8b3a8"/>
+    </linearGradient>
+    <radialGradient id="${id}-cap" cx="38%" cy="32%" r="70%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#ece8e0"/>
+      <stop offset="1" stop-color="#9a958b"/>
+    </radialGradient>
+    <filter id="${id}-shadow" x="-40%" y="-10%" width="180%" height="140%">
+      <feDropShadow dx="3" dy="6" stdDeviation="3.5" flood-color="#000" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+  <g class="seconds-hand-arm" filter="url(#${id}-shadow)" transform="rotate(${HAND_REST} ${HAND_CX} ${HAND_CY})">
+    <polygon points="796.2,800.5 802.8,800.5 806.5,972 799.5,1020 792.5,972" fill="url(#${id}-sheen)"/>
+    <circle cx="799.5" cy="988" r="20" fill="url(#${id}-sheen)"/>
+    <polygon points="799.5,248 803.6,800.5 799.5,808 795.4,800.5" fill="url(#${id}-sheen)"/>
+    <circle cx="799.5" cy="800.5" r="34" fill="url(#${id}-cap)" stroke="#d8c3a0" stroke-width="1.5"/>
+    <circle cx="799.5" cy="800.5" r="18" fill="#d8d4cc"/>
+    <circle cx="799.5" cy="800.5" r="7" fill="#8a867e"/>
+  </g>`;
+}
+
+const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+document.querySelectorAll("[data-seconds-hand]").forEach((svg, i) => {
+  svg.innerHTML = handMarkup(`hand${i}`);
+  const arm = svg.querySelector(".seconds-hand-arm");
+  const rest = Number(svg.dataset.secondsRest || HAND_REST);
+  const setAngle = (deg) => arm.setAttribute("transform", `rotate(${deg} ${HAND_CX} ${HAND_CY})`);
+  if (!svg.hasAttribute("data-seconds-live")) { setAngle(rest); return; }
+  // Smooth sweep, always running; scroll does not drive the hand.
+  let raf = 0;
+  const loop = () => {
+    if (reduceMotion.matches) {
+      cancelAnimationFrame(raf);
+      setAngle(rest);
+      return;
+    }
+    const d = new Date();
+    setAngle((d.getSeconds() + d.getMilliseconds() / 1000) * 6);
+    raf = requestAnimationFrame(loop);
+  };
+  reduceMotion.addEventListener?.("change", loop);
+  loop();
+});
+
 // Keep the footer year current.
 document.querySelectorAll("[data-year]").forEach((el) => {
   el.textContent = String(new Date().getFullYear());
